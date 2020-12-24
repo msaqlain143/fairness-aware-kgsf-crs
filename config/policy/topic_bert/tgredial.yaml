@@ -8,7 +8,7 @@ response_truncate: 30
 item_truncate: 100
 scale: 0.01
 # model
-policy_model: ProfileBERT
+policy_model: TopicBERT
 # optim
 policy:
   epoch: 1
