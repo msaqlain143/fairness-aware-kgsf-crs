@@ -4,8 +4,6 @@ crslab.model.policy.pmi package
 Submodules
 ----------
 
-crslab.model.policy.pmi.pmi module
-----------------------------------
 
 .. automodule:: crslab.model.policy.pmi.pmi
    :members:

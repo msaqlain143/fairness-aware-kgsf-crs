@@ -11,13 +11,12 @@ Subpackages
    crslab.data
    crslab.evaluator
    crslab.model
+   crslab.quick_start
    crslab.system
 
 Submodules
 ----------
 
-crslab.download module
-----------------------
 
 .. automodule:: crslab.download
    :members:
