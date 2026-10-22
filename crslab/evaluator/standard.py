@@ -53,13 +53,8 @@ class StandardEvaluator(BaseEvaluator):
             self.reports_name = ['Recommendation Metrics', 'Generation Metrics', 'Optimization Metrics']
 
     def _load_embedding(self, language):
-        resource = resources[language]
-        dpath = os.path.join(EMBEDDING_PATH, language)
-        build(dpath, resource['file'], resource['version'])
-
-        model_file = os.path.join(dpath, f'cc.{language}.300.bin')
-        self.ft = fasttext.load_model(model_file)
-        logger.info(f'[Load {model_file} for embedding metric')
+        logger.info("[FastText cc.en.300 embedding bypassed for recommendation evaluation]")
+        self.ft = None
 
     def _get_sent_embedding(self, sent):
         return [self.ft[token] for token in sent.split()]

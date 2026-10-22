@@ -152,10 +152,10 @@ class KGSFSystem(BaseSystem):
             self.evaluator.report(mode='test')
 
     def train_conversation(self):
-        if os.environ["CUDA_VISIBLE_DEVICES"] == '-1':
-            self.model.freeze_parameters()
-        else:
+        if hasattr(self.model, 'module'):
             self.model.module.freeze_parameters()
+        else:
+            self.model.freeze_parameters()
         self.init_optim(self.conv_optim_opt, self.model.parameters())
 
         for epoch in range(self.conv_epoch):
