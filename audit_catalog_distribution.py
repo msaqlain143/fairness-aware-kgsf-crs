@@ -1,83 +1,106 @@
-import os
+"""Build train-only item popularity metadata for the official KGSF movie catalog.
+
+Run from CRSLab repository root before fairness or calibration evaluation.
+"""
+import argparse
+import json
 import pickle
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+from collections import Counter
+from pathlib import Path
+
 from crslab.config import Config
 from crslab.data import get_dataset
 
-if __name__ == '__main__':
-    print("=" * 60)
-    print("Computing ReDial Catalog Interaction Frequencies & Groups")
-    print("=" * 60)
 
-    config_path = 'config/crs/kgsf/redial.yaml'
-    config = Config(config_path)
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--config', default='config/crs/kgsf/redial.yaml')
+    parser.add_argument('--out', default='catalog_audit_corrected.pkl')
+    args = parser.parse_args()
+    if not Path(args.config).is_file():
+        raise FileNotFoundError(f'Config not found: {args.config}')
 
-    # Fast load from cached all_data.pkl
+    config = Config(args.config)
     dataset = get_dataset(config, config['tokenize'], restore=True, save=False)
-    
-    train_data = dataset.train_data
-    vocab = dataset.vocab
-    
-    freq_dict = {}
-    total_interactions = 0
+    raw_ids = [int(x) for x in dataset.side_data['item_entity_ids']]
+    if len(raw_ids) != len(set(raw_ids)):
+        raise ValueError('Duplicate movie IDs in item_entity_ids; investigate catalog mapping')
+    movie_ids = list(raw_ids)  # preserve official CRSLab movie-candidate ordering
+    if not movie_ids:
+        raise ValueError('Empty movie catalog')
+    movie_set = set(movie_ids)
 
-    for session in train_data:
-        items = session.get('items', [])
-        for item in items:
-            freq_dict[item] = freq_dict.get(item, 0) + 1
-            total_interactions += 1
+    # KGSF's rec_process_fn() creates one target per movie mentioned in
+    # a Recommender-role utterance (see crslab/data/dataloader/kgsf.py).
+    frequency = Counter()
+    recommender_turns = 0
+    target_occurrences = 0
+    unknown_targets = Counter()
+    for record in dataset.train_data:
+        if record.get('role') != 'Recommender':
+            continue
+        recommender_turns += 1
+        for value in record.get('items', []):
+            item = int(value)
+            target_occurrences += 1
+            if item in movie_set:
+                frequency[item] += 1
+            else:
+                unknown_targets[item] += 1
+    if unknown_targets:
+        raise ValueError(
+            f'{sum(unknown_targets.values())} training recommendation targets do not belong '
+            f'to the official movie catalog. Examples: {unknown_targets.most_common(5)}'
+        )
 
-    item_ids = np.array(list(freq_dict.keys()))
-    frequencies = np.array(list(freq_dict.values()))
-
-    # Sort ascending by interaction frequency
-    sort_idx = np.argsort(frequencies)
-    sorted_items = item_ids[sort_idx]
-    sorted_freqs = frequencies[sort_idx]
-    total_unique_items = len(sorted_items)
-
-    # Rank-based Quintile Partitioning (Each quintile G_0 to G_4 gets exactly 20% of catalog items)
-    group_assignments = np.zeros(total_unique_items, dtype=int)
-    quintile_size = total_unique_items // 5
-
-    for g in range(5):
-        start = g * quintile_size
-        end = (g + 1) * quintile_size if g < 4 else total_unique_items
-        group_assignments[start:end] = g
-
-    # Tau threshold bounds the highest interaction frequency inside G_0
-    tau_nominal = sorted_freqs[group_assignments == 0].max()
-
-    print(f"Total Unique Items Interacted in Train: {total_unique_items}")
-    print(f"Total Item Interactions: {total_interactions}")
-    print(f"Audit Threshold tau (Max freq in bottom quintile G_0): {tau_nominal}")
-
-    print("\n--- Group Partitioning Statistics (Equal Catalog Quintiles) ---")
-    group_meta = {}
-    for g in range(5):
-        mask = (group_assignments == g)
-        count = np.sum(mask)
-        pct = (count / total_unique_items) * 100
-        min_f = sorted_freqs[mask].min()
-        max_f = sorted_freqs[mask].max()
-        group_meta[g] = {'count': count, 'min_freq': min_f, 'max_freq': max_f}
-        print(f"Group G_{g}: {count} items ({pct:.1f}%) | Frequency Range: [{min_f}, {max_f}]")
-
-    # Map each item_id directly to its assigned group {0..4}
-    item2group = {item: grp for item, grp in zip(sorted_items, group_assignments)}
-
-    # Save catalog partition for KGSF re-ranking calibration
-    catalog_audit = {
-        'freq_dict': freq_dict,
+    movie_freq = {item: int(frequency.get(item, 0)) for item in movie_ids}
+    ranked = sorted(movie_ids, key=lambda item: (movie_freq[item], item))
+    n = len(ranked)
+    # Deterministic five groups, approximately equally sized; ties can be split.
+    item2group = {item: min(5 * rank // n, 4) for rank, item in enumerate(ranked)}
+    groups = {}
+    for group in range(5):
+        fs = [movie_freq[item] for item in movie_ids if item2group[item] == group]
+        groups[group] = {'count': len(fs), 'min_freq': min(fs), 'max_freq': max(fs)}
+        print(f'G{group}: {groups[group]}')
+    zeros = sorted(item for item in movie_ids if movie_freq[item] == 0)
+    ones = sorted(item for item in movie_ids if movie_freq[item] == 1)
+    low_interaction = sorted(item for item in movie_ids if movie_freq[item] <= 1)
+    meta = {
+        'schema_version': 2,
+        'movie_ids': movie_ids,
+        'freq_dict': movie_freq,
         'item2group': item2group,
-        'sorted_items': sorted_items,
-        'sorted_freqs': sorted_freqs,
-        'tau': tau_nominal,
-        'group_meta': group_meta
+        'sorted_items': ranked,
+        'zero_shot_ids': zeros,
+        'one_shot_ids': ones,
+        'low_interaction_ids': low_interaction,
+        'group_meta': groups,
+        'tau': 1,  # explicit low-interaction gate, NOT necessarily the G0 upper bound
+        'g0_max_frequency': groups[0]['max_freq'],
+        'frequency_definition': 'Number of movie targets in train Recommender-role utterances',
+        'train_recommender_turns': recommender_turns,
+        'train_target_occurrences': target_occurrences,
+        'quintile_definition': 'Five rank-based catalog groups, sorted by (frequency, entity_id); frequency ties may cross boundaries',
     }
-    with open('catalog_audit.pkl', 'wb') as f:
-        pickle.dump(catalog_audit, f)
-    print("\n[Success] Saved catalog frequency metadata to 'catalog_audit.pkl'.")
-    print("=" * 60)
+    out = Path(args.out)
+    with out.open('wb') as f:
+        pickle.dump(meta, f, protocol=pickle.HIGHEST_PROTOCOL)
+    summary = {
+        'eligible_movies': n, 'zero_shot_movies': len(zeros),
+        'one_shot_movies': len(ones), 'train_recommender_turns': recommender_turns,
+        'train_target_occurrences': target_occurrences,
+        'group_counts': {str(g): groups[g] for g in groups},
+        'g0_max_frequency': groups[0]['max_freq'], 'low_interaction_cutoff': 1,
+    }
+    Path('catalog_audit_corrected_summary.json').write_text(
+        json.dumps(summary, indent=2), encoding='utf-8'
+    )
+    print(json.dumps(summary, indent=2))
+    if sum(groups[g]['count'] for g in range(5)) != n:
+        raise AssertionError('Group counts do not add up')
+    print(f'Saved catalog metadata: {out}')
+
+
+if __name__ == '__main__':
+    main()
