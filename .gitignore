@@ -270,3 +270,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+backup/
+catalog_audit_corrected.pkl
