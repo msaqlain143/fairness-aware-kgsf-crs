@@ -1,0 +1,87 @@
+{
+  "split": "validation_only",
+  "notes": [
+    "Target labels are used for scoring only, never candidate generation.",
+    "Retrieval can return fewer than K items; no popularity padding or oracle completion.",
+    "R0 and R1 share identical retrieval logic and fixed hub suppression.",
+    "This is exploratory retrieval diagnostics, not M2 recommendation performance.",
+    "A zero-shot item has zero training recommendation-target frequency, not necessarily zero training mentions."
+  ],
+  "candidate_movies": 6924,
+  "padding_entity_id": 0,
+  "hub_cutoff_movies": 500,
+  "results": {
+    "R0_filtered": {
+      "events": 3010,
+      "with_nonempty_context": 2532,
+      "with_any_candidate": 2502,
+      "context_target_overlap_events": 271,
+      "mean_retrieved_candidates": 628.7282392026578,
+      "mean_candidates_given_nonempty_retrieval": 756.3836930455635,
+      "overall": {
+        "events": 3010,
+        "recall@50": 0.19534883720930232,
+        "recall@100": 0.21926910299003322,
+        "recall@500": 0.28903654485049834,
+        "candidate_recall_all": 0.3282392026578073
+      },
+      "zero_shot": {
+        "events": 237,
+        "recall@50": 0.21940928270042195,
+        "recall@100": 0.24050632911392406,
+        "recall@500": 0.25738396624472576,
+        "candidate_recall_all": 0.29957805907172996
+      },
+      "one_shot": {
+        "events": 146,
+        "recall@50": 0.1917808219178082,
+        "recall@100": 0.2465753424657534,
+        "recall@500": 0.3013698630136986,
+        "candidate_recall_all": 0.3082191780821918
+      },
+      "other": {
+        "events": 2627,
+        "recall@50": 0.1933764750666159,
+        "recall@100": 0.21583555386372288,
+        "recall@500": 0.29120669965740387,
+        "candidate_recall_all": 0.3319375713741911
+      }
+    },
+    "R1_raw": {
+      "events": 3010,
+      "with_nonempty_context": 2532,
+      "with_any_candidate": 2515,
+      "context_target_overlap_events": 271,
+      "mean_retrieved_candidates": 641.6093023255814,
+      "mean_candidates_given_nonempty_retrieval": 767.8902584493042,
+      "overall": {
+        "events": 3010,
+        "recall@50": 0.19667774086378736,
+        "recall@100": 0.22093023255813954,
+        "recall@500": 0.292358803986711,
+        "candidate_recall_all": 0.33322259136212623
+      },
+      "zero_shot": {
+        "events": 237,
+        "recall@50": 0.22362869198312235,
+        "recall@100": 0.24472573839662448,
+        "recall@500": 0.26582278481012656,
+        "candidate_recall_all": 0.3037974683544304
+      },
+      "one_shot": {
+        "events": 146,
+        "recall@50": 0.1917808219178082,
+        "recall@100": 0.2534246575342466,
+        "recall@500": 0.3082191780821918,
+        "candidate_recall_all": 0.3150684931506849
+      },
+      "other": {
+        "events": 2627,
+        "recall@50": 0.19451846212409593,
+        "recall@100": 0.2169775409212029,
+        "recall@500": 0.2938713361248573,
+        "candidate_recall_all": 0.33688618195660447
+      }
+    }
+  }
+}

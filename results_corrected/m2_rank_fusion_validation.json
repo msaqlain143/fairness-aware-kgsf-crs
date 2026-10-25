@@ -1,0 +1,135 @@
+{
+  "split": "validation_only",
+  "method": "R1 raw KG + KGSF movie-rank reciprocal-rank fusion",
+  "formula": "1/(rrf_k + rank_KGSF) + alpha/(rrf_k + rank_KG), absent KG vote=0",
+  "uses_target_for_retrieval": false,
+  "changes_checkpoint": false,
+  "candidate_catalog": 6924,
+  "events": 3010,
+  "nonempty_context_events": 2532,
+  "hub_cutoff": 500,
+  "rrf_k": 60,
+  "results": [
+    {
+      "alpha": 0.0,
+      "events": 3010,
+      "hit10": 0.2016611295681063,
+      "hit50": 0.412624584717608,
+      "ndcg10": 0.10759948464875783,
+      "zero_shot_events": 237,
+      "zero_shot_hit10": 0.0,
+      "one_shot_events": 146,
+      "one_shot_hit10": 0.00684931506849315,
+      "item_gini": 0.9590537511203749,
+      "coverage10": 0.16969959560947429,
+      "group_exposure_shares": [
+        0.0,
+        0.0015946843853820599,
+        0.009800664451827243,
+        0.031029900332225913,
+        0.9575747508305648
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "events": 3010,
+      "hit10": 0.20930232558139536,
+      "hit50": 0.413953488372093,
+      "ndcg10": 0.11195582136008621,
+      "zero_shot_events": 237,
+      "zero_shot_hit10": 0.0,
+      "one_shot_events": 146,
+      "one_shot_hit10": 0.00684931506849315,
+      "item_gini": 0.9559894612796551,
+      "coverage10": 0.18096476025418834,
+      "group_exposure_shares": [
+        0.0,
+        0.0014285714285714286,
+        0.010232558139534883,
+        0.032724252491694354,
+        0.9556146179401993
+      ]
+    },
+    {
+      "alpha": 0.25,
+      "events": 3010,
+      "hit10": 0.20863787375415282,
+      "hit50": 0.42093023255813955,
+      "ndcg10": 0.11346712620400372,
+      "zero_shot_events": 237,
+      "zero_shot_hit10": 0.0,
+      "one_shot_events": 146,
+      "one_shot_hit10": 0.00684931506849315,
+      "item_gini": 0.9505470211945164,
+      "coverage10": 0.19540727902946273,
+      "group_exposure_shares": [
+        6.64451827242525e-05,
+        0.0010299003322259137,
+        0.010730897009966777,
+        0.036079734219269105,
+        0.9520930232558139
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "events": 3010,
+      "hit10": 0.206312292358804,
+      "hit50": 0.42790697674418604,
+      "ndcg10": 0.11207933676843124,
+      "zero_shot_events": 237,
+      "zero_shot_hit10": 0.0,
+      "one_shot_events": 146,
+      "one_shot_hit10": 0.02054794520547945,
+      "item_gini": 0.9404711523882456,
+      "coverage10": 0.21808203350664357,
+      "group_exposure_shares": [
+        6.64451827242525e-05,
+        0.001495016611295681,
+        0.012225913621262458,
+        0.04382059800664452,
+        0.9423920265780731
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "events": 3010,
+      "hit10": 0.18372093023255814,
+      "hit50": 0.4033222591362126,
+      "ndcg10": 0.101907080732368,
+      "zero_shot_events": 237,
+      "zero_shot_hit10": 0.02109704641350211,
+      "one_shot_events": 146,
+      "one_shot_hit10": 0.0547945205479452,
+      "item_gini": 0.9013901764002525,
+      "coverage10": 0.32322357019064124,
+      "group_exposure_shares": [
+        0.007209302325581395,
+        0.015946843853820596,
+        0.03255813953488372,
+        0.08870431893687708,
+        0.8555813953488373
+      ]
+    },
+    {
+      "alpha": 2.0,
+      "events": 3010,
+      "hit10": 0.1760797342192691,
+      "hit50": 0.2930232558139535,
+      "ndcg10": 0.09976498571558066,
+      "zero_shot_events": 237,
+      "zero_shot_hit10": 0.08438818565400844,
+      "one_shot_events": 146,
+      "one_shot_hit10": 0.0821917808219178,
+      "item_gini": 0.860049997025129,
+      "coverage10": 0.42042172154823804,
+      "group_exposure_shares": [
+        0.02794019933554817,
+        0.04149501661129568,
+        0.062259136212624584,
+        0.11920265780730897,
+        0.7491029900332226
+      ]
+    }
+  ],
+  "caution": "Use validation only to select alpha and utility constraints; no test evaluation or novelty claim follows from this diagnostic."
+}

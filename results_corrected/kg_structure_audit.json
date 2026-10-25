@@ -1,0 +1,110 @@
+{
+  "source": "D:\\Implementation\\fairness-aware-kgsf-crs\\data\\dataset\\redial\\nltk",
+  "filter_definition": "original edge frequency > 1000, after reverse-edge augmentation; self relation 185",
+  "entity_count": 64362,
+  "n_entity_index_range": 64363,
+  "raw_source_entities": 23160,
+  "movie_ids_in_file": 6924,
+  "eligible_movie_ids_found_in_entities": 6924,
+  "invalid_raw_tail_links_skipped": 0,
+  "raw_relation_types": 213,
+  "kept_relation_types": 35,
+  "raw_unique_undirected_nonself_pairs": 146859,
+  "filtered_directed_edges_including_self": 316884,
+  "raw_movie_degree": {
+    "n": 6924,
+    "mean": 8.892836510687465,
+    "median": 10.0,
+    "p10": 0,
+    "p90": 16
+  },
+  "filtered_movie_degree": {
+    "n": 6924,
+    "mean": 8.730935875216637,
+    "median": 9.0,
+    "p10": 0,
+    "p90": 16
+  },
+  "raw_movies_with_nonself_neighbors": 5966,
+  "filtered_movies_with_nonself_neighbors": 5947,
+  "movies_gaining_neighbors_from_raw_kg": 557,
+  "raw_only_nonself_neighbor_links_for_movies": 1121,
+  "top_raw_relation_frequencies": [
+    {
+      "relation_id": 69,
+      "augmented_edge_frequency": 51748,
+      "kept": true
+    },
+    {
+      "relation_id": 105,
+      "augmented_edge_frequency": 45414,
+      "kept": true
+    },
+    {
+      "relation_id": 138,
+      "augmented_edge_frequency": 44084,
+      "kept": true
+    },
+    {
+      "relation_id": 185,
+      "augmented_edge_frequency": 23160,
+      "kept": true
+    },
+    {
+      "relation_id": 114,
+      "augmented_edge_frequency": 14298,
+      "kept": true
+    },
+    {
+      "relation_id": 125,
+      "augmented_edge_frequency": 12932,
+      "kept": true
+    },
+    {
+      "relation_id": 122,
+      "augmented_edge_frequency": 11754,
+      "kept": true
+    },
+    {
+      "relation_id": 183,
+      "augmented_edge_frequency": 11546,
+      "kept": true
+    },
+    {
+      "relation_id": 71,
+      "augmented_edge_frequency": 10192,
+      "kept": true
+    },
+    {
+      "relation_id": 151,
+      "augmented_edge_frequency": 9738,
+      "kept": true
+    },
+    {
+      "relation_id": 157,
+      "augmented_edge_frequency": 7676,
+      "kept": true
+    },
+    {
+      "relation_id": 135,
+      "augmented_edge_frequency": 7374,
+      "kept": true
+    },
+    {
+      "relation_id": 19,
+      "augmented_edge_frequency": 6962,
+      "kept": true
+    },
+    {
+      "relation_id": 31,
+      "augmented_edge_frequency": 5936,
+      "kept": true
+    },
+    {
+      "relation_id": 162,
+      "augmented_edge_frequency": 5532,
+      "kept": true
+    }
+  ],
+  "note": "Coverage is descriptive, not evidence of relevance, zero-shot accuracy, or unseen-at-training status. Filter reconstruction assumes input format in redial.py."
+}
