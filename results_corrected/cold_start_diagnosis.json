@@ -1,0 +1,241 @@
+{
+  "scope": "Read-only diagnostic on held-out test data; no hyperparameter tuning",
+  "recommendation_events": 4003,
+  "target_events": {
+    "other": 3349,
+    "one": 238,
+    "zero": 416
+  },
+  "selected_calibration_from_validation": {
+    "name": "Conservative",
+    "lam": 0.8,
+    "gamma": 0.5,
+    "beta": 0.3
+  },
+  "candidate_movies": 6924,
+  "ranking": {
+    "baseline": {
+      "exposure_slots": 40030,
+      "zero_shot_exposure_slots": 1,
+      "zero_shot_exposure_pct": 0.002498126405196103,
+      "one_shot_exposure_slots": 547,
+      "one_shot_exposure_pct": 1.3664751436422684,
+      "group_exposure_slots": [
+        0,
+        33,
+        399,
+        1274,
+        38324
+      ],
+      "distinct_exposed_zero_shot_movies": 1,
+      "target_groups": {
+        "zero": {
+          "rank": {
+            "n": 416,
+            "mean": 5165.75,
+            "median": 5068.0,
+            "p10": 4447.0,
+            "p90": 6616.0
+          },
+          "target_score": {
+            "n": 416,
+            "mean": -2.6756622875109315,
+            "median": -2.640191674232483,
+            "p10": -4.247382640838623,
+            "p90": -1.2332246899604797
+          },
+          "target_score_minus_top10_cutoff": {
+            "n": 416,
+            "mean": -9.312765884069869,
+            "median": -9.818340539932251,
+            "p10": -12.466089248657227,
+            "p90": -5.453123092651367
+          },
+          "hit_at_10": 0.0,
+          "hit_at_50": 0.0,
+          "fraction_rank_at_most_100": 0.0
+        },
+        "one": {
+          "rank": {
+            "n": 238,
+            "mean": 1907.8235294117646,
+            "median": 1872.0,
+            "p10": 189.0,
+            "p90": 3861.7000000000003
+          },
+          "target_score": {
+            "n": 238,
+            "mean": 1.9652340237145163,
+            "median": 1.5113154649734497,
+            "p10": -0.13472715467214577,
+            "p90": 4.630222606658936
+          },
+          "target_score_minus_top10_cutoff": {
+            "n": 238,
+            "mean": -4.924165148663671,
+            "median": -5.224324822425842,
+            "p10": -7.8770597100257875,
+            "p90": -1.574719071388244
+          },
+          "hit_at_10": 0.025210084033613446,
+          "hit_at_50": 0.03361344537815126,
+          "fraction_rank_at_most_100": 0.0546218487394958
+        },
+        "other": {
+          "rank": {
+            "n": 3349,
+            "mean": 360.6043595103016,
+            "median": 86.0,
+            "p10": 4.0,
+            "p90": 1096.2000000000003
+          },
+          "target_score": {
+            "n": 3349,
+            "mean": 5.358833156315852,
+            "median": 5.276849746704102,
+            "p10": 2.0210257053375247,
+            "p90": 8.777705001831055
+          },
+          "target_score_minus_top10_cutoff": {
+            "n": 3349,
+            "mean": -1.7342394383734876,
+            "median": -1.4887995719909668,
+            "p10": -4.562111711502075,
+            "p90": 0.6493663787841827
+          },
+          "hit_at_10": 0.20095550910719617,
+          "hit_at_50": 0.4198268139743207,
+          "fraction_rank_at_most_100": 0.5309047476858764
+        }
+      }
+    },
+    "selected": {
+      "exposure_slots": 40030,
+      "zero_shot_exposure_slots": 1,
+      "zero_shot_exposure_pct": 0.002498126405196103,
+      "one_shot_exposure_slots": 647,
+      "one_shot_exposure_pct": 1.6162877841618786,
+      "group_exposure_slots": [
+        0,
+        43,
+        472,
+        1665,
+        37850
+      ],
+      "distinct_exposed_zero_shot_movies": 1,
+      "target_groups": {
+        "zero": {
+          "rank": {
+            "n": 416,
+            "mean": 5167.382211538462,
+            "median": 5038.0,
+            "p10": 4399.0,
+            "p90": 6499.5
+          },
+          "target_score": {
+            "n": 416,
+            "mean": -2.505469986380866,
+            "median": -2.4854079484939575,
+            "p10": -4.1228086948394775,
+            "p90": -1.0046533048152924
+          },
+          "target_score_minus_top10_cutoff": {
+            "n": 416,
+            "mean": -8.863508535190844,
+            "median": -9.257580995559692,
+            "p10": -12.035195350646973,
+            "p90": -5.066653147339821
+          },
+          "hit_at_10": 0.0,
+          "hit_at_50": 0.0,
+          "fraction_rank_at_most_100": 0.0
+        },
+        "one": {
+          "rank": {
+            "n": 238,
+            "mean": 1882.0966386554621,
+            "median": 1848.0,
+            "p10": 175.4,
+            "p90": 3853.4000000000005
+          },
+          "target_score": {
+            "n": 238,
+            "mean": 1.9222257494957757,
+            "median": 1.4683072566986084,
+            "p10": -0.17773542255163186,
+            "p90": 4.587214279174805
+          },
+          "target_score_minus_top10_cutoff": {
+            "n": 238,
+            "mean": -4.697201284587759,
+            "median": -4.940576463937759,
+            "p10": -7.476400911808014,
+            "p90": -1.236979913711547
+          },
+          "hit_at_10": 0.025210084033613446,
+          "hit_at_50": 0.037815126050420166,
+          "fraction_rank_at_most_100": 0.0546218487394958
+        },
+        "other": {
+          "rank": {
+            "n": 3349,
+            "mean": 377.9558077037922,
+            "median": 90.0,
+            "p10": 4.0,
+            "p90": 1133.6000000000008
+          },
+          "target_score": {
+            "n": 3349,
+            "mean": 5.112163600171189,
+            "median": 4.966494083404541,
+            "p10": 1.9045273780822753,
+            "p90": 8.474788093566895
+          },
+          "target_score_minus_top10_cutoff": {
+            "n": 3349,
+            "mean": -1.6840889360827986,
+            "median": -1.3963069915771484,
+            "p10": -4.4343036890029905,
+            "p90": 0.5472149848937988
+          },
+          "hit_at_10": 0.19617796357121528,
+          "hit_at_50": 0.4099731263063601,
+          "fraction_rank_at_most_100": 0.5129889519259481
+        }
+      }
+    }
+  },
+  "kg_connectivity": {
+    "all_eligible_movies": {
+      "n": 6924,
+      "mean": 8.730935875216637,
+      "median": 9.0,
+      "p10": 0.0,
+      "p90": 16.0
+    },
+    "zero_shot_eligible_movies": {
+      "n": 2477,
+      "mean": 6.129592248687929,
+      "median": 5.0,
+      "p10": 0.0,
+      "p90": 14.0
+    },
+    "one_shot_eligible_movies": {
+      "n": 2010,
+      "mean": 9.281094527363184,
+      "median": 9.0,
+      "p10": 3.0,
+      "p90": 15.0
+    },
+    "zero_shot_test_target_movies": {
+      "n": 337,
+      "mean": 9.560830860534125,
+      "median": 10.0,
+      "p10": 3.0,
+      "p90": 16.0
+    },
+    "zero_shot_test_targets_no_nonself_neighbors": 12,
+    "zero_shot_catalog_no_nonself_neighbors": 877,
+    "notes": "Unique processed-graph neighbors, excluding self-loops. Does not verify KG attributes or data quality."
+  }
+}
