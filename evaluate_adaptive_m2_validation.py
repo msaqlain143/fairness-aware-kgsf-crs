@@ -10,6 +10,7 @@ No model training, checkpoint changes, or test evaluation.
 """
 
 import argparse
+import csv
 import json
 import math
 from pathlib import Path
@@ -126,6 +127,35 @@ def summarize(name, stats, n_events, n_movies):
     }
 
 
+def make_event_record(event_id, method, order, true_local, target,
+                      frequency, target_overlap, context_nonempty):
+    """Return the per-event ranking outcome for later paired analysis."""
+    positions = np.flatnonzero(order == true_local)
+    rank = int(positions[0]) + 1 if len(positions) else None
+
+    return {
+        "event_id": event_id,
+        "method": method,
+        "target_movie_id": int(target),
+        "target_frequency": int(frequency),
+        "frequency_group": (
+            "zero_shot" if frequency == 0
+            else "one_shot" if frequency == 1
+            else "other"
+        ),
+        "target_context_overlap": int(target_overlap),
+        "context_nonempty": int(context_nonempty),
+        "rank_top50": rank if rank is not None else "",
+        "hit10": int(rank is not None and rank <= 10),
+        "hit50": int(rank is not None),
+        "ndcg10": (
+            float(1.0 / np.log2(rank + 1))
+            if rank is not None and rank <= 10
+            else 0.0
+        ),
+    }
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--config", default="config/crs/kgsf/redial.yaml")
@@ -206,6 +236,7 @@ def main():
     }
 
     n_events = 0
+    event_rows = []
     system.model.eval()
 
     with torch.no_grad():
@@ -281,6 +312,12 @@ def main():
                     stats["A0_fixed_025"], order, true_local,
                     frequency, target_overlap, group_ids
                 )
+                event_rows.append(
+                    make_event_record(
+                        n_events + 1, "A0_fixed_025", order, true_local,
+                        target, frequency, target_overlap, bool(unique_context)
+                    )
+                )
 
                 # A1/A2: candidate-specific weights.
                 for strength in strengths:
@@ -298,6 +335,13 @@ def main():
                         order_a1, true_local, frequency,
                         target_overlap, group_ids
                     )
+                    event_rows.append(
+                        make_event_record(
+                            n_events + 1, f"A1_frequency_{tag}", order_a1,
+                            true_local, target, frequency, target_overlap,
+                            bool(unique_context)
+                        )
+                    )
 
                     # A2: frequency and context-confidence adaptive.
                     alpha_a2 = (
@@ -312,6 +356,13 @@ def main():
                         order_a2, true_local, frequency,
                         target_overlap, group_ids
                     )
+                    event_rows.append(
+                        make_event_record(
+                            n_events + 1, f"A2_frequency_context_{tag}",
+                            order_a2, true_local, target, frequency,
+                            target_overlap, bool(unique_context)
+                        )
+                    )
 
                 n_events += 1
 
@@ -324,6 +375,27 @@ def main():
         summarize(name, stats[name], n_events, n_movies)
         for name in variant_names
     ]
+
+    expected_rows = n_events * len(variant_names)
+    if len(event_rows) != expected_rows:
+        raise RuntimeError(
+            f"Expected {expected_rows} event-method records, "
+            f"observed {len(event_rows)}."
+        )
+
+    target_path = Path(args.out)
+    event_path = target_path.with_name(
+        target_path.stem + "_events.csv"
+    )
+    event_path.parent.mkdir(parents=True, exist_ok=True)
+    with event_path.open(
+        "w", newline="", encoding="utf-8-sig"
+    ) as event_file:
+        writer = csv.DictWriter(
+            event_file, fieldnames=list(event_rows[0].keys())
+        )
+        writer.writeheader()
+        writer.writerows(event_rows)
 
     report = {
         "split": "validation_only",
@@ -340,6 +412,8 @@ def main():
         "target_used_for_ranking": False,
         "checkpoint_changed": False,
         "test_split_evaluated": False,
+        "event_level_csv": str(event_path),
+        "event_level_rows": len(event_rows),
         "results": results,
         "caution": (
             "Exploratory validation comparison, not a novelty claim. "
@@ -348,13 +422,13 @@ def main():
         ),
     }
 
-    target_path = Path(args.out)
     target_path.parent.mkdir(parents=True, exist_ok=True)
     target_path.write_text(
         json.dumps(report, indent=2), encoding="utf-8"
     )
     print(json.dumps(report, indent=2))
     print("Saved:", target_path.resolve())
+    print("Saved event-level records:", event_path.resolve())
 
 
 if __name__ == "__main__":

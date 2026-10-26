@@ -15,6 +15,8 @@
   "target_used_for_ranking": false,
   "checkpoint_changed": false,
   "test_split_evaluated": false,
+  "event_level_csv": "results_corrected\\adaptive_m2_validation_events.csv",
+  "event_level_rows": 21070,
   "results": [
     {
       "method": "A0_fixed_025",
