@@ -1,222 +1,497 @@
 """Validation-only clustered inference and fairness/accuracy trade-off.
 
-Reads results_corrected/adaptive_m2_validation_events_clustered.csv and
-results_corrected/adaptive_m2_validation.json. Does not evaluate test data.
+Reads:
+    results_corrected/adaptive_m2_validation_events_clustered.csv
+    results_corrected/adaptive_m2_validation.json
+
+This script does not evaluate the held-out test set.
+
+Statistical notes
+-----------------
+* Candidate-minus-baseline differences are paired by recommendation event.
+* Bootstrap resampling is clustered by conversation; all events from a sampled
+  conversation stay together.
+* The sign-flip test flips each conversation's aggregate contribution. Its
+  validity depends on independent conversation clusters and sign-exchangeability
+  under the null; interpret it as an exploratory test, not definitive proof.
+* Fairness metrics are descriptive because the event CSV does not contain
+  item-level top-10 recommendation lists. This script cannot bootstrap coverage,
+  item Gini, or group exposure.
 """
-import csv, json
+
+import csv
+import json
 from pathlib import Path
+
 import numpy as np
 
 ROOT = Path(__file__).resolve().parent
 RES = ROOT / "results_corrected"
 EVENTS = RES / "adaptive_m2_validation_events_clustered.csv"
 REPORT = RES / "adaptive_m2_validation.json"
+
 BASE = "A0_fixed_025"
 METRICS = ("hit10", "hit50", "ndcg10")
-B = 10000
-P = 20000
+BOOTSTRAP_REPLICATES = 10_000
+PERMUTATION_REPLICATES = 20_000
 SEED = 20261026
+BATCH_SIZE = 200
+TOL = 1e-10
 
 
-def holm(p):
-    p = np.asarray(p, dtype=float)
-    order = np.argsort(p)
-    adj_sorted = np.maximum.accumulate(
-        np.minimum(1.0, (len(p) - np.arange(len(p))) * p[order])
+def holm_adjust(p_values):
+    """Return Holm-adjusted p-values in the original input order."""
+    p_values = np.asarray(p_values, dtype=float)
+    if p_values.ndim != 1:
+        raise ValueError("Holm adjustment expects a one-dimensional array.")
+    if not len(p_values):
+        return p_values.copy()
+    if np.any(~np.isfinite(p_values)) or np.any(
+        (p_values < 0) | (p_values > 1)
+    ):
+        raise ValueError("P-values must be finite and between 0 and 1.")
+
+    order = np.argsort(p_values)
+    multipliers = len(p_values) - np.arange(len(p_values))
+    adjusted_sorted = np.maximum.accumulate(
+        np.minimum(1.0, multipliers * p_values[order])
     )
-    result = np.empty_like(p)
-    result[order] = adj_sorted
-    return result
+    adjusted = np.empty_like(adjusted_sorted)
+    adjusted[order] = adjusted_sorted
+    return adjusted
 
 
-def read_data():
-    with EVENTS.open(encoding="utf-8-sig", newline="") as f:
-        rows = list(csv.DictReader(f))
+def write_csv(path, records):
+    """Write a list of dictionaries to CSV."""
+    if not records:
+        raise ValueError(f"Refusing to write an empty CSV: {path}")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", newline="", encoding="utf-8-sig") as handle:
+        writer = csv.DictWriter(handle, fieldnames=list(records[0].keys()))
+        writer.writeheader()
+        writer.writerows(records)
+
+
+def read_inputs():
+    """Read event-level data and validate paired event/method structure."""
+    for path in (EVENTS, REPORT):
+        if not path.exists():
+            raise FileNotFoundError(f"Required input file not found: {path}")
+
+    with EVENTS.open(encoding="utf-8-sig", newline="") as handle:
+        rows = list(csv.DictReader(handle))
     if not rows:
         raise ValueError(f"Empty input: {EVENTS}")
+
     required = {"conv_id", "event_id", "method", *METRICS}
-    missing = required - set(rows[0])
+    missing = required - set(rows[0].keys())
     if missing:
-        raise ValueError(f"Missing columns: {sorted(missing)}")
+        raise ValueError(f"Missing columns in event CSV: {sorted(missing)}")
 
-    methods = sorted({r["method"] for r in rows})
+    methods = sorted({row["method"] for row in rows})
     if BASE not in methods:
-        raise ValueError(f"Baseline {BASE} missing")
-    ev = {}
-    for r in rows:
-        eid, cid, method = r["event_id"], r["conv_id"], r["method"]
-        if not eid or not cid:
-            raise ValueError("Missing event_id or conv_id")
-        e = ev.setdefault(eid, {"conv": cid, "by_method": {}})
-        if e["conv"] != cid:
-            raise ValueError(f"Event {eid} links to multiple conversations")
-        if method in e["by_method"]:
-            raise ValueError(f"Duplicate event/method: {eid}/{method}")
-        e["by_method"][method] = r
+        raise ValueError(f"Baseline {BASE!r} is missing.")
+    if len(methods) < 2:
+        raise ValueError("At least one candidate method is required.")
 
-    expected = set(methods)
-    for eid, e in ev.items():
-        if set(e["by_method"]) != expected:
-            raise ValueError(f"Incomplete method set for event {eid}")
+    events = {}
+    for row in rows:
+        event_id = row["event_id"]
+        conv_id = row["conv_id"]
+        method = row["method"]
+        if not event_id or not conv_id or not method:
+            raise ValueError("Missing event_id, conv_id, or method.")
 
-    by_conv = {}
-    for e in ev.values():
-        by_conv.setdefault(e["conv"], []).append(e)
-    conv_ids = sorted(by_conv)
-    candidates = [m for m in methods if m != BASE]
-    # One paired candidate-minus-baseline sum per conversation/candidate/metric.
-    sums = np.zeros((len(conv_ids), len(candidates), len(METRICS)))
-    counts = np.zeros(len(conv_ids), dtype=np.int64)
-    for ci, cid in enumerate(conv_ids):
-        for e in by_conv[cid]:
-            counts[ci] += 1
-            b = e["by_method"][BASE]
-            for cj, m in enumerate(candidates):
-                c = e["by_method"][m]
-                for ki, metric in enumerate(METRICS):
-                    d = float(c[metric]) - float(b[metric])
-                    if not np.isfinite(d):
-                        raise ValueError(f"Non-finite value for {eid}/{metric}")
-                    sums[ci, cj, ki] += d
-    if len(rows) != len(ev) * len(methods):
-        raise ValueError("Rows != unique events x methods")
-    return rows, methods, candidates, conv_ids, sums, counts, len(ev)
+        event = events.setdefault(
+            event_id, {"conv_id": conv_id, "by_method": {}}
+        )
+        if event["conv_id"] != conv_id:
+            raise ValueError(
+                f"Event {event_id} is associated with multiple conversations."
+            )
+        if method in event["by_method"]:
+            raise ValueError(f"Duplicate event/method row: {event_id}/{method}")
+        event["by_method"][method] = row
+
+        # Validate every metric while the event/method row is in scope.
+        for metric in METRICS:
+            try:
+                value = float(row[metric])
+            except (TypeError, ValueError) as exc:
+                raise ValueError(
+                    f"Non-numeric {metric} for event {event_id}, method {method}"
+                ) from exc
+            if not np.isfinite(value):
+                raise ValueError(
+                    f"Non-finite {metric} for event {event_id}, method {method}"
+                )
+            if metric in ("hit10", "hit50") and value not in (0.0, 1.0):
+                raise ValueError(
+                    f"{metric} must be 0 or 1; got {value} "
+                    f"for event {event_id}, method {method}"
+                )
+            if metric == "ndcg10" and not (0.0 <= value <= 1.0):
+                raise ValueError(
+                    f"ndcg10 must be in [0, 1]; got {value} "
+                    f"for event {event_id}, method {method}"
+                )
+
+    expected_methods = set(methods)
+    for event_id, event in events.items():
+        actual_methods = set(event["by_method"])
+        if actual_methods != expected_methods:
+            raise ValueError(
+                f"Incomplete method set for event {event_id}: "
+                f"expected {sorted(expected_methods)}, got {sorted(actual_methods)}"
+            )
+
+    if len(rows) != len(events) * len(methods):
+        raise ValueError("Rows do not equal unique events multiplied by methods.")
+
+    by_conversation = {}
+    for event_id, event in events.items():
+        by_conversation.setdefault(event["conv_id"], []).append(
+            (event_id, event)
+        )
+
+    conversation_ids = sorted(by_conversation)
+    candidates = [method for method in methods if method != BASE]
+
+    # Each cell stores the sum of event-level paired differences for one
+    # conversation, candidate, and metric.
+    sums = np.zeros(
+        (len(conversation_ids), len(candidates), len(METRICS)),
+        dtype=np.float64,
+    )
+    event_counts = np.zeros(len(conversation_ids), dtype=np.int64)
+
+    for conversation_index, conversation_id in enumerate(conversation_ids):
+        for event_id, event in by_conversation[conversation_id]:
+            event_counts[conversation_index] += 1
+            baseline_row = event["by_method"][BASE]
+            for candidate_index, candidate in enumerate(candidates):
+                candidate_row = event["by_method"][candidate]
+                for metric_index, metric in enumerate(METRICS):
+                    difference = (
+                        float(candidate_row[metric]) - float(baseline_row[metric])
+                    )
+                    sums[conversation_index, candidate_index, metric_index] += (
+                        difference
+                    )
+
+    return (
+        rows,
+        methods,
+        candidates,
+        conversation_ids,
+        sums,
+        event_counts,
+        len(events),
+    )
+
+
+def load_validation_report(methods):
+    """Load the validation summary and ensure all methods are represented."""
+    report = json.loads(REPORT.read_text(encoding="utf-8"))
+    if report.get("split") != "validation_only":
+        raise ValueError("Expected a validation_only summary; refusing to continue.")
+    if report.get("test_split_evaluated") not in (False, None):
+        raise ValueError("Summary indicates the test split may have been evaluated.")
+
+    results = report.get("results")
+    if not isinstance(results, list):
+        raise ValueError("Validation report has no results list.")
+    by_method = {item["method"]: item for item in results if "method" in item}
+
+    missing = set(methods) - set(by_method)
+    if missing:
+        raise ValueError(
+            f"Methods missing from validation summary: {sorted(missing)}"
+        )
+    return report, by_method
+
+
+def clustered_inference(sums, event_counts, rng):
+    """Calculate clustered bootstrap intervals and conversation sign-flip tests."""
+    n_conversations, n_candidates, n_metrics = sums.shape
+    total_events = int(event_counts.sum())
+    if total_events <= 0 or n_conversations <= 1:
+        raise ValueError("Need events from at least two conversations.")
+
+    observed = sums.sum(axis=0) / total_events
+
+    # Percentile bootstrap: sample conversations with replacement. Every event
+    # belonging to a sampled conversation remains in that sampled cluster.
+    bootstrap_draws = np.empty(
+        (BOOTSTRAP_REPLICATES, n_candidates, n_metrics), dtype=np.float64
+    )
+    for start in range(0, BOOTSTRAP_REPLICATES, BATCH_SIZE):
+        stop = min(BOOTSTRAP_REPLICATES, start + BATCH_SIZE)
+        indices = rng.integers(
+            0, n_conversations, size=(stop - start, n_conversations)
+        )
+        numerator = sums[indices].sum(axis=1)
+        denominator = event_counts[indices].sum(axis=1)
+        bootstrap_draws[start:stop] = numerator / denominator[:, None, None]
+
+    ci_low, ci_high = np.quantile(
+        bootstrap_draws, [0.025, 0.975], axis=0
+    )
+
+    # Monte Carlo paired sign-flip test at the conversation-cluster level.
+    # This tests whether aggregate paired differences are compatible with a
+    # symmetric zero-centred cluster contribution distribution.
+    observed_abs_sum = np.abs(sums.sum(axis=0))
+    extreme = np.zeros((n_candidates, n_metrics), dtype=np.int64)
+    done = 0
+    while done < PERMUTATION_REPLICATES:
+        batch_n = min(BATCH_SIZE, PERMUTATION_REPLICATES - done)
+        signs = rng.choice(
+            np.array([-1.0, 1.0]),
+            size=(batch_n, n_conversations, 1, 1),
+        )
+        permuted_abs_sum = np.abs(
+            (signs * sums[None, :, :, :]).sum(axis=1)
+        )
+        extreme += (
+            permuted_abs_sum >= observed_abs_sum[None, :, :] - TOL
+        ).sum(axis=0)
+        done += batch_n
+
+    # Plus-one correction avoids reporting a zero Monte Carlo p-value.
+    p_raw = (extreme + 1) / (PERMUTATION_REPLICATES + 1)
+
+    # Prespecified families: all candidate x metric tests (6 x 3 = 18 when
+    # there are six candidates), and candidate comparisons within each metric.
+    p_all = holm_adjust(p_raw.ravel()).reshape(p_raw.shape)
+    p_within_metric = np.column_stack(
+        [
+            holm_adjust(p_raw[:, metric_index])
+            for metric_index in range(n_metrics)
+        ]
+    )
+    return observed, ci_low, ci_high, p_raw, p_all, p_within_metric
+
+
+def fairness_tradeoff_table(methods, candidates, report_by_method):
+    """Build descriptive fairness/accuracy deltas and group-share diagnostics."""
+    ordered_methods = [BASE] + candidates
+    baseline = report_by_method[BASE]
+    metrics = ("hit10", "hit50", "ndcg10", "catalog_coverage10", "item_gini")
+    records = []
+
+    baseline_shares = baseline.get("group_exposure_shares", [])
+    if not isinstance(baseline_shares, list):
+        baseline_shares = []
+
+    for method in ordered_methods:
+        result = report_by_method[method]
+        item = {"method": method}
+
+        for key in metrics:
+            value = result.get(key)
+            base_value = baseline.get(key)
+            item[key] = value
+            item[key + "_delta"] = (
+                0.0
+                if method == BASE and value is not None
+                else (
+                    None
+                    if value is None or base_value is None
+                    else float(value) - float(base_value)
+                )
+            )
+
+        shares = result.get("group_exposure_shares", [])
+        if not isinstance(shares, list):
+            shares = []
+        item["group_exposure_shares"] = json.dumps(shares)
+
+        if shares:
+            if any(not np.isfinite(float(value)) for value in shares):
+                raise ValueError(f"Non-finite group exposure share for {method}.")
+            if any(float(value) < 0 for value in shares):
+                raise ValueError(f"Negative group exposure share for {method}.")
+            share_sum = float(sum(shares))
+            item["group_exposure_share_sum"] = share_sum
+            item["group_exposure_shares_sum_to_one"] = bool(
+                np.isclose(share_sum, 1.0, atol=1e-6)
+            )
+            item["max_group_exposure_share"] = float(max(shares))
+        else:
+            item["group_exposure_share_sum"] = None
+            item["group_exposure_shares_sum_to_one"] = None
+            item["max_group_exposure_share"] = None
+
+        if shares and baseline_shares and len(shares) == len(baseline_shares):
+            deltas = [
+                float(candidate_share) - float(baseline_share)
+                for candidate_share, baseline_share in zip(shares, baseline_shares)
+            ]
+            item["group_exposure_share_deltas"] = json.dumps(deltas)
+            item["max_abs_group_exposure_share_delta"] = max(
+                abs(delta) for delta in deltas
+            )
+            item["max_group_exposure_share_delta"] = (
+                max(shares) - max(baseline_shares)
+            )
+        else:
+            item["group_exposure_share_deltas"] = None
+            item["max_abs_group_exposure_share_delta"] = None
+            item["max_group_exposure_share_delta"] = None
+
+        records.append(item)
+
+    return records
 
 
 def main():
-    rows, methods, candidates, conv_ids, sums, counts, n_events = read_data()
+    (
+        rows,
+        methods,
+        candidates,
+        conversation_ids,
+        sums,
+        event_counts,
+        n_events,
+    ) = read_inputs()
+
+    report, report_by_method = load_validation_report(methods)
     rng = np.random.default_rng(SEED)
-    nconv = len(conv_ids)
-    denom = int(counts.sum())
-    observed = sums.sum(axis=0) / denom
+    n_conversations = len(conversation_ids)
 
-    # Conversation-cluster bootstrap percentile intervals.
-    draws = np.empty((B, len(candidates), len(METRICS)))
-    for start in range(0, B, 200):
-        stop = min(B, start + 200)
-        idx = rng.integers(0, nconv, size=(stop-start, nconv))
-        den = counts[idx].sum(axis=1)
-        draws[start:stop] = sums[idx].sum(axis=1) / den[:, None, None]
-    lo, hi = np.quantile(draws, [0.025, 0.975], axis=0)
+    observed, ci_low, ci_high, p_raw, p_all, p_within = clustered_inference(
+        sums, event_counts, rng
+    )
 
-    # Paired conversation-level sign-flip permutation test.
-    # The whole conversation contribution is flipped, never individual events.
-    obs_sum = np.abs(sums.sum(axis=0))
-    extreme = np.zeros_like(obs_sum, dtype=np.int64)
-    done = 0
-    while done < P:
-        n = min(200, P-done)
-        signs = rng.choice(np.array([-1.0, 1.0]), size=(n, nconv, 1, 1))
-        perm = (signs * sums[None, :, :, :]).sum(axis=1)
-        extreme += (np.abs(perm) >= obs_sum[None, :, :] - 1e-12).sum(axis=0)
-        done += n
-    p_raw = (extreme + 1) / (P + 1)
-
-    # Two adjustment families: all 18 tests, and six comparisons within each metric.
-    p_all = holm(p_raw.ravel()).reshape(p_raw.shape)
-    p_within = np.column_stack([holm(p_raw[:, k]) for k in range(len(METRICS))])
-
-    report = json.loads(REPORT.read_text(encoding="utf-8"))
-    if report.get("split") != "validation_only":
-        raise ValueError("Expected validation-only JSON")
-    rep = {r["method"]: r for r in report["results"]}
-    out = []
-    for ci, method in enumerate(candidates):
-        for ki, metric in enumerate(METRICS):
-            out.append({
-                "baseline": BASE, "method": method, "metric": metric,
-                "baseline_mean": rep[BASE][metric],
-                "candidate_mean": rep[method][metric],
-                "difference": float(observed[ci, ki]),
-                "difference_percentage_points": float(100*observed[ci, ki]),
-                "cluster_bootstrap_ci95_low": float(lo[ci, ki]),
-                "cluster_bootstrap_ci95_high": float(hi[ci, ki]),
-                "permutation_p_raw": float(p_raw[ci, ki]),
-                "holm_p_all_18_tests": float(p_all[ci, ki]),
-                "holm_p_within_metric_6_tests": float(p_within[ci, ki]),
-                "conversation_clusters": nconv, "events": n_events,
-                "bootstrap_replicates": B, "permutation_replicates": P,
-                "seed": SEED, "resampling_unit": "conversation",
-            })
-
-    def write_csv(path, data):
-        with path.open("w", newline="", encoding="utf-8-sig") as f:
-            w = csv.DictWriter(f, fieldnames=list(data[0]))
-            w.writeheader()
-            w.writerows(data)
+    stats_records = []
+    for candidate_index, method in enumerate(candidates):
+        for metric_index, metric in enumerate(METRICS):
+            baseline_mean = float(report_by_method[BASE][metric])
+            candidate_mean = float(report_by_method[method][metric])
+            stats_records.append(
+                {
+                    "baseline": BASE,
+                    "method": method,
+                    "metric": metric,
+                    "baseline_mean": baseline_mean,
+                    "candidate_mean": candidate_mean,
+                    "difference": float(observed[candidate_index, metric_index]),
+                    "difference_percentage_points": float(
+                        100 * observed[candidate_index, metric_index]
+                    ),
+                    "cluster_bootstrap_ci95_low": float(
+                        ci_low[candidate_index, metric_index]
+                    ),
+                    "cluster_bootstrap_ci95_high": float(
+                        ci_high[candidate_index, metric_index]
+                    ),
+                    "permutation_p_raw": float(p_raw[candidate_index, metric_index]),
+                    "holm_p_all_tests": float(p_all[candidate_index, metric_index]),
+                    "holm_p_within_metric": float(
+                        p_within[candidate_index, metric_index]
+                    ),
+                    "conversation_clusters": n_conversations,
+                    "events": n_events,
+                    "bootstrap_replicates": BOOTSTRAP_REPLICATES,
+                    "permutation_replicates": PERMUTATION_REPLICATES,
+                    "seed": SEED,
+                    "resampling_unit": "conversation",
+                }
+            )
 
     stats_csv = RES / "m2_multiplicity_adjusted_cluster_tests.csv"
     stats_json = RES / "m2_multiplicity_adjusted_cluster_tests.json"
-    write_csv(stats_csv, out)
-    stats_json.write_text(json.dumps({
-        "split": "validation_only", "baseline": BASE, "events": n_events,
-        "conversation_clusters": nconv, "methods": methods,
-        "metrics": list(METRICS), "bootstrap_replicates": B,
-        "permutation_replicates": P, "seed": SEED,
+    write_csv(stats_csv, stats_records)
+
+    stats_report = {
+        "split": "validation_only",
+        "baseline": BASE,
+        "events": n_events,
+        "conversation_clusters": n_conversations,
+        "methods": methods,
+        "metrics": list(METRICS),
+        "bootstrap_replicates": BOOTSTRAP_REPLICATES,
+        "permutation_replicates": PERMUTATION_REPLICATES,
+        "seed": SEED,
         "adjustments": {
-            "holm_p_all_18_tests": "six candidates x three ranking metrics",
-            "holm_p_within_metric_6_tests": "six candidates adjusted separately per metric",
+            "holm_p_all_tests": (
+                f"{len(candidates)} candidates x {len(METRICS)} ranking metrics"
+            ),
+            "holm_p_within_metric": (
+                f"{len(candidates)} candidate comparisons adjusted separately "
+                "for each metric"
+            ),
         },
-        "test_split_evaluated": False, "results": out,
-        "caveat": (
-            "Exploratory validation analysis. Cluster sign-flip tests assume "
-            "independent conversation clusters and sign exchangeability under the null. "
-            "Fairness metrics below are descriptive; the event CSV lacks item-level top-10 "
-            "exposures needed to bootstrap fairness metrics."
-        )
-    }, indent=2), encoding="utf-8")
+        "test_split_evaluated": False,
+        "fairness_uncertainty": (
+            "Not estimated: the event CSV does not contain item-level top-10 "
+            "recommendation lists or per-event exposure vectors."
+        ),
+        "permutation_test_assumptions": (
+            "Independent conversation clusters and sign-exchangeability of "
+            "conversation-level paired differences under the null."
+        ),
+        "results": stats_records,
+    }
+    stats_json.write_text(
+        json.dumps(stats_report, indent=2), encoding="utf-8"
+    )
 
-    # Descriptive fairness-accuracy table from the existing validation JSON.
-    keys = ("hit10", "hit50", "ndcg10", "catalog_coverage10", "item_gini")
-    fairness = []
-    for method in [BASE] + candidates:
-        r = rep[method]
-        base = rep[BASE]
-        item = {"method": method}
-        for key in keys:
-            item[key] = r.get(key)
-            item[key + "_delta"] = 0.0 if method == BASE else (
-                None if r.get(key) is None or base.get(key) is None
-                else r[key] - base[key]
-            )
-        shares = r.get("group_exposure_shares", [])
-        base_shares = base.get("group_exposure_shares", [])
-        item["group_exposure_shares"] = json.dumps(shares)
-        item["max_group_exposure_share"] = max(shares) if shares else None
-        item["max_group_exposure_share_delta"] = (
-            max(shares)-max(base_shares) if shares and base_shares else None
-        )
-        fairness.append(item)
-    trade_csv = RES / "m2_validation_fairness_accuracy_tradeoff.csv"
-    write_csv(trade_csv, fairness)
+    fairness_records = fairness_tradeoff_table(
+        methods, candidates, report_by_method
+    )
+    tradeoff_csv = RES / "m2_validation_fairness_accuracy_tradeoff.csv"
+    write_csv(tradeoff_csv, fairness_records)
 
-    print(f"Conversations: {nconv}; events: {n_events}; rows: {len(rows)}")
+    print(
+        f"Validation only | conversations: {n_conversations}; "
+        f"events: {n_events}; rows: {len(rows)}"
+    )
     print(f"Saved: {stats_csv}")
     print(f"Saved: {stats_json}")
-    print(f"Saved: {trade_csv}")
-    print("\nAdjusted ranking comparisons (delta in percentage points):")
-    for r in out:
+    print(f"Saved: {tradeoff_csv}")
+
+    print("\nCluster-adjusted ranking comparisons (percentage-point deltas):")
+    for result in stats_records:
         print(
-            f"{r['method']:25s} {r['metric']:6s} "
-            f"delta={r['difference_percentage_points']:+.3f} pp "
-            f"CI=[{100*r['cluster_bootstrap_ci95_low']:+.3f},"
-            f" {100*r['cluster_bootstrap_ci95_high']:+.3f}] pp "
-            f"p={r['permutation_p_raw']:.5f} "
-            f"Holm18={r['holm_p_all_18_tests']:.5f} "
-            f"Holm/metric={r['holm_p_within_metric_6_tests']:.5f}"
+            f"{result['method']:25s} {result['metric']:6s} "
+            f"delta={result['difference_percentage_points']:+.3f} pp "
+            f"CI=[{100 * result['cluster_bootstrap_ci95_low']:+.3f}, "
+            f"{100 * result['cluster_bootstrap_ci95_high']:+.3f}] pp "
+            f"p={result['permutation_p_raw']:.5f} "
+            f"Holm-all={result['holm_p_all_tests']:.5f} "
+            f"Holm/metric={result['holm_p_within_metric']:.5f}"
         )
-    print("\nFairness/accuracy trade-off (descriptive validation metrics):")
-    for r in fairness:
+
+    print("\nDescriptive validation fairness/accuracy trade-off:")
+    for result in fairness_records:
+        max_abs_delta = result["max_abs_group_exposure_share_delta"]
+        max_abs_text = (
+            "n/a" if max_abs_delta is None else f"{max_abs_delta:+.5f}"
+        )
         print(
-            f"{r['method']:25s} Hit10={r['hit10']:.4f} "
-            f"({100*r['hit10_delta']:+.3f} pp); "
-            f"Hit50={r['hit50']:.4f} ({100*r['hit50_delta']:+.3f} pp); "
-            f"NDCG10={r['ndcg10']:.4f} ({100*r['ndcg10_delta']:+.3f} pp); "
-            f"Coverage={r['catalog_coverage10']:.4f} "
-            f"({100*r['catalog_coverage10_delta']:+.3f} pp); "
-            f"Gini={r['item_gini']:.4f} ({r['item_gini_delta']:+.5f}); "
-            f"max group-share delta={r['max_group_exposure_share_delta']:+.5f}"
+            f"{result['method']:25s} "
+            f"Hit10={result['hit10']:.4f} "
+            f"({100 * result['hit10_delta']:+.3f} pp); "
+            f"Hit50={result['hit50']:.4f} "
+            f"({100 * result['hit50_delta']:+.3f} pp); "
+            f"NDCG10={result['ndcg10']:.4f} "
+            f"({100 * result['ndcg10_delta']:+.3f} pp); "
+            f"Coverage={result['catalog_coverage10']:.4f} "
+            f"({100 * result['catalog_coverage10_delta']:+.3f} pp); "
+            f"Gini={result['item_gini']:.4f} "
+            f"({result['item_gini_delta']:+.5f}); "
+            f"max absolute group-share change={max_abs_text}; "
+            f"group shares sum to one="
+            f"{result['group_exposure_shares_sum_to_one']}"
         )
+
+    print(
+        "\nNote: fairness figures are descriptive only. To estimate fairness "
+        "uncertainty, the next experiment must save per-event top-10 item lists "
+        "or exposure vectors."
+    )
 
 
 if __name__ == "__main__":
