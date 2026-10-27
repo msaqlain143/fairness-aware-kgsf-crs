@@ -1,18 +1,10 @@
 {
   "split": "validation_only",
+  "test_split_evaluated": false,
   "baseline": "A0_fixed_025",
   "events": 3010,
   "conversation_clusters": 883,
-  "methods": [
-    "A0_fixed_025",
-    "A1_frequency_1",
-    "A1_frequency_3",
-    "A1_frequency_7",
-    "A2_frequency_context_1",
-    "A2_frequency_context_3",
-    "A2_frequency_context_7"
-  ],
-  "metrics": [
+  "ranking_metrics": [
     "hit10",
     "hit50",
     "ndcg10"
@@ -21,12 +13,10 @@
   "permutation_replicates": 20000,
   "seed": 20261026,
   "adjustments": {
-    "holm_p_all_tests": "6 candidates x 3 ranking metrics",
-    "holm_p_within_metric": "6 candidate comparisons adjusted separately for each metric"
+    "holm_all_tests": "6 candidates x 3 metrics",
+    "holm_within_metric": "Candidates adjusted separately per ranking metric"
   },
-  "test_split_evaluated": false,
-  "fairness_uncertainty": "Not estimated: the event CSV does not contain item-level top-10 recommendation lists or per-event exposure vectors.",
-  "permutation_test_assumptions": "Independent conversation clusters and sign-exchangeability of conversation-level paired differences under the null.",
+  "permutation_assumptions": "Independent conversation clusters and sign-exchangeability under the null; interpret sign-flip inference cautiously.",
   "results": [
     {
       "baseline": "A0_fixed_025",
@@ -43,9 +33,6 @@
       "holm_p_within_metric": 1.0,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -63,9 +50,6 @@
       "holm_p_within_metric": 0.24258787060646966,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -83,9 +67,6 @@
       "holm_p_within_metric": 1.0,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -103,9 +84,6 @@
       "holm_p_within_metric": 1.0,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -123,9 +101,6 @@
       "holm_p_within_metric": 1.0,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -143,9 +118,6 @@
       "holm_p_within_metric": 0.047997600119994,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -163,9 +135,6 @@
       "holm_p_within_metric": 0.0002999850007499625,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -183,9 +152,6 @@
       "holm_p_within_metric": 0.0002999850007499625,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -203,9 +169,6 @@
       "holm_p_within_metric": 0.0002999850007499625,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -223,9 +186,6 @@
       "holm_p_within_metric": 1.0,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -243,9 +203,6 @@
       "holm_p_within_metric": 0.2647367631618419,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -263,9 +220,6 @@
       "holm_p_within_metric": 1.0,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -283,9 +237,6 @@
       "holm_p_within_metric": 1.0,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -303,9 +254,6 @@
       "holm_p_within_metric": 1.0,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -323,9 +271,6 @@
       "holm_p_within_metric": 0.04519774011299435,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -343,9 +288,6 @@
       "holm_p_within_metric": 0.0002999850007499625,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -363,9 +305,6 @@
       "holm_p_within_metric": 0.0002999850007499625,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     },
     {
@@ -383,9 +322,6 @@
       "holm_p_within_metric": 0.0002999850007499625,
       "conversation_clusters": 883,
       "events": 3010,
-      "bootstrap_replicates": 10000,
-      "permutation_replicates": 20000,
-      "seed": 20261026,
       "resampling_unit": "conversation"
     }
   ]
