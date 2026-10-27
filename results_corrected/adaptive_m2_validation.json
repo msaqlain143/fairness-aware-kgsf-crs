@@ -3,6 +3,15 @@
   "method": "Fixed versus candidate-frequency and context-adaptive RRF",
   "events": 3010,
   "candidate_movies": 6924,
+  "methods": [
+    "A0_fixed_025",
+    "A1_frequency_1",
+    "A2_frequency_context_1",
+    "A1_frequency_3",
+    "A2_frequency_context_3",
+    "A1_frequency_7",
+    "A2_frequency_context_7"
+  ],
   "base_alpha": 0.25,
   "rrf_k": 60,
   "hub_cutoff": 500,
@@ -12,6 +21,9 @@
     7.0
   ],
   "context_confidence": "Fraction of unique context entities with at least one raw KG neighbor.",
+  "top10_exposure_unit": "one recommended movie in one event",
+  "top10_movie_ids_saved": true,
+  "top10_group_ids_saved": true,
   "target_used_for_ranking": false,
   "checkpoint_changed": false,
   "test_split_evaluated": false,
@@ -187,5 +199,5 @@
       ]
     }
   ],
-  "caution": "Exploratory validation comparison, not a novelty claim. Select configurations on validation only, then evaluate the locked method on test once. Report uncertainty and ablations."
+  "caution": "Exploratory validation comparison, not a novelty claim. Select configurations on validation only, then evaluate the locked method on test once. Fairness uncertainty should be estimated by resampling conversations and recomputing the fairness metrics from event-level recommendation lists."
 }
