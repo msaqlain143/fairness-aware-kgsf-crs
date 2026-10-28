@@ -1,0 +1,88 @@
+{
+  "project": "KG-FairCRS",
+  "date": "2026-10-28",
+  "dataset": "ReDial",
+  "split": "held_out_test",
+  "selected_method": "A1_frequency_3",
+  "selection_basis": "validation",
+  "test_events": 4003,
+  "contributing_conversations": 1283,
+  "candidate_movies": 6924,
+  "artifacts": [
+    {
+      "path": "evaluate_adaptive_m2_final_test.py",
+      "bytes": 22816,
+      "sha256": "c63d867163ba75e58fd22e9c2977c0f1205845fa0628d07bb06c9146f13b2fc1"
+    },
+    {
+      "path": "evaluate_m2_with_kgsf_baseline.py",
+      "bytes": 22982,
+      "sha256": "ab6cbb59f0c571fcec5929d597b922256ddae002230a1d687ef07e47df396cb2"
+    },
+    {
+      "path": "analyze_m2_test_vs_kgsf.py",
+      "bytes": 7923,
+      "sha256": "1c15e3138f67626305676b2753d8bf41295dbd8fdbc30abdae8467a3a7d6b1af"
+    },
+    {
+      "path": "analyze_m2_test_exposure_sensitivity.py",
+      "bytes": 9500,
+      "sha256": "4d80bdfe9a78da9f60c9a01563eedec41a8b370c59daf684f202c828645d804b"
+    },
+    {
+      "path": "results_final_test_m2/adaptive_m2_final_test.json",
+      "bytes": 5082,
+      "sha256": "2ee16e3c696b4403b4499584fca56881849eb35e6ce405e2fbf12c0327b8d8d7"
+    },
+    {
+      "path": "results_final_test_m2/adaptive_m2_final_test_events.csv",
+      "bytes": 3134697,
+      "sha256": "df12ad7667407b6ba7a6dbb4e06a0af227a20a1c83b82bc2cef61231ec183455"
+    },
+    {
+      "path": "results_final_test_m2/adaptive_m2_with_kgsf_baseline.json",
+      "bytes": 5867,
+      "sha256": "d61670154b54f79ec11dc14caa08286fdb8e60988e674995b7aedeca21058504"
+    },
+    {
+      "path": "results_final_test_m2/adaptive_m2_with_kgsf_baseline_events.csv",
+      "bytes": 3729237,
+      "sha256": "b363389e4070782046e3e66bce43e373bddaa1d950d08ee95141974cc6b97a72"
+    },
+    {
+      "path": "results_final_test_m2/m2_test_event_conversation_mapping.csv",
+      "bytes": 70150,
+      "sha256": "45bfe854004aacdb8d4f959f39576f34cce5f226b2184ea3e8d91a5c65488790"
+    },
+    {
+      "path": "results_final_test_m2/adaptive_m2_final_test_events_clustered.csv",
+      "bytes": 3254795,
+      "sha256": "0df7bcd442ba64982f3668ea7cb6cb93bc7d97a27a63c94452f6b57dc591aeb8"
+    },
+    {
+      "path": "results_final_test_m2/m2_test_cluster_bootstrap.csv",
+      "bytes": 1982,
+      "sha256": "c006f743d5ac44373bc167dcb390c64d705fc5b5f0195be011ef51cdf78e40b1"
+    },
+    {
+      "path": "results_final_test_m2/m2_test_vs_kgsf_cluster_bootstrap.csv",
+      "bytes": 2497,
+      "sha256": "8f6a0ae5829540f1672c61862a8d5a2b106a27b631f739e9e731de36921d32c5"
+    },
+    {
+      "path": "results_final_test_m2/m2_test_exposure_sensitivity.csv",
+      "bytes": 239843,
+      "sha256": "38a39c8316bc3e0a2942d1fd59eac58ee6a4e31072c77c15b3ba130b4711b587"
+    },
+    {
+      "path": "results_final_test_m2/m2_test_exposure_sensitivity_summary.json",
+      "bytes": 2956,
+      "sha256": "4ea2ff2cb0b38749e15984a12321c6a6ee8e0954d788fea8ba226597cc6cbf2a"
+    },
+    {
+      "path": "results_final_test_m2/m2_final_paper_results.csv",
+      "bytes": 608,
+      "sha256": "0091d05e5ade21596f79be25e8b9be8d403d57a1c0f4d1e5d8ebfcb0407a8da7"
+    }
+  ]
+}

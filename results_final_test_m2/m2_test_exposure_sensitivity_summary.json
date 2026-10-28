@@ -1,0 +1,97 @@
+{
+  "split": "held_out_test",
+  "analysis": "without_replacement_conversation_subsampling",
+  "interpretation": "Subsample percentiles are descriptive sensitivity ranges, not confidence intervals or p-values.",
+  "sample_fraction": 0.8,
+  "replicates": 500,
+  "seed": 20261029,
+  "catalog_size": 6924,
+  "full_test": {
+    "KGSF_only": {
+      "coverage10": 0.17677642980935876,
+      "item_gini": 0.9614243534564559,
+      "group_shares": [
+        0.0,
+        0.000824381713714714,
+        0.009967524356732451,
+        0.03182613040219835,
+        0.9573819635273545
+      ],
+      "events": 4003
+    },
+    "A0_fixed_025": {
+      "coverage10": 0.19656268053148468,
+      "item_gini": 0.9541010403375978,
+      "group_shares": [
+        0.0,
+        0.0009742692980264802,
+        0.010966774918810892,
+        0.036222832875343496,
+        0.9518361229078192
+      ],
+      "events": 4003
+    },
+    "A1_frequency_3": {
+      "coverage10": 0.3266897746967071,
+      "item_gini": 0.9204980291355718,
+      "group_shares": [
+        0.02965276042967774,
+        0.030477142143392456,
+        0.020534599050711966,
+        0.06197851611291531,
+        0.8573569822633025
+      ],
+      "events": 4003
+    }
+  },
+  "comparisons": [
+    {
+      "proposed": "A1_frequency_3",
+      "baseline": "KGSF_only",
+      "metric": "coverage10",
+      "full_test_delta": 0.14991334488734837,
+      "subsample_mean_delta": 0.13455488157134604,
+      "subsample_p05": 0.13084922010398614,
+      "subsample_p50": 0.1346042749855575,
+      "subsample_p95": 0.13778885037550548,
+      "fraction_positive": 1.0,
+      "fraction_negative": 0.0
+    },
+    {
+      "proposed": "A1_frequency_3",
+      "baseline": "KGSF_only",
+      "metric": "item_gini",
+      "full_test_delta": -0.040926324320884166,
+      "subsample_mean_delta": -0.03928860967564092,
+      "subsample_p05": -0.04019333379792424,
+      "subsample_p50": -0.03929246099154016,
+      "subsample_p95": -0.03841485570523705,
+      "fraction_positive": 0.0,
+      "fraction_negative": 1.0
+    },
+    {
+      "proposed": "A1_frequency_3",
+      "baseline": "A0_fixed_025",
+      "metric": "coverage10",
+      "full_test_delta": 0.13012709416522245,
+      "subsample_mean_delta": 0.11566060080878106,
+      "subsample_p05": 0.11250722125938764,
+      "subsample_p50": 0.11568457538994802,
+      "subsample_p95": 0.11886192952050836,
+      "fraction_positive": 1.0,
+      "fraction_negative": 0.0
+    },
+    {
+      "proposed": "A1_frequency_3",
+      "baseline": "A0_fixed_025",
+      "metric": "item_gini",
+      "full_test_delta": -0.03360301120202602,
+      "subsample_mean_delta": -0.03212502429932264,
+      "subsample_p05": -0.03289293010281835,
+      "subsample_p50": -0.03213434913676372,
+      "subsample_p95": -0.03133071450203402,
+      "fraction_positive": 0.0,
+      "fraction_negative": 1.0
+    }
+  ]
+}
