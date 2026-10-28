@@ -1,0 +1,178 @@
+
+===== Frequency and catalog provenance =====
+
+FILE: calibrate_and_evaluate.py
+    ...
+  33:     a.sort()
+  34:     n = len(a)
+  35:     return float(((2 * np.arange(1, n + 1) - n - 1) * a).sum() / (n * a.sum()))
+  36: 
+  37: 
+  38: def initialize(config_path, gpu):
+  39:     if not Path(config_path).is_file():
+  40:         raise FileNotFoundError(config_path)
+  41:     config = Config(config_path, gpu=gpu)
+  42:     dataset = get_dataset(config, config['tokenize'], restore=True, save=False)
+  43:     vocab = dataset.vocab
+  44:     side_data = dataset.side_data
+  45:     train = get_dataloader(config, dataset.train_data, vocab)
+  46:     valid = get_dataloader(config, dataset.valid_data, vocab)
+  47:     test = get_dataloader(config, dataset.test_data, vocab)
+  48:     if not Path('save/KGSF.pth').exists():
+  49:         raise FileNotFoundError('save/KGSF.pth not found; preserve or restore your trained checkpoint')
+  50:     system = get_system(config, train, valid, test, vocab, side_data, restore_system=True)
+  51:     return system, valid, test, side_data
+  52: 
+  53: 
+  54: def load_catalog(path, official_movie_ids, device):
+  55:     with open(path, 'rb') as f:
+  56:         meta = pickle.load(f)  # only load locally generated, trusted pickle files
+  57:     movie_ids = [int(x) for x in official_movie_ids]
+  58:     if movie_ids != [int(x) for x in meta['movie_ids']]:
+  59:         raise ValueError('Catalog ordering differs from current KGSF item_entity_ids. Regenerate catalog.')
+  60:     groups = meta['item2group']
+  61:     frequencies = meta['freq_dict']
+  62:     if any(item not in groups or item not in frequencies for item in movie_ids):
+  63:         raise ValueError('Catalog contains movie(s) without groups/frequencies')
+  64:     freq = np.asarray([frequencies[item] for item in movie_ids], dtype=np.float32)
+  65:     denom = max(1.0, float(freq.max()))
+  66:     return {
+  67:         'meta': meta, 'movie_ids': movie_ids, 'candidate_ids': torch.tensor(movie_ids, device=device, dtype=torch.long),
+  68:         'position': {item: j for j, item in enumerate(movie_ids)},
+  69:         'norm_freq': torch.tensor(freq / denom, device=device, dtype=torch.float32),
+    ...
+ 120:                 for k in k_values:
+ 121:                     if rank is not None and rank <= k:
+ 122:                         hits[k] += 1
+ 123:                         ndcg[k] += 1.0 / np.log2(rank + 1)
+ 124:                         mrr[k] += 1.0 / rank
+ 125:                 true_f = catalog['meta']['freq_dict'][true_id]
+ 126:                 if true_f == 0:
+ 127:                     zero_events += 1
+ 128:                     zero_hits += int(rank is not None and rank <= 10)
+ 129:                 if true_f == 1:
+ 130:                     one_events += 1
+ 131:                     one_hits += int(rank is not None and rank <= 10)
+ 132:                 if true_f <= 1:
+ 133:                     low_events += 1
+
+===== KG construction and retrieval =====
+
+FILE: evaluate_kg_retrieval.py
+    ...
+  13: from tqdm import tqdm
+  14: 
+  15: from calibrate_and_evaluate import initialize, load_catalog
+  16: 
+  17: 
+  18: def load_graphs(side_data, source_dir):
+  19:     raw_path = source_dir / 'dbpedia_subkg.json'
+  20:     if not raw_path.is_file():
+  21:         raise FileNotFoundError(f'Could not find {raw_path}')
+  22:     with raw_path.open(encoding='utf-8') as fh:
+  23:         raw = json.load(fh)
+  24:     raw_adj = defaultdict(set)
+  25:     for head, entries in raw.items():
+  26:         h = int(head)
+    ...
+  33:     for h, t, _relation in side_data['entity_kg']['edge']:
+  34:         h, t = int(h), int(t)
+  35:         if h != t:
+  36:             filtered_adj[h].add(t)
+  37:             filtered_adj[t].add(h)
+  38:     return {'R0_filtered': filtered_adj, 'R1_raw': raw_adj}
+  39: 
+  40: 
+  41: def build_index(adjacency, movie_ids, max_movies_per_neighbor):
+  42:     """Inverted one-hop index: neighbor entity -> eligible movie entities.
+  43: 
+  44:     Shared-neighbor retrieval is two-hop: context -> neighbor -> movie.
+  45:     Hubs are excluded only for these shared-neighbor votes, not direct links.
+  46:     """
+  47:     movie_set = set(movie_ids)
+  48:     neighbor_to_movies = defaultdict(set)
+  49:     for movie in movie_ids:
+    ...
+  54:         if 0 < len(v) <= max_movies_per_neighbor
+  55:     }
+  56:     return adjacency, movie_set, neighbor_to_movies
+  57: 
+  58: 
+  59: def retrieve(context_entities, index):
+  60:     adjacency, movie_set, neighbor_to_movies = index
+  61:     scores = Counter()
+  62:     for entity in set(context_entities):
+  63:         # Direct context->movie KG connections.
+  64:         for neighbor in adjacency.get(entity, ()):
+  65:             if neighbor in movie_set:
+  66:                 scores[neighbor] += 1.0
+  67:         # Two-hop context->shared entity->movie paths.
+    ...
+ 106:     import torch
+ 107:     system, valid, _test, side_data = initialize(args.config, args.gpu)
+ 108:     catalog = load_catalog(args.catalog, side_data['item_entity_ids'], system.device)
+ 109:     official_movies = [int(x) for x in catalog['movie_ids']]
+ 110:     freq_dict = {int(k): int(v) for k, v in catalog['meta']['freq_dict'].items()}
+ 111:     graphs = load_graphs(side_data, Path(args.raw_dir))
+ 112:     indexes = {name: build_index(adj, official_movies, args.max_movies_per_neighbor)
+ 113:                for name, adj in graphs.items()}
+ 114: 
+ 115:     k_values = (50, 100, 500)
+ 116:     counts = {name: Counter() for name in indexes}
+ 117:     padding_id = int(valid.pad_entity_idx)
+ 118:     n_events = 0
+ 119:     # Follow exactly the recommender events used in M0/M1. No labels enter retrieve().
+
+===== Model inputs and recommendation =====
+
+FILE: evaluate_adaptive_m2_validation_original.py
+    ...
+ 207: 
+ 208:     n_events = 0
+ 209:     system.model.eval()
+ 210: 
+ 211:     with torch.no_grad():
+ 212:         batches = valid.get_rec_data(
+ 213:             batch_size=args.batch_size, shuffle=False
+ 214:         )
+ 215: 
+ 216:         for batch in tqdm(batches, desc="Adaptive M2 validation"):
+ 217:             model_batch = tuple(t.to(system.device) for t in batch)
+ 218:             output = system.model.recommend(model_batch, mode="test")
+ 219: 
+ 220:             if not isinstance(output, tuple) or len(output) != 3:
+ 221:                 raise RuntimeError("Unexpected KGSF recommendation output.")
+ 222: 
+ 223:             scores = output[2]
+ 224:             scores = scores.index_select(
+ 225:                 1, catalog["candidate_ids"]
+ 226:             ).detach().cpu().numpy()
+ 227: 
+ 228:             if scores.ndim != 2 or scores.shape[1] != n_movies:
+ 229:                 raise RuntimeError("Movie score shape mismatch.")
+ 230: 
+ 231:             for context_row, target, row_scores in zip(
+ 232:                 batch[0].tolist(), batch[-1].tolist(), scores
+ 233:             ):
+ 234:                 target = int(target)
+ 235:                 if target not in pos:
+ 236:                     raise RuntimeError(
+ 237:                         f"Target {target} missing from candidate catalog."
+ 238:                     )
+ 239: 
+ 240:                 context = [
+    ...
+ 269:                     local = pos.get(int(movie))
+ 270:                     if local is not None:
+ 271:                         kg_vote[local] = 1.0 / (args.rrf_k + rank)
+ 272: 
+ 273:                 true_local = pos[target]
+ 274:                 frequency = freq_dict[target]
+ 275:                 target_overlap = target in unique_context
+ 276: 
+ 277:                 # A0: fixed-weight reference.
+ 278:                 fused = kgsf_vote + args.base_alpha * kg_vote
+ 279:                 order = np.lexsort((movie_ids, -fused))[:50]
+ 280:                 update_stats(
+ 281:                     stats["A0_fixed_025"], order, true_local,
+ 282:                     frequency, target_overlap, group_ids
