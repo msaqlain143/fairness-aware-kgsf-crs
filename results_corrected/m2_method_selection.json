@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-10-28T05:38:31.805143+00:00",
+  "selection_split": "validation",
+  "primary_method": "A1_frequency_3",
+  "accuracy_comparator": "A1_frequency_1",
+  "fixed_fusion_baseline": "A0_fixed_025",
+  "additional_baseline": "KGSF_only",
+  "base_alpha": 0.25,
+  "frequency_strength": 3.0,
+  "rrf_k": 60,
+  "hub_cutoff": 500,
+  "selection_priority": [
+    "zero_shot_hit10",
+    "one_shot_hit10",
+    "catalog_coverage10",
+    "item_gini",
+    "overall_hit10",
+    "overall_ndcg10"
+  ],
+  "validation_tradeoff": {
+    "zero_shot_hit10_gain_pp": 9.2827,
+    "coverage_gain_pp": 10.7452,
+    "overall_hit10_change_pp": -0.3322,
+    "overall_ndcg10_change_pp": -0.4508
+  },
+  "status": "locked_before_held_out_test",
+  "held_out_test_used_for_selection": false,
+  "locked_utc": "2026-10-28T05:45:50.144547+00:00",
+  "selection_rationale": "Selected after exploratory validation comparison of fixed, frequency-adaptive, and context-adaptive KG fusion. A1_frequency_3 improves zero-shot Hit@10 and catalog coverage while maintaining an approximately 0.33 percentage point overall Hit@10 reduction relative to fixed fusion. The approximately 0.00451 absolute NDCG@10 reduction is accepted and must be reported.",
+  "test_selection_policy": "No changes to method, strength, base alpha, RRF constant, hub cutoff, or baseline set based on held-out test results.",
+  "reproduction": {
+    "validation_events": 3010,
+    "methods": 7,
+    "event_rows": 21070,
+    "compared_fields_matched": true,
+    "historical_only_field": "conv_id",
+    "validation_inference_reproduced": true
+  }
+}

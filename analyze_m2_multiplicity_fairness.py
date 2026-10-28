@@ -1,4 +1,4 @@
-﻿"""Validation-only clustered ranking and fairness uncertainty analysis."""
+"""Validation-only clustered ranking and fairness uncertainty analysis."""
 
 import csv
 import json
@@ -333,6 +333,22 @@ def fairness_bootstrap(
                 delta_point = float(point[mi, j] - point[base_idx, j])
 
             delta_lo, delta_hi = np.quantile(delta, [0.025, 0.975])
+            if method != BASE and name in ("catalog_coverage10", "item_gini"):
+                mean_delta = float(np.mean(delta))
+                median_delta = float(np.median(delta))
+                bias = mean_delta - delta_point
+
+                print(
+                    f"BOOTSTRAP DIAGNOSTIC {method} {name}: "
+                    f"observed={delta_point:+.6f}; "
+                    f"mean={mean_delta:+.6f}; "
+                    f"median={median_delta:+.6f}; "
+                    f"bias={bias:+.6f}; "
+                    f"percentile_CI=[{delta_lo:+.6f}, {delta_hi:+.6f}]; "
+                    f"basic_CI=[{2 * delta_point - delta_hi:+.6f}, "
+                    f"{2 * delta_point - delta_lo:+.6f}]"
+                )
+
             record[name + "_delta_vs_baseline"] = delta_point
             record[name + "_delta_ci95_low"] = float(delta_lo)
             record[name + "_delta_ci95_high"] = float(delta_hi)

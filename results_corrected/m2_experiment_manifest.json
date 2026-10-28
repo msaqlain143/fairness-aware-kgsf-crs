@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-28T03:42:48.869772+00:00",
+  "git_head": "346a1eaf613c7111dbbd83748e9e75fc1bb61a8d",
+  "validation_events": 3010,
+  "primary_candidate_provisional": "A1_frequency_3",
+  "comparison_candidate": "A1_frequency_1",
+  "held_out_test_evaluated": false,
+  "artifacts": {
+    "save/KGSF.pth": {
+      "exists": true,
+      "sha256": "1b63506eb952de7a1a51766f4e2d2a64bac3d59a5f1393d4047e58ebdefa471a"
+    },
+    "catalog_audit_corrected.pkl": {
+      "exists": true,
+      "sha256": "87473ddadeacbc6ae61cdde7c8232bbd5a50e815e6f77d3ce7b78ffd1eee3827"
+    },
+    "data/dataset/redial/nltk/dbpedia_subkg.json": {
+      "exists": true,
+      "sha256": "efe60b68c84ca516fa8b9f37b303e98dd216febc94a95c2e812c95dfafadc9bb"
+    },
+    "data/dataset/redial/nltk/movie_ids.json": {
+      "exists": true,
+      "sha256": "e764884035078d2e7138ae447d3956b113a46dcbe8aaccf2f4684b30678b2765"
+    },
+    "config/crs/kgsf/redial.yaml": {
+      "exists": true,
+      "sha256": "95289d840313c865025c88f722e0c4acb3c06b226fd883b85532db93507affe9"
+    },
+    "evaluate_adaptive_m2_validation_original.py": {
+      "exists": true,
+      "sha256": "389f6282d52a65c65715e86f0f346b7f5b342d73e171e5979a215f7b1d3d53f6"
+    },
+    "results_corrected/adaptive_m2_validation_events_clustered.csv": {
+      "exists": true,
+      "sha256": "65c4d1d38d54a9a1e7821b3cbd5c4122db92765ddc2dc738f45b812382213185"
+    },
+    "results_corrected/adaptive_m2_validation.json": {
+      "exists": true,
+      "sha256": "d56f689a577c0e4ef211103404e9761d5e98be29a0dc06efca26487a071377dd"
+    }
+  }
+}
