@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-28T05:38:31.805143+00:00",
+  "selection_split": "validation",
+  "primary_method": "A1_frequency_3",
+  "accuracy_comparator": "A1_frequency_1",
+  "fixed_fusion_baseline": "A0_fixed_025",
+  "additional_baseline": "KGSF_only",
+  "base_alpha": 0.25,
+  "frequency_strength": 3.0,
+  "rrf_k": 60,
+  "hub_cutoff": 500,
+  "selection_priority": [
+    "zero_shot_hit10",
+    "one_shot_hit10",
+    "catalog_coverage10",
+    "item_gini",
+    "overall_hit10",
+    "overall_ndcg10"
+  ],
+  "validation_tradeoff": {
+    "zero_shot_hit10_gain_pp": 9.2827,
+    "coverage_gain_pp": 10.7452,
+    "overall_hit10_change_pp": -0.3322,
+    "overall_ndcg10_change_pp": -0.4508
+  },
+  "status": "provisional_pending_protocol_freeze",
+  "held_out_test_used_for_selection": false
+}
