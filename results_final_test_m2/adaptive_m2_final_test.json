@@ -1,0 +1,152 @@
+{
+  "split": "held_out_test",
+  "method": "Fixed versus candidate-frequency and context-adaptive RRF",
+  "events": 4003,
+  "candidate_movies": 6924,
+  "methods": [
+    "A0_fixed_025",
+    "A1_frequency_1",
+    "A2_frequency_context_1",
+    "A1_frequency_3",
+    "A2_frequency_context_3"
+  ],
+  "base_alpha": 0.25,
+  "rrf_k": 60,
+  "hub_cutoff": 500,
+  "frequency_strengths": [
+    1.0,
+    3.0
+  ],
+  "context_confidence": "Fraction of unique context entities with at least one raw KG neighbor.",
+  "top10_exposure_unit": "one recommended movie in one event",
+  "top10_movie_ids_saved": true,
+  "top10_group_ids_saved": true,
+  "target_used_for_ranking": false,
+  "checkpoint_changed": false,
+  "test_split_evaluated": true,
+  "event_level_csv": "results_final_test_m2\\adaptive_m2_final_test_events.csv",
+  "event_level_rows": 20015,
+  "results": [
+    {
+      "method": "A0_fixed_025",
+      "events": 4003,
+      "hit10": 0.18561079190607044,
+      "hit50": 0.36547589308018985,
+      "ndcg10": 0.10161974766854814,
+      "zero_shot_events": 416,
+      "zero_shot_hit10": 0.0,
+      "one_shot_events": 238,
+      "one_shot_hit10": 0.025210084033613446,
+      "target_context_overlap_events": 392,
+      "overlap_hit10": 0.6301020408163265,
+      "nonoverlap_events": 3611,
+      "nonoverlap_hit10": 0.13735807255607865,
+      "item_gini": 0.9541010403375978,
+      "catalog_coverage10": 0.19656268053148468,
+      "group_exposure_shares": [
+        0.0,
+        0.0009742692980264802,
+        0.010966774918810892,
+        0.036222832875343496,
+        0.9518361229078192
+      ]
+    },
+    {
+      "method": "A1_frequency_1",
+      "events": 4003,
+      "hit10": 0.1841119160629528,
+      "hit50": 0.3704721458905821,
+      "ndcg10": 0.10128481729404806,
+      "zero_shot_events": 416,
+      "zero_shot_hit10": 0.0,
+      "one_shot_events": 238,
+      "one_shot_hit10": 0.037815126050420166,
+      "target_context_overlap_events": 392,
+      "overlap_hit10": 0.6683673469387755,
+      "nonoverlap_events": 3611,
+      "nonoverlap_hit10": 0.13154250900027692,
+      "item_gini": 0.9498267691490192,
+      "catalog_coverage10": 0.21028307336799537,
+      "group_exposure_shares": [
+        0.0,
+        0.0012490632025980515,
+        0.013065201099175618,
+        0.04321758680989258,
+        0.9424681488883337
+      ]
+    },
+    {
+      "method": "A2_frequency_context_1",
+      "events": 4003,
+      "hit10": 0.18386210342243317,
+      "hit50": 0.36997252060954283,
+      "ndcg10": 0.10086592407961459,
+      "zero_shot_events": 416,
+      "zero_shot_hit10": 0.0,
+      "one_shot_events": 238,
+      "one_shot_hit10": 0.037815126050420166,
+      "target_context_overlap_events": 392,
+      "overlap_hit10": 0.6683673469387755,
+      "nonoverlap_events": 3611,
+      "nonoverlap_hit10": 0.13126557740238162,
+      "item_gini": 0.9500378904152331,
+      "catalog_coverage10": 0.20984979780473714,
+      "group_exposure_shares": [
+        0.0,
+        0.0011491381463902073,
+        0.013015238571071697,
+        0.04281788658506121,
+        0.9430177366974769
+      ]
+    },
+    {
+      "method": "A1_frequency_3",
+      "events": 4003,
+      "hit10": 0.19010741943542342,
+      "hit50": 0.38146390207344494,
+      "ndcg10": 0.10314819212547831,
+      "zero_shot_events": 416,
+      "zero_shot_hit10": 0.09134615384615384,
+      "one_shot_events": 238,
+      "one_shot_hit10": 0.058823529411764705,
+      "target_context_overlap_events": 392,
+      "overlap_hit10": 0.7857142857142857,
+      "nonoverlap_events": 3611,
+      "nonoverlap_hit10": 0.1254500138465799,
+      "item_gini": 0.9204980291355718,
+      "catalog_coverage10": 0.3266897746967071,
+      "group_exposure_shares": [
+        0.02965276042967774,
+        0.030477142143392456,
+        0.020534599050711966,
+        0.06197851611291531,
+        0.8573569822633025
+      ]
+    },
+    {
+      "method": "A2_frequency_context_3",
+      "events": 4003,
+      "hit10": 0.18885835623282538,
+      "hit50": 0.3809642767924057,
+      "ndcg10": 0.10262489550855317,
+      "zero_shot_events": 416,
+      "zero_shot_hit10": 0.08173076923076923,
+      "one_shot_events": 238,
+      "one_shot_hit10": 0.058823529411764705,
+      "target_context_overlap_events": 392,
+      "overlap_hit10": 0.7729591836734694,
+      "nonoverlap_events": 3611,
+      "nonoverlap_hit10": 0.1254500138465799,
+      "item_gini": 0.9221664340999016,
+      "catalog_coverage10": 0.3223570190641248,
+      "group_exposure_shares": [
+        0.028003997002248315,
+        0.02790407194604047,
+        0.02020984261803647,
+        0.06142892830377217,
+        0.8624531601299026
+      ]
+    }
+  ],
+  "caution": "Exploratory validation comparison, not a novelty claim. Configuration selected and locked on validation before this held-out test evaluation. Fairness uncertainty should be estimated by resampling conversations and recomputing the fairness metrics from event-level recommendation lists."
+}
