@@ -1,0 +1,2 @@
+raw_only_connected,kgsf_only_connected,mcnemar_exact_p,mean_raw_degree,mean_kgsf_degree,mean_degree_difference,wilcoxon_statistic,wilcoxon_p
+19,0,3.814697265625e-06,8.892836510687465,8.730935875216637,0.16190063547082612,0.0,4.088832073440748e-98
