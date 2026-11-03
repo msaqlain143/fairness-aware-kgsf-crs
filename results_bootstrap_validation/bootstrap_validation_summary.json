@@ -1,0 +1,166 @@
+{
+  "experiment": "bootstrap_inference_validation",
+  "reference_experiment": "conversation_clustered_bootstrap",
+  "split": "held_out_test",
+  "sampling_unit": "conversation",
+  "sampling": "with_replacement",
+  "replicates": 2000,
+  "seed": 20261103,
+  "catalog_size": 6924,
+  "events": 4003,
+  "conversations": 1283,
+  "methods": [
+    "KGSF_only",
+    "A0_fixed_025",
+    "A1_frequency_1",
+    "A2_frequency_context_1",
+    "A1_frequency_3",
+    "A2_frequency_context_3"
+  ],
+  "comparisons": [
+    {
+      "proposed": "A0_fixed_025",
+      "baseline": "KGSF_only"
+    },
+    {
+      "proposed": "A1_frequency_1",
+      "baseline": "KGSF_only"
+    },
+    {
+      "proposed": "A1_frequency_3",
+      "baseline": "KGSF_only"
+    },
+    {
+      "proposed": "A2_frequency_context_3",
+      "baseline": "A1_frequency_3"
+    }
+  ],
+  "metric_count": 14,
+  "full_test_reproduction": "PASS",
+  "experiment_11_bootstrap_reproduction": "PASS",
+  "coverage_and_gini_diagnostics": [
+    {
+      "method": "KGSF_only",
+      "metric": "coverage10",
+      "full_test": 0.17677642980935876,
+      "bootstrap_mean": 0.15627253032928942,
+      "bias": -0.020503899480069337,
+      "sd": 0.0023704821385836755,
+      "bias_to_sd_ratio": -8.649674741831248
+    },
+    {
+      "method": "KGSF_only",
+      "metric": "item_gini",
+      "full_test": 0.9614243534564559,
+      "bootstrap_mean": 0.9633264507596268,
+      "bias": 0.0019020973031708133,
+      "sd": 0.0008942911568425507,
+      "bias_to_sd_ratio": 2.126932921808705
+    },
+    {
+      "method": "A0_fixed_025",
+      "metric": "coverage10",
+      "full_test": 0.19656268053148468,
+      "bootstrap_mean": 0.17412420566146733,
+      "bias": -0.02243847487001735,
+      "sd": 0.002485185908015369,
+      "bias_to_sd_ratio": -9.02889188195034
+    },
+    {
+      "method": "A0_fixed_025",
+      "metric": "item_gini",
+      "full_test": 0.9541010403375978,
+      "bootstrap_mean": 0.9565518214952048,
+      "bias": 0.002450781157606996,
+      "sd": 0.0010309008670137004,
+      "bias_to_sd_ratio": 2.3773199111825227
+    },
+    {
+      "method": "A1_frequency_1",
+      "metric": "coverage10",
+      "full_test": 0.21028307336799537,
+      "bootstrap_mean": 0.18552238590410167,
+      "bias": -0.024760687463893705,
+      "sd": 0.0026365821235818944,
+      "bias_to_sd_ratio": -9.391206608901449
+    },
+    {
+      "method": "A1_frequency_1",
+      "metric": "item_gini",
+      "full_test": 0.9498267691490192,
+      "bootstrap_mean": 0.95268205746278,
+      "bias": 0.0028552883137608065,
+      "sd": 0.0011187473476960597,
+      "bias_to_sd_ratio": 2.5522190686225685
+    },
+    {
+      "method": "A2_frequency_context_1",
+      "metric": "coverage10",
+      "full_test": 0.20984979780473714,
+      "bootstrap_mean": 0.18508398324667824,
+      "bias": -0.024765814558058902,
+      "sd": 0.002632731681849373,
+      "bias_to_sd_ratio": -9.406888946868317
+    },
+    {
+      "method": "A2_frequency_context_1",
+      "metric": "item_gini",
+      "full_test": 0.950037890415233,
+      "bootstrap_mean": 0.9528780655003573,
+      "bias": 0.0028401750851242413,
+      "sd": 0.0011191154195072462,
+      "bias_to_sd_ratio": 2.5378750356015907
+    },
+    {
+      "method": "A1_frequency_3",
+      "metric": "coverage10",
+      "full_test": 0.3266897746967071,
+      "bootstrap_mean": 0.275776285384171,
+      "bias": -0.05091348931253614,
+      "sd": 0.0037581752160378524,
+      "bias_to_sd_ratio": -13.547396378770474
+    },
+    {
+      "method": "A1_frequency_3",
+      "metric": "item_gini",
+      "full_test": 0.9204980291355718,
+      "bootstrap_mean": 0.9275545275486584,
+      "bias": 0.007056498413086643,
+      "sd": 0.0016092255857862055,
+      "bias_to_sd_ratio": 4.3850274786919385
+    },
+    {
+      "method": "A2_frequency_context_3",
+      "metric": "coverage10",
+      "full_test": 0.3223570190641248,
+      "bootstrap_mean": 0.2722923165800115,
+      "bias": -0.050064702484113266,
+      "sd": 0.0037100214727418947,
+      "bias_to_sd_ratio": -13.4944508682622
+    },
+    {
+      "method": "A2_frequency_context_3",
+      "metric": "item_gini",
+      "full_test": 0.9221664340999016,
+      "bootstrap_mean": 0.9289771914544829,
+      "bias": 0.006810757354581254,
+      "sd": 0.0016003041807274303,
+      "bias_to_sd_ratio": 4.2559142421819915
+    }
+  ],
+  "interval_methods": [
+    "percentile_bootstrap",
+    "basic_bootstrap"
+  ],
+  "p_value_method": "Centered paired-bootstrap approximation",
+  "multiple_testing": "Holm correction within each metric family",
+  "monte_carlo_p_value_resolution": 0.0004997501249375312,
+  "interpretation": "Bootstrap bias and interval diagnostics are descriptive. The percentile and basic intervals are compared, but neither is automatically assumed to provide calibrated coverage. Further assessment is required before treating these intervals or approximate p-values as definitive inferential evidence.",
+  "outputs": [
+    "bootstrap_distribution_diagnostics.csv",
+    "bootstrap_interval_diagnostics.csv",
+    "bootstrap_paired_comparisons.csv",
+    "bootstrap_validation_summary.json",
+    "bootstrap_replicates.npz"
+  ]
+}
