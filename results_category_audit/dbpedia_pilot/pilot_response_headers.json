@@ -1,0 +1,14 @@
+{
+  "Date": "Mon, 02 Nov 2026 06:39:57 GMT",
+  "Content-Type": "application/sparql-results+json",
+  "Content-Length": "35261",
+  "Connection": "close",
+  "Server": "Virtuoso/08.03.3334 (Linux) x86_64-generic-linux-glibc2.12  VDB",
+  "Content-disposition": "filename=sparql_2026-11-02_06-39-58Z.json",
+  "Expires": "Wed, 02 Dec 2026 06:39:57 GMT",
+  "Cache-Control": "max-age=2592000",
+  "Access-Control-Allow-Credentials": "true",
+  "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Depth,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept-Encoding",
+  "Accept-Ranges": "bytes"
+}

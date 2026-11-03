@@ -1,0 +1,2053 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "movie",
+      "genre",
+      "genreLabel",
+      "mediaType",
+      "mediaTypeLabel"
+    ]
+  },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Horton_Hears_a_Who!_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Frances_Ha"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Judgement_Day_(2013_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Black_Beauty_(1994_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Cheat_(1923_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Superman_III"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Avatar_(2009_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Oklahoma!_(1955_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Lockout_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Sweeney_(2012_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Grapes_of_Wrath_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Eragon_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Shrek_the_Third"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Red_Firecracker,_Green_Firecracker"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Matilda_(1996_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/For_a_Few_Dollars_More"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/A_Bug's_Life"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/I_Am_Legend_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Harold_&_Kumar_Go_to_White_Castle"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Backcountry_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Karate_Kid_(2010_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Keith_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Stepford_Wives_(2004_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/San_Andreas_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Blitz_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Film"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Horton_Hears_a_Who!_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Frances_Ha"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Judgement_Day_(2013_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Black_Beauty_(1994_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Cheat_(1923_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Superman_III"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Avatar_(2009_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Oklahoma!_(1955_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Lockout_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Sweeney_(2012_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Grapes_of_Wrath_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Eragon_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Shrek_the_Third"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Red_Firecracker,_Green_Firecracker"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Matilda_(1996_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/For_a_Few_Dollars_More"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/A_Bug's_Life"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/I_Am_Legend_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Harold_&_Kumar_Go_to_White_Castle"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Backcountry_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Karate_Kid_(2010_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Keith_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Stepford_Wives_(2004_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/San_Andreas_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Work"
+        },
+        "mediaTypeLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "work"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Horton_Hears_a_Who!_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Horton_Hears_a_Who!_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Horton_Hears_a_Who!_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Horton_Hears_a_Who!_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Horton_Hears_a_Who!_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Horton_Hears_a_Who!_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://umbel.org/umbel/rc/Movie_CW"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Frances_Ha"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Frances_Ha"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Frances_Ha"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Frances_Ha"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Frances_Ha"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Judgement_Day_(2013_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Judgement_Day_(2013_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Judgement_Day_(2013_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Judgement_Day_(2013_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Judgement_Day_(2013_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Black_Beauty_(1994_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Black_Beauty_(1994_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Black_Beauty_(1994_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Black_Beauty_(1994_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Black_Beauty_(1994_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Cheat_(1923_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Cheat_(1923_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Cheat_(1923_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Cheat_(1923_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Cheat_(1923_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Superman_III"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Superman_III"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Superman_III"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Superman_III"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Superman_III"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Avatar_(2009_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Avatar_(2009_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Avatar_(2009_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Avatar_(2009_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Avatar_(2009_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Avatar_(2009_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://umbel.org/umbel/rc/Movie_CW"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Oklahoma!_(1955_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Oklahoma!_(1955_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Oklahoma!_(1955_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Oklahoma!_(1955_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Oklahoma!_(1955_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Oklahoma!_(1955_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://umbel.org/umbel/rc/Movie_CW"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Lockout_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Lockout_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Lockout_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Lockout_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Lockout_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Sweeney_(2012_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Sweeney_(2012_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Sweeney_(2012_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Sweeney_(2012_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Sweeney_(2012_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Grapes_of_Wrath_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Grapes_of_Wrath_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Grapes_of_Wrath_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Grapes_of_Wrath_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Grapes_of_Wrath_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Eragon_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Eragon_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Eragon_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Eragon_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Eragon_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Eragon_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://umbel.org/umbel/rc/Movie_CW"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Shrek_the_Third"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Shrek_the_Third"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Shrek_the_Third"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Shrek_the_Third"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Shrek_the_Third"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Red_Firecracker,_Green_Firecracker"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Red_Firecracker,_Green_Firecracker"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Red_Firecracker,_Green_Firecracker"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Red_Firecracker,_Green_Firecracker"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Red_Firecracker,_Green_Firecracker"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Matilda_(1996_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Matilda_(1996_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Matilda_(1996_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Matilda_(1996_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Matilda_(1996_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Matilda_(1996_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://umbel.org/umbel/rc/Movie_CW"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/For_a_Few_Dollars_More"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/For_a_Few_Dollars_More"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/For_a_Few_Dollars_More"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/For_a_Few_Dollars_More"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/For_a_Few_Dollars_More"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/For_a_Few_Dollars_More"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://umbel.org/umbel/rc/Movie_CW"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/A_Bug's_Life"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/A_Bug's_Life"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/A_Bug's_Life"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/A_Bug's_Life"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/A_Bug's_Life"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/A_Bug's_Life"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://umbel.org/umbel/rc/Movie_CW"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/I_Am_Legend_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/I_Am_Legend_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/I_Am_Legend_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/I_Am_Legend_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/I_Am_Legend_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/I_Am_Legend_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://umbel.org/umbel/rc/Movie_CW"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Harold_&_Kumar_Go_to_White_Castle"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Harold_&_Kumar_Go_to_White_Castle"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Harold_&_Kumar_Go_to_White_Castle"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Harold_&_Kumar_Go_to_White_Castle"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Harold_&_Kumar_Go_to_White_Castle"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Harold_&_Kumar_Go_to_White_Castle"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://umbel.org/umbel/rc/Movie_CW"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Backcountry_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Backcountry_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Backcountry_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Backcountry_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Backcountry_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Karate_Kid_(2010_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Karate_Kid_(2010_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Karate_Kid_(2010_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Karate_Kid_(2010_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Karate_Kid_(2010_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Keith_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Keith_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Keith_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Keith_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Keith_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Keith_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://umbel.org/umbel/rc/Movie_CW"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Stepford_Wives_(2004_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Stepford_Wives_(2004_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Stepford_Wives_(2004_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Stepford_Wives_(2004_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/The_Stepford_Wives_(2004_film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/San_Andreas_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Thing"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/San_Andreas_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11424"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/San_Andreas_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q386724"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/San_Andreas_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/CreativeWork"
+        }
+      },
+      {
+        "movie": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/San_Andreas_(film)"
+        },
+        "mediaType": {
+          "type": "uri",
+          "value": "http://schema.org/Movie"
+        }
+      }
+    ]
+  }
+}
