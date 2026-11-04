@@ -1,0 +1,86 @@
+{
+    "experiment": "21.16E",
+    "name": "MovieLens-Database ID Cross-Reference Validation",
+    "purpose": "Conservatively investigate MovieLens identifier multiplicity, database-ID multiplicity, and cross-reference consistency.",
+    "source_files": {
+        "merged_reference": "external_validation\\redial_reference\\movies_merged.csv",
+        "mention_reference": "external_validation\\redial_reference\\movies_with_mentions.csv",
+        "unified_identity_mapping": "results_category_audit\\experiment_21_15\\unified_movie_entity_mapping.csv",
+        "previous_21_16C_audit": "results_category_audit\\experiment_21_16C\\movielens_id_integrity.csv",
+        "previous_21_16C_audit_status": "LOADED"
+    },
+    "counts": {
+        "merged_records": 59946,
+        "merged_rows_with_database_id": 59946,
+        "mention_records": 6924,
+        "unified_identities": 6924,
+        "valid_movielens_records": 58200,
+        "unique_valid_movielens_ids": 58098,
+        "conflicting_movielens_ids": 100,
+        "pairwise_comparisons": 104,
+        "expected_pairwise_comparisons": 104,
+        "database_ids_with_repeated_source_records": 1,
+        "database_ids_with_identity_multiplicity": 1,
+        "mention_reference_matches": 6924,
+        "mention_title_matches": 6924,
+        "mention_reference_missing": 53022
+    },
+    "candidate_classification": {
+        "POTENTIAL_SAME_TITLE_CORE_NEEDS_REVIEW": 79,
+        "UNRESOLVED": 15,
+        "POTENTIAL_DUPLICATE_SAME_TITLE_AND_YEAR": 6,
+        "POTENTIAL_DUPLICATE_NEEDS_YEAR_REVIEW": 2,
+        "POTENTIAL_REMAKE_OR_DIFFERENT_VERSION": 2
+    },
+    "previous_experiment_reconciliation": {
+        "status": "COMPARABLE",
+        "previous_conflict_group_count": 100,
+        "current_conflict_group_count": 100,
+        "shared_conflict_group_count": 100,
+        "previous_only_group_count": 0,
+        "current_only_group_count": 0,
+        "previous_id_column": "movielensId",
+        "previous_multiplicity_column": "unique_database_ids"
+    },
+    "validation": {
+        "merged_source_population_preserved": true,
+        "merged_database_ids_nonblank_for_audit": true,
+        "mention_ids_unique": true,
+        "identity_population_6924": true,
+        "identity_internal_ids_unique": true,
+        "identity_canonical_identifiers_nonblank": true,
+        "identity_canonical_identifiers_unique": true,
+        "conflict_groups_preserved": true,
+        "pairwise_records_complete": true,
+        "previous_conflict_groups_reconciled": true,
+        "no_automatic_merges": true,
+        "no_verified_identity_claims": true
+    },
+    "identity_policy": {
+        "title_match_is_identity_proof": false,
+        "shared_movielens_id_is_identity_proof": false,
+        "automatic_merging": false,
+        "original_database_ids_preserved": true,
+        "unresolved_records_preserved": true,
+        "external_identity_verification": false,
+        "candidate_classes_are_not_identity_decisions": true
+    },
+    "outputs": [
+        "movielens_conflict_group_classification.csv",
+        "movielens_conflict_pairwise_analysis.csv",
+        "database_id_repeated_record_audit.csv",
+        "database_id_identity_multiplicity_audit.csv",
+        "merged_mention_cross_reference.csv",
+        "complete_movielens_group_inventory.csv",
+        "previous_21_16C_conflict_reconciliation.csv",
+        "experiment_21_16E_manifest.json"
+    ],
+    "completion_status": "COMPLETED_ALL_REQUIRED_VALIDATIONS_PASSED",
+    "limitations": [
+        "A shared MovieLens identifier does not prove that two database records are the same real-world movie.",
+        "A title or release-year match is candidate evidence only.",
+        "Mention-dataset title agreement is a cross-reference consistency check, not independent proof of movie identity.",
+        "No external authoritative movie database was queried.",
+        "No graph modification, model training, model inference, or entity merging was performed."
+    ]
+}
