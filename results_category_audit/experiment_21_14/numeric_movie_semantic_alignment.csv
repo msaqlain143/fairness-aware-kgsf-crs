@@ -1,0 +1,813 @@
+﻿external_numeric_id,internal_entity_id,merged_movie_title,mention_movie_title,mention_count,in_movie_catalog,merged_reference_present,mention_reference_present,merged_reference_unique,mention_reference_unique,normalized_merged_title,normalized_mention_title,title_match,mapping_status
+75962,18405,Back to Hannibal: The Return of Tom Sawyer and Huckleberry Finn,Back to Hannibal: The Return of Tom Sawyer and Huckleberry Finn,1,True,True,True,True,True,backtohannibalthereturnoftomsawyerandhuckleberryfinn,backtohannibalthereturnoftomsawyerandhuckleberryfinn,True,VERIFIED
+76488,18537,The Royal Scandal,The Royal Scandal,1,True,True,True,True,True,theroyalscandal,theroyalscandal,True,VERIFIED
+76845,18637,Good Burger,Good Burger,2,True,True,True,True,True,goodburger,goodburger,True,VERIFIED
+77293,18753,A Wrinkle in Time,A Wrinkle in Time ,184,True,True,True,True,True,awrinkleintime,awrinkleintime,True,VERIFIED
+77384,18780,American Pie Presents: Band Camp,American Pie Presents: Band Camp,1,True,True,True,True,True,americanpiepresentsbandcamp,americanpiepresentsbandcamp,True,VERIFIED
+77597,18836,Along Came Polly,Along Came Polly,17,True,True,True,True,True,alongcamepolly,alongcamepolly,True,VERIFIED
+78241,18997,Halloweentown,Halloweentown ,2,True,True,True,True,True,halloweentown,halloweentown,True,VERIFIED
+78436,19040,Battlefield Earth (2000),Battlefield Earth  (2000),3,True,True,True,True,True,battlefieldearth2000,battlefieldearth2000,True,VERIFIED
+78854,19148,Looney Tunes Super Stars' Bugs Bunny: Wascally Wabbit,Looney Tunes Super Stars' Bugs Bunny: Wascally Wabbit,1,True,True,True,True,True,looneytunessuperstarsbugsbunnywascallywabbit,looneytunessuperstarsbugsbunnywascallywabbit,True,VERIFIED
+79045,19194,Thelma,Thelma ,4,True,True,True,True,True,thelma,thelma,True,VERIFIED
+79698,19348,The Hurt Locker (2008),The Hurt Locker (2008),37,True,True,True,True,True,thehurtlocker2008,thehurtlocker2008,True,VERIFIED
+80108,19448,Can't Hardly Wait,Can't Hardly Wait,11,True,True,True,True,True,canthardlywait,canthardlywait,True,VERIFIED
+80683,19585,The Cat and the Kit (1925),The Cat and the Kit (1925),1,True,True,True,True,True,thecatandthekit1925,thecatandthekit1925,True,VERIFIED
+80985,19655,Boo! A Madea Halloween (2016),Boo! A Madea Halloween (2016),12,True,True,True,True,True,booamadeahalloween2016,booamadeahalloween2016,True,VERIFIED
+81006,19659,Police Academy,Police Academy ,1,True,True,True,True,True,policeacademy,policeacademy,True,VERIFIED
+81135,19694,It Comes at Night (2017),It Comes at Night (2017),52,True,True,True,True,True,itcomesatnight2017,itcomesatnight2017,True,VERIFIED
+81307,19733,Haunted Rooh (2016),Haunted Rooh (2016),1,True,True,True,True,True,hauntedrooh2016,hauntedrooh2016,True,VERIFIED
+81353,19746,Once Upon a Time in China,Once Upon a Time in China ,1,True,True,True,True,True,onceuponatimeinchina,onceuponatimeinchina,True,VERIFIED
+81475,19778,Triangle (2009),Triangle  (2009),3,True,True,True,True,True,triangle2009,triangle2009,True,VERIFIED
+81625,19815,Expelled from Paradise,Expelled from Paradise,1,True,True,True,True,True,expelledfromparadise,expelledfromparadise,True,VERIFIED
+81702,19835,Hall Pass,Hall Pass,8,True,True,True,True,True,hallpass,hallpass,True,VERIFIED
+81792,19865,Zootopia,Zootopia,151,True,True,True,True,True,zootopia,zootopia,True,VERIFIED
+81860,19884,Spirited Away,Spirited Away,33,True,True,True,True,True,spiritedaway,spiritedaway,True,VERIFIED
+81898,19892,The Magnificent Nine,The Magnificent Nine,1,True,True,True,True,True,themagnificentnine,themagnificentnine,True,VERIFIED
+82075,19935,Cyborg X,Cyborg X,2,True,True,True,True,True,cyborgx,cyborgx,True,VERIFIED
+82631,20083,My Super Ex-Girlfriend,My Super Ex-Girlfriend,2,True,True,True,True,True,mysuperexgirlfriend,mysuperexgirlfriend,True,VERIFIED
+83343,20249,The 10th Kingdom,The 10th Kingdom,2,True,True,True,True,True,the10thkingdom,the10thkingdom,True,VERIFIED
+83582,20302,Starcrash (1979),Starcrash (1979),1,True,True,True,True,True,starcrash1979,starcrash1979,True,VERIFIED
+84195,20477,Cloverfield,Cloverfield ,3,True,True,True,True,True,cloverfield,cloverfield,True,VERIFIED
+84387,20523,Before I Fall (2017),Before I Fall  (2017),3,True,True,True,True,True,beforeifall2017,beforeifall2017,True,VERIFIED
+84411,20528,Tunisian Victory,Tunisian Victory,1,True,True,True,True,True,tunisianvictory,tunisianvictory,True,VERIFIED
+84553,20553,Fist of Fury,Fist of Fury ,1,True,True,True,True,True,fistoffury,fistoffury,True,VERIFIED
+84828,20611,Two Weeks Notice,Two Weeks Notice,18,True,True,True,True,True,twoweeksnotice,twoweeksnotice,True,VERIFIED
+84839,20614,Dracula 2012 (2013),Dracula 2012 (2013),1,True,True,True,True,True,dracula20122013,dracula20122013,True,VERIFIED
+84903,20636,Futurama: Bender's Big Score,Futurama: Bender's Big Score,1,True,True,True,True,True,futuramabendersbigscore,futuramabendersbigscore,True,VERIFIED
+85750,20838,Due Date,Due Date,33,True,True,True,True,True,duedate,duedate,True,VERIFIED
+86439,21005,The Death of Stalin,The Death of Stalin,3,True,True,True,True,True,thedeathofstalin,thedeathofstalin,True,VERIFIED
+86986,21122,Rudolph and Frosty's Christmas in July,Rudolph and Frosty's Christmas in July,2,True,True,True,True,True,rudolphandfrostyschristmasinjuly,rudolphandfrostyschristmasinjuly,True,VERIFIED
+87060,21134,Tom and Jerry: The Fast and the Furry,Tom and Jerry: The Fast and the Furry,1,True,True,True,True,True,tomandjerrythefastandthefurry,tomandjerrythefastandthefurry,True,VERIFIED
+87064,21136,Pets,Pets ,3,True,True,True,True,True,pets,pets,True,VERIFIED
+87081,21143,Casino Royale,Casino Royale ,2,True,True,True,True,True,casinoroyale,casinoroyale,True,VERIFIED
+87178,21165,Beethoven's 4th (2001),Beethoven's 4th  (2001),1,True,True,True,True,True,beethovens4th2001,beethovens4th2001,True,VERIFIED
+87187,21166,Whisper of the Heart,Whisper of the Heart,2,True,True,True,True,True,whisperoftheheart,whisperoftheheart,True,VERIFIED
+87294,21192,Lilo & Stitch,Lilo & Stitch,24,True,True,True,True,True,lilostitch,lilostitch,True,VERIFIED
+87457,21226,Delivery Man,Delivery Man ,3,True,True,True,True,True,deliveryman,deliveryman,True,VERIFIED
+87521,21245,The Great Mouse Detective,The Great Mouse Detective,2,True,True,True,True,True,thegreatmousedetective,thegreatmousedetective,True,VERIFIED
+87655,21269,Brother Bear,Brother Bear,1,True,True,True,True,True,brotherbear,brotherbear,True,VERIFIED
+88002,21370,National Lampoon's Pledge This!,National Lampoon's Pledge This!,1,True,True,True,True,True,nationallampoonspledgethis,nationallampoonspledgethis,True,VERIFIED
+88653,21525,Paranormal Activity,Paranormal Activity ,2,True,True,True,True,True,paranormalactivity,paranormalactivity,True,VERIFIED
+89235,21674,Meet the Parents (2004),Meet the Parents  (2004),14,True,True,True,True,True,meettheparents2004,meettheparents2004,True,VERIFIED
+89501,21761,The Chronicles of Narnia,The Chronicles of Narnia ,23,True,True,True,True,True,thechroniclesofnarnia,thechroniclesofnarnia,True,VERIFIED
+89668,21803,World War Z,World War Z ,48,True,True,True,True,True,worldwarz,worldwarz,True,VERIFIED
+90010,21889,Birdemic: Shock and Terror (2008),Birdemic: Shock and Terror (2008),2,True,True,True,True,True,birdemicshockandterror2008,birdemicshockandterror2008,True,VERIFIED
+90272,21958,That Thing You Do!,That Thing You Do!,5,True,True,True,True,True,thatthingyoudo,thatthingyoudo,True,VERIFIED
+90382,21994,Shark Tale,Shark Tale,4,True,True,True,True,True,sharktale,sharktale,True,VERIFIED
+90969,22155,Classified: The Edward Snowden Story,Classified: The Edward Snowden Story,1,True,True,True,True,True,classifiedtheedwardsnowdenstory,classifiedtheedwardsnowdenstory,True,VERIFIED
+90998,22161,Airport (1979),Airport  (1979),2,True,True,True,True,True,airport1979,airport1979,True,VERIFIED
+91074,22186,Shutterdulai (2016),Shutterdulai (2016),2,True,True,True,True,True,shutterdulai2016,shutterdulai2016,True,VERIFIED
+91087,22190,Pop Star,Pop Star ,1,True,True,True,True,True,popstar,popstar,True,VERIFIED
+91457,22278,1941 (1979),1941  (1979),4,True,True,True,True,True,19411979,19411979,True,VERIFIED
+91468,22280,Marley & Me: The Puppy Years,Marley & Me: The Puppy Years,1,True,True,True,True,True,marleymethepuppyyears,marleymethepuppyyears,True,VERIFIED
+91589,22305,Le Mans (1970),Le Mans  (1970),1,True,True,True,True,True,lemans1970,lemans1970,True,VERIFIED
+91611,22313,Free Willy,Free Willy ,1,True,True,True,True,True,freewilly,freewilly,True,VERIFIED
+91882,22371,The Shack (2017),The Shack  (2017),15,True,True,True,True,True,theshack2017,theshack2017,True,VERIFIED
+92022,22396,Four Women of Egypt,Four Women of Egypt,1,True,True,True,True,True,fourwomenofegypt,fourwomenofegypt,True,VERIFIED
+92106,22419,Maze Runner: The Death Cure (2018),Maze Runner: The Death Cure (2018),46,True,True,True,True,True,mazerunnerthedeathcure2018,mazerunnerthedeathcure2018,True,VERIFIED
+92117,22424,Gnomes,Gnomes ,1,True,True,True,True,True,gnomes,gnomes,True,VERIFIED
+92651,22568,Hostiles (2017),Hostiles  (2017),13,True,True,True,True,True,hostiles2017,hostiles2017,True,VERIFIED
+92937,22621,The Gladiator,The Gladiator ,1,True,True,True,True,True,thegladiator,thegladiator,True,VERIFIED
+93042,22648,The Strangers in the House,The Strangers in the House ,1,True,True,True,True,True,thestrangersinthehouse,thestrangersinthehouse,True,VERIFIED
+93083,22655,Kingsman: The Secret Service (2014),Kingsman: The Secret Service (2014),34,True,True,True,True,True,kingsmanthesecretservice2014,kingsmanthesecretservice2014,True,VERIFIED
+93111,22661,In This Corner of the World,In This Corner of the World,3,True,True,True,True,True,inthiscorneroftheworld,inthiscorneroftheworld,True,VERIFIED
+93238,22690,Super High Me (2007),Super High Me (2007),1,True,True,True,True,True,superhighme2007,superhighme2007,True,VERIFIED
+93252,22694,Dirty Dancing: Havana Nights,Dirty Dancing: Havana Nights,18,True,True,True,True,True,dirtydancinghavananights,dirtydancinghavananights,True,VERIFIED
+93769,22822,Justice League: The Flashpoint Paradox,Justice League: The Flashpoint Paradox,3,True,True,True,True,True,justiceleaguetheflashpointparadox,justiceleaguetheflashpointparadox,True,VERIFIED
+93931,22862,Fantastic Beasts and Where to Find Them (2016),Fantastic Beasts and Where to Find Them  (2016),27,True,True,True,True,True,fantasticbeastsandwheretofindthem2016,fantasticbeastsandwheretofindthem2016,True,VERIFIED
+94189,22935,Prison Break: The Final Break,Prison Break: The Final Break,1,True,True,True,True,True,prisonbreakthefinalbreak,prisonbreakthefinalbreak,True,VERIFIED
+94329,22970,The Twilight Saga,The Twilight Saga ,1,True,True,True,True,True,thetwilightsaga,thetwilightsaga,True,VERIFIED
+94808,23075,12th & Delaware,12th & Delaware,1,True,True,True,True,True,12thdelaware,12thdelaware,True,VERIFIED
+95089,23150,Mean Girls 2,Mean Girls 2,10,True,True,True,True,True,meangirls2,meangirls2,True,VERIFIED
+95110,23158,Arsenic and Old Lace,Arsenic and Old Lace ,2,True,True,True,True,True,arsenicandoldlace,arsenicandoldlace,True,VERIFIED
+95139,23165,Mobile Suit Gundam F91,Mobile Suit Gundam F91,1,True,True,True,True,True,mobilesuitgundamf91,mobilesuitgundamf91,True,VERIFIED
+95450,23242,Oliver & Company,Oliver & Company,2,True,True,True,True,True,olivercompany,olivercompany,True,VERIFIED
+95780,23318,Barbershop,Barbershop ,3,True,True,True,True,True,barbershop,barbershop,True,VERIFIED
+95893,23342,2001: A Space Odyssey,2001: A Space Odyssey ,4,True,True,True,True,True,2001aspaceodyssey,2001aspaceodyssey,True,VERIFIED
+96197,23426,The Best Exotic Marigold Hotel,The Best Exotic Marigold Hotel,3,True,True,True,True,True,thebestexoticmarigoldhotel,thebestexoticmarigoldhotel,True,VERIFIED
+96281,23446,Star Wars: Episode VIII – The Last Jedi (2017),Star Wars: Episode VIII – The Last Jedi (2017),233,True,True,True,True,True,starwarsepisodeviiithelastjedi2017,starwarsepisodeviiithelastjedi2017,True,VERIFIED
+96426,23475,The Batman vs. Dracula,The Batman vs. Dracula,1,True,True,True,True,True,thebatmanvsdracula,thebatmanvsdracula,True,VERIFIED
+96460,23480,Digimon: The Movie,Digimon: The Movie,3,True,True,True,True,True,digimonthemovie,digimonthemovie,True,VERIFIED
+96494,23487,Beginners,Beginners,1,True,True,True,True,True,beginners,beginners,True,VERIFIED
+96684,23531,Kramer vs. Kramer,Kramer vs. Kramer,4,True,True,True,True,True,kramervskramer,kramervskramer,True,VERIFIED
+96983,23604,2001: A Space Travesty (2000),2001: A Space Travesty (2000),2,True,True,True,True,True,2001aspacetravesty2000,2001aspacetravesty2000,True,VERIFIED
+96996,23605,Lego Indiana Jones and the Raiders of the Lost Brick,Lego Indiana Jones and the Raiders of the Lost Brick,5,True,True,True,True,True,legoindianajonesandtheraidersofthelostbrick,legoindianajonesandtheraidersofthelostbrick,True,VERIFIED
+97228,23671,Superman: Doomsday,Superman: Doomsday,1,True,True,True,True,True,supermandoomsday,supermandoomsday,True,VERIFIED
+97461,23718,Pokémon: The Movie 2000 (1999),Pokémon: The Movie 2000 (1999),1,True,True,True,True,True,pokémonthemovie20001999,pokémonthemovie20001999,True,VERIFIED
+97945,23840,Break-Up (2014),Break-Up (2014),1,True,True,True,True,True,breakup2014,breakup2014,True,VERIFIED
+98135,23881,Lego Star Wars: Revenge of the Brick,Lego Star Wars: Revenge of the Brick,1,True,True,True,True,True,legostarwarsrevengeofthebrick,legostarwarsrevengeofthebrick,True,VERIFIED
+98143,23884,Earth Girls Are Easy (1989),Earth Girls Are Easy (1989),4,True,True,True,True,True,earthgirlsareeasy1989,earthgirlsareeasy1989,True,VERIFIED
+98527,23976,Dumb and Dumber,Dumb and Dumber ,10,True,True,True,True,True,dumbanddumber,dumbanddumber,True,VERIFIED
+98637,24005,Battle of the Sexes (2017),Battle of the Sexes  (2017),7,True,True,True,True,True,battleofthesexes2017,battleofthesexes2017,True,VERIFIED
+98687,24014,Old Boys: The Way of the Dragon,Old Boys: The Way of the Dragon,1,True,True,True,True,True,oldboysthewayofthedragon,oldboysthewayofthedragon,True,VERIFIED
+98918,24074,Spamalot,Spamalot,1,True,True,True,True,True,spamalot,spamalot,True,VERIFIED
+99027,24107,Production of Avengers: Infinity War and the untitled Avengers sequel,Production of Avengers: Infinity War and the untitled Avengers sequel,7,True,True,True,True,True,productionofavengersinfinitywarandtheuntitledavengerssequel,productionofavengersinfinitywarandtheuntitledavengerssequel,True,VERIFIED
+99060,24113,Ace Ventura,Ace Ventura ,33,True,True,True,True,True,aceventura,aceventura,True,VERIFIED
+99248,24174,The Nazis Strike (1943),The Nazis Strike (1943),1,True,True,True,True,True,thenazisstrike1943,thenazisstrike1943,True,VERIFIED
+99463,24226,Railroad Tigers,Railroad Tigers,4,True,True,True,True,True,railroadtigers,railroadtigers,True,VERIFIED
+99560,24246,"That's It, That's All","That's It, That's All",1,True,True,True,True,True,thatsitthatsall,thatsitthatsall,True,VERIFIED
+99692,24281,Gozu (2003),Gozu (2003),1,True,True,True,True,True,gozu2003,gozu2003,True,VERIFIED
+99852,24330,SpongeBob SquarePants 4-D (2002),SpongeBob SquarePants 4-D (2002),2,True,True,True,True,True,spongebobsquarepants4d2002,spongebobsquarepants4d2002,True,VERIFIED
+99887,24336,Eddie's Million Dollar Cook-Off,Eddie's Million Dollar Cook-Off,1,True,True,True,True,True,eddiesmilliondollarcookoff,eddiesmilliondollarcookoff,True,VERIFIED
+100271,24425,Lady Bird (2017),Lady Bird  (2017),104,True,True,True,True,True,ladybird2017,ladybird2017,True,VERIFIED
+100614,24502,Bad Santa 2 (2016),Bad Santa 2 (2016),15,True,True,True,True,True,badsanta22016,badsanta22016,True,VERIFIED
+100656,24512,Fantasia 2000 (1999),Fantasia 2000 (1999),1,True,True,True,True,True,fantasia20001999,fantasia20001999,True,VERIFIED
+100676,24522,Mickey's Twice Upon a Christmas,Mickey's Twice Upon a Christmas,1,True,True,True,True,True,mickeystwiceuponachristmas,mickeystwiceuponachristmas,True,VERIFIED
+100683,24527,The Edge of Seventeen (2016),The Edge of Seventeen (2016),3,True,True,True,True,True,theedgeofseventeen2016,theedgeofseventeen2016,True,VERIFIED
+100935,24600,The Dark Crystal,The Dark Crystal,24,True,True,True,True,True,thedarkcrystal,thedarkcrystal,True,VERIFIED
+101131,24645,Pee-wee's Big Adventure,Pee-wee's Big Adventure,2,True,True,True,True,True,peeweesbigadventure,peeweesbigadventure,True,VERIFIED
+101138,24650,Captain Mike Across America (2007),Captain Mike Across America (2007),2,True,True,True,True,True,captainmikeacrossamerica2007,captainmikeacrossamerica2007,True,VERIFIED
+101247,24672,The Transformers: The Movie,The Transformers: The Movie,10,True,True,True,True,True,thetransformersthemovie,thetransformersthemovie,True,VERIFIED
+101352,24701,Prelude to War (1942),Prelude to War (1942),2,True,True,True,True,True,preludetowar1942,preludetowar1942,True,VERIFIED
+101529,24746,We'll Never Have Paris,We'll Never Have Paris,1,True,True,True,True,True,wellneverhaveparis,wellneverhaveparis,True,VERIFIED
+102417,24980,We Bought a Zoo,We Bought a Zoo,8,True,True,True,True,True,weboughtazoo,weboughtazoo,True,VERIFIED
+102475,24996,Camp Rock 2: The Final Jam,Camp Rock 2: The Final Jam,4,True,True,True,True,True,camprock2thefinaljam,camprock2thefinaljam,True,VERIFIED
+102499,25006,Night at the Museum,Night at the Museum ,1,True,True,True,True,True,nightatthemuseum,nightatthemuseum,True,VERIFIED
+102696,25062,Bring It On Again,Bring It On Again,1,True,True,True,True,True,bringitonagain,bringitonagain,True,VERIFIED
+103034,25151, (2015), (2015),3,True,True,True,True,True,2015,2015,True,VERIFIED
+103066,25158,The Glass Castle,The Glass Castle ,2,True,True,True,True,True,theglasscastle,theglasscastle,True,VERIFIED
+103291,25216,Eddie Murphy Delirious,Eddie Murphy Delirious,1,True,True,True,True,True,eddiemurphydelirious,eddiemurphydelirious,True,VERIFIED
+103434,25253,Barbie of Swan Lake,Barbie of Swan Lake,1,True,True,True,True,True,barbieofswanlake,barbieofswanlake,True,VERIFIED
+103588,25287,RRRrrrr!!!,RRRrrrr!!!,1,True,True,True,True,True,rrrrrrr,rrrrrrr,True,VERIFIED
+103896,25374,House of 1000 Corpses (2003),House of 1000 Corpses (2003),24,True,True,True,True,True,houseof1000corpses2003,houseof1000corpses2003,True,VERIFIED
+104025,25407,2010 (1984),2010  (1984),1,True,True,True,True,True,20101984,20101984,True,VERIFIED
+104089,25421,The Cat Returns,The Cat Returns,1,True,True,True,True,True,thecatreturns,thecatreturns,True,VERIFIED
+104253,25461,The Perks of Being a Wallflower,The Perks of Being a Wallflower ,11,True,True,True,True,True,theperksofbeingawallflower,theperksofbeingawallflower,True,VERIFIED
+104316,25476,CinderElmo,CinderElmo,1,True,True,True,True,True,cinderelmo,cinderelmo,True,VERIFIED
+104378,25497,High School Musical,High School Musical ,26,True,True,True,True,True,highschoolmusical,highschoolmusical,True,VERIFIED
+104410,25503,Mythica: A Quest for Heroes (2015),Mythica: A Quest for Heroes (2015),1,True,True,True,True,True,mythicaaquestforheroes2015,mythicaaquestforheroes2015,True,VERIFIED
+104784,25590,Tinker Bell,Tinker Bell ,1,True,True,True,True,True,tinkerbell,tinkerbell,True,VERIFIED
+105230,25699,Planet Earth Live (2010),Planet Earth Live (2010),6,True,True,True,True,True,planetearthlive2010,planetearthlive2010,True,VERIFIED
+105300,25708,Murder at 1600 (1997),Murder at 1600 (1997),1,True,True,True,True,True,murderat16001997,murderat16001997,True,VERIFIED
+105589,25773,Annihilation (2018),Annihilation  (2018),54,True,True,True,True,True,annihilation2018,annihilation2018,True,VERIFIED
+105690,25799,Planet Earth Live,Planet Earth Live ,1,True,True,True,True,True,planetearthlive,planetearthlive,True,VERIFIED
+106214,25922,Troy Black,Troy Black,1,True,True,True,True,True,troyblack,troyblack,True,VERIFIED
+106315,25944,Bertie and Elizabeth,Bertie and Elizabeth,2,True,True,True,True,True,bertieandelizabeth,bertieandelizabeth,True,VERIFIED
+106407,25968,High School Musical 2,High School Musical 2,7,True,True,True,True,True,highschoolmusical2,highschoolmusical2,True,VERIFIED
+106831,26077,Dumbo,Dumbo,5,True,True,True,True,True,dumbo,dumbo,True,VERIFIED
+107050,26137,Scooby-Doo,Scooby-Doo ,2,True,True,True,True,True,scoobydoo,scoobydoo,True,VERIFIED
+107266,26191,An American in Madras (2013),An American in Madras (2013),1,True,True,True,True,True,anamericaninmadras2013,anamericaninmadras2013,True,VERIFIED
+107751,26325,Fast Times at Ridgemont High,Fast Times at Ridgemont High,15,True,True,True,True,True,fasttimesatridgemonthigh,fasttimesatridgemonthigh,True,VERIFIED
+107844,26344,Resident Evil: Vendetta,Resident Evil: Vendetta,1,True,True,True,True,True,residentevilvendetta,residentevilvendetta,True,VERIFIED
+108140,26421,William & Catherine: A Royal Romance,William & Catherine: A Royal Romance,1,True,True,True,True,True,williamcatherinearoyalromance,williamcatherinearoyalromance,True,VERIFIED
+108462,26499,The Matrix Revisited,The Matrix Revisited,3,True,True,True,True,True,thematrixrevisited,thematrixrevisited,True,VERIFIED
+108711,26573,Three Days,Three Days ,1,True,True,True,True,True,threedays,threedays,True,VERIFIED
+108853,26613,Porco Rosso,Porco Rosso,1,True,True,True,True,True,porcorosso,porcorosso,True,VERIFIED
+108897,26623,Moana,Moana ,8,True,True,True,True,True,moana,moana,True,VERIFIED
+108923,26629,A Knight in Camelot,A Knight in Camelot,1,True,True,True,True,True,aknightincamelot,aknightincamelot,True,VERIFIED
+108945,26636,Single White Female,Single White Female,5,True,True,True,True,True,singlewhitefemale,singlewhitefemale,True,VERIFIED
+109735,26834,Dracula 3000 (2004),Dracula 3000 (2004),3,True,True,True,True,True,dracula30002004,dracula30002004,True,VERIFIED
+109911,26885,"It's a Mad, Mad, Mad World (1987)","It's a Mad, Mad, Mad World (1987)",2,True,True,True,True,True,itsamadmadmadworld1987,itsamadmadmadworld1987,True,VERIFIED
+109931,26889,List of accolades received by Inception,List of accolades received by Inception,1,True,True,True,True,True,listofaccoladesreceivedbyinception,listofaccoladesreceivedbyinception,True,VERIFIED
+110078,26916,The Legend of Ben Hall,The Legend of Ben Hall,1,True,True,True,True,True,thelegendofbenhall,thelegendofbenhall,True,VERIFIED
+110632,27041,Chasing Ice,Chasing Ice,1,True,True,True,True,True,chasingice,chasingice,True,VERIFIED
+110711,27058,Bring It On,Bring It On ,2,True,True,True,True,True,bringiton,bringiton,True,VERIFIED
+110746,27067,The Bachelorette,The Bachelorette ,2,True,True,True,True,True,thebachelorette,thebachelorette,True,VERIFIED
+110806,27086,Star Wars Kid,Star Wars Kid,1,True,True,True,True,True,starwarskid,starwarskid,True,VERIFIED
+111161,27170,Team America: World Police (2003),Team America: World Police (2003),13,True,True,True,True,True,teamamericaworldpolice2003,teamamericaworldpolice2003,True,VERIFIED
+111292,27203,Gifted Hands: The Ben Carson Story,Gifted Hands: The Ben Carson Story,1,True,True,True,True,True,giftedhandsthebencarsonstory,giftedhandsthebencarsonstory,True,VERIFIED
+111429,27241,Guardians of the Galaxy Vol. 2 (2017),Guardians of the Galaxy Vol. 2 (2017),84,True,True,True,True,True,guardiansofthegalaxyvol22017,guardiansofthegalaxyvol22017,True,VERIFIED
+111528,27265,Girl in Progress,Girl in Progress,1,True,True,True,True,True,girlinprogress,girlinprogress,True,VERIFIED
+111717,27306,Norman: The Moderate Rise and Tragic Fall of a New York Fixer,Norman: The Moderate Rise and Tragic Fall of a New York Fixer,1,True,True,True,True,True,normanthemoderateriseandtragicfallofanewyorkfixer,normanthemoderateriseandtragicfallofanewyorkfixer,True,VERIFIED
+112106,27385,The Nativity Story,The Nativity Story,1,True,True,True,True,True,thenativitystory,thenativitystory,True,VERIFIED
+112233,27411,Night of the Living Dead,Night of the Living Dead ,1,True,True,True,True,True,nightofthelivingdead,nightofthelivingdead,True,VERIFIED
+112305,27428,The Chronicles of Riddick: Dark Fury,The Chronicles of Riddick: Dark Fury,1,True,True,True,True,True,thechroniclesofriddickdarkfury,thechroniclesofriddickdarkfury,True,VERIFIED
+112342,27439,Trick or Treat,Trick or Treat ,3,True,True,True,True,True,trickortreat,trickortreat,True,VERIFIED
+112735,27533,Measure of a Man (2010),Measure of a Man  (2010),2,True,True,True,True,True,measureofaman2010,measureofaman2010,True,VERIFIED
+112742,27534,The Penguin King,The Penguin King,1,True,True,True,True,True,thepenguinking,thepenguinking,True,VERIFIED
+112994,27611,Gerald's Game (2017),Gerald's Game  (2017),24,True,True,True,True,True,geraldsgame2017,geraldsgame2017,True,VERIFIED
+113020,27619,1944 (2015),1944  (2015),5,True,True,True,True,True,19442015,19442015,True,VERIFIED
+113035,27624,"Three Billboards Outside Ebbing, Missouri (2017)","Three Billboards Outside Ebbing, Missouri (2017)",50,True,True,True,True,True,threebillboardsoutsideebbingmissouri2017,threebillboardsoutsideebbingmissouri2017,True,VERIFIED
+113068,27635,The Rescuers Down Under,The Rescuers Down Under,4,True,True,True,True,True,therescuersdownunder,therescuersdownunder,True,VERIFIED
+113150,27650,Call Me by Your Name (2017),Call Me by Your Name  (2017),34,True,True,True,True,True,callmebyyourname2017,callmebyyourname2017,True,VERIFIED
+113216,27666,Kargus,Kargus,1,True,True,True,True,True,kargus,kargus,True,VERIFIED
+113247,27677,Broken Springs (2010),Broken Springs (2010),1,True,True,True,True,True,brokensprings2010,brokensprings2010,True,VERIFIED
+113454,27734,Life Is But a Dream,Life Is But a Dream,1,True,True,True,True,True,lifeisbutadream,lifeisbutadream,True,VERIFIED
+114341,27962,Baywatch (2017),Baywatch  (2017),115,True,True,True,True,True,baywatch2017,baywatch2017,True,VERIFIED
+114419,27977,A Christmas Wedding,A Christmas Wedding,1,True,True,True,True,True,achristmaswedding,achristmaswedding,True,VERIFIED
+114709,28052,3000 Miles to Graceland (2001),3000 Miles to Graceland (2001),1,True,True,True,True,True,3000milestograceland2001,3000milestograceland2001,True,VERIFIED
+114984,28126,Final Fantasy VII: Advent Children,Final Fantasy VII: Advent Children,7,True,True,True,True,True,finalfantasyviiadventchildren,finalfantasyviiadventchildren,True,VERIFIED
+115249,28209,The Dukes of Hazzard: The Beginning,The Dukes of Hazzard: The Beginning,1,True,True,True,True,True,thedukesofhazzardthebeginning,thedukesofhazzardthebeginning,True,VERIFIED
+115261,28211,Assassin's Creed (2016),Assassin's Creed  (2016),2,True,True,True,True,True,assassinscreed2016,assassinscreed2016,True,VERIFIED
+115372,28236,The Secret of NIMH,The Secret of NIMH,4,True,True,True,True,True,thesecretofnimh,thesecretofnimh,True,VERIFIED
+115406,28246,Insidious: Chapter 4 (2018),Insidious: Chapter 4 (2018),34,True,True,True,True,True,insidiouschapter42018,insidiouschapter42018,True,VERIFIED
+115493,28269,Windy City Heat,Windy City Heat,1,True,True,True,True,True,windycityheat,windycityheat,True,VERIFIED
+115745,28321,List of accolades received by Gone Girl,List of accolades received by Gone Girl ,1,True,True,True,True,True,listofaccoladesreceivedbygonegirl,listofaccoladesreceivedbygonegirl,True,VERIFIED
+116675,28543,Awesome (2006),Awesome (2006),1,True,True,True,True,True,awesome2006,awesome2006,True,VERIFIED
+116723,28558,Breathe (2017),Breathe  (2017),6,True,True,True,True,True,breathe2017,breathe2017,True,VERIFIED
+116791,28574,Snow on tha Bluff (2011),Snow on tha Bluff (2011),1,True,True,True,True,True,snowonthabluff2011,snowonthabluff2011,True,VERIFIED
+116939,28625,White Oleander,White Oleander ,1,True,True,True,True,True,whiteoleander,whiteoleander,True,VERIFIED
+116956,28627,Lemonade Mouth,Lemonade Mouth ,9,True,True,True,True,True,lemonademouth,lemonademouth,True,VERIFIED
+117324,28700,Sausage Party,Sausage Party,56,True,True,True,True,True,sausageparty,sausageparty,True,VERIFIED
+117368,28708,Surviving Gilligan's Island,Surviving Gilligan's Island,1,True,True,True,True,True,survivinggilligansisland,survivinggilligansisland,True,VERIFIED
+117716,28800,The Book of Henry,The Book of Henry,3,True,True,True,True,True,thebookofhenry,thebookofhenry,True,VERIFIED
+117771,28813,Bring It On: All or Nothing,Bring It On: All or Nothing,3,True,True,True,True,True,bringitonallornothing,bringitonallornothing,True,VERIFIED
+117958,28867,Guardians (2017),Guardians  (2017),5,True,True,True,True,True,guardians2017,guardians2017,True,VERIFIED
+118395,28974,The Nerd,The Nerd,2,True,True,True,True,True,thenerd,thenerd,True,VERIFIED
+118756,29050,Zombie Apocalypse,Zombie Apocalypse ,3,True,True,True,True,True,zombieapocalypse,zombieapocalypse,True,VERIFIED
+119087,29143,The Fast and the Furious,The Fast and the Furious,48,True,True,True,True,True,thefastandthefurious,thefastandthefurious,True,VERIFIED
+119149,29161,Captain America: The First Avenger,Captain America: The First Avenger,26,True,True,True,True,True,captainamericathefirstavenger,captainamericathefirstavenger,True,VERIFIED
+119191,29169,Ishq Click,Ishq Click,1,True,True,True,True,True,ishqclick,ishqclick,True,VERIFIED
+119241,29183,Homeless to Harvard: The Liz Murray Story,Homeless to Harvard: The Liz Murray Story,1,True,True,True,True,True,homelesstoharvardthelizmurraystory,homelesstoharvardthelizmurraystory,True,VERIFIED
+119326,29194,Harold & Kumar,Harold & Kumar,18,True,True,True,True,True,haroldkumar,haroldkumar,True,VERIFIED
+119395,29214,Armaguedon (1977),Armaguedon (1977),1,True,True,True,True,True,armaguedon1977,armaguedon1977,True,VERIFIED
+119409,29219,Appleseed,Appleseed ,3,True,True,True,True,True,appleseed,appleseed,True,VERIFIED
+119570,29256,The Princess and the Frog,The Princess and the Frog,21,True,True,True,True,True,theprincessandthefrog,theprincessandthefrog,True,VERIFIED
+120092,29397,The Shape of Water (2017),The Shape of Water  (2017),222,True,True,True,True,True,theshapeofwater2017,theshapeofwater2017,True,VERIFIED
+120604,29537,Kings of Pastry (2009),Kings of Pastry (2009),1,True,True,True,True,True,kingsofpastry2009,kingsofpastry2009,True,VERIFIED
+120629,29543,Home Alone: The Holiday Heist,Home Alone: The Holiday Heist,1,True,True,True,True,True,homealonetheholidayheist,homealonetheholidayheist,True,VERIFIED
+120859,29598,Looney Tunes: Back in Action,Looney Tunes: Back in Action,3,True,True,True,True,True,looneytunesbackinaction,looneytunesbackinaction,True,VERIFIED
+121241,29680,Barbie Thumbelina,Barbie Thumbelina,2,True,True,True,True,True,barbiethumbelina,barbiethumbelina,True,VERIFIED
+121347,29705,The Terminators,The Terminators ,5,True,True,True,True,True,theterminators,theterminators,True,VERIFIED
+121535,29746,Spring Breakers (2012),Spring Breakers (2012),3,True,True,True,True,True,springbreakers2012,springbreakers2012,True,VERIFIED
+121763,29798,79 A.D.,79 A.D.,3,True,True,True,True,True,79ad,79ad,True,VERIFIED
+121814,29807,All Eyez on Me,All Eyez on Me ,6,True,True,True,True,True,alleyezonme,alleyezonme,True,VERIFIED
+122164,29898,Life of Pi,Life of Pi ,14,True,True,True,True,True,lifeofpi,lifeofpi,True,VERIFIED
+122184,29903,Their Eyes Were Watching God,Their Eyes Were Watching God ,1,True,True,True,True,True,theireyeswerewatchinggod,theireyeswerewatchinggod,True,VERIFIED
+122273,29923,Space Buddies,Space Buddies,3,True,True,True,True,True,spacebuddies,spacebuddies,True,VERIFIED
+122278,29925,Alien: Covenant (2017),Alien: Covenant (2017),67,True,True,True,True,True,aliencovenant2017,aliencovenant2017,True,VERIFIED
+123042,30130,Lego Batman: The Movie – DC Super Heroes Unite,Lego Batman: The Movie – DC Super Heroes Unite,2,True,True,True,True,True,legobatmanthemoviedcsuperheroesunite,legobatmanthemoviedcsuperheroesunite,True,VERIFIED
+123159,30165,The Long Good Friday (1980),The Long Good Friday (1980),1,True,True,True,True,True,thelonggoodfriday1980,thelonggoodfriday1980,True,VERIFIED
+123533,30261,The Immortal Life of Henrietta Lacks,The Immortal Life of Henrietta Lacks ,1,True,True,True,True,True,theimmortallifeofhenriettalacks,theimmortallifeofhenriettalacks,True,VERIFIED
+123791,30333,Megan Leavey,Megan Leavey ,1,True,True,True,True,True,meganleavey,meganleavey,True,VERIFIED
+123825,30340,Batman vs. Robin,Batman vs. Robin,3,True,True,True,True,True,batmanvsrobin,batmanvsrobin,True,VERIFIED
+123917,30356,Appaloosa (2008),Appaloosa  (2008),1,True,True,True,True,True,appaloosa2008,appaloosa2008,True,VERIFIED
+124024,30388,Pirates of the Caribbean: Dead Men Tell No Tales (2017),Pirates of the Caribbean: Dead Men Tell No Tales (2017),19,True,True,True,True,True,piratesofthecaribbeandeadmentellnotales2017,piratesofthecaribbeandeadmentellnotales2017,True,VERIFIED
+124056,30397,Mists (2000),Mists (2000),1,True,True,True,True,True,mists2000,mists2000,True,VERIFIED
+124092,30405,Brian's Song,Brian's Song,1,True,True,True,True,True,brianssong,brianssong,True,VERIFIED
+124121,30413,Arrietty,Arrietty,1,True,True,True,True,True,arrietty,arrietty,True,VERIFIED
+124779,30565,The Tommyknockers,The Tommyknockers ,3,True,True,True,True,True,thetommyknockers,thetommyknockers,True,VERIFIED
+124797,30574,Bad Lieutenant,Bad Lieutenant,1,True,True,True,True,True,badlieutenant,badlieutenant,True,VERIFIED
+124908,30601,The Musical Comedy Murders of 1940,The Musical Comedy Murders of 1940,1,True,True,True,True,True,themusicalcomedymurdersof1940,themusicalcomedymurdersof1940,True,VERIFIED
+125118,30653,2001: A Space Odyssey (1968),2001: A Space Odyssey  (1968),47,True,True,True,True,True,2001aspaceodyssey1968,2001aspaceodyssey1968,True,VERIFIED
+125262,30681,CHiPs,CHiPs ,6,True,True,True,True,True,chips,chips,True,VERIFIED
+125265,30684,Angry Bird,Angry Bird ,2,True,True,True,True,True,angrybird,angrybird,True,VERIFIED
+125567,30761,A Dog's Purpose (2017),A Dog's Purpose  (2017),13,True,True,True,True,True,adogspurpose2017,adogspurpose2017,True,VERIFIED
+125575,30763,A Girl Like Her (2012),A Girl Like Her (2012),1,True,True,True,True,True,agirllikeher2012,agirllikeher2012,True,VERIFIED
+125581,30764,Mr. Church,Mr. Church,1,True,True,True,True,True,mrchurch,mrchurch,True,VERIFIED
+125893,30821,Bridget Jones,Bridget Jones ,9,True,True,True,True,True,bridgetjones,bridgetjones,True,VERIFIED
+125954,30830,Star Trek: Of Gods and Men,Star Trek: Of Gods and Men,1,True,True,True,True,True,startrekofgodsandmen,startrekofgodsandmen,True,VERIFIED
+125997,30845,Ponyo,Ponyo,23,True,True,True,True,True,ponyo,ponyo,True,VERIFIED
+126046,30865,Popstar,Popstar ,1,True,True,True,True,True,popstar,popstar,True,VERIFIED
+126231,30906,Rana (2013),Rana  (2013),1,True,True,True,True,True,rana2013,rana2013,True,VERIFIED
+126281,30923,Mute (2018),Mute  (2018),10,True,True,True,True,True,mute2018,mute2018,True,VERIFIED
+126292,30925,Raees (2016),Raees  (2016),2,True,True,True,True,True,raees2016,raees2016,True,VERIFIED
+126347,30940,Glengarry Glen Ross,Glengarry Glen Ross ,3,True,True,True,True,True,glengarryglenross,glengarryglenross,True,VERIFIED
+126564,30996,Happy Madison Productions,Happy Madison Productions,1,True,True,True,True,True,happymadisonproductions,happymadisonproductions,True,VERIFIED
+126626,31005,Mom's Got a Date with a Vampire,Mom's Got a Date with a Vampire,1,True,True,True,True,True,momsgotadatewithavampire,momsgotadatewithavampire,True,VERIFIED
+126730,31033,My Little Pony: Meet the Ponies (2008),My Little Pony: Meet the Ponies (2008),1,True,True,True,True,True,mylittleponymeettheponies2008,mylittleponymeettheponies2008,True,VERIFIED
+126817,31059,Bombing the Nazis (1943),Bombing the Nazis (1943),1,True,True,True,True,True,bombingthenazis1943,bombingthenazis1943,True,VERIFIED
+127046,31120,The Lost City of Z (2016),The Lost City of Z  (2016),1,True,True,True,True,True,thelostcityofz2016,thelostcityofz2016,True,VERIFIED
+127123,31140,Full Metal Village (2006),Full Metal Village (2006),1,True,True,True,True,True,fullmetalvillage2006,fullmetalvillage2006,True,VERIFIED
+127357,31204,Colossal (2017),Colossal  (2017),2,True,True,True,True,True,colossal2017,colossal2017,True,VERIFIED
+127671,31265,The Bomb,The Bomb ,1,True,True,True,True,True,thebomb,thebomb,True,VERIFIED
+127677,31268,The Chronicles of Riddick,The Chronicles of Riddick ,1,True,True,True,True,True,thechroniclesofriddick,thechroniclesofriddick,True,VERIFIED
+127707,31278,Teen Beach Movie,Teen Beach Movie,2,True,True,True,True,True,teenbeachmovie,teenbeachmovie,True,VERIFIED
+127949,31340,Ip Man 3,Ip Man 3,2,True,True,True,True,True,ipman3,ipman3,True,VERIFIED
+128161,31400,The Kids Are All Right,The Kids Are All Right ,3,True,True,True,True,True,thekidsareallright,thekidsareallright,True,VERIFIED
+128686,31514,Family Weekend (2013),Family Weekend (2013),1,True,True,True,True,True,familyweekend2013,familyweekend2013,True,VERIFIED
+128699,31520,The Bourne Identity,The Bourne Identity ,2,True,True,True,True,True,thebourneidentity,thebourneidentity,True,VERIFIED
+129079,31618,Born in China,Born in China,4,True,True,True,True,True,borninchina,borninchina,True,VERIFIED
+129187,31643,Tangled Ever After,Tangled Ever After,1,True,True,True,True,True,tangledeverafter,tangledeverafter,True,VERIFIED
+129479,31702,Labor Pains,Labor Pains,1,True,True,True,True,True,laborpains,laborpains,True,VERIFIED
+129492,31705,Mystery Science Theater 3000: The Movie (1996),Mystery Science Theater 3000: The Movie (1996),2,True,True,True,True,True,mysterysciencetheater3000themovie1996,mysterysciencetheater3000themovie1996,True,VERIFIED
+129833,31779,Dragon Ball Z: Battle of Gods,Dragon Ball Z: Battle of Gods,3,True,True,True,True,True,dragonballzbattleofgods,dragonballzbattleofgods,True,VERIFIED
+130136,31855,Sword Master (2016),Sword Master  (2016),2,True,True,True,True,True,swordmaster2016,swordmaster2016,True,VERIFIED
+130260,31898,Marvel One-Shots,Marvel One-Shots,1,True,True,True,True,True,marveloneshots,marveloneshots,True,VERIFIED
+130376,31931,Transformers,Transformers ,8,True,True,True,True,True,transformers,transformers,True,VERIFIED
+130435,31945,Girlfriend's Day (2017),Girlfriend's Day (2017),2,True,True,True,True,True,girlfriendsday2017,girlfriendsday2017,True,VERIFIED
+130573,31983,Queen (2013),Queen  (2013),6,True,True,True,True,True,queen2013,queen2013,True,VERIFIED
+130625,31996,Blue Planet (1990),Blue Planet  (1990),5,True,True,True,True,True,blueplanet1990,blueplanet1990,True,VERIFIED
+130782,32043,The NeverEnding Story,The NeverEnding Story ,1,True,True,True,True,True,theneverendingstory,theneverendingstory,True,VERIFIED
+131314,32179,Dark Side of the Moon,Dark Side of the Moon ,1,True,True,True,True,True,darksideofthemoon,darksideofthemoon,True,VERIFIED
+131402,32206,A Troll in Central Park,A Troll in Central Park,1,True,True,True,True,True,atrollincentralpark,atrollincentralpark,True,VERIFIED
+131630,32271,Kong: Skull Island (2017),Kong: Skull Island (2017),29,True,True,True,True,True,kongskullisland2017,kongskullisland2017,True,VERIFIED
+132127,32408,"Sarah, Plain and Tall","Sarah, Plain and Tall ",1,True,True,True,True,True,sarahplainandtall,sarahplainandtall,True,VERIFIED
+132148,32415,MirrorMask (2004),MirrorMask (2004),2,True,True,True,True,True,mirrormask2004,mirrormask2004,True,VERIFIED
+132189,32427,Transformers: Dark of the Moon,Transformers: Dark of the Moon ,1,True,True,True,True,True,transformersdarkofthemoon,transformersdarkofthemoon,True,VERIFIED
+132215,32437,Kill the Irishman,Kill the Irishman,1,True,True,True,True,True,killtheirishman,killtheirishman,True,VERIFIED
+132255,32441,The Materassi Sisters,The Materassi Sisters,1,True,True,True,True,True,thematerassisisters,thematerassisisters,True,VERIFIED
+132447,32485,Princess Protection Program,Princess Protection Program,2,True,True,True,True,True,princessprotectionprogram,princessprotectionprogram,True,VERIFIED
+132669,32542,Just Married,Just Married,3,True,True,True,True,True,justmarried,justmarried,True,VERIFIED
+132965,32613,1984 (1956),1984  (1956),1,True,True,True,True,True,19841956,19841956,True,VERIFIED
+132992,32620,Los Bandoleros,Los Bandoleros ,1,True,True,True,True,True,losbandoleros,losbandoleros,True,VERIFIED
+133138,32659,Evangelion: 2.0 You Can  Advance,Evangelion: 2.0 You Can  Advance,1,True,True,True,True,True,evangelion20youcanadvance,evangelion20youcanadvance,True,VERIFIED
+133776,32822,Justice League Dark,Justice League Dark ,2,True,True,True,True,True,justiceleaguedark,justiceleaguedark,True,VERIFIED
+133983,32890,"Honey, I Shrunk the Kids","Honey, I Shrunk the Kids ",1,True,True,True,True,True,honeyishrunkthekids,honeyishrunkthekids,True,VERIFIED
+133997,32894,Sweeney Todd: The Demon Barber of Fleet Street,Sweeney Todd: The Demon Barber of Fleet Street,1,True,True,True,True,True,sweeneytoddthedemonbarberoffleetstreet,sweeneytoddthedemonbarberoffleetstreet,True,VERIFIED
+134366,32978,Neon Genesis Evangelion: Death & Rebirth,Neon Genesis Evangelion: Death & Rebirth,2,True,True,True,True,True,neongenesisevangeliondeathrebirth,neongenesisevangeliondeathrebirth,True,VERIFIED
+134823,33103,Taken,Taken ,21,True,True,True,True,True,taken,taken,True,VERIFIED
+134897,33119,Justice League: Doom,Justice League: Doom,1,True,True,True,True,True,justiceleaguedoom,justiceleaguedoom,True,VERIFIED
+134982,33142,THX 1138 (1971),THX 1138 (1971),3,True,True,True,True,True,thx11381971,thx11381971,True,VERIFIED
+135060,33159,Couples Retreat,Couples Retreat,9,True,True,True,True,True,couplesretreat,couplesretreat,True,VERIFIED
+135121,33179,Debbie Does Dallas ... Again,Debbie Does Dallas ... Again,2,True,True,True,True,True,debbiedoesdallasagain,debbiedoesdallasagain,True,VERIFIED
+135142,33182,Up Denali 3D (2003),Up Denali 3D (2003),1,True,True,True,True,True,updenali3d2003,updenali3d2003,True,VERIFIED
+135211,33200,Undisputed III: Redemption,Undisputed III: Redemption,2,True,True,True,True,True,undisputediiiredemption,undisputediiiredemption,True,VERIFIED
+135305,33229,The Rescuers,The Rescuers,5,True,True,True,True,True,therescuers,therescuers,True,VERIFIED
+135388,33247,The Munsters' Scary Little Christmas,The Munsters' Scary Little Christmas,1,True,True,True,True,True,themunstersscarylittlechristmas,themunstersscarylittlechristmas,True,VERIFIED
+135472,33269,"Laugh It Up, Fuzzball: The Family Guy Trilogy","Laugh It Up, Fuzzball: The Family Guy Trilogy",1,True,True,True,True,True,laughitupfuzzballthefamilyguytrilogy,laughitupfuzzballthefamilyguytrilogy,True,VERIFIED
+135790,33357,Battlestar Galactica: The Plan,Battlestar Galactica: The Plan,2,True,True,True,True,True,battlestargalacticatheplan,battlestargalacticatheplan,True,VERIFIED
+136459,33533,Raavan,Raavan,1,True,True,True,True,True,raavan,raavan,True,VERIFIED
+136574,33563,Apartment 1303 (2007),Apartment 1303 (2007),1,True,True,True,True,True,apartment13032007,apartment13032007,True,VERIFIED
+136586,33565,X-Men,X-Men ,8,True,True,True,True,True,xmen,xmen,True,VERIFIED
+136632,33582,Spider-Man: Homecoming (2017),Spider-Man: Homecoming (2017),119,True,True,True,True,True,spidermanhomecoming2017,spidermanhomecoming2017,True,VERIFIED
+136877,33637,300 (2007),300  (2007),72,True,True,True,True,True,3002007,3002007,True,VERIFIED
+136912,33643,Adventures of Mowgli,Adventures of Mowgli,1,True,True,True,True,True,adventuresofmowgli,adventuresofmowgli,True,VERIFIED
+137143,33693,Appleseed Ex Machina,Appleseed Ex Machina,1,True,True,True,True,True,appleseedexmachina,appleseedexmachina,True,VERIFIED
+137778,33861,Louis and the Nazis,Louis and the Nazis,1,True,True,True,True,True,louisandthenazis,louisandthenazis,True,VERIFIED
+137804,33868,Vampire Hunter D: Bloodlust (2001),Vampire Hunter D: Bloodlust (2001),1,True,True,True,True,True,vampirehunterdbloodlust2001,vampirehunterdbloodlust2001,True,VERIFIED
+137813,33873,How to Talk to Girls at Parties,How to Talk to Girls at Parties ,9,True,True,True,True,True,howtotalktogirlsatparties,howtotalktogirlsatparties,True,VERIFIED
+137817,33875,The Incredible Hulk Returns,The Incredible Hulk Returns,2,True,True,True,True,True,theincrediblehulkreturns,theincrediblehulkreturns,True,VERIFIED
+138268,33991,Bates Motel,Bates Motel ,6,True,True,True,True,True,batesmotel,batesmotel,True,VERIFIED
+138354,34012,Double Indemnity,Double Indemnity ,3,True,True,True,True,True,doubleindemnity,doubleindemnity,True,VERIFIED
+138430,34028,The Sandlot: Heading Home (2007),The Sandlot: Heading Home (2007),1,True,True,True,True,True,thesandlotheadinghome2007,thesandlotheadinghome2007,True,VERIFIED
+138851,34134,How to Succeed in Business Without Really Trying,How to Succeed in Business Without Really Trying ,1,True,True,True,True,True,howtosucceedinbusinesswithoutreallytrying,howtosucceedinbusinesswithoutreallytrying,True,VERIFIED
+139140,34222,Captain America,Captain America ,11,True,True,True,True,True,captainamerica,captainamerica,True,VERIFIED
+139391,34287,Joe Maddison's War,Joe Maddison's War,2,True,True,True,True,True,joemaddisonswar,joemaddisonswar,True,VERIFIED
+139688,34354,FernGully: The Last Rainforest,FernGully: The Last Rainforest,5,True,True,True,True,True,ferngullythelastrainforest,ferngullythelastrainforest,True,VERIFIED
+139903,34406,The Emoji Movie (2017),The Emoji Movie (2017),47,True,True,True,True,True,theemojimovie2017,theemojimovie2017,True,VERIFIED
+139913,34409,Ghost in the Shell 2: Innocence,Ghost in the Shell 2: Innocence,1,True,True,True,True,True,ghostintheshell2innocence,ghostintheshell2innocence,True,VERIFIED
+140316,34506,2046 (2004),2046  (2004),1,True,True,True,True,True,20462004,20462004,True,VERIFIED
+140730,34614,Lady and the Tramp,Lady and the Tramp,9,True,True,True,True,True,ladyandthetramp,ladyandthetramp,True,VERIFIED
+141222,34735,Summer Wars,Summer Wars,1,True,True,True,True,True,summerwars,summerwars,True,VERIFIED
+141261,34746,Sharknado,Sharknado,10,True,True,True,True,True,sharknado,sharknado,True,VERIFIED
+141614,34847,The Bye Bye Man (2017),The Bye Bye Man (2017),9,True,True,True,True,True,thebyebyeman2017,thebyebyeman2017,True,VERIFIED
+141776,34884,WALL-E,WALL-E ,1,True,True,True,True,True,walle,walle,True,VERIFIED
+141963,34923,Evil Dead,Evil Dead,8,True,True,True,True,True,evildead,evildead,True,VERIFIED
+142186,34971,Iron Man 3,Iron Man 3,11,True,True,True,True,True,ironman3,ironman3,True,VERIFIED
+142240,34989,"Planes, Trains and Eric","Planes, Trains and Eric",1,True,True,True,True,True,planestrainsanderic,planestrainsanderic,True,VERIFIED
+142554,35070,Loving Vincent,Loving Vincent,1,True,True,True,True,True,lovingvincent,lovingvincent,True,VERIFIED
+142684,35095,The Christmas Carol,The Christmas Carol ,1,True,True,True,True,True,thechristmascarol,thechristmascarol,True,VERIFIED
+143141,35187,An American Tail: Fievel Goes West (1991),An American Tail: Fievel Goes West (1991),3,True,True,True,True,True,anamericantailfievelgoeswest1991,anamericantailfievelgoeswest1991,True,VERIFIED
+143142,35188,"Ladybird, Ladybird (1994)","Ladybird, Ladybird  (1994)",3,True,True,True,True,True,ladybirdladybird1994,ladybirdladybird1994,True,VERIFIED
+143206,35207,Batman: The Dark Knight Returns,Batman: The Dark Knight Returns ,10,True,True,True,True,True,batmanthedarkknightreturns,batmanthedarkknightreturns,True,VERIFIED
+143220,35212,Dr. Strange,Dr. Strange ,26,True,True,True,True,True,drstrange,drstrange,True,VERIFIED
+143378,35253,Friend Request,Friend Request,2,True,True,True,True,True,friendrequest,friendrequest,True,VERIFIED
+143958,35402,Romy and Michele: In the Beginning,Romy and Michele: In the Beginning,1,True,True,True,True,True,romyandmicheleinthebeginning,romyandmicheleinthebeginning,True,VERIFIED
+144313,35485,American Assassin,American Assassin ,6,True,True,True,True,True,americanassassin,americanassassin,True,VERIFIED
+144335,35495,Their Finest (2016),Their Finest (2016),2,True,True,True,True,True,theirfinest2016,theirfinest2016,True,VERIFIED
+144669,35568,Snakes on a Train,Snakes on a Train,1,True,True,True,True,True,snakesonatrain,snakesonatrain,True,VERIFIED
+144811,35605,Fast 8,Fast 8,43,True,True,True,True,True,fast8,fast8,True,VERIFIED
+144978,35626,Mickey's Once Upon a Christmas,Mickey's Once Upon a Christmas,1,True,True,True,True,True,mickeysonceuponachristmas,mickeysonceuponachristmas,True,VERIFIED
+145016,35637,Patriots Day (2016),Patriots Day  (2016),16,True,True,True,True,True,patriotsday2016,patriotsday2016,True,VERIFIED
+145405,35733,Cheech & Chong's Animated Movie (2013),Cheech & Chong's Animated Movie (2013),2,True,True,True,True,True,cheechchongsanimatedmovie2013,cheechchongsanimatedmovie2013,True,VERIFIED
+146058,35908,Mr. 3000 (2004),Mr. 3000 (2004),3,True,True,True,True,True,mr30002004,mr30002004,True,VERIFIED
+146166,35932,Superman vs. The Elite,Superman vs. The Elite,1,True,True,True,True,True,supermanvstheelite,supermanvstheelite,True,VERIFIED
+146205,35940,American Made (2017),American Made  (2017),50,True,True,True,True,True,americanmade2017,americanmade2017,True,VERIFIED
+146670,36068,A Marvel Comics Super Special: Blade Runner,A Marvel Comics Super Special: Blade Runner,2,True,True,True,True,True,amarvelcomicssuperspecialbladerunner,amarvelcomicssuperspecialbladerunner,True,VERIFIED
+146870,36127,Pitch Perfect,Pitch Perfect ,10,True,True,True,True,True,pitchperfect,pitchperfect,True,VERIFIED
+147246,36215,Airport 1975 (1974),Airport 1975 (1974),1,True,True,True,True,True,airport19751974,airport19751974,True,VERIFIED
+147869,36344,Drive Angry,Drive Angry,1,True,True,True,True,True,driveangry,driveangry,True,VERIFIED
+148053,36385,It's Pat (1995),It's Pat (1995),1,True,True,True,True,True,itspat1995,itspat1995,True,VERIFIED
+148674,36523,Capturing the Friedmans (2003),Capturing the Friedmans (2003),7,True,True,True,True,True,capturingthefriedmans2003,capturingthefriedmans2003,True,VERIFIED
+148808,36558,Forgetting the Girl (2012),Forgetting the Girl  (2012),2,True,True,True,True,True,forgettingthegirl2012,forgettingthegirl2012,True,VERIFIED
+149216,36652,The Purge,The Purge ,4,True,True,True,True,True,thepurge,thepurge,True,VERIFIED
+149241,36659,Foo Fighters: Back and Forth,Foo Fighters: Back and Forth,1,True,True,True,True,True,foofightersbackandforth,foofightersbackandforth,True,VERIFIED
+149245,36660,The Fox and the Hound,The Fox and the Hound,10,True,True,True,True,True,thefoxandthehound,thefoxandthehound,True,VERIFIED
+149249,36663,The Enchanted,The Enchanted ,1,True,True,True,True,True,theenchanted,theenchanted,True,VERIFIED
+149291,36680,"The Lion, the Witch and the Wardrobe","The Lion, the Witch and the Wardrobe ",2,True,True,True,True,True,thelionthewitchandthewardrobe,thelionthewitchandthewardrobe,True,VERIFIED
+149627,36766,Blues Brothers 2000 (1998),Blues Brothers 2000 (1998),3,True,True,True,True,True,bluesbrothers20001998,bluesbrothers20001998,True,VERIFIED
+150313,36944,Too Big to Fail,Too Big to Fail ,1,True,True,True,True,True,toobigtofail,toobigtofail,True,VERIFIED
+151089,37131,Killer Legends,Killer Legends,1,True,True,True,True,True,killerlegends,killerlegends,True,VERIFIED
+151180,37154,Pokémon 3: The Movie,Pokémon 3: The Movie,1,True,True,True,True,True,pokémon3themovie,pokémon3themovie,True,VERIFIED
+151304,37181,Korkoro,Korkoro,1,True,True,True,True,True,korkoro,korkoro,True,VERIFIED
+151348,37189,Frozen (2010),Frozen  (2010),1,True,True,True,True,True,frozen2010,frozen2010,True,VERIFIED
+151987,37337,The Penthouse (1967),The Penthouse (1967),1,True,True,True,True,True,thepenthouse1967,thepenthouse1967,True,VERIFIED
+152325,37413,The Minority,The Minority,1,True,True,True,True,True,theminority,theminority,True,VERIFIED
+152474,37449,All Dogs Go to Heaven,All Dogs Go to Heaven,7,True,True,True,True,True,alldogsgotoheaven,alldogsgotoheaven,True,VERIFIED
+153287,37664,Pieces (1982),Pieces  (1982),1,True,True,True,True,True,pieces1982,pieces1982,True,VERIFIED
+153346,37679,Insidious (2011),Insidious  (2011),130,True,True,True,True,True,insidious2011,insidious2011,True,VERIFIED
+154125,37857,Transformers: Dark of the Moon: The Junior Novel,Transformers: Dark of the Moon: The Junior Novel,1,True,True,True,True,True,transformersdarkofthemoonthejuniornovel,transformersdarkofthemoonthejuniornovel,True,VERIFIED
+154271,37892,25th Hour,25th Hour,1,True,True,True,True,True,25thhour,25thhour,True,VERIFIED
+154350,37913,From Prada to Nada (2011),From Prada to Nada (2011),2,True,True,True,True,True,frompradatonada2011,frompradatonada2011,True,VERIFIED
+154483,37949,Seal Team Six: The Raid on Osama Bin Laden,Seal Team Six: The Raid on Osama Bin Laden,6,True,True,True,True,True,sealteamsixtheraidonosamabinladen,sealteamsixtheraidonosamabinladen,True,VERIFIED
+154920,38040,Howl's Moving Castle,Howl's Moving Castle ,11,True,True,True,True,True,howlsmovingcastle,howlsmovingcastle,True,VERIFIED
+154980,38050,Hacksaw Ridge,Hacksaw Ridge,76,True,True,True,True,True,hacksawridge,hacksawridge,True,VERIFIED
+155437,38158,The Uncomfortable Camera (2005),The Uncomfortable Camera (2005),2,True,True,True,True,True,theuncomfortablecamera2005,theuncomfortablecamera2005,True,VERIFIED
+155790,38232,Star Trek,Star Trek ,13,True,True,True,True,True,startrek,startrek,True,VERIFIED
+155829,38243,Rogue One: A Star Wars Story (2016),Rogue One: A Star Wars Story (2016),46,True,True,True,True,True,rogueoneastarwarsstory2016,rogueoneastarwarsstory2016,True,VERIFIED
+155955,38282,Paddington 2,Paddington 2,43,True,True,True,True,True,paddington2,paddington2,True,VERIFIED
+156056,38303,Attack the Block,Attack the Block,1,True,True,True,True,True,attacktheblock,attacktheblock,True,VERIFIED
+156590,38427,Almost Christmas (2016),Almost Christmas  (2016),1,True,True,True,True,True,almostchristmas2016,almostchristmas2016,True,VERIFIED
+157241,38586,The Hobbit,The Hobbit ,16,True,True,True,True,True,thehobbit,thehobbit,True,VERIFIED
+157376,38616,Hitchcock,Hitchcock ,2,True,True,True,True,True,hitchcock,hitchcock,True,VERIFIED
+157497,38647,When Paddy Met Sally,When Paddy Met Sally,1,True,True,True,True,True,whenpaddymetsally,whenpaddymetsally,True,VERIFIED
+157536,38661,Drums in the Deep South (1951),Drums in the Deep South (1951),1,True,True,True,True,True,drumsinthedeepsouth1951,drumsinthedeepsouth1951,True,VERIFIED
+157590,38681,Indiana Jones,Indiana Jones ,29,True,True,True,True,True,indianajones,indianajones,True,VERIFIED
+157678,38702,Cool and the Crazy,Cool and the Crazy,1,True,True,True,True,True,coolandthecrazy,coolandthecrazy,True,VERIFIED
+157696,38706,Ureme 5 (1989),Ureme 5 (1989),1,True,True,True,True,True,ureme51989,ureme51989,True,VERIFIED
+158329,38863,The Back-up Plan,The Back-up Plan,7,True,True,True,True,True,thebackupplan,thebackupplan,True,VERIFIED
+158390,38880,Korengal,Korengal,7,True,True,True,True,True,korengal,korengal,True,VERIFIED
+158803,38978,Who Framed Roger Rabbit,Who Framed Roger Rabbit,15,True,True,True,True,True,whoframedrogerrabbit,whoframedrogerrabbit,True,VERIFIED
+158876,38995,Inuyasha the Movie: Swords of an Honorable Ruler,Inuyasha the Movie: Swords of an Honorable Ruler,1,True,True,True,True,True,inuyashathemovieswordsofanhonorableruler,inuyashathemovieswordsofanhonorableruler,True,VERIFIED
+159550,39160,Doctor Who,Doctor Who ,3,True,True,True,True,True,doctorwho,doctorwho,True,VERIFIED
+159560,39167,Citizen X,Citizen X,1,True,True,True,True,True,citizenx,citizenx,True,VERIFIED
+159810,39220,Kalifornia,Kalifornia,7,True,True,True,True,True,kalifornia,kalifornia,True,VERIFIED
+159873,39227,Richard Pryor: Live in Concert (1979),Richard Pryor: Live in Concert (1979),1,True,True,True,True,True,richardpryorliveinconcert1979,richardpryorliveinconcert1979,True,VERIFIED
+160403,39356,Batman: Under the Red Hood,Batman: Under the Red Hood,1,True,True,True,True,True,batmanundertheredhood,batmanundertheredhood,True,VERIFIED
+160690,39418,Super Troopers 2 (2018),Super Troopers 2 (2018),52,True,True,True,True,True,supertroopers22018,supertroopers22018,True,VERIFIED
+160978,39498,My Neighbor Totoro,My Neighbor Totoro,21,True,True,True,True,True,myneighbortotoro,myneighbortotoro,True,VERIFIED
+161207,39554,The Elizabeth Smart Story,The Elizabeth Smart Story,1,True,True,True,True,True,theelizabethsmartstory,theelizabethsmartstory,True,VERIFIED
+161259,39564,How to Train Your Dragon,How to Train Your Dragon ,18,True,True,True,True,True,howtotrainyourdragon,howtotrainyourdragon,True,VERIFIED
+161520,39628,Air Bud,Air Bud ,1,True,True,True,True,True,airbud,airbud,True,VERIFIED
+161609,39648,Pigeon (2004),Pigeon  (2004),1,True,True,True,True,True,pigeon2004,pigeon2004,True,VERIFIED
+161747,39682,The Little Woman,The Little Woman,2,True,True,True,True,True,thelittlewoman,thelittlewoman,True,VERIFIED
+162317,39809,Tom & Jerry (1995),Tom & Jerry  (1995),1,True,True,True,True,True,tomjerry1995,tomjerry1995,True,VERIFIED
+162794,39936,War for the Planet of the Apes (2017),War for the Planet of the Apes (2017),29,True,True,True,True,True,warfortheplanetoftheapes2017,warfortheplanetoftheapes2017,True,VERIFIED
+162810,39946,Mr. Popper's Penguins,Mr. Popper's Penguins ,2,True,True,True,True,True,mrpopperspenguins,mrpopperspenguins,True,VERIFIED
+163190,40025,Get Shorty,Get Shorty ,5,True,True,True,True,True,getshorty,getshorty,True,VERIFIED
+163215,40038,Wonder (2017),Wonder  (2017),128,True,True,True,True,True,wonder2017,wonder2017,True,VERIFIED
+163553,40106,Ingrid Goes West (2017),Ingrid Goes West (2017),13,True,True,True,True,True,ingridgoeswest2017,ingridgoeswest2017,True,VERIFIED
+164364,40293,Death Wish,Death Wish ,29,True,True,True,True,True,deathwish,deathwish,True,VERIFIED
+164728,40369,Out of Sight,Out of Sight,2,True,True,True,True,True,outofsight,outofsight,True,VERIFIED
+164798,40386,Burlesque (2010),Burlesque  (2010),1,True,True,True,True,True,burlesque2010,burlesque2010,True,VERIFIED
+164887,40405,Evil Aliens (2005),Evil Aliens (2005),1,True,True,True,True,True,evilaliens2005,evilaliens2005,True,VERIFIED
+165240,40491,Little Fockers,Little Fockers,6,True,True,True,True,True,littlefockers,littlefockers,True,VERIFIED
+165261,40499,The Lincoln Lawyer,The Lincoln Lawyer ,11,True,True,True,True,True,thelincolnlawyer,thelincolnlawyer,True,VERIFIED
+165806,40628,To Have and Have Not,To Have and Have Not ,1,True,True,True,True,True,tohaveandhavenot,tohaveandhavenot,True,VERIFIED
+165843,40636,Tootsie,Tootsie,4,True,True,True,True,True,tootsie,tootsie,True,VERIFIED
+165952,40657,Love Happens,Love Happens,2,True,True,True,True,True,lovehappens,lovehappens,True,VERIFIED
+165965,40660,Killing Kennedy,Killing Kennedy ,1,True,True,True,True,True,killingkennedy,killingkennedy,True,VERIFIED
+166069,40695,Kill Bill,Kill Bill,95,True,True,True,True,True,killbill,killbill,True,VERIFIED
+166243,40723,Patema Inverted,Patema Inverted,1,True,True,True,True,True,patemainverted,patemainverted,True,VERIFIED
+166357,40757,Superman Classic,Superman Classic,7,True,True,True,True,True,supermanclassic,supermanclassic,True,VERIFIED
+166971,40887,I.T.,I.T. ,2,True,True,True,True,True,it,it,True,VERIFIED
+167001,40892,Mercenary for Justice,Mercenary for Justice,1,True,True,True,True,True,mercenaryforjustice,mercenaryforjustice,True,VERIFIED
+167394,40988,Giant Creepy Crawlies (2000),Giant Creepy Crawlies (2000),2,True,True,True,True,True,giantcreepycrawlies2000,giantcreepycrawlies2000,True,VERIFIED
+167536,41035,Victoria and Abdul,Victoria and Abdul ,4,True,True,True,True,True,victoriaandabdul,victoriaandabdul,True,VERIFIED
+167820,41115,Diary of a Wimpy Kid: The Long Haul,Diary of a Wimpy Kid: The Long Haul ,4,True,True,True,True,True,diaryofawimpykidthelonghaul,diaryofawimpykidthelonghaul,True,VERIFIED
+167942,41153,Switching Goals,Switching Goals,1,True,True,True,True,True,switchinggoals,switchinggoals,True,VERIFIED
+168039,41171,The Dark Knight Trilogy,The Dark Knight Trilogy,16,True,True,True,True,True,thedarkknighttrilogy,thedarkknighttrilogy,True,VERIFIED
+168068,41180,The Warrior's Way,The Warrior's Way,1,True,True,True,True,True,thewarriorsway,thewarriorsway,True,VERIFIED
+168188,41209,Kingsglaive: Final Fantasy XV,Kingsglaive: Final Fantasy XV,3,True,True,True,True,True,kingsglaivefinalfantasyxv,kingsglaivefinalfantasyxv,True,VERIFIED
+168256,41224,Mindgame,Mindgame ,1,True,True,True,True,True,mindgame,mindgame,True,VERIFIED
+168560,41298,Beethoven's 3rd (2000),Beethoven's 3rd  (2000),1,True,True,True,True,True,beethovens3rd2000,beethovens3rd2000,True,VERIFIED
+168793,41356,Pokémon: The First Movie,Pokémon: The First Movie,1,True,True,True,True,True,pokémonthefirstmovie,pokémonthefirstmovie,True,VERIFIED
+168985,41399,Ip Man,Ip Man ,1,True,True,True,True,True,ipman,ipman,True,VERIFIED
+169419,41507,Thor: Ragnarok (2017),Thor: Ragnarok (2017),371,True,True,True,True,True,thorragnarok2017,thorragnarok2017,True,VERIFIED
+169470,41515,Meet Me in St. Louis,Meet Me in St. Louis,1,True,True,True,True,True,meetmeinstlouis,meetmeinstlouis,True,VERIFIED
+169623,41548,O.J.: Made in America,O.J.: Made in America,1,True,True,True,True,True,ojmadeinamerica,ojmadeinamerica,True,VERIFIED
+169644,41555,Thank You for Smoking (2005),Thank You for Smoking (2005),6,True,True,True,True,True,thankyouforsmoking2005,thankyouforsmoking2005,True,VERIFIED
+169910,41624,Leatherface (2017),Leatherface  (2017),14,True,True,True,True,True,leatherface2017,leatherface2017,True,VERIFIED
+170032,41647,A Boyfriend for Christmas,A Boyfriend for Christmas,1,True,True,True,True,True,aboyfriendforchristmas,aboyfriendforchristmas,True,VERIFIED
+170037,41649,The Big Sick (2017),The Big Sick (2017),230,True,True,True,True,True,thebigsick2017,thebigsick2017,True,VERIFIED
+170213,41696,The Aristocats,The Aristocats,6,True,True,True,True,True,thearistocats,thearistocats,True,VERIFIED
+170305,41723,John Wick: Chapter 2 (2017),John Wick: Chapter 2 (2017),123,True,True,True,True,True,johnwickchapter22017,johnwickchapter22017,True,VERIFIED
+170376,41740,Blade Runner 2049 (2017),Blade Runner 2049 (2017),198,True,True,True,True,True,bladerunner20492017,bladerunner20492017,True,VERIFIED
+170634,41807,Beautiful Minds,Beautiful Minds ,3,True,True,True,True,True,beautifulminds,beautifulminds,True,VERIFIED
+170722,41833,Meet the Parents (2000),Meet the Parents (2000),57,True,True,True,True,True,meettheparents2000,meettheparents2000,True,VERIFIED
+171446,42011,One Piece Film: Z,One Piece Film: Z,1,True,True,True,True,True,onepiecefilmz,onepiecefilmz,True,VERIFIED
+171808,42104,Wish Upon a Star,Wish Upon a Star,1,True,True,True,True,True,wishuponastar,wishuponastar,True,VERIFIED
+172150,42178,When Marnie Was There,When Marnie Was There,1,True,True,True,True,True,whenmarniewasthere,whenmarniewasthere,True,VERIFIED
+172250,42195,The Dilemma,The Dilemma,1,True,True,True,True,True,thedilemma,thedilemma,True,VERIFIED
+172492,42247,The Assailant,The Assailant,2,True,True,True,True,True,theassailant,theassailant,True,VERIFIED
+173068,42371,Ula (2015),Ula  (2015),1,True,True,True,True,True,ula2015,ula2015,True,VERIFIED
+173142,42390,The Late Bloomer (2016),The Late Bloomer (2016),1,True,True,True,True,True,thelatebloomer2016,thelatebloomer2016,True,VERIFIED
+173841,42578,List of awards and nominations received by The King's Speech,List of awards and nominations received by The King's Speech,1,True,True,True,True,True,listofawardsandnominationsreceivedbythekingsspeech,listofawardsandnominationsreceivedbythekingsspeech,True,VERIFIED
+174079,42634,"I, the Other (2006)","I, the Other (2006)",1,True,True,True,True,True,itheother2006,itheother2006,True,VERIFIED
+174109,42645,Fullmetal Alchemist,Fullmetal Alchemist ,1,True,True,True,True,True,fullmetalalchemist,fullmetalalchemist,True,VERIFIED
+174475,42734,Anchorman,Anchorman ,131,True,True,True,True,True,anchorman,anchorman,True,VERIFIED
+174485,42736,"Honey, We Shrunk Ourselves","Honey, We Shrunk Ourselves",2,True,True,True,True,True,honeyweshrunkourselves,honeyweshrunkourselves,True,VERIFIED
+174489,42737,"Natasha, Pierre & The Great Comet of 1812","Natasha, Pierre & The Great Comet of 1812",1,True,True,True,True,True,natashapierrethegreatcometof1812,natashapierrethegreatcometof1812,True,VERIFIED
+174518,42746,Frozen Fever,Frozen Fever,2,True,True,True,True,True,frozenfever,frozenfever,True,VERIFIED
+174617,42776,A United Kingdom (2016),A United Kingdom (2016),1,True,True,True,True,True,aunitedkingdom2016,aunitedkingdom2016,True,VERIFIED
+174932,42852,&ME,&ME,1,True,True,True,True,True,me,me,True,VERIFIED
+175203,42928,Hot Tub Time Machine,Hot Tub Time Machine,28,True,True,True,True,True,hottubtimemachine,hottubtimemachine,True,VERIFIED
+175295,42951,Transformers: Revenge of the Fallen,Transformers: Revenge of the Fallen ,1,True,True,True,True,True,transformersrevengeofthefallen,transformersrevengeofthefallen,True,VERIFIED
+175580,43009,While I Was Gone,While I Was Gone ,2,True,True,True,True,True,whileiwasgone,whileiwasgone,True,VERIFIED
+175843,43072,The Lord of the Rings,The Lord of the Rings ,95,True,True,True,True,True,thelordoftherings,thelordoftherings,True,VERIFIED
+176075,43139,The Three Stooges Go Around the World in a Daze (1963),The Three Stooges Go Around the World in a Daze (1963),1,True,True,True,True,True,thethreestoogesgoaroundtheworldinadaze1963,thethreestoogesgoaroundtheworldinadaze1963,True,VERIFIED
+176100,43148,The Cable Guy,The Cable Guy,24,True,True,True,True,True,thecableguy,thecableguy,True,VERIFIED
+176326,43202,Fifty Shades Freed (2018),Fifty Shades Freed  (2018),36,True,True,True,True,True,fiftyshadesfreed2018,fiftyshadesfreed2018,True,VERIFIED
+176416,43224,"Yes, Madam (1985)","Yes, Madam (1985)",1,True,True,True,True,True,yesmadam1985,yesmadam1985,True,VERIFIED
+176494,43244,Thor: The Dark World,Thor: The Dark World,5,True,True,True,True,True,thorthedarkworld,thorthedarkworld,True,VERIFIED
+177160,43405,Justice League (2017),Justice League  (2017),219,True,True,True,True,True,justiceleague2017,justiceleague2017,True,VERIFIED
+177283,43429,The 41-Year-Old Virgin Who Knocked Up Sarah Marshall and Felt Superbad About It,The 41-Year-Old Virgin Who Knocked Up Sarah Marshall and Felt Superbad About It,6,True,True,True,True,True,the41yearoldvirginwhoknockedupsarahmarshallandfeltsuperbadaboutit,the41yearoldvirginwhoknockedupsarahmarshallandfeltsuperbadaboutit,True,VERIFIED
+177341,43446,Romy and Michele's High School Reunion,Romy and Michele's High School Reunion,4,True,True,True,True,True,romyandmicheleshighschoolreunion,romyandmicheleshighschoolreunion,True,VERIFIED
+177454,43478,Menace II Society (1992),Menace II Society (1992),2,True,True,True,True,True,menaceiisociety1992,menaceiisociety1992,True,VERIFIED
+177667,43527,Jenny's Wedding,Jenny's Wedding,3,True,True,True,True,True,jennyswedding,jennyswedding,True,VERIFIED
+177725,43537,Jarhead 2: Field of Fire,Jarhead 2: Field of Fire,1,True,True,True,True,True,jarhead2fieldoffire,jarhead2fieldoffire,True,VERIFIED
+177915,43574,Uncle Buck,Uncle Buck,34,True,True,True,True,True,unclebuck,unclebuck,True,VERIFIED
+178278,43651,Dog Day Afternoon,Dog Day Afternoon,5,True,True,True,True,True,dogdayafternoon,dogdayafternoon,True,VERIFIED
+178441,43681,The Worst of Faces of Death (1987),The Worst of Faces of Death (1987),2,True,True,True,True,True,theworstoffacesofdeath1987,theworstoffacesofdeath1987,True,VERIFIED
+178482,43695,Captain America: The Winter Soldier,Captain America: The Winter Soldier,22,True,True,True,True,True,captainamericathewintersoldier,captainamericathewintersoldier,True,VERIFIED
+178823,43774,Death Race 2,Death Race 2,3,True,True,True,True,True,deathrace2,deathrace2,True,VERIFIED
+178849,43784,"Double, Double, Toil and Trouble","Double, Double, Toil and Trouble",2,True,True,True,True,True,doubledoubletoilandtrouble,doubledoubletoilandtrouble,True,VERIFIED
+179468,43927,Creep 2,Creep 2,2,True,True,True,True,True,creep2,creep2,True,VERIFIED
+179735,43990,Amanda Knox: Murder on Trial in Italy,Amanda Knox: Murder on Trial in Italy,7,True,True,True,True,True,amandaknoxmurderontrialinitaly,amandaknoxmurderontrialinitaly,True,VERIFIED
+179909,44028,Sabrina the Teenage Witch,Sabrina the Teenage Witch ,1,True,True,True,True,True,sabrinatheteenagewitch,sabrinatheteenagewitch,True,VERIFIED
+180224,44104,The Cabin in the Woods,The Cabin in the Woods,90,True,True,True,True,True,thecabininthewoods,thecabininthewoods,True,VERIFIED
+180235,44107,Super8,Super8 ,1,True,True,True,True,True,super8,super8,True,VERIFIED
+180389,44142,On Chesil Beach,On Chesil Beach ,1,True,True,True,True,True,onchesilbeach,onchesilbeach,True,VERIFIED
+180416,44151,The Fantastic Four,The Fantastic Four ,4,True,True,True,True,True,thefantasticfour,thefantasticfour,True,VERIFIED
+180600,44195,He's Just Not That Into You,He's Just Not That Into You ,7,True,True,True,True,True,hesjustnotthatintoyou,hesjustnotthatintoyou,True,VERIFIED
+180695,44221,November Criminals,November Criminals ,1,True,True,True,True,True,novembercriminals,novembercriminals,True,VERIFIED
+180818,44253,The Seven Five,The Seven Five,2,True,True,True,True,True,thesevenfive,thesevenfive,True,VERIFIED
+181069,44318,Resident Evil: The Final Chapter (2016),Resident Evil: The Final Chapter (2016),4,True,True,True,True,True,residentevilthefinalchapter2016,residentevilthefinalchapter2016,True,VERIFIED
+181102,44332,Wolf Children,Wolf Children,4,True,True,True,True,True,wolfchildren,wolfchildren,True,VERIFIED
+181152,44343,USS Indianapolis: Men of Courage,USS Indianapolis: Men of Courage,4,True,True,True,True,True,ussindianapolismenofcourage,ussindianapolismenofcourage,True,VERIFIED
+181414,44412,Waiting for Armageddon (2009),Waiting for Armageddon (2009),1,True,True,True,True,True,waitingforarmageddon2009,waitingforarmageddon2009,True,VERIFIED
+181447,44422,Blood Red,Blood Red,1,True,True,True,True,True,bloodred,bloodred,True,VERIFIED
+181664,44472,Interview with the Vampire,Interview with the Vampire,2,True,True,True,True,True,interviewwiththevampire,interviewwiththevampire,True,VERIFIED
+181715,44489,Logan (2017),Logan  (2017),227,True,True,True,True,True,logan2017,logan2017,True,VERIFIED
+181716,44490,Honey 2,Honey 2,3,True,True,True,True,True,honey2,honey2,True,VERIFIED
+181981,44550,Quints,Quints,1,True,True,True,True,True,quints,quints,True,VERIFIED
+182022,44562, (2007), (2007),10,True,True,True,True,True,2007,2007,True,VERIFIED
+182282,44634,Fastest (2011),Fastest  (2011),1,True,True,True,True,True,fastest2011,fastest2011,True,VERIFIED
+182298,44640,Boyka: Undisputed,Boyka: Undisputed,1,True,True,True,True,True,boykaundisputed,boykaundisputed,True,VERIFIED
+182334,44652,Ewoks: The Battle for Endor,Ewoks: The Battle for Endor,1,True,True,True,True,True,ewoksthebattleforendor,ewoksthebattleforendor,True,VERIFIED
+182465,44687,True Memoirs of an International Assassin,True Memoirs of an International Assassin,2,True,True,True,True,True,truememoirsofaninternationalassassin,truememoirsofaninternationalassassin,True,VERIFIED
+182498,44693,Shot Caller,Shot Caller ,7,True,True,True,True,True,shotcaller,shotcaller,True,VERIFIED
+182522,44698,Storks,Storks ,6,True,True,True,True,True,storks,storks,True,VERIFIED
+182647,44720,DC Showcase: Catwoman,DC Showcase: Catwoman,1,True,True,True,True,True,dcshowcasecatwoman,dcshowcasecatwoman,True,VERIFIED
+183056,44815,The Big Lebowski,The Big Lebowski,78,True,True,True,True,True,thebiglebowski,thebiglebowski,True,VERIFIED
+183130,44834,When the Levees Broke,When the Levees Broke,2,True,True,True,True,True,whentheleveesbroke,whentheleveesbroke,True,VERIFIED
+183480,44922,Tinker Bell and the Lost Treasure,Tinker Bell and the Lost Treasure,2,True,True,True,True,True,tinkerbellandthelosttreasure,tinkerbellandthelosttreasure,True,VERIFIED
+183650,44957,Lethal Weapon,Lethal Weapon ,5,True,True,True,True,True,lethalweapon,lethalweapon,True,VERIFIED
+183951,45028,Tinker Bell,Tinker Bell ,1,True,True,True,True,True,tinkerbell,tinkerbell,True,VERIFIED
+184051,45070,Maid in Manhattan,Maid in Manhattan,32,True,True,True,True,True,maidinmanhattan,maidinmanhattan,True,VERIFIED
+184357,45150,Rock Dog,Rock Dog,1,True,True,True,True,True,rockdog,rockdog,True,VERIFIED
+184376,45157,The Last Song,The Last Song ,11,True,True,True,True,True,thelastsong,thelastsong,True,VERIFIED
+184509,45189,Hotel for Dogs,Hotel for Dogs ,4,True,True,True,True,True,hotelfordogs,hotelfordogs,True,VERIFIED
+184571,45205,Star Wars Holiday Special,Star Wars Holiday Special,4,True,True,True,True,True,starwarsholidayspecial,starwarsholidayspecial,True,VERIFIED
+184648,45228,The Little Rascals Save the Day,The Little Rascals Save the Day,1,True,True,True,True,True,thelittlerascalssavetheday,thelittlerascalssavetheday,True,VERIFIED
+185179,45345,Take Me Home Tonight,Take Me Home Tonight ,2,True,True,True,True,True,takemehometonight,takemehometonight,True,VERIFIED
+185671,45479,500 Days of Summer,500 Days of Summer,21,True,True,True,True,True,500daysofsummer,500daysofsummer,True,VERIFIED
+185850,45512,Kung Pow! Enter the Fist (2001),Kung Pow! Enter the Fist (2001),1,True,True,True,True,True,kungpowenterthefist2001,kungpowenterthefist2001,True,VERIFIED
+185851,45513,What a Lie,What a Lie,1,True,True,True,True,True,whatalie,whatalie,True,VERIFIED
+186495,45698,The First Monday in May,The First Monday in May,1,True,True,True,True,True,thefirstmondayinmay,thefirstmondayinmay,True,VERIFIED
+186537,45710,The Good Guys,The Good Guys ,1,True,True,True,True,True,thegoodguys,thegoodguys,True,VERIFIED
+186689,45741,Tubelight,Tubelight ,1,True,True,True,True,True,tubelight,tubelight,True,VERIFIED
+186903,45806,Return of Sabata,Return of Sabata,1,True,True,True,True,True,returnofsabata,returnofsabata,True,VERIFIED
+186961,45821,Doctor Who: Thirty Years in the TARDIS,Doctor Who: Thirty Years in the TARDIS,1,True,True,True,True,True,doctorwhothirtyyearsinthetardis,doctorwhothirtyyearsinthetardis,True,VERIFIED
+187075,45840,The Heart of Me (2002),The Heart of Me (2002),2,True,True,True,True,True,theheartofme2002,theheartofme2002,True,VERIFIED
+187261,45879,The Godfather Part III,The Godfather Part III,5,True,True,True,True,True,thegodfatherpartiii,thegodfatherpartiii,True,VERIFIED
+187563,45946,The Hunt for the BTK Killer,The Hunt for the BTK Killer,1,True,True,True,True,True,thehuntforthebtkkiller,thehuntforthebtkkiller,True,VERIFIED
+187573,45947,The Woman in the Window,The Woman in the Window,1,True,True,True,True,True,thewomaninthewindow,thewomaninthewindow,True,VERIFIED
+187645,45970,Fullmetal Alchemist: Brotherhood,Fullmetal Alchemist: Brotherhood,1,True,True,True,True,True,fullmetalalchemistbrotherhood,fullmetalalchemistbrotherhood,True,VERIFIED
+187714,45991,Me Before You,Me Before You ,33,True,True,True,True,True,mebeforeyou,mebeforeyou,True,VERIFIED
+187890,46039,Little Black Book,Little Black Book,2,True,True,True,True,True,littleblackbook,littleblackbook,True,VERIFIED
+188192,46128,No Strings Attached (2010),No Strings Attached  (2010),29,True,True,True,True,True,nostringsattached2010,nostringsattached2010,True,VERIFIED
+188211,46134,The Legend of 1900 (1998),The Legend of 1900 (1998),3,True,True,True,True,True,thelegendof19001998,thelegendof19001998,True,VERIFIED
+188598,46216,The Bourne Legacy,The Bourne Legacy ,1,True,True,True,True,True,thebournelegacy,thebournelegacy,True,VERIFIED
+188949,46292,Jin-Roh: The Wolf Brigade,Jin-Roh: The Wolf Brigade,1,True,True,True,True,True,jinrohthewolfbrigade,jinrohthewolfbrigade,True,VERIFIED
+189024,46311,Joseph: King of Dreams,Joseph: King of Dreams,5,True,True,True,True,True,josephkingofdreams,josephkingofdreams,True,VERIFIED
+189041,46315,Ho! (1968),Ho! (1968),2,True,True,True,True,True,ho1968,ho1968,True,VERIFIED
+189134,46341,Percy Jackson: Sea of Monsters,Percy Jackson: Sea of Monsters,3,True,True,True,True,True,percyjacksonseaofmonsters,percyjacksonseaofmonsters,True,VERIFIED
+189380,46402,The Flying Nun,The Flying Nun,1,True,True,True,True,True,theflyingnun,theflyingnun,True,VERIFIED
+189968,46538,Revenge of the Bridesmaids,Revenge of the Bridesmaids,4,True,True,True,True,True,revengeofthebridesmaids,revengeofthebridesmaids,True,VERIFIED
+190402,46649,An American Tail,An American Tail,4,True,True,True,True,True,anamericantail,anamericantail,True,VERIFIED
+190498,46672,Dora the Explorer: Dora Saves the Snow Princess,Dora the Explorer: Dora Saves the Snow Princess,1,True,True,True,True,True,doratheexplorerdorasavesthesnowprincess,doratheexplorerdorasavesthesnowprincess,True,VERIFIED
+190639,46720,2016: Obama's America (2012),2016: Obama's America (2012),1,True,True,True,True,True,2016obamasamerica2012,2016obamasamerica2012,True,VERIFIED
+191025,46814,The Beatles: Eight Days a Week,The Beatles: Eight Days a Week,2,True,True,True,True,True,thebeatleseightdaysaweek,thebeatleseightdaysaweek,True,VERIFIED
+191480,46928,Shazam!: The Return of Black Adam,Shazam!: The Return of Black Adam,1,True,True,True,True,True,shazamthereturnofblackadam,shazamthereturnofblackadam,True,VERIFIED
+191667,46964,Sunshine Love,Sunshine Love,1,True,True,True,True,True,sunshinelove,sunshinelove,True,VERIFIED
+191828,47004,The Tale of Sweeney Todd,The Tale of Sweeney Todd,1,True,True,True,True,True,thetaleofsweeneytodd,thetaleofsweeneytodd,True,VERIFIED
+191834,47006,Percy Jackson & the Olympians: The Lightning Thief,Percy Jackson & the Olympians: The Lightning Thief,2,True,True,True,True,True,percyjacksontheolympiansthelightningthief,percyjacksontheolympiansthelightningthief,True,VERIFIED
+191956,47030,The Bridge (2006),The Bridge  (2006),1,True,True,True,True,True,thebridge2006,thebridge2006,True,VERIFIED
+192020,47042,Fifty Shades Darker (2017),Fifty Shades Darker  (2017),30,True,True,True,True,True,fiftyshadesdarker2017,fiftyshadesdarker2017,True,VERIFIED
+192035,47044,Austin Powers,Austin Powers ,9,True,True,True,True,True,austinpowers,austinpowers,True,VERIFIED
+192131,47075,American Pie,American Pie ,14,True,True,True,True,True,americanpie,americanpie,True,VERIFIED
+192459,47163,Toy Story That Time Forgot,Toy Story That Time Forgot,3,True,True,True,True,True,toystorythattimeforgot,toystorythattimeforgot,True,VERIFIED
+193004,47299,Birth of the Dragon (2016),Birth of the Dragon (2016),1,True,True,True,True,True,birthofthedragon2016,birthofthedragon2016,True,VERIFIED
+193141,47337,Mulan II,Mulan II,1,True,True,True,True,True,mulanii,mulanii,True,VERIFIED
+193658,47450,2012 (2009),2012  (2009),21,True,True,True,True,True,20122009,20122009,True,VERIFIED
+193669,47456,True Love (2002),True Love  (2002),4,True,True,True,True,True,truelove2002,truelove2002,True,VERIFIED
+193702,47467,Dirty Tennis,Dirty Tennis,1,True,True,True,True,True,dirtytennis,dirtytennis,True,VERIFIED
+193762,47490,Fist Fight (2017),Fist Fight (2017),79,True,True,True,True,True,fistfight2017,fistfight2017,True,VERIFIED
+194035,47555,1408 (2007),1408  (2007),8,True,True,True,True,True,14082007,14082007,True,VERIFIED
+194069,47565,Aba (2008),Aba  (2008),2,True,True,True,True,True,aba2008,aba2008,True,VERIFIED
+194088,47568,How to Become a Criminal Mastermind,How to Become a Criminal Mastermind,2,True,True,True,True,True,howtobecomeacriminalmastermind,howtobecomeacriminalmastermind,True,VERIFIED
+194412,47651,The Sword in the Stone,The Sword in the Stone ,9,True,True,True,True,True,theswordinthestone,theswordinthestone,True,VERIFIED
+194450,47660,Bugs Bunny in Space,Bugs Bunny in Space,1,True,True,True,True,True,bugsbunnyinspace,bugsbunnyinspace,True,VERIFIED
+194919,47772,Rise of the Gargoyles,Rise of the Gargoyles,1,True,True,True,True,True,riseofthegargoyles,riseofthegargoyles,True,VERIFIED
+195045,47800,Vicky Cristina Barcelona,Vicky Cristina Barcelona,1,True,True,True,True,True,vickycristinabarcelona,vickycristinabarcelona,True,VERIFIED
+195049,47801,Mastermind (1976),Mastermind  (1976),1,True,True,True,True,True,mastermind1976,mastermind1976,True,VERIFIED
+195276,47868,Zatoichi on the Road (1963),Zatoichi on the Road (1963),1,True,True,True,True,True,zatoichiontheroad1963,zatoichiontheroad1963,True,VERIFIED
+195284,47869,Dark House (2009),Dark House (2009),1,True,True,True,True,True,darkhouse2009,darkhouse2009,True,VERIFIED
+195484,47914,The Foreigner,The Foreigner ,1,True,True,True,True,True,theforeigner,theforeigner,True,VERIFIED
+195687,47957,The Pelican Brief,The Pelican Brief,2,True,True,True,True,True,thepelicanbrief,thepelicanbrief,True,VERIFIED
+195791,47982,Dragon Ball Z: Fusion Reborn,Dragon Ball Z: Fusion Reborn,1,True,True,True,True,True,dragonballzfusionreborn,dragonballzfusionreborn,True,VERIFIED
+196209,48077,The Thinning,The Thinning,3,True,True,True,True,True,thethinning,thethinning,True,VERIFIED
+196756,48205,Marvel Super Heroes 4D,Marvel Super Heroes 4D,2,True,True,True,True,True,marvelsuperheroes4d,marvelsuperheroes4d,True,VERIFIED
+197111,48293,Signs (2008),Signs  (2008),32,True,True,True,True,True,signs2008,signs2008,True,VERIFIED
+197589,48397,Kingsman: The Golden Circle,Kingsman: The Golden Circle,54,True,True,True,True,True,kingsmanthegoldencircle,kingsmanthegoldencircle,True,VERIFIED
+197849,48453,2012: Ice Age (2011),2012: Ice Age (2011),1,True,True,True,True,True,2012iceage2011,2012iceage2011,True,VERIFIED
+197918,48477,An Officer and a Gentleman,An Officer and a Gentleman,14,True,True,True,True,True,anofficerandagentleman,anofficerandagentleman,True,VERIFIED
+198391,48582,Lake Placid vs. Anaconda,Lake Placid vs. Anaconda,2,True,True,True,True,True,lakeplacidvsanaconda,lakeplacidvsanaconda,True,VERIFIED
+198619,48646,"Planes, Trains and Automobiles (1986)","Planes, Trains and Automobiles (1986)",38,True,True,True,True,True,planestrainsandautomobiles1986,planestrainsandautomobiles1986,True,VERIFIED
+198723,48673,Home Alone 4,Home Alone 4,1,True,True,True,True,True,homealone4,homealone4,True,VERIFIED
+198865,48709,Beyond Skyline,Beyond Skyline,1,True,True,True,True,True,beyondskyline,beyondskyline,True,VERIFIED
+198977,48745,Batman Begins,Batman Begins,45,True,True,True,True,True,batmanbegins,batmanbegins,True,VERIFIED
+199257,48817,List of accolades received by Ratatouille,List of accolades received by Ratatouille,1,True,True,True,True,True,listofaccoladesreceivedbyratatouille,listofaccoladesreceivedbyratatouille,True,VERIFIED
+199385,48856,Black Hawk Down (2002),Black Hawk Down  (2002),93,True,True,True,True,True,blackhawkdown2002,blackhawkdown2002,True,VERIFIED
+199453,48877,City of Angels,City of Angels ,7,True,True,True,True,True,cityofangels,cityofangels,True,VERIFIED
+199460,48881,Paddington Bear,Paddington Bear ,2,True,True,True,True,True,paddingtonbear,paddingtonbear,True,VERIFIED
+199532,48897,Grown-Ups,Grown-Ups,37,True,True,True,True,True,grownups,grownups,True,VERIFIED
+199656,48930,Bring It On: Fight to the Finish,Bring It On: Fight to the Finish,1,True,True,True,True,True,bringitonfighttothefinish,bringitonfighttothefinish,True,VERIFIED
+199867,48978,Captain America II: Death Too Soon,Captain America II: Death Too Soon,2,True,True,True,True,True,captainamericaiideathtoosoon,captainamericaiideathtoosoon,True,VERIFIED
+200033,49019,Loose Change,Loose Change,1,True,True,True,True,True,loosechange,loosechange,True,VERIFIED
+200334,49084,"Murder, My Sweet","Murder, My Sweet",1,True,True,True,True,True,murdermysweet,murdermysweet,True,VERIFIED
+200385,49097,Pistol Pete: The Life and Times of Pete Maravich,Pistol Pete: The Life and Times of Pete Maravich,1,True,True,True,True,True,pistolpetethelifeandtimesofpetemaravich,pistolpetethelifeandtimesofpetemaravich,True,VERIFIED
+200425,49109,Midnight Sun (2018),Midnight Sun  (2018),27,True,True,True,True,True,midnightsun2018,midnightsun2018,True,VERIFIED
+200516,49130,The Devil's Arithmetic,The Devil's Arithmetic ,1,True,True,True,True,True,thedevilsarithmetic,thedevilsarithmetic,True,VERIFIED
+200711,49174,Shottas (2002),Shottas (2002),3,True,True,True,True,True,shottas2002,shottas2002,True,VERIFIED
+201070,49275,3 Avengers,3 Avengers,5,True,True,True,True,True,3avengers,3avengers,True,VERIFIED
+201093,49288,This Space Between Us (1999),This Space Between Us (1999),1,True,True,True,True,True,thisspacebetweenus1999,thisspacebetweenus1999,True,VERIFIED
+201562,49403,In the Doghouse,In the Doghouse ,1,True,True,True,True,True,inthedoghouse,inthedoghouse,True,VERIFIED
+202062,49528,A Cinderella Story,A Cinderella Story,4,True,True,True,True,True,acinderellastory,acinderellastory,True,VERIFIED
+202934,49743,Revenge of the Nerds (1984),Revenge of the Nerds (1984),17,True,True,True,True,True,revengeofthenerds1984,revengeofthenerds1984,True,VERIFIED
+203007,49757,The Little Mermaid: Ariel's Beginning,The Little Mermaid: Ariel's Beginning,1,True,True,True,True,True,thelittlemermaidarielsbeginning,thelittlemermaidarielsbeginning,True,VERIFIED
+203010,49758,A Tale of Mari and Three Puppies,A Tale of Mari and Three Puppies,1,True,True,True,True,True,ataleofmariandthreepuppies,ataleofmariandthreepuppies,True,VERIFIED
+203247,49819,Dinner for Schmucks,Dinner for Schmucks,2,True,True,True,True,True,dinnerforschmucks,dinnerforschmucks,True,VERIFIED
+203543,49888,The Cabin,The Cabin,1,True,True,True,True,True,thecabin,thecabin,True,VERIFIED
+203644,49910,The Great Wall,The Great Wall ,6,True,True,True,True,True,thegreatwall,thegreatwall,True,VERIFIED
+203740,49934,Zapped,Zapped,1,True,True,True,True,True,zapped,zapped,True,VERIFIED
+203761,49942,1922,1922 ,17,True,True,True,True,True,1922,1922,True,VERIFIED
+203907,49985,V for Vendetta (2005),V for Vendetta  (2005),25,True,True,True,True,True,vforvendetta2005,vforvendetta2005,True,VERIFIED
+204262,50070,Mersal (2017),Mersal (2017),1,True,True,True,True,True,mersal2017,mersal2017,True,VERIFIED
+204331,50084,Girls Trip (2017),Girls Trip (2017),244,True,True,True,True,True,girlstrip2017,girlstrip2017,True,VERIFIED
+204334,50087,Happy Death Day (2017),Happy Death Day  (2017),117,True,True,True,True,True,happydeathday2017,happydeathday2017,True,VERIFIED
+204341,50089,Love and Basketball (2000),Love and Basketball (2000),7,True,True,True,True,True,loveandbasketball2000,loveandbasketball2000,True,VERIFIED
+204390,50105,Brawl in Cell Block 99,Brawl in Cell Block 99,5,True,True,True,True,True,brawlincellblock99,brawlincellblock99,True,VERIFIED
+204391,50106,3 Days of a Blind Girl (1992),3 Days of a Blind Girl (1992),1,True,True,True,True,True,3daysofablindgirl1992,3daysofablindgirl1992,True,VERIFIED
+204409,50113,Murder on the Orient Express (2017),Murder on the Orient Express (2017),55,True,True,True,True,True,murderontheorientexpress2017,murderontheorientexpress2017,True,VERIFIED
+204419,50115,Jigsaw (2017),Jigsaw (2017),156,True,True,True,True,True,jigsaw2017,jigsaw2017,True,VERIFIED
+204435,50120,Berserk The Golden Age Arc (2012),Berserk The Golden Age Arc (2012),1,True,True,True,True,True,berserkthegoldenagearc2012,berserkthegoldenagearc2012,True,VERIFIED
+204455,50124,A Bad Moms Christmas (2017),A Bad Moms Christmas (2017),170,True,True,True,True,True,abadmomschristmas2017,abadmomschristmas2017,True,VERIFIED
+204456,50125,The Mountain Between Us (2017),The Mountain Between Us (2017),27,True,True,True,True,True,themountainbetweenus2017,themountainbetweenus2017,True,VERIFIED
+204466,50131,Atomic Blonde (2017),Atomic Blonde (2017),55,True,True,True,True,True,atomicblonde2017,atomicblonde2017,True,VERIFIED
+204468,50132,Wish Upon (2017),Wish Upon (2017),9,True,True,True,True,True,wishupon2017,wishupon2017,True,VERIFIED
+204477,50133,Nick and Norah's Infinite Playlist,Nick and Norah's Infinite Playlist,9,True,True,True,True,True,nickandnorahsinfiniteplaylist,nickandnorahsinfiniteplaylist,True,VERIFIED
+204478,50134,Daddy's Home 2 (2017),Daddy's Home 2 (2017),149,True,True,True,True,True,daddyshome22017,daddyshome22017,True,VERIFIED
+204505,50145,Rough Night (2017),Rough Night (2017),38,True,True,True,True,True,roughnight2017,roughnight2017,True,VERIFIED
+204508,50147,Father Figures (2017),Father Figures (2017),66,True,True,True,True,True,fatherfigures2017,fatherfigures2017,True,VERIFIED
+204536,50159,The Day I Met El Chapo (2017),The Day I Met El Chapo  (2017),1,True,True,True,True,True,thedayimetelchapo2017,thedayimetelchapo2017,True,VERIFIED
+204537,50160,Inside Chipotle,Inside Chipotle,1,True,True,True,True,True,insidechipotle,insidechipotle,True,VERIFIED
+204579,50166,Snatched (2017),Snatched (2017),65,True,True,True,True,True,snatched2017,snatched2017,True,VERIFIED
+204590,50175,68 Kill (2017),68 Kill (2017),2,True,True,True,True,True,68kill2017,68kill2017,True,VERIFIED
+204595,50179,Brigsby Bear (2017),Brigsby Bear (2017),2,True,True,True,True,True,brigsbybear2017,brigsbybear2017,True,VERIFIED
+204603,50183,Super Dark Times (2017),Super Dark Times (2017),1,True,True,True,True,True,superdarktimes2017,superdarktimes2017,True,VERIFIED
+204604,50184,Bright (2017),Bright (2017),94,True,True,True,True,True,bright2017,bright2017,True,VERIFIED
+204644,50192,Mother! (2017),Mother! (2017),80,True,True,True,True,True,mother2017,mother2017,True,VERIFIED
+204647,50196,Downsized (2017),Downsized (2017),1,True,True,True,True,True,downsized2017,downsized2017,True,VERIFIED
+204651,50199,The Greatest Showman (2017),The Greatest Showman (2017),163,True,True,True,True,True,thegreatestshowman2017,thegreatestshowman2017,True,VERIFIED
+204700,50214,Wonder Woman 2 (2019),Wonder Woman 2 (2019),4,True,True,True,True,True,wonderwoman22019,wonderwoman22019,True,VERIFIED
+204704,50216,Molly's Game (2017),Molly's Game (2017),12,True,True,True,True,True,mollysgame2017,mollysgame2017,True,VERIFIED
+204707,50218,The Fate of the Furious (2017),The Fate of the Furious (2017),20,True,True,True,True,True,thefateofthefurious2017,thefateofthefurious2017,True,VERIFIED
+204708,50219,Olaf's Frozen Adventure (2017),Olaf's Frozen Adventure (2017),1,True,True,True,True,True,olafsfrozenadventure2017,olafsfrozenadventure2017,True,VERIFIED
+204727,50226,Legend of the Naga Pearls,Legend of the Naga Pearls,1,True,True,True,True,True,legendofthenagapearls,legendofthenagapearls,True,VERIFIED
+204729,50227,Cult of Chucky (2017),Cult of Chucky (2017),28,True,True,True,True,True,cultofchucky2017,cultofchucky2017,True,VERIFIED
+204794,50248,It (1990),It (1990),191,True,True,True,True,True,it1990,it1990,True,VERIFIED
+204813,50253,Boo 2! A Madea Halloween (2017),Boo 2! A Madea Halloween (2017),6,True,True,True,True,True,boo2amadeahalloween2017,boo2amadeahalloween2017,True,VERIFIED
+204843,50258,Dave Chappelle Stand-up Special (2018),Dave Chappelle Stand-up Special (2018),1,True,True,True,True,True,davechappellestandupspecial2018,davechappellestandupspecial2018,True,VERIFIED
+204844,50259,Wonder Wheel (2017),Wonder Wheel (2017),1,True,True,True,True,True,wonderwheel2017,wonderwheel2017,True,VERIFIED
+204849,50263,Captain Underpants: The First Epic Movie,Captain Underpants: The First Epic Movie,18,True,True,True,True,True,captainunderpantsthefirstepicmovie,captainunderpantsthefirstepicmovie,True,VERIFIED
+204850,50265,Fahrenheit 9/11 (2004),Fahrenheit 9/11 (2004),4,True,True,True,True,True,fahrenheit9112004,fahrenheit9112004,True,VERIFIED
+204853,50266,"I, Tonya (2017)","I, Tonya (2017)",21,True,True,True,True,True,itonya2017,itonya2017,True,VERIFIED
+204863,50269,Ferdinand (2017),Ferdinand (2017),65,True,True,True,True,True,ferdinand2017,ferdinand2017,True,VERIFIED
+204865,50271,Proud Mary (2018),Proud Mary (2018),13,True,True,True,True,True,proudmary2018,proudmary2018,True,VERIFIED
+204870,50275,Deadpool 2 (2018),Deadpool 2  (2018),285,True,True,True,True,True,deadpool22018,deadpool22018,True,VERIFIED
+204873,50276,Love and Friendship (2016),Love and Friendship  (2016),3,True,True,True,True,True,loveandfriendship2016,loveandfriendship2016,True,VERIFIED
+204883,50278,The Post (2017),The Post (2017),65,True,True,True,True,True,thepost2017,thepost2017,True,VERIFIED
+204895,50282,Peter Rabbit (2018),Peter Rabbit (2018),136,True,True,True,True,True,peterrabbit2018,peterrabbit2018,True,VERIFIED
+204899,50283,Insidious: The Last Key (2018),Insidious: The Last Key (2018),15,True,True,True,True,True,insidiousthelastkey2018,insidiousthelastkey2018,True,VERIFIED
+204900,50284,The Star (2017),The Star (2017),8,True,True,True,True,True,thestar2017,thestar2017,True,VERIFIED
+204901,50285,Green Is Gold (2016),Green Is Gold (2016),1,True,True,True,True,True,greenisgold2016,greenisgold2016,True,VERIFIED
+204904,50287,Phantom Thread (2017),Phantom Thread (2017),29,True,True,True,True,True,phantomthread2017,phantomthread2017,True,VERIFIED
+204932,50291,Everybody Loves Somebody (2017),Everybody Loves Somebody (2017),13,True,True,True,True,True,everybodylovessomebody2017,everybodylovessomebody2017,True,VERIFIED
+204963,50299,Face/Off (1997),Face/Off (1997),20,True,True,True,True,True,faceoff1997,faceoff1997,True,VERIFIED
+204966,50301,Mary and the Witch's Flower (2017),Mary and the Witch's Flower (2017),3,True,True,True,True,True,maryandthewitchsflower2017,maryandthewitchsflower2017,True,VERIFIED
+204974,50303,Black Panther (2018),Black Panther (2018),1024,True,True,True,True,True,blackpanther2018,blackpanther2018,True,VERIFIED
+204984,50306,Home Again (2017),Home Again (2017),45,True,True,True,True,True,homeagain2017,homeagain2017,True,VERIFIED
+204998,50313,The Langoliers,The Langoliers,9,True,True,True,True,True,thelangoliers,thelangoliers,True,VERIFIED
+205054,50328,12 Strong (2018),12 Strong (2018),24,True,True,True,True,True,12strong2018,12strong2018,True,VERIFIED
+205060,50330,Pitch Perfect 3 (2017),Pitch Perfect 3 (2017),53,True,True,True,True,True,pitchperfect32017,pitchperfect32017,True,VERIFIED
+205061,50331,Odd Squad: The Movie (2016),Odd Squad: The Movie (2016),2,True,True,True,True,True,oddsquadthemovie2016,oddsquadthemovie2016,True,VERIFIED
+205107,50343,The Stolen (2017),The Stolen (2017),2,True,True,True,True,True,thestolen2017,thestolen2017,True,VERIFIED
+205124,50346,Mom and Dad (2017),Mom and Dad (2017),2,True,True,True,True,True,momanddad2017,momanddad2017,True,VERIFIED
+205129,50349,Den of Thieves (2018),Den of Thieves (2018),26,True,True,True,True,True,denofthieves2018,denofthieves2018,True,VERIFIED
+205141,50352,Small Town Crime (2017),Small Town Crime (2017),1,True,True,True,True,True,smalltowncrime2017,smalltowncrime2017,True,VERIFIED
+205163,50357,Avengers: Infinity War (2018),Avengers: Infinity War (2018),265,True,True,True,True,True,avengersinfinitywar2018,avengersinfinitywar2018,True,VERIFIED
+205170,50358,Forever My Girl (2018),Forever My Girl  (2018),15,True,True,True,True,True,forevermygirl2018,forevermygirl2018,True,VERIFIED
+205182,50361,The Lion King (2019),The Lion King (2019),3,True,True,True,True,True,thelionking2019,thelionking2019,True,VERIFIED
+205194,50368,Jeepers Creepers 3 (2017),Jeepers Creepers 3 (2017),7,True,True,True,True,True,jeeperscreepers32017,jeeperscreepers32017,True,VERIFIED
+205210,50371,Blood and Bones (2009),Blood and Bones (2009),1,True,True,True,True,True,bloodandbones2009,bloodandbones2009,True,VERIFIED
+205226,50373,A Gentleman (2017),A Gentleman (2017),1,True,True,True,True,True,agentleman2017,agentleman2017,True,VERIFIED
+205261,50379,The Five People You Meet in Heaven,The Five People You Meet in Heaven,2,True,True,True,True,True,thefivepeopleyoumeetinheaven,thefivepeopleyoumeetinheaven,True,VERIFIED
+205266,50382,Annabelle: Creation (2017),Annabelle: Creation (2017),35,True,True,True,True,True,annabellecreation2017,annabellecreation2017,True,VERIFIED
+205267,50383,A Ghost Story (2017),A Ghost Story (2017),5,True,True,True,True,True,aghoststory2017,aghoststory2017,True,VERIFIED
+205305,50390,The Cloverfield Paradox (2018),The Cloverfield Paradox (2018),13,True,True,True,True,True,thecloverfieldparadox2018,thecloverfieldparadox2018,True,VERIFIED
+205332,50399,Still/Born (2017),Still/Born (2017),1,True,True,True,True,True,stillborn2017,stillborn2017,True,VERIFIED
+205336,50403,A Royal Family Holiday (2012),A Royal Family Holiday (2012),2,True,True,True,True,True,aroyalfamilyholiday2012,aroyalfamilyholiday2012,True,VERIFIED
+205353,50407,Winchester (2018),Winchester (2018),56,True,True,True,True,True,winchester2018,winchester2018,True,VERIFIED
+205365,50411,To Serve Man - Twilight Zone (1962),To Serve Man - Twilight Zone (1962),1,True,True,True,True,True,toservemantwilightzone1962,toservemantwilightzone1962,True,VERIFIED
+205375,50414,Ocean's 8 (2018),Ocean's 8 (2018),28,True,True,True,True,True,oceans82018,oceans82018,True,VERIFIED
+205376,50415,I Feel Pretty (2018),I Feel Pretty (2018),16,True,True,True,True,True,ifeelpretty2018,ifeelpretty2018,True,VERIFIED
+205381,50417,Hickok (2017),Hickok (2017),1,True,True,True,True,True,hickok2017,hickok2017,True,VERIFIED
+205382,50418,Valley of Bones (2017),Valley of Bones (2017),1,True,True,True,True,True,valleyofbones2017,valleyofbones2017,True,VERIFIED
+205402,50423,A Dark Song (2017),A Dark Song (2017),1,True,True,True,True,True,adarksong2017,adarksong2017,True,VERIFIED
+205407,50424,Money Heist (2017),Money Heist (2017),1,True,True,True,True,True,moneyheist2017,moneyheist2017,True,VERIFIED
+205410,50427,Altered Carbon (2018),Altered Carbon (2018),4,True,True,True,True,True,alteredcarbon2018,alteredcarbon2018,True,VERIFIED
+205430,50433,A Quiet Place (2018),A Quiet Place (2018),93,True,True,True,True,True,aquietplace2018,aquietplace2018,True,VERIFIED
+205435,50434,Game Night (2018),Game Night (2018),223,True,True,True,True,True,gamenight2018,gamenight2018,True,VERIFIED
+205439,50436,The Clapper (2018),The Clapper (2018),1,True,True,True,True,True,theclapper2018,theclapper2018,True,VERIFIED
+205443,50439,Nothing Gold Can Stay (2017),Nothing Gold Can Stay (2017),1,True,True,True,True,True,nothinggoldcanstay2017,nothinggoldcanstay2017,True,VERIFIED
+205447,50441,The Disaster Artist (2017),The Disaster Artist (2017),22,True,True,True,True,True,thedisasterartist2017,thedisasterartist2017,True,VERIFIED
+205492,50450,Broadchurch,Broadchurch,3,True,True,True,True,True,broadchurch,broadchurch,True,VERIFIED
+205504,50454,Lucky Logan (2017),Lucky Logan (2017),2,True,True,True,True,True,luckylogan2017,luckylogan2017,True,VERIFIED
+205507,50455,Sandy Wexler (2017),Sandy Wexler (2017),5,True,True,True,True,True,sandywexler2017,sandywexler2017,True,VERIFIED
+205513,50457,On Body and Soul (2017),On Body and Soul (2017),4,True,True,True,True,True,onbodyandsoul2017,onbodyandsoul2017,True,VERIFIED
+205534,50463,Samson (2018),Samson (2018),7,True,True,True,True,True,samson2018,samson2018,True,VERIFIED
+205547,50467,I Can Only Imagine (2018),I Can Only Imagine (2018),31,True,True,True,True,True,icanonlyimagine2018,icanonlyimagine2018,True,VERIFIED
+205548,50468,Only the Brave (2017),Only the Brave (2017),9,True,True,True,True,True,onlythebrave2017,onlythebrave2017,True,VERIFIED
+205557,50472,Red Sparrow (2018),Red Sparrow (2018),111,True,True,True,True,True,redsparrow2018,redsparrow2018,True,VERIFIED
+205563,50473,Lonesome Dove (1989),Lonesome Dove (1989),1,True,True,True,True,True,lonesomedove1989,lonesomedove1989,True,VERIFIED
+205569,50475,The Meyerowitz Stories (New and Selected) (2017),The Meyerowitz Stories (New and Selected) (2017),9,True,True,True,True,True,themeyerowitzstoriesnewandselected2017,themeyerowitzstoriesnewandselected2017,True,VERIFIED
+205591,50481,The Open House (2018),The Open House (2018),2,True,True,True,True,True,theopenhouse2018,theopenhouse2018,True,VERIFIED
+205609,50488,Frost/Nixon (2008),Frost/Nixon (2008),6,True,True,True,True,True,frostnixon2008,frostnixon2008,True,VERIFIED
+205618,50489,Acrimony (2018),Acrimony (2018),8,True,True,True,True,True,acrimony2018,acrimony2018,True,VERIFIED
+205665,50512,The Meg (2018),The Meg (2018),2,True,True,True,True,True,themeg2018,themeg2018,True,VERIFIED
+205695,50515,Blockers (2018),Blockers (2018),67,True,True,True,True,True,blockers2018,blockers2018,True,VERIFIED
+205697,50517,Loveless (2017),Loveless (2017),6,True,True,True,True,True,loveless2017,loveless2017,True,VERIFIED
+205698,50518,Tomb Raider (2018),Tomb Raider (2018),110,True,True,True,True,True,tombraider2018,tombraider2018,True,VERIFIED
+205700,50520,The Nun (2018),The Nun (2018),3,True,True,True,True,True,thenun2018,thenun2018,True,VERIFIED
+205711,50523,This Is Not What I Expected (2017),This Is Not What I Expected (2017),1,True,True,True,True,True,thisisnotwhatiexpected2017,thisisnotwhatiexpected2017,True,VERIFIED
+205716,50527,Napping Princess (2017),Napping Princess (2017),1,True,True,True,True,True,nappingprincess2017,nappingprincess2017,True,VERIFIED
+205717,50528,Jawbone (2017),Jawbone (2017),1,True,True,True,True,True,jawbone2017,jawbone2017,True,VERIFIED
+205719,50529,Dalida (2017),Dalida (2017),1,True,True,True,True,True,dalida2017,dalida2017,True,VERIFIED
+205722,50532,Gringo (2018),Gringo (2018),18,True,True,True,True,True,gringo2018,gringo2018,True,VERIFIED
+205724,50534,Incredibles 2 (2018),Incredibles 2 (2018),81,True,True,True,True,True,incredibles22018,incredibles22018,True,VERIFIED
+205735,50538,The Strangers: Prey at Night (2018),The Strangers: Prey at Night (2018),9,True,True,True,True,True,thestrangerspreyatnight2018,thestrangerspreyatnight2018,True,VERIFIED
+205738,50540,Jim Gaffigan: Obsessed (2014),Jim Gaffigan: Obsessed (2014),1,True,True,True,True,True,jimgaffiganobsessed2014,jimgaffiganobsessed2014,True,VERIFIED
+205741,50542,50/50 (2011),50/50 (2011),3,True,True,True,True,True,50502011,50502011,True,VERIFIED
+205744,50545,Isle Of Dogs (2018),Isle Of Dogs (2018),26,True,True,True,True,True,isleofdogs2018,isleofdogs2018,True,VERIFIED
+205745,50546,A Fantastic Woman (2017),A Fantastic Woman (2017),2,True,True,True,True,True,afantasticwoman2017,afantasticwoman2017,True,VERIFIED
+205747,50549,The Radiant One (2016),The Radiant One (2016),1,True,True,True,True,True,theradiantone2016,theradiantone2016,True,VERIFIED
+205752,50550,Haruko Azumi Is Missing (2016),Haruko Azumi Is Missing (2016),1,True,True,True,True,True,harukoazumiismissing2016,harukoazumiismissing2016,True,VERIFIED
+205756,50553,Making a Murderer,Making a Murderer,3,True,True,True,True,True,makingamurderer,makingamurderer,True,VERIFIED
+205773,50557,The 15-17 to Paris,The 15-17 to Paris,5,True,True,True,True,True,the1517toparis,the1517toparis,True,VERIFIED
+205774,50558,All the Money in the World,All the Money in the World,1,True,True,True,True,True,allthemoneyintheworld,allthemoneyintheworld,True,VERIFIED
+205777,50560,Call the Midwife (2012),Call the Midwife (2012),1,True,True,True,True,True,callthemidwife2012,callthemidwife2012,True,VERIFIED
+205785,50562,Demon House (2018),Demon House (2018),3,True,True,True,True,True,demonhouse2018,demonhouse2018,True,VERIFIED
+205789,50566,Lego DC Comics Super Heroes: The Flash (2018),Lego DC Comics Super Heroes: The Flash (2018),1,True,True,True,True,True,legodccomicssuperheroestheflash2018,legodccomicssuperheroestheflash2018,True,VERIFIED
+205794,50567,Casting JonBenet (2017),Casting JonBenet (2017),7,True,True,True,True,True,castingjonbenet2017,castingjonbenet2017,True,VERIFIED
+205799,50568,Catching Faith (2015),Catching Faith (2015),1,True,True,True,True,True,catchingfaith2015,catchingfaith2015,True,VERIFIED
+205803,50569,Big Bear (2017),Big Bear (2017),18,True,True,True,True,True,bigbear2017,bigbear2017,True,VERIFIED
+205809,50574,Whatever Happened to Baby Jane? (1962),Whatever Happened to Baby Jane? (1962),2,True,True,True,True,True,whateverhappenedtobabyjane1962,whateverhappenedtobabyjane1962,True,VERIFIED
+205810,50576,The Pirates of Somalia (2017),The Pirates of Somalia (2017),5,True,True,True,True,True,thepiratesofsomalia2017,thepiratesofsomalia2017,True,VERIFIED
+205811,50577,The Female Brain (2018),The Female Brain (2018),7,True,True,True,True,True,thefemalebrain2018,thefemalebrain2018,True,VERIFIED
+205813,50578,Half Magic (2018),Half Magic (2018),2,True,True,True,True,True,halfmagic2018,halfmagic2018,True,VERIFIED
+205816,50581,Pacific Rim Uprising (2018),Pacific Rim Uprising (2018),49,True,True,True,True,True,pacificrimuprising2018,pacificrimuprising2018,True,VERIFIED
+205817,50582,Ant-Man and the Wasp (2018),Ant-Man and the Wasp (2018),21,True,True,True,True,True,antmanandthewasp2018,antmanandthewasp2018,True,VERIFIED
+205821,50583,"Love, Simon (2018)","Love, Simon (2018)",26,True,True,True,True,True,lovesimon2018,lovesimon2018,True,VERIFIED
+205832,50587,The Goonies 2 (2018),The Goonies 2 (2018),2,True,True,True,True,True,thegoonies22018,thegoonies22018,True,VERIFIED
+205841,50588,Finding Your Feet (2018),Finding Your Feet (2018),3,True,True,True,True,True,findingyourfeet2018,findingyourfeet2018,True,VERIFIED
+205847,50590,Kidnap (2017),Kidnap (2017),2,True,True,True,True,True,kidnap2017,kidnap2017,True,VERIFIED
+205849,50591,Pandas (2018),Pandas (2018),3,True,True,True,True,True,pandas2018,pandas2018,True,VERIFIED
+205850,50592,Every Day (2018),Every Day (2018),8,True,True,True,True,True,everyday2018,everyday2018,True,VERIFIED
+205854,50593,Like Cats and Dogs (2017),Like Cats and Dogs (2017),1,True,True,True,True,True,likecatsanddogs2017,likecatsanddogs2017,True,VERIFIED
+205855,50594,Love After Love (2018),Love After Love (2018),1,True,True,True,True,True,loveafterlove2018,loveafterlove2018,True,VERIFIED
+205858,50597,The Grinch (2018),The Grinch (2018),3,True,True,True,True,True,thegrinch2018,thegrinch2018,True,VERIFIED
+205860,50599,A Plastic Ocean (2016),A Plastic Ocean (2016),1,True,True,True,True,True,aplasticocean2016,aplasticocean2016,True,VERIFIED
+205863,50600,Colette (2013),Colette (2013),1,True,True,True,True,True,colette2013,colette2013,True,VERIFIED
+205865,50601,Icarus (2017),Icarus (2017),6,True,True,True,True,True,icarus2017,icarus2017,True,VERIFIED
+205867,50602,Venom (2018),Venom (2018),2,True,True,True,True,True,venom2018,venom2018,True,VERIFIED
+205876,50605,Night School (2018),Night School (2018),1,True,True,True,True,True,nightschool2018,nightschool2018,True,VERIFIED
+205885,50608,The Last Full Measure (2018),The Last Full Measure (2018),1,True,True,True,True,True,thelastfullmeasure2018,thelastfullmeasure2018,True,VERIFIED
+205887,50609,9/11 (2017),9/11 (2017),1,True,True,True,True,True,9112017,9112017,True,VERIFIED
+205896,50612,Team Foxcatcher (2016),Team Foxcatcher (2016),1,True,True,True,True,True,teamfoxcatcher2016,teamfoxcatcher2016,True,VERIFIED
+205901,50614,"Game Over, Man! (2018)","Game Over, Man! (2018)",6,True,True,True,True,True,gameoverman2018,gameoverman2018,True,VERIFIED
+205906,50615,Judgement Night (1993),Judgement Night (1993),1,True,True,True,True,True,judgementnight1993,judgementnight1993,True,VERIFIED
+205910,50617,La Rafle (2010),La Rafle (2010),1,True,True,True,True,True,larafle2010,larafle2010,True,VERIFIED
+205914,50618,Secret Superstar (2017),Secret Superstar (2017),1,True,True,True,True,True,secretsuperstar2017,secretsuperstar2017,True,VERIFIED
+205920,50621,The Botany Of Desire (2009),The Botany Of Desire (2009),1,True,True,True,True,True,thebotanyofdesire2009,thebotanyofdesire2009,True,VERIFIED
+205931,50622,Bakemono no Ko (2015),Bakemono no Ko (2015),1,True,True,True,True,True,bakemononoko2015,bakemononoko2015,True,VERIFIED
+205932,50623,2036: Nexus Dawn (2017),2036: Nexus Dawn (2017),1,True,True,True,True,True,2036nexusdawn2017,2036nexusdawn2017,True,VERIFIED
+205934,50625,Rampage (2018),Rampage (2018),29,True,True,True,True,True,rampage2018,rampage2018,True,VERIFIED
+205943,50627,The Ritual (2017),The Ritual (2017),1,True,True,True,True,True,theritual2017,theritual2017,True,VERIFIED
+205951,50630,Hurricane Heist (2018),Hurricane Heist (2018),2,True,True,True,True,True,hurricaneheist2018,hurricaneheist2018,True,VERIFIED
+205954,50633,Gotti (2018),Gotti (2018),2,True,True,True,True,True,gotti2018,gotti2018,True,VERIFIED
+205981,50635,Emma Stone (2017),Emma Stone (2017),1,True,True,True,True,True,emmastone2017,emmastone2017,True,VERIFIED
+206020,50644,RBG (2018),RBG (2018),6,True,True,True,True,True,rbg2018,rbg2018,True,VERIFIED
+206021,50645,Christopher Robin (2018),Christopher Robin (2018),1,True,True,True,True,True,christopherrobin2018,christopherrobin2018,True,VERIFIED
+206022,50646,Overboard (2018),Overboard (2018),6,True,True,True,True,True,overboard2018,overboard2018,True,VERIFIED
+206023,50647,Aquaman (2018),Aquaman (2018),2,True,True,True,True,True,aquaman2018,aquaman2018,True,VERIFIED
+206026,50648,Curse of the Blue Lights (1988),Curse of the Blue Lights (1988),1,True,True,True,True,True,curseofthebluelights1988,curseofthebluelights1988,True,VERIFIED
+206027,50649,Killer Clowns from Outer Space (1988),Killer Clowns from Outer Space (1988),2,True,True,True,True,True,killerclownsfromouterspace1988,killerclownsfromouterspace1988,True,VERIFIED
+206029,50651,Breaking In (2018),Breaking In (2018),8,True,True,True,True,True,breakingin2018,breakingin2018,True,VERIFIED
+206032,50652,Seven Seconds (2018),Seven Seconds (2018),2,True,True,True,True,True,sevenseconds2018,sevenseconds2018,True,VERIFIED
+206035,50654,Show Dogs (2018),Show Dogs (2018),2,True,True,True,True,True,showdogs2018,showdogs2018,True,VERIFIED
+206044,50656,Solo: A Star Wars Story (2018),Solo: A Star Wars Story (2018),11,True,True,True,True,True,soloastarwarsstory2018,soloastarwarsstory2018,True,VERIFIED
+206045,50657,The Strange Thing About the Johnsons,The Strange Thing About the Johnsons,1,True,True,True,True,True,thestrangethingaboutthejohnsons,thestrangethingaboutthejohnsons,True,VERIFIED
+206047,50658,How to Be a Latin Lover (2017),How to Be a Latin Lover (2017),1,True,True,True,True,True,howtobealatinlover2017,howtobealatinlover2017,True,VERIFIED
+206056,50662,After the Silence (1996),After the Silence (1996),1,True,True,True,True,True,afterthesilence1996,afterthesilence1996,True,VERIFIED
+206062,50665,Cargo (2017),Cargo (2017),2,True,True,True,True,True,cargo2017,cargo2017,True,VERIFIED
+206064,50667,Dr. Horrible's Sing-Along Blog,Dr. Horrible's Sing-Along Blog,3,True,True,True,True,True,drhorriblessingalongblog,drhorriblessingalongblog,True,VERIFIED
+206072,50669,V/H/S,V/H/S,1,True,True,True,True,True,vhs,vhs,True,VERIFIED
+206076,50671,Ralph Breaks the Internet (2018),Ralph Breaks the Internet (2018),7,True,True,True,True,True,ralphbreakstheinternet2018,ralphbreakstheinternet2018,True,VERIFIED
+206079,50672,2036 Origin Unknown (2018),2036 Origin Unknown (2018),3,True,True,True,True,True,2036originunknown2018,2036originunknown2018,True,VERIFIED
+206080,50673,The Hatching (2016),The Hatching (2016),4,True,True,True,True,True,thehatching2016,thehatching2016,True,VERIFIED
+206085,50675,Hotel Artemis (2018),Hotel Artemis (2018),1,True,True,True,True,True,hotelartemis2018,hotelartemis2018,True,VERIFIED
+206087,50677,Hereditary (2018),Hereditary (2018),1,True,True,True,True,True,hereditary2018,hereditary2018,True,VERIFIED
+206092,50678,Mowgli (2019),Mowgli (2019),2,True,True,True,True,True,mowgli2019,mowgli2019,True,VERIFIED

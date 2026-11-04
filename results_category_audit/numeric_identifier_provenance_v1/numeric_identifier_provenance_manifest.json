@@ -1,0 +1,58 @@
+{
+  "experiment": "21.6",
+  "purpose": "Investigate the provenance and namespace of numeric external identifiers.",
+  "counts": {
+    "catalog": 6924,
+    "numeric_records": 812,
+    "unique_numeric_identifiers": 812,
+    "source_code_hits": 40,
+    "candidate_source_files": 124
+  },
+  "identifier_distribution": {
+    "minimum": 75962,
+    "maximum": 206092,
+    "unique": 812,
+    "mean": 155404.25246305417
+  },
+  "namespace_overlap": {
+    "in_internal_entity_index": {
+      "matching_records": 0,
+      "total_records": 812,
+      "overlap_ratio": 0.0
+    },
+    "in_kg_head_namespace": {
+      "matching_records": 0,
+      "total_records": 812,
+      "overlap_ratio": 0.0
+    },
+    "in_kg_node_namespace": {
+      "matching_records": 0,
+      "total_records": 812,
+      "overlap_ratio": 0.0
+    },
+    "in_movie_catalog_namespace": {
+      "matching_records": 0,
+      "total_records": 812,
+      "overlap_ratio": 0.0
+    },
+    "in_relation87_namespace": {
+      "matching_records": 0,
+      "total_records": 812,
+      "overlap_ratio": 0.0
+    }
+  },
+  "validation": {
+    "catalog_size": true,
+    "numeric_record_count": true,
+    "numeric_identifier_uniqueness": true,
+    "movie_record_uniqueness": true,
+    "mapping_external_key_consistency": true,
+    "catalog_membership": true
+  },
+  "interpretation_status": "PENDING_SOURCE_PROVENANCE_VERIFICATION",
+  "limitations": [
+    "Namespace overlap does not establish identifier semantics.",
+    "Source-code matches do not independently prove provenance.",
+    "Numeric identifiers require confirmation against their original generating source."
+  ]
+}
