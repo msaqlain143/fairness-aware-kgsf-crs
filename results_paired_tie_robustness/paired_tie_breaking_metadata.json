@@ -1,0 +1,39 @@
+{
+  "experiment": 18,
+  "name": "Paired Tie-Breaking Robustness Analysis",
+  "randomizations": 1000,
+  "methods": [
+    "KGSF_only",
+    "A0_fixed_025",
+    "A1_frequency_1",
+    "A2_frequency_context_1",
+    "A1_frequency_3",
+    "A2_frequency_context_3"
+  ],
+  "comparisons": [
+    {
+      "proposed": "A1_frequency_3",
+      "baseline": "KGSF_only"
+    },
+    {
+      "proposed": "A1_frequency_3",
+      "baseline": "A0_fixed_025"
+    },
+    {
+      "proposed": "A1_frequency_3",
+      "baseline": "A1_frequency_1"
+    },
+    {
+      "proposed": "A2_frequency_context_3",
+      "baseline": "A1_frequency_3"
+    }
+  ],
+  "metrics": [
+    "exposure",
+    "coverage"
+  ],
+  "groups": 5,
+  "comparison_rows": 40,
+  "interpretation": "Paired randomization sensitivity analysis. Percentile ranges describe tie-breaking variability, not population confidence intervals or hypothesis-test p-values.",
+  "validation": "PASS"
+}

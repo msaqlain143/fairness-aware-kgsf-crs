@@ -1,0 +1,327 @@
+{
+  "experiment": 14,
+  "title": "Independent Exposure Metric Integrity Audit",
+  "split": "held_out_test",
+  "catalog_size": 6924,
+  "events": 4003,
+  "conversations": 1283,
+  "methods": [
+    "KGSF_only",
+    "A0_fixed_025",
+    "A1_frequency_1",
+    "A2_frequency_context_1",
+    "A1_frequency_3",
+    "A2_frequency_context_3"
+  ],
+  "top_k": 10,
+  "gini_definition": "Standard population Gini over the complete eligible catalog, including zero-exposure items.",
+  "reference_file": "results_final_test_m2\\adaptive_m2_with_kgsf_baseline.json",
+  "validation": {
+    "catalog_integrity": "PASS",
+    "event_mapping": "PASS",
+    "event_method_completeness": "PASS",
+    "target_consistency": "PASS",
+    "top10_uniqueness": "PASS",
+    "catalog_membership": "PASS",
+    "movie_group_consistency": "PASS",
+    "exposure_conservation": "PASS",
+    "coverage_reproduction": "PASS",
+    "gini_reproduction": "PASS",
+    "group_exposure_reproduction": "PASS"
+  },
+  "method_results": [
+    {
+      "method": "KGSF_only",
+      "events": 4003,
+      "catalog_size": 6924,
+      "total_exposure_slots": 40030,
+      "unique_exposed_items": 1224,
+      "coverage10_recomputed": 0.17677642980935876,
+      "coverage10_reference": 0.17677642980935876,
+      "coverage_difference": 0.0,
+      "item_gini_recomputed": 0.9614243534564559,
+      "item_gini_reference": 0.9614243534564559,
+      "gini_difference": 0.0,
+      "duplicate_rows": 0,
+      "exposure_conservation": "PASS",
+      "coverage_validation": "PASS",
+      "gini_validation": "PASS",
+      "group_validation": "PASS"
+    },
+    {
+      "method": "A0_fixed_025",
+      "events": 4003,
+      "catalog_size": 6924,
+      "total_exposure_slots": 40030,
+      "unique_exposed_items": 1361,
+      "coverage10_recomputed": 0.19656268053148468,
+      "coverage10_reference": 0.19656268053148468,
+      "coverage_difference": 0.0,
+      "item_gini_recomputed": 0.9541010403375978,
+      "item_gini_reference": 0.9541010403375978,
+      "gini_difference": 0.0,
+      "duplicate_rows": 0,
+      "exposure_conservation": "PASS",
+      "coverage_validation": "PASS",
+      "gini_validation": "PASS",
+      "group_validation": "PASS"
+    },
+    {
+      "method": "A1_frequency_1",
+      "events": 4003,
+      "catalog_size": 6924,
+      "total_exposure_slots": 40030,
+      "unique_exposed_items": 1456,
+      "coverage10_recomputed": 0.21028307336799537,
+      "coverage10_reference": 0.21028307336799537,
+      "coverage_difference": 0.0,
+      "item_gini_recomputed": 0.9498267691490192,
+      "item_gini_reference": 0.9498267691490192,
+      "gini_difference": 0.0,
+      "duplicate_rows": 0,
+      "exposure_conservation": "PASS",
+      "coverage_validation": "PASS",
+      "gini_validation": "PASS",
+      "group_validation": "PASS"
+    },
+    {
+      "method": "A2_frequency_context_1",
+      "events": 4003,
+      "catalog_size": 6924,
+      "total_exposure_slots": 40030,
+      "unique_exposed_items": 1453,
+      "coverage10_recomputed": 0.20984979780473714,
+      "coverage10_reference": 0.20984979780473714,
+      "coverage_difference": 0.0,
+      "item_gini_recomputed": 0.950037890415233,
+      "item_gini_reference": 0.9500378904152331,
+      "gini_difference": -1.1102230246251565e-16,
+      "duplicate_rows": 0,
+      "exposure_conservation": "PASS",
+      "coverage_validation": "PASS",
+      "gini_validation": "PASS",
+      "group_validation": "PASS"
+    },
+    {
+      "method": "A1_frequency_3",
+      "events": 4003,
+      "catalog_size": 6924,
+      "total_exposure_slots": 40030,
+      "unique_exposed_items": 2262,
+      "coverage10_recomputed": 0.3266897746967071,
+      "coverage10_reference": 0.3266897746967071,
+      "coverage_difference": 0.0,
+      "item_gini_recomputed": 0.9204980291355718,
+      "item_gini_reference": 0.9204980291355718,
+      "gini_difference": 0.0,
+      "duplicate_rows": 0,
+      "exposure_conservation": "PASS",
+      "coverage_validation": "PASS",
+      "gini_validation": "PASS",
+      "group_validation": "PASS"
+    },
+    {
+      "method": "A2_frequency_context_3",
+      "events": 4003,
+      "catalog_size": 6924,
+      "total_exposure_slots": 40030,
+      "unique_exposed_items": 2232,
+      "coverage10_recomputed": 0.3223570190641248,
+      "coverage10_reference": 0.3223570190641248,
+      "coverage_difference": 0.0,
+      "item_gini_recomputed": 0.9221664340999016,
+      "item_gini_reference": 0.9221664340999016,
+      "gini_difference": 0.0,
+      "duplicate_rows": 0,
+      "exposure_conservation": "PASS",
+      "coverage_validation": "PASS",
+      "gini_validation": "PASS",
+      "group_validation": "PASS"
+    }
+  ],
+  "group_results": [
+    {
+      "method": "KGSF_only",
+      "group": 0,
+      "exposure_slots": 0,
+      "exposure_share": 0.0
+    },
+    {
+      "method": "KGSF_only",
+      "group": 1,
+      "exposure_slots": 33,
+      "exposure_share": 0.000824381713714714
+    },
+    {
+      "method": "KGSF_only",
+      "group": 2,
+      "exposure_slots": 399,
+      "exposure_share": 0.009967524356732451
+    },
+    {
+      "method": "KGSF_only",
+      "group": 3,
+      "exposure_slots": 1274,
+      "exposure_share": 0.03182613040219835
+    },
+    {
+      "method": "KGSF_only",
+      "group": 4,
+      "exposure_slots": 38324,
+      "exposure_share": 0.9573819635273545
+    },
+    {
+      "method": "A0_fixed_025",
+      "group": 0,
+      "exposure_slots": 0,
+      "exposure_share": 0.0
+    },
+    {
+      "method": "A0_fixed_025",
+      "group": 1,
+      "exposure_slots": 39,
+      "exposure_share": 0.0009742692980264802
+    },
+    {
+      "method": "A0_fixed_025",
+      "group": 2,
+      "exposure_slots": 439,
+      "exposure_share": 0.010966774918810892
+    },
+    {
+      "method": "A0_fixed_025",
+      "group": 3,
+      "exposure_slots": 1450,
+      "exposure_share": 0.036222832875343496
+    },
+    {
+      "method": "A0_fixed_025",
+      "group": 4,
+      "exposure_slots": 38102,
+      "exposure_share": 0.9518361229078192
+    },
+    {
+      "method": "A1_frequency_1",
+      "group": 0,
+      "exposure_slots": 0,
+      "exposure_share": 0.0
+    },
+    {
+      "method": "A1_frequency_1",
+      "group": 1,
+      "exposure_slots": 50,
+      "exposure_share": 0.0012490632025980515
+    },
+    {
+      "method": "A1_frequency_1",
+      "group": 2,
+      "exposure_slots": 523,
+      "exposure_share": 0.013065201099175618
+    },
+    {
+      "method": "A1_frequency_1",
+      "group": 3,
+      "exposure_slots": 1730,
+      "exposure_share": 0.04321758680989258
+    },
+    {
+      "method": "A1_frequency_1",
+      "group": 4,
+      "exposure_slots": 37727,
+      "exposure_share": 0.9424681488883337
+    },
+    {
+      "method": "A2_frequency_context_1",
+      "group": 0,
+      "exposure_slots": 0,
+      "exposure_share": 0.0
+    },
+    {
+      "method": "A2_frequency_context_1",
+      "group": 1,
+      "exposure_slots": 46,
+      "exposure_share": 0.0011491381463902073
+    },
+    {
+      "method": "A2_frequency_context_1",
+      "group": 2,
+      "exposure_slots": 521,
+      "exposure_share": 0.013015238571071697
+    },
+    {
+      "method": "A2_frequency_context_1",
+      "group": 3,
+      "exposure_slots": 1714,
+      "exposure_share": 0.04281788658506121
+    },
+    {
+      "method": "A2_frequency_context_1",
+      "group": 4,
+      "exposure_slots": 37749,
+      "exposure_share": 0.9430177366974769
+    },
+    {
+      "method": "A1_frequency_3",
+      "group": 0,
+      "exposure_slots": 1187,
+      "exposure_share": 0.02965276042967774
+    },
+    {
+      "method": "A1_frequency_3",
+      "group": 1,
+      "exposure_slots": 1220,
+      "exposure_share": 0.030477142143392456
+    },
+    {
+      "method": "A1_frequency_3",
+      "group": 2,
+      "exposure_slots": 822,
+      "exposure_share": 0.020534599050711966
+    },
+    {
+      "method": "A1_frequency_3",
+      "group": 3,
+      "exposure_slots": 2481,
+      "exposure_share": 0.06197851611291531
+    },
+    {
+      "method": "A1_frequency_3",
+      "group": 4,
+      "exposure_slots": 34320,
+      "exposure_share": 0.8573569822633025
+    },
+    {
+      "method": "A2_frequency_context_3",
+      "group": 0,
+      "exposure_slots": 1121,
+      "exposure_share": 0.028003997002248315
+    },
+    {
+      "method": "A2_frequency_context_3",
+      "group": 1,
+      "exposure_slots": 1117,
+      "exposure_share": 0.02790407194604047
+    },
+    {
+      "method": "A2_frequency_context_3",
+      "group": 2,
+      "exposure_slots": 809,
+      "exposure_share": 0.02020984261803647
+    },
+    {
+      "method": "A2_frequency_context_3",
+      "group": 3,
+      "exposure_slots": 2459,
+      "exposure_share": 0.06142892830377217
+    },
+    {
+      "method": "A2_frequency_context_3",
+      "group": 4,
+      "exposure_slots": 34524,
+      "exposure_share": 0.8624531601299026
+    }
+  ],
+  "model_training_performed": false,
+  "model_inference_performed": false,
+  "existing_results_modified": false
+}

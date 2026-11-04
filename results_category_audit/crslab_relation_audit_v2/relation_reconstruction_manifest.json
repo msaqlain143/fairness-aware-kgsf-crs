@@ -1,0 +1,76 @@
+{
+  "experiment": "21.2",
+  "title": "Independent CRSLab Relation Reconstruction and Knowledge Graph Integrity Audit",
+  "timestamp_utc": "2026-11-04T05:52:38.015272+00:00",
+  "source_files": {
+    "data\\dataset\\redial\\nltk\\entity2id.json": {
+      "sha256": "6ac542fa3894cc95a200e9755145a33f839a73ea8aa4ab64e691fa8482a1dc79",
+      "size_bytes": 3647327
+    },
+    "data\\dataset\\redial\\nltk\\dbpedia_subkg.json": {
+      "sha256": "efe60b68c84ca516fa8b9f37b303e98dd216febc94a95c2e812c95dfafadc9bb",
+      "size_bytes": 2477960
+    }
+  },
+  "configuration": {
+    "self_loop_id": 185,
+    "investigated_relation_id": 87,
+    "frequency_threshold": 1000,
+    "threshold_operator": "strictly greater than",
+    "edge_augmentation": "One forward and one reverse record for every eligible non-self-loop raw edge.",
+    "synthetic_self_loop_policy": "One relation-185 self-loop per active graph entity."
+  },
+  "counts": {
+    "indexed_entities": 64362,
+    "active_graph_entities": 23160,
+    "raw_edge_records": 165696,
+    "raw_self_loop_records": 6944,
+    "raw_nonself_records": 158752,
+    "synthetic_self_loops": 23160,
+    "augmented_semantic_edge_records": 317484,
+    "constructed_edge_records": 340644,
+    "raw_unique_relations": 214,
+    "constructed_unique_relations": 213,
+    "retained_relations": 35
+  },
+  "relation_185": {
+    "relation_id": 185,
+    "raw_relation_185_records": 10,
+    "raw_relation_185_self_loops": 0,
+    "raw_relation_185_nonself_records": 10,
+    "synthetic_self_loops_added": 23160,
+    "constructed_relation_185_records": 23160,
+    "processed_relation_id": 0,
+    "validated_structural_relation": true
+  },
+  "relation_87": {
+    "relation_id": 87,
+    "raw_edge_records": 6924,
+    "raw_self_loop_records": 6924,
+    "raw_nonself_loop_records": 0,
+    "constructed_edge_records": 0,
+    "processed_relation_id": null,
+    "structural_status": "UNRESOLVED",
+    "interpretation": "Requires semantic provenance inspection; raw structural statistics alone do not establish the relation's semantic meaning.",
+    "self_loop_records": 6924,
+    "nonself_loop_records": 0
+  },
+  "validation": {
+    "entity_index_integrity": "PASS",
+    "graph_key_integrity": "PASS",
+    "raw_edge_integrity": "PASS",
+    "invalid_edge_records": 0,
+    "edge_conservation": "PASS",
+    "synthetic_self_loop_reconstruction": "PASS",
+    "relation_mapping_sequentiality": "PASS",
+    "strict_threshold_reproduction": "PASS",
+    "relation_185_structural_classification": "PASS",
+    "relation_87_semantic_classification": "PENDING"
+  },
+  "limitations": [
+    "Relation 87 semantic meaning is not inferred from numeric ID.",
+    "Raw relation counts are record counts, not unique triples.",
+    "Inverse-edge augmentation can create duplicate records.",
+    "Semantic predicate labels require separate provenance."
+  ]
+}
