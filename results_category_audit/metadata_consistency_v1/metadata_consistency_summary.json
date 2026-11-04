@@ -1,0 +1,47 @@
+{
+  "experiment": "21.7",
+  "metadata_columns": [
+    "movie_entity_id",
+    "movie_uri",
+    "has_entity_mapping",
+    "direct_kg_degree_records",
+    "mapping_value",
+    "mapping_type",
+    "resource_uri",
+    "external_entity_key",
+    "metadata_status"
+  ],
+  "inventory_columns": [
+    "movie_entity_id",
+    "movie_uri",
+    "mapping_value",
+    "external_entity_key",
+    "mapping_type",
+    "resource_uri",
+    "mapping_equals_external_key",
+    "in_internal_entity_index",
+    "in_kg_head_namespace",
+    "in_kg_node_namespace",
+    "in_movie_catalog_namespace",
+    "in_relation87_namespace"
+  ],
+  "provenance_columns": [
+    "movie_entity_id",
+    "entity2id_uri",
+    "movie_uri",
+    "resource_uri",
+    "mapping_value",
+    "external_entity_key",
+    "relation87_record_count",
+    "entity_movie_uri_match",
+    "entity_resource_uri_match",
+    "movie_resource_uri_match",
+    "has_mapping_value",
+    "has_external_entity_key"
+  ],
+  "numeric_records": 812,
+  "selected_metadata_records": 3,
+  "selected_inventory_records": 3,
+  "selected_provenance_records": 3,
+  "interpretation": "PENDING"
+}

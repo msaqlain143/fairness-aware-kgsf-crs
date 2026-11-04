@@ -1,0 +1,813 @@
+﻿databaseId,record_count,title_count,movielens_count,titles,numeric_id
+75962,1,1,1,Back to Hannibal: The Return of Tom Sawyer and Huckleberry Finn,True
+76488,1,1,1,The Royal Scandal,True
+76845,1,1,1,Good Burger,True
+77293,1,1,1,A Wrinkle in Time,True
+77384,1,1,1,American Pie Presents: Band Camp,True
+77597,1,1,1,Along Came Polly,True
+78241,1,1,1,Halloweentown,True
+78436,1,1,1,Battlefield Earth (2000),True
+78854,1,1,1,Looney Tunes Super Stars' Bugs Bunny: Wascally Wabbit,True
+79045,1,1,1,Thelma,True
+79698,1,1,1,The Hurt Locker (2008),True
+80108,1,1,1,Can't Hardly Wait,True
+80683,1,1,1,The Cat and the Kit (1925),True
+80985,1,1,1,Boo! A Madea Halloween (2016),True
+81006,1,1,1,Police Academy,True
+81135,1,1,1,It Comes at Night (2017),True
+81307,1,1,1,Haunted Rooh (2016),True
+81353,1,1,1,Once Upon a Time in China,True
+81475,1,1,1,Triangle (2009),True
+81625,1,1,1,Expelled from Paradise,True
+81702,1,1,1,Hall Pass,True
+81792,1,1,1,Zootopia,True
+81860,1,1,1,Spirited Away,True
+81898,1,1,1,The Magnificent Nine,True
+82075,1,1,1,Cyborg X,True
+82631,1,1,1,My Super Ex-Girlfriend,True
+83343,1,1,1,The 10th Kingdom,True
+83582,1,1,1,Starcrash (1979),True
+84195,1,1,1,Cloverfield,True
+84387,1,1,1,Before I Fall (2017),True
+84411,1,1,1,Tunisian Victory,True
+84553,1,1,1,Fist of Fury,True
+84828,1,1,1,Two Weeks Notice,True
+84839,1,1,1,Dracula 2012 (2013),True
+84903,1,1,1,Futurama: Bender's Big Score,True
+85750,1,1,1,Due Date,True
+86439,1,1,1,The Death of Stalin,True
+86986,1,1,1,Rudolph and Frosty's Christmas in July,True
+87060,1,1,1,Tom and Jerry: The Fast and the Furry,True
+87064,1,1,1,Pets,True
+87081,1,1,1,Casino Royale,True
+87178,1,1,1,Beethoven's 4th (2001),True
+87187,1,1,1,Whisper of the Heart,True
+87294,1,1,1,Lilo & Stitch,True
+87457,1,1,1,Delivery Man,True
+87521,1,1,1,The Great Mouse Detective,True
+87655,1,1,1,Brother Bear,True
+88002,1,1,1,National Lampoon's Pledge This!,True
+88653,1,1,1,Paranormal Activity,True
+89235,1,1,1,Meet the Parents (2004),True
+89501,1,1,1,The Chronicles of Narnia,True
+89668,1,1,1,World War Z,True
+90010,1,1,1,Birdemic: Shock and Terror (2008),True
+90272,1,1,1,That Thing You Do!,True
+90382,1,1,1,Shark Tale,True
+90969,1,1,1,Classified: The Edward Snowden Story,True
+90998,1,1,1,Airport (1979),True
+91074,1,1,1,Shutterdulai (2016),True
+91087,1,1,1,Pop Star,True
+91457,1,1,1,1941 (1979),True
+91468,1,1,1,Marley & Me: The Puppy Years,True
+91589,1,1,1,Le Mans (1970),True
+91611,1,1,1,Free Willy,True
+91882,1,1,1,The Shack (2017),True
+92022,1,1,1,Four Women of Egypt,True
+92106,1,1,1,Maze Runner: The Death Cure (2018),True
+92117,1,1,1,Gnomes,True
+92651,1,1,1,Hostiles (2017),True
+92937,1,1,1,The Gladiator,True
+93042,1,1,1,The Strangers in the House,True
+93083,1,1,1,Kingsman: The Secret Service (2014),True
+93111,1,1,1,In This Corner of the World,True
+93238,1,1,1,Super High Me (2007),True
+93252,1,1,1,Dirty Dancing: Havana Nights,True
+93769,1,1,1,Justice League: The Flashpoint Paradox,True
+93931,1,1,1,Fantastic Beasts and Where to Find Them (2016),True
+94189,1,1,1,Prison Break: The Final Break,True
+94329,1,1,1,The Twilight Saga,True
+94808,1,1,1,12th & Delaware,True
+95089,1,1,1,Mean Girls 2,True
+95110,1,1,1,Arsenic and Old Lace,True
+95139,1,1,1,Mobile Suit Gundam F91,True
+95450,1,1,1,Oliver & Company,True
+95780,1,1,1,Barbershop,True
+95893,1,1,1,2001: A Space Odyssey,True
+96197,1,1,1,The Best Exotic Marigold Hotel,True
+96281,1,1,1,Star Wars: Episode VIII – The Last Jedi (2017),True
+96426,1,1,1,The Batman vs. Dracula,True
+96460,1,1,1,Digimon: The Movie,True
+96494,1,1,1,Beginners,True
+96684,1,1,1,Kramer vs. Kramer,True
+96983,1,1,1,2001: A Space Travesty (2000),True
+96996,1,1,1,Lego Indiana Jones and the Raiders of the Lost Brick,True
+97228,1,1,1,Superman: Doomsday,True
+97461,1,1,1,Pokémon: The Movie 2000 (1999),True
+97945,1,1,1,Break-Up (2014),True
+98135,1,1,1,Lego Star Wars: Revenge of the Brick,True
+98143,1,1,1,Earth Girls Are Easy (1989),True
+98527,1,1,1,Dumb and Dumber,True
+98637,1,1,1,Battle of the Sexes (2017),True
+98687,1,1,1,Old Boys: The Way of the Dragon,True
+98918,1,1,1,Spamalot,True
+99027,1,1,1,Production of Avengers: Infinity War and the untitled Avengers sequel,True
+99060,1,1,1,Ace Ventura,True
+99248,1,1,1,The Nazis Strike (1943),True
+99463,1,1,1,Railroad Tigers,True
+99560,1,1,1,"That's It, That's All",True
+99692,1,1,1,Gozu (2003),True
+99852,1,1,1,SpongeBob SquarePants 4-D (2002),True
+99887,1,1,1,Eddie's Million Dollar Cook-Off,True
+100271,1,1,1,Lady Bird (2017),True
+100614,1,1,1,Bad Santa 2 (2016),True
+100656,1,1,1,Fantasia 2000 (1999),True
+100676,1,1,1,Mickey's Twice Upon a Christmas,True
+100683,1,1,1,The Edge of Seventeen (2016),True
+100935,1,1,1,The Dark Crystal,True
+101131,1,1,1,Pee-wee's Big Adventure,True
+101138,1,1,1,Captain Mike Across America (2007),True
+101247,1,1,1,The Transformers: The Movie,True
+101352,1,1,1,Prelude to War (1942),True
+101529,1,1,1,We'll Never Have Paris,True
+102417,1,1,1,We Bought a Zoo,True
+102475,1,1,1,Camp Rock 2: The Final Jam,True
+102499,1,1,1,Night at the Museum,True
+102696,1,1,1,Bring It On Again,True
+103034,1,1,1, (2015),True
+103066,1,1,1,The Glass Castle,True
+103291,1,1,1,Eddie Murphy Delirious,True
+103434,1,1,1,Barbie of Swan Lake,True
+103588,1,1,1,RRRrrrr!!!,True
+103896,1,1,1,House of 1000 Corpses (2003),True
+104025,1,1,1,2010 (1984),True
+104089,1,1,1,The Cat Returns,True
+104253,1,1,1,The Perks of Being a Wallflower,True
+104316,1,1,1,CinderElmo,True
+104378,1,1,1,High School Musical,True
+104410,1,1,1,Mythica: A Quest for Heroes (2015),True
+104784,1,1,1,Tinker Bell,True
+105230,1,1,1,Planet Earth Live (2010),True
+105300,1,1,1,Murder at 1600 (1997),True
+105589,1,1,1,Annihilation (2018),True
+105690,1,1,1,Planet Earth Live,True
+106214,1,1,1,Troy Black,True
+106315,1,1,1,Bertie and Elizabeth,True
+106407,1,1,1,High School Musical 2,True
+106831,1,1,1,Dumbo,True
+107050,1,1,1,Scooby-Doo,True
+107266,1,1,1,An American in Madras (2013),True
+107751,1,1,1,Fast Times at Ridgemont High,True
+107844,1,1,1,Resident Evil: Vendetta,True
+108140,1,1,1,William & Catherine: A Royal Romance,True
+108462,1,1,1,The Matrix Revisited,True
+108711,1,1,1,Three Days,True
+108853,1,1,1,Porco Rosso,True
+108897,1,1,1,Moana,True
+108923,1,1,1,A Knight in Camelot,True
+108945,1,1,1,Single White Female,True
+109735,1,1,1,Dracula 3000 (2004),True
+109911,1,1,1,"It's a Mad, Mad, Mad World (1987)",True
+109931,1,1,1,List of accolades received by Inception,True
+110078,1,1,1,The Legend of Ben Hall,True
+110632,1,1,1,Chasing Ice,True
+110711,1,1,1,Bring It On,True
+110746,1,1,1,The Bachelorette,True
+110806,1,1,1,Star Wars Kid,True
+111161,1,1,1,Team America: World Police (2003),True
+111292,1,1,1,Gifted Hands: The Ben Carson Story,True
+111429,1,1,1,Guardians of the Galaxy Vol. 2 (2017),True
+111528,1,1,1,Girl in Progress,True
+111717,1,1,1,Norman: The Moderate Rise and Tragic Fall of a New York Fixer,True
+112106,1,1,1,The Nativity Story,True
+112233,1,1,1,Night of the Living Dead,True
+112305,1,1,1,The Chronicles of Riddick: Dark Fury,True
+112342,1,1,1,Trick or Treat,True
+112735,1,1,1,Measure of a Man (2010),True
+112742,1,1,1,The Penguin King,True
+112994,1,1,1,Gerald's Game (2017),True
+113020,1,1,1,1944 (2015),True
+113035,1,1,1,"Three Billboards Outside Ebbing, Missouri (2017)",True
+113068,1,1,1,The Rescuers Down Under,True
+113150,1,1,1,Call Me by Your Name (2017),True
+113216,1,1,1,Kargus,True
+113247,1,1,1,Broken Springs (2010),True
+113454,1,1,1,Life Is But a Dream,True
+114341,1,1,1,Baywatch (2017),True
+114419,1,1,1,A Christmas Wedding,True
+114709,1,1,1,3000 Miles to Graceland (2001),True
+114984,1,1,1,Final Fantasy VII: Advent Children,True
+115249,1,1,1,The Dukes of Hazzard: The Beginning,True
+115261,1,1,1,Assassin's Creed (2016),True
+115372,1,1,1,The Secret of NIMH,True
+115406,1,1,1,Insidious: Chapter 4 (2018),True
+115493,1,1,1,Windy City Heat,True
+115745,1,1,1,List of accolades received by Gone Girl,True
+116675,1,1,1,Awesome (2006),True
+116723,1,1,1,Breathe (2017),True
+116791,1,1,1,Snow on tha Bluff (2011),True
+116939,1,1,1,White Oleander,True
+116956,1,1,1,Lemonade Mouth,True
+117324,1,1,1,Sausage Party,True
+117368,1,1,1,Surviving Gilligan's Island,True
+117716,1,1,1,The Book of Henry,True
+117771,1,1,1,Bring It On: All or Nothing,True
+117958,1,1,1,Guardians (2017),True
+118395,1,1,1,The Nerd,True
+118756,1,1,1,Zombie Apocalypse,True
+119087,1,1,1,The Fast and the Furious,True
+119149,1,1,1,Captain America: The First Avenger,True
+119191,1,1,1,Ishq Click,True
+119241,1,1,1,Homeless to Harvard: The Liz Murray Story,True
+119326,1,1,1,Harold & Kumar,True
+119395,1,1,1,Armaguedon (1977),True
+119409,1,1,1,Appleseed,True
+119570,1,1,1,The Princess and the Frog,True
+120092,1,1,1,The Shape of Water (2017),True
+120604,1,1,1,Kings of Pastry (2009),True
+120629,1,1,1,Home Alone: The Holiday Heist,True
+120859,1,1,1,Looney Tunes: Back in Action,True
+121241,1,1,1,Barbie Thumbelina,True
+121347,1,1,1,The Terminators,True
+121535,1,1,1,Spring Breakers (2012),True
+121763,1,1,1,79 A.D.,True
+121814,1,1,1,All Eyez on Me,True
+122164,1,1,1,Life of Pi,True
+122184,1,1,1,Their Eyes Were Watching God,True
+122273,1,1,1,Space Buddies,True
+122278,1,1,1,Alien: Covenant (2017),True
+123042,1,1,1,Lego Batman: The Movie – DC Super Heroes Unite,True
+123159,1,1,1,The Long Good Friday (1980),True
+123533,1,1,1,The Immortal Life of Henrietta Lacks,True
+123791,1,1,1,Megan Leavey,True
+123825,1,1,1,Batman vs. Robin,True
+123917,1,1,1,Appaloosa (2008),True
+124024,1,1,1,Pirates of the Caribbean: Dead Men Tell No Tales (2017),True
+124056,1,1,1,Mists (2000),True
+124092,1,1,1,Brian's Song,True
+124121,1,1,1,Arrietty,True
+124779,1,1,1,The Tommyknockers,True
+124797,1,1,1,Bad Lieutenant,True
+124908,1,1,1,The Musical Comedy Murders of 1940,True
+125118,1,1,1,2001: A Space Odyssey (1968),True
+125262,1,1,1,CHiPs,True
+125265,1,1,1,Angry Bird,True
+125567,1,1,1,A Dog's Purpose (2017),True
+125575,1,1,1,A Girl Like Her (2012),True
+125581,1,1,1,Mr. Church,True
+125893,1,1,1,Bridget Jones,True
+125954,1,1,1,Star Trek: Of Gods and Men,True
+125997,1,1,1,Ponyo,True
+126046,1,1,1,Popstar,True
+126231,1,1,1,Rana (2013),True
+126281,1,1,1,Mute (2018),True
+126292,1,1,1,Raees (2016),True
+126347,1,1,1,Glengarry Glen Ross,True
+126564,1,1,1,Happy Madison Productions,True
+126626,1,1,1,Mom's Got a Date with a Vampire,True
+126730,1,1,1,My Little Pony: Meet the Ponies (2008),True
+126817,1,1,1,Bombing the Nazis (1943),True
+127046,1,1,1,The Lost City of Z (2016),True
+127123,1,1,1,Full Metal Village (2006),True
+127357,1,1,1,Colossal (2017),True
+127671,1,1,1,The Bomb,True
+127677,1,1,1,The Chronicles of Riddick,True
+127707,1,1,1,Teen Beach Movie,True
+127949,1,1,1,Ip Man 3,True
+128161,1,1,1,The Kids Are All Right,True
+128686,1,1,1,Family Weekend (2013),True
+128699,1,1,1,The Bourne Identity,True
+129079,1,1,1,Born in China,True
+129187,1,1,1,Tangled Ever After,True
+129479,1,1,1,Labor Pains,True
+129492,1,1,1,Mystery Science Theater 3000: The Movie (1996),True
+129833,1,1,1,Dragon Ball Z: Battle of Gods,True
+130136,1,1,1,Sword Master (2016),True
+130260,1,1,1,Marvel One-Shots,True
+130376,1,1,1,Transformers,True
+130435,1,1,1,Girlfriend's Day (2017),True
+130573,1,1,1,Queen (2013),True
+130625,1,1,1,Blue Planet (1990),True
+130782,1,1,1,The NeverEnding Story,True
+131314,1,1,1,Dark Side of the Moon,True
+131402,1,1,1,A Troll in Central Park,True
+131630,1,1,1,Kong: Skull Island (2017),True
+132127,1,1,1,"Sarah, Plain and Tall",True
+132148,1,1,1,MirrorMask (2004),True
+132189,1,1,1,Transformers: Dark of the Moon,True
+132215,1,1,1,Kill the Irishman,True
+132255,1,1,1,The Materassi Sisters,True
+132447,1,1,1,Princess Protection Program,True
+132669,1,1,1,Just Married,True
+132965,1,1,1,1984 (1956),True
+132992,1,1,1,Los Bandoleros,True
+133138,1,1,1,Evangelion: 2.0 You Can  Advance,True
+133776,1,1,1,Justice League Dark,True
+133983,1,1,1,"Honey, I Shrunk the Kids",True
+133997,1,1,1,Sweeney Todd: The Demon Barber of Fleet Street,True
+134366,1,1,1,Neon Genesis Evangelion: Death & Rebirth,True
+134823,1,1,1,Taken,True
+134897,1,1,1,Justice League: Doom,True
+134982,1,1,1,THX 1138 (1971),True
+135060,1,1,1,Couples Retreat,True
+135121,1,1,1,Debbie Does Dallas ... Again,True
+135142,1,1,1,Up Denali 3D (2003),True
+135211,1,1,1,Undisputed III: Redemption,True
+135305,1,1,1,The Rescuers,True
+135388,1,1,1,The Munsters' Scary Little Christmas,True
+135472,1,1,1,"Laugh It Up, Fuzzball: The Family Guy Trilogy",True
+135790,1,1,1,Battlestar Galactica: The Plan,True
+136459,1,1,1,Raavan,True
+136574,1,1,1,Apartment 1303 (2007),True
+136586,1,1,1,X-Men,True
+136632,1,1,1,Spider-Man: Homecoming (2017),True
+136877,1,1,1,300 (2007),True
+136912,1,1,1,Adventures of Mowgli,True
+137143,1,1,1,Appleseed Ex Machina,True
+137778,1,1,1,Louis and the Nazis,True
+137804,1,1,1,Vampire Hunter D: Bloodlust (2001),True
+137813,1,1,1,How to Talk to Girls at Parties,True
+137817,1,1,1,The Incredible Hulk Returns,True
+138268,1,1,1,Bates Motel,True
+138354,1,1,1,Double Indemnity,True
+138430,1,1,1,The Sandlot: Heading Home (2007),True
+138851,1,1,1,How to Succeed in Business Without Really Trying,True
+139140,1,1,1,Captain America,True
+139391,1,1,1,Joe Maddison's War,True
+139688,1,1,1,FernGully: The Last Rainforest,True
+139903,1,1,1,The Emoji Movie (2017),True
+139913,1,1,1,Ghost in the Shell 2: Innocence,True
+140316,1,1,1,2046 (2004),True
+140730,1,1,1,Lady and the Tramp,True
+141222,1,1,1,Summer Wars,True
+141261,1,1,1,Sharknado,True
+141614,1,1,1,The Bye Bye Man (2017),True
+141776,1,1,1,WALL-E,True
+141963,1,1,1,Evil Dead,True
+142186,1,1,1,Iron Man 3,True
+142240,1,1,1,"Planes, Trains and Eric",True
+142554,1,1,1,Loving Vincent,True
+142684,1,1,1,The Christmas Carol,True
+143141,1,1,1,An American Tail: Fievel Goes West (1991),True
+143142,1,1,1,"Ladybird, Ladybird (1994)",True
+143206,1,1,1,Batman: The Dark Knight Returns,True
+143220,1,1,1,Dr. Strange,True
+143378,1,1,1,Friend Request,True
+143958,1,1,1,Romy and Michele: In the Beginning,True
+144313,1,1,1,American Assassin,True
+144335,1,1,1,Their Finest (2016),True
+144669,1,1,1,Snakes on a Train,True
+144811,1,1,1,Fast 8,True
+144978,1,1,1,Mickey's Once Upon a Christmas,True
+145016,1,1,1,Patriots Day (2016),True
+145405,1,1,1,Cheech & Chong's Animated Movie (2013),True
+146058,1,1,1,Mr. 3000 (2004),True
+146166,1,1,1,Superman vs. The Elite,True
+146205,1,1,1,American Made (2017),True
+146670,1,1,1,A Marvel Comics Super Special: Blade Runner,True
+146870,1,1,1,Pitch Perfect,True
+147246,1,1,1,Airport 1975 (1974),True
+147869,1,1,1,Drive Angry,True
+148053,1,1,1,It's Pat (1995),True
+148674,1,1,1,Capturing the Friedmans (2003),True
+148808,1,1,1,Forgetting the Girl (2012),True
+149216,1,1,1,The Purge,True
+149241,1,1,1,Foo Fighters: Back and Forth,True
+149245,1,1,1,The Fox and the Hound,True
+149249,1,1,1,The Enchanted,True
+149291,1,1,1,"The Lion, the Witch and the Wardrobe",True
+149627,1,1,1,Blues Brothers 2000 (1998),True
+150313,1,1,1,Too Big to Fail,True
+151089,1,1,1,Killer Legends,True
+151180,1,1,1,Pokémon 3: The Movie,True
+151304,1,1,1,Korkoro,True
+151348,1,1,1,Frozen (2010),True
+151987,1,1,1,The Penthouse (1967),True
+152325,1,1,1,The Minority,True
+152474,1,1,1,All Dogs Go to Heaven,True
+153287,1,1,1,Pieces (1982),True
+153346,1,1,1,Insidious (2011),True
+154125,1,1,1,Transformers: Dark of the Moon: The Junior Novel,True
+154271,1,1,1,25th Hour,True
+154350,1,1,1,From Prada to Nada (2011),True
+154483,1,1,1,Seal Team Six: The Raid on Osama Bin Laden,True
+154920,1,1,1,Howl's Moving Castle,True
+154980,1,1,1,Hacksaw Ridge,True
+155437,1,1,1,The Uncomfortable Camera (2005),True
+155790,1,1,1,Star Trek,True
+155829,1,1,1,Rogue One: A Star Wars Story (2016),True
+155955,1,1,1,Paddington 2,True
+156056,1,1,1,Attack the Block,True
+156590,1,1,1,Almost Christmas (2016),True
+157241,1,1,1,The Hobbit,True
+157376,1,1,1,Hitchcock,True
+157497,1,1,1,When Paddy Met Sally,True
+157536,1,1,1,Drums in the Deep South (1951),True
+157590,1,1,1,Indiana Jones,True
+157678,1,1,1,Cool and the Crazy,True
+157696,1,1,1,Ureme 5 (1989),True
+158329,1,1,1,The Back-up Plan,True
+158390,1,1,1,Korengal,True
+158803,1,1,1,Who Framed Roger Rabbit,True
+158876,1,1,1,Inuyasha the Movie: Swords of an Honorable Ruler,True
+159550,1,1,1,Doctor Who,True
+159560,1,1,1,Citizen X,True
+159810,1,1,1,Kalifornia,True
+159873,1,1,1,Richard Pryor: Live in Concert (1979),True
+160403,1,1,1,Batman: Under the Red Hood,True
+160690,1,1,1,Super Troopers 2 (2018),True
+160978,1,1,1,My Neighbor Totoro,True
+161207,1,1,1,The Elizabeth Smart Story,True
+161259,1,1,1,How to Train Your Dragon,True
+161520,1,1,1,Air Bud,True
+161609,1,1,1,Pigeon (2004),True
+161747,1,1,1,The Little Woman,True
+162317,1,1,1,Tom & Jerry (1995),True
+162794,1,1,1,War for the Planet of the Apes (2017),True
+162810,1,1,1,Mr. Popper's Penguins,True
+163190,1,1,1,Get Shorty,True
+163215,1,1,1,Wonder (2017),True
+163553,1,1,1,Ingrid Goes West (2017),True
+164364,1,1,1,Death Wish,True
+164728,1,1,1,Out of Sight,True
+164798,1,1,1,Burlesque (2010),True
+164887,1,1,1,Evil Aliens (2005),True
+165240,1,1,1,Little Fockers,True
+165261,1,1,1,The Lincoln Lawyer,True
+165806,1,1,1,To Have and Have Not,True
+165843,1,1,1,Tootsie,True
+165952,1,1,1,Love Happens,True
+165965,1,1,1,Killing Kennedy,True
+166069,1,1,1,Kill Bill,True
+166243,1,1,1,Patema Inverted,True
+166357,1,1,1,Superman Classic,True
+166971,1,1,1,I.T.,True
+167001,1,1,1,Mercenary for Justice,True
+167394,1,1,1,Giant Creepy Crawlies (2000),True
+167536,1,1,1,Victoria and Abdul,True
+167820,1,1,1,Diary of a Wimpy Kid: The Long Haul,True
+167942,1,1,1,Switching Goals,True
+168039,1,1,1,The Dark Knight Trilogy,True
+168068,1,1,1,The Warrior's Way,True
+168188,1,1,1,Kingsglaive: Final Fantasy XV,True
+168256,1,1,1,Mindgame,True
+168560,1,1,1,Beethoven's 3rd (2000),True
+168793,1,1,1,Pokémon: The First Movie,True
+168985,1,1,1,Ip Man,True
+169419,1,1,1,Thor: Ragnarok (2017),True
+169470,1,1,1,Meet Me in St. Louis,True
+169623,1,1,1,O.J.: Made in America,True
+169644,1,1,1,Thank You for Smoking (2005),True
+169910,1,1,1,Leatherface (2017),True
+170032,1,1,1,A Boyfriend for Christmas,True
+170037,1,1,1,The Big Sick (2017),True
+170213,1,1,1,The Aristocats,True
+170305,1,1,1,John Wick: Chapter 2 (2017),True
+170376,1,1,1,Blade Runner 2049 (2017),True
+170634,1,1,1,Beautiful Minds,True
+170722,1,1,1,Meet the Parents (2000),True
+171446,1,1,1,One Piece Film: Z,True
+171808,1,1,1,Wish Upon a Star,True
+172150,1,1,1,When Marnie Was There,True
+172250,1,1,1,The Dilemma,True
+172492,1,1,1,The Assailant,True
+173068,1,1,1,Ula (2015),True
+173142,1,1,1,The Late Bloomer (2016),True
+173841,1,1,1,List of awards and nominations received by The King's Speech,True
+174079,1,1,1,"I, the Other (2006)",True
+174109,1,1,1,Fullmetal Alchemist,True
+174475,1,1,1,Anchorman,True
+174485,1,1,1,"Honey, We Shrunk Ourselves",True
+174489,1,1,1,"Natasha, Pierre & The Great Comet of 1812",True
+174518,1,1,1,Frozen Fever,True
+174617,1,1,1,A United Kingdom (2016),True
+174932,1,1,1,&ME,True
+175203,1,1,1,Hot Tub Time Machine,True
+175295,1,1,1,Transformers: Revenge of the Fallen,True
+175580,1,1,1,While I Was Gone,True
+175843,1,1,1,The Lord of the Rings,True
+176075,1,1,1,The Three Stooges Go Around the World in a Daze (1963),True
+176100,1,1,1,The Cable Guy,True
+176326,1,1,1,Fifty Shades Freed (2018),True
+176416,1,1,1,"Yes, Madam (1985)",True
+176494,1,1,1,Thor: The Dark World,True
+177160,1,1,1,Justice League (2017),True
+177283,1,1,1,The 41-Year-Old Virgin Who Knocked Up Sarah Marshall and Felt Superbad About It,True
+177341,1,1,1,Romy and Michele's High School Reunion,True
+177454,1,1,1,Menace II Society (1992),True
+177667,1,1,1,Jenny's Wedding,True
+177725,1,1,1,Jarhead 2: Field of Fire,True
+177915,1,1,1,Uncle Buck,True
+178278,1,1,1,Dog Day Afternoon,True
+178441,1,1,1,The Worst of Faces of Death (1987),True
+178482,1,1,1,Captain America: The Winter Soldier,True
+178823,1,1,1,Death Race 2,True
+178849,1,1,1,"Double, Double, Toil and Trouble",True
+179468,1,1,1,Creep 2,True
+179735,1,1,1,Amanda Knox: Murder on Trial in Italy,True
+179909,1,1,1,Sabrina the Teenage Witch,True
+180224,1,1,1,The Cabin in the Woods,True
+180235,1,1,1,Super8,True
+180389,1,1,1,On Chesil Beach,True
+180416,1,1,1,The Fantastic Four,True
+180600,1,1,1,He's Just Not That Into You,True
+180695,1,1,1,November Criminals,True
+180818,1,1,1,The Seven Five,True
+181069,1,1,1,Resident Evil: The Final Chapter (2016),True
+181102,1,1,1,Wolf Children,True
+181152,1,1,1,USS Indianapolis: Men of Courage,True
+181414,1,1,1,Waiting for Armageddon (2009),True
+181447,1,1,1,Blood Red,True
+181664,1,1,1,Interview with the Vampire,True
+181715,1,1,1,Logan (2017),True
+181716,1,1,1,Honey 2,True
+181981,1,1,1,Quints,True
+182022,1,1,1, (2007),True
+182282,1,1,1,Fastest (2011),True
+182298,1,1,1,Boyka: Undisputed,True
+182334,1,1,1,Ewoks: The Battle for Endor,True
+182465,1,1,1,True Memoirs of an International Assassin,True
+182498,1,1,1,Shot Caller,True
+182522,1,1,1,Storks,True
+182647,1,1,1,DC Showcase: Catwoman,True
+183056,1,1,1,The Big Lebowski,True
+183130,1,1,1,When the Levees Broke,True
+183480,1,1,1,Tinker Bell and the Lost Treasure,True
+183650,1,1,1,Lethal Weapon,True
+183951,1,1,1,Tinker Bell,True
+184051,1,1,1,Maid in Manhattan,True
+184357,1,1,1,Rock Dog,True
+184376,1,1,1,The Last Song,True
+184509,1,1,1,Hotel for Dogs,True
+184571,1,1,1,Star Wars Holiday Special,True
+184648,1,1,1,The Little Rascals Save the Day,True
+185179,1,1,1,Take Me Home Tonight,True
+185671,1,1,1,500 Days of Summer,True
+185850,1,1,1,Kung Pow! Enter the Fist (2001),True
+185851,1,1,1,What a Lie,True
+186495,1,1,1,The First Monday in May,True
+186537,1,1,1,The Good Guys,True
+186689,1,1,1,Tubelight,True
+186903,1,1,1,Return of Sabata,True
+186961,1,1,1,Doctor Who: Thirty Years in the TARDIS,True
+187075,1,1,1,The Heart of Me (2002),True
+187261,1,1,1,The Godfather Part III,True
+187563,1,1,1,The Hunt for the BTK Killer,True
+187573,1,1,1,The Woman in the Window,True
+187645,1,1,1,Fullmetal Alchemist: Brotherhood,True
+187714,1,1,1,Me Before You,True
+187890,1,1,1,Little Black Book,True
+188192,1,1,1,No Strings Attached (2010),True
+188211,1,1,1,The Legend of 1900 (1998),True
+188598,1,1,1,The Bourne Legacy,True
+188949,1,1,1,Jin-Roh: The Wolf Brigade,True
+189024,1,1,1,Joseph: King of Dreams,True
+189041,1,1,1,Ho! (1968),True
+189134,1,1,1,Percy Jackson: Sea of Monsters,True
+189380,1,1,1,The Flying Nun,True
+189968,1,1,1,Revenge of the Bridesmaids,True
+190402,1,1,1,An American Tail,True
+190498,1,1,1,Dora the Explorer: Dora Saves the Snow Princess,True
+190639,1,1,1,2016: Obama's America (2012),True
+191025,1,1,1,The Beatles: Eight Days a Week,True
+191480,1,1,1,Shazam!: The Return of Black Adam,True
+191667,1,1,1,Sunshine Love,True
+191828,1,1,1,The Tale of Sweeney Todd,True
+191834,1,1,1,Percy Jackson & the Olympians: The Lightning Thief,True
+191956,1,1,1,The Bridge (2006),True
+192020,1,1,1,Fifty Shades Darker (2017),True
+192035,1,1,1,Austin Powers,True
+192131,1,1,1,American Pie,True
+192459,1,1,1,Toy Story That Time Forgot,True
+193004,1,1,1,Birth of the Dragon (2016),True
+193141,1,1,1,Mulan II,True
+193658,1,1,1,2012 (2009),True
+193669,1,1,1,True Love (2002),True
+193702,1,1,1,Dirty Tennis,True
+193762,1,1,1,Fist Fight (2017),True
+194035,1,1,1,1408 (2007),True
+194069,1,1,1,Aba (2008),True
+194088,1,1,1,How to Become a Criminal Mastermind,True
+194412,1,1,1,The Sword in the Stone,True
+194450,1,1,1,Bugs Bunny in Space,True
+194919,1,1,1,Rise of the Gargoyles,True
+195045,1,1,1,Vicky Cristina Barcelona,True
+195049,1,1,1,Mastermind (1976),True
+195276,1,1,1,Zatoichi on the Road (1963),True
+195284,1,1,1,Dark House (2009),True
+195484,1,1,1,The Foreigner,True
+195687,1,1,1,The Pelican Brief,True
+195791,1,1,1,Dragon Ball Z: Fusion Reborn,True
+196209,1,1,1,The Thinning,True
+196756,1,1,1,Marvel Super Heroes 4D,True
+197111,1,1,1,Signs (2008),True
+197589,1,1,1,Kingsman: The Golden Circle,True
+197849,1,1,1,2012: Ice Age (2011),True
+197918,1,1,1,An Officer and a Gentleman,True
+198391,1,1,1,Lake Placid vs. Anaconda,True
+198619,1,1,1,"Planes, Trains and Automobiles (1986)",True
+198723,1,1,1,Home Alone 4,True
+198865,1,1,1,Beyond Skyline,True
+198977,1,1,1,Batman Begins,True
+199257,1,1,1,List of accolades received by Ratatouille,True
+199385,1,1,1,Black Hawk Down (2002),True
+199453,1,1,1,City of Angels,True
+199460,1,1,1,Paddington Bear,True
+199532,1,1,1,Grown-Ups,True
+199656,1,1,1,Bring It On: Fight to the Finish,True
+199867,1,1,1,Captain America II: Death Too Soon,True
+200033,1,1,1,Loose Change,True
+200334,1,1,1,"Murder, My Sweet",True
+200385,1,1,1,Pistol Pete: The Life and Times of Pete Maravich,True
+200425,1,1,1,Midnight Sun (2018),True
+200516,1,1,1,The Devil's Arithmetic,True
+200711,1,1,1,Shottas (2002),True
+201070,1,1,1,3 Avengers,True
+201093,1,1,1,This Space Between Us (1999),True
+201562,1,1,1,In the Doghouse,True
+202062,1,1,1,A Cinderella Story,True
+202934,1,1,1,Revenge of the Nerds (1984),True
+203007,1,1,1,The Little Mermaid: Ariel's Beginning,True
+203010,1,1,1,A Tale of Mari and Three Puppies,True
+203247,1,1,1,Dinner for Schmucks,True
+203543,1,1,1,The Cabin,True
+203644,1,1,1,The Great Wall,True
+203740,1,1,1,Zapped,True
+203761,1,1,1,1922,True
+203907,1,1,1,V for Vendetta (2005),True
+204262,1,1,1,Mersal (2017),True
+204331,1,1,1,Girls Trip (2017),True
+204334,1,1,1,Happy Death Day (2017),True
+204341,1,1,1,Love and Basketball (2000),True
+204390,1,1,1,Brawl in Cell Block 99,True
+204391,1,1,1,3 Days of a Blind Girl (1992),True
+204409,1,1,1,Murder on the Orient Express (2017),True
+204419,1,1,1,Jigsaw (2017),True
+204435,1,1,1,Berserk The Golden Age Arc (2012),True
+204455,1,1,1,A Bad Moms Christmas (2017),True
+204456,1,1,1,The Mountain Between Us (2017),True
+204466,1,1,1,Atomic Blonde (2017),True
+204468,1,1,1,Wish Upon (2017),True
+204477,1,1,1,Nick and Norah's Infinite Playlist,True
+204478,1,1,1,Daddy's Home 2 (2017),True
+204505,1,1,1,Rough Night (2017),True
+204508,1,1,1,Father Figures (2017),True
+204536,1,1,1,The Day I Met El Chapo (2017),True
+204537,1,1,1,Inside Chipotle,True
+204579,1,1,1,Snatched (2017),True
+204590,1,1,1,68 Kill (2017),True
+204595,1,1,1,Brigsby Bear (2017),True
+204603,1,1,1,Super Dark Times (2017),True
+204604,1,1,1,Bright (2017),True
+204644,1,1,1,Mother! (2017),True
+204647,1,1,1,Downsized (2017),True
+204651,1,1,1,The Greatest Showman (2017),True
+204700,1,1,1,Wonder Woman 2 (2019),True
+204704,1,1,1,Molly's Game (2017),True
+204707,1,1,1,The Fate of the Furious (2017),True
+204708,1,1,1,Olaf's Frozen Adventure (2017),True
+204727,1,1,1,Legend of the Naga Pearls,True
+204729,1,1,1,Cult of Chucky (2017),True
+204794,1,1,1,It (1990),True
+204813,1,1,1,Boo 2! A Madea Halloween (2017),True
+204843,1,1,1,Dave Chappelle Stand-up Special (2018),True
+204844,1,1,1,Wonder Wheel (2017),True
+204849,1,1,1,Captain Underpants: The First Epic Movie,True
+204850,1,1,1,Fahrenheit 9/11 (2004),True
+204853,1,1,1,"I, Tonya (2017)",True
+204863,1,1,1,Ferdinand (2017),True
+204865,1,1,1,Proud Mary (2018),True
+204870,1,1,1,Deadpool 2 (2018),True
+204873,1,1,1,Love and Friendship (2016),True
+204883,1,1,1,The Post (2017),True
+204895,1,1,1,Peter Rabbit (2018),True
+204899,1,1,1,Insidious: The Last Key (2018),True
+204900,1,1,1,The Star (2017),True
+204901,1,1,1,Green Is Gold (2016),True
+204904,1,1,1,Phantom Thread (2017),True
+204932,1,1,1,Everybody Loves Somebody (2017),True
+204963,1,1,1,Face/Off (1997),True
+204966,1,1,1,Mary and the Witch's Flower (2017),True
+204974,1,1,1,Black Panther (2018),True
+204984,1,1,1,Home Again (2017),True
+204998,1,1,1,The Langoliers,True
+205054,1,1,1,12 Strong (2018),True
+205060,1,1,1,Pitch Perfect 3 (2017),True
+205061,1,1,1,Odd Squad: The Movie (2016),True
+205107,1,1,1,The Stolen (2017),True
+205124,1,1,1,Mom and Dad (2017),True
+205129,1,1,1,Den of Thieves (2018),True
+205141,1,1,1,Small Town Crime (2017),True
+205163,1,1,1,Avengers: Infinity War (2018),True
+205170,1,1,1,Forever My Girl (2018),True
+205182,1,1,1,The Lion King (2019),True
+205194,1,1,1,Jeepers Creepers 3 (2017),True
+205210,1,1,1,Blood and Bones (2009),True
+205226,1,1,1,A Gentleman (2017),True
+205261,1,1,1,The Five People You Meet in Heaven,True
+205266,1,1,1,Annabelle: Creation (2017),True
+205267,1,1,1,A Ghost Story (2017),True
+205305,1,1,1,The Cloverfield Paradox (2018),True
+205332,1,1,1,Still/Born (2017),True
+205336,1,1,1,A Royal Family Holiday (2012),True
+205353,1,1,1,Winchester (2018),True
+205365,1,1,1,To Serve Man - Twilight Zone (1962),True
+205375,1,1,1,Ocean's 8 (2018),True
+205376,1,1,1,I Feel Pretty (2018),True
+205381,1,1,1,Hickok (2017),True
+205382,1,1,1,Valley of Bones (2017),True
+205402,1,1,1,A Dark Song (2017),True
+205407,1,1,1,Money Heist (2017),True
+205410,1,1,1,Altered Carbon (2018),True
+205430,1,1,1,A Quiet Place (2018),True
+205435,1,1,1,Game Night (2018),True
+205439,1,1,1,The Clapper (2018),True
+205443,1,1,1,Nothing Gold Can Stay (2017),True
+205447,1,1,1,The Disaster Artist (2017),True
+205492,1,1,1,Broadchurch,True
+205504,1,1,1,Lucky Logan (2017),True
+205507,1,1,1,Sandy Wexler (2017),True
+205513,1,1,1,On Body and Soul (2017),True
+205534,1,1,1,Samson (2018),True
+205547,1,1,1,I Can Only Imagine (2018),True
+205548,1,1,1,Only the Brave (2017),True
+205557,1,1,1,Red Sparrow (2018),True
+205563,1,1,1,Lonesome Dove (1989),True
+205569,1,1,1,The Meyerowitz Stories (New and Selected) (2017),True
+205591,1,1,1,The Open House (2018),True
+205609,1,1,1,Frost/Nixon (2008),True
+205618,1,1,1,Acrimony (2018),True
+205665,1,1,1,The Meg (2018),True
+205695,1,1,1,Blockers (2018),True
+205697,1,1,1,Loveless (2017),True
+205698,1,1,1,Tomb Raider (2018),True
+205700,1,1,1,The Nun (2018),True
+205711,1,1,1,This Is Not What I Expected (2017),True
+205716,1,1,1,Napping Princess (2017),True
+205717,1,1,1,Jawbone (2017),True
+205719,1,1,1,Dalida (2017),True
+205722,1,1,1,Gringo (2018),True
+205724,1,1,1,Incredibles 2 (2018),True
+205735,1,1,1,The Strangers: Prey at Night (2018),True
+205738,1,1,1,Jim Gaffigan: Obsessed (2014),True
+205741,1,1,1,50/50 (2011),True
+205744,1,1,1,Isle Of Dogs (2018),True
+205745,1,1,1,A Fantastic Woman (2017),True
+205747,1,1,1,The Radiant One (2016),True
+205752,1,1,1,Haruko Azumi Is Missing (2016),True
+205756,1,1,1,Making a Murderer,True
+205773,1,1,1,The 15-17 to Paris,True
+205774,1,1,1,All the Money in the World,True
+205777,1,1,1,Call the Midwife (2012),True
+205785,1,1,1,Demon House (2018),True
+205789,1,1,1,Lego DC Comics Super Heroes: The Flash (2018),True
+205794,1,1,1,Casting JonBenet (2017),True
+205799,1,1,1,Catching Faith (2015),True
+205803,1,1,1,Big Bear (2017),True
+205809,1,1,1,Whatever Happened to Baby Jane? (1962),True
+205810,1,1,1,The Pirates of Somalia (2017),True
+205811,1,1,1,The Female Brain (2018),True
+205813,1,1,1,Half Magic (2018),True
+205816,1,1,1,Pacific Rim Uprising (2018),True
+205817,1,1,1,Ant-Man and the Wasp (2018),True
+205821,1,1,1,"Love, Simon (2018)",True
+205832,1,1,1,The Goonies 2 (2018),True
+205841,1,1,1,Finding Your Feet (2018),True
+205847,1,1,1,Kidnap (2017),True
+205849,1,1,1,Pandas (2018),True
+205850,1,1,1,Every Day (2018),True
+205854,1,1,1,Like Cats and Dogs (2017),True
+205855,1,1,1,Love After Love (2018),True
+205858,1,1,1,The Grinch (2018),True
+205860,1,1,1,A Plastic Ocean (2016),True
+205863,1,1,1,Colette (2013),True
+205865,1,1,1,Icarus (2017),True
+205867,1,1,1,Venom (2018),True
+205876,1,1,1,Night School (2018),True
+205885,1,1,1,The Last Full Measure (2018),True
+205887,1,1,1,9/11 (2017),True
+205896,1,1,1,Team Foxcatcher (2016),True
+205901,1,1,1,"Game Over, Man! (2018)",True
+205906,1,1,1,Judgement Night (1993),True
+205910,1,1,1,La Rafle (2010),True
+205914,1,1,1,Secret Superstar (2017),True
+205920,1,1,1,The Botany Of Desire (2009),True
+205931,1,1,1,Bakemono no Ko (2015),True
+205932,1,1,1,2036: Nexus Dawn (2017),True
+205934,1,1,1,Rampage (2018),True
+205943,1,1,1,The Ritual (2017),True
+205951,1,1,1,Hurricane Heist (2018),True
+205954,1,1,1,Gotti (2018),True
+205981,1,1,1,Emma Stone (2017),True
+206020,1,1,1,RBG (2018),True
+206021,1,1,1,Christopher Robin (2018),True
+206022,1,1,1,Overboard (2018),True
+206023,1,1,1,Aquaman (2018),True
+206026,1,1,1,Curse of the Blue Lights (1988),True
+206027,1,1,1,Killer Clowns from Outer Space (1988),True
+206029,1,1,1,Breaking In (2018),True
+206032,1,1,1,Seven Seconds (2018),True
+206035,1,1,1,Show Dogs (2018),True
+206044,1,1,1,Solo: A Star Wars Story (2018),True
+206045,1,1,1,The Strange Thing About the Johnsons,True
+206047,1,1,1,How to Be a Latin Lover (2017),True
+206056,1,1,1,After the Silence (1996),True
+206062,1,1,1,Cargo (2017),True
+206064,1,1,1,Dr. Horrible's Sing-Along Blog,True
+206072,1,1,1,V/H/S,True
+206076,1,1,1,Ralph Breaks the Internet (2018),True
+206079,1,1,1,2036 Origin Unknown (2018),True
+206080,1,1,1,The Hatching (2016),True
+206085,1,1,1,Hotel Artemis (2018),True
+206087,1,1,1,Hereditary (2018),True
+206092,1,1,1,Mowgli (2019),True
