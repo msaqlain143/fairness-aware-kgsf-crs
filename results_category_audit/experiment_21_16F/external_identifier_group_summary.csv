@@ -1,0 +1,101 @@
+﻿movielens_id,pairwise_comparisons,unique_database_ids,reference_title,imdb_id,tmdb_id,imdb_available,tmdb_available,all_source_titles_match,pairwise_title_mismatches
+69,1,2,Friday (1995),113118.0,10634.0,True,True,True,0
+145,1,2,Bad Boys (1995),112442.0,9737.0,True,True,True,0
+454,1,2,"Firm, The (1993)",106918.0,37233.0,True,True,False,1
+455,1,2,Free Willy (1993),106965.0,1634.0,True,True,True,0
+480,1,2,Jurassic Park (1993),107290.0,329.0,True,True,True,0
+586,1,2,Home Alone (1990),99785.0,771.0,True,True,True,0
+588,1,2,Aladdin (1992),103639.0,812.0,True,True,True,0
+592,1,2,Batman (1989),96895.0,268.0,True,True,True,0
+648,1,2,Mission: Impossible (1996),117060.0,954.0,True,True,True,0
+858,1,2,"Godfather, The (1972)",68646.0,238.0,True,True,False,1
+924,1,2,2001: A Space Odyssey (1968),62622.0,62.0,True,True,True,0
+968,1,2,Night of the Living Dead (1968),63350.0,10331.0,True,True,True,0
+1219,1,2,Psycho (1960),54215.0,539.0,True,True,True,0
+1265,1,2,Groundhog Day (1993),107048.0,137.0,True,True,True,0
+1270,1,2,Back to the Future (1985),88763.0,105.0,True,True,True,0
+1275,1,2,Highlander (1986),91203.0,8009.0,True,True,True,0
+1333,1,2,"Birds, The (1963)",56869.0,571.0,True,True,False,1
+1387,1,2,Jaws (1975),73195.0,578.0,True,True,True,0
+1407,1,2,Scream (1996),117571.0,4232.0,True,True,True,0
+1592,1,2,Air Bud (1997),118570.0,20737.0,True,True,True,0
+1721,1,2,Titanic (1997),120338.0,597.0,True,True,True,0
+1954,1,2,Rocky (1976),75148.0,1366.0,True,True,True,0
+1997,1,2,"Exorcist, The (1973)",70047.0,9552.0,True,True,False,1
+2000,1,2,Lethal Weapon (1987),93409.0,941.0,True,True,True,0
+2054,1,2,"Honey, I Shrunk the Kids (1989)",97523.0,9354.0,True,True,True,0
+2116,1,2,"Lord of the Rings, The (1978)",77869.0,123.0,True,True,False,1
+2161,1,2,"NeverEnding Story, The (1984)",88323.0,34584.0,True,True,False,1
+2167,1,2,Blade (1998),120611.0,36647.0,True,True,True,0
+2273,1,2,Rush Hour (1998),120812.0,2109.0,True,True,True,0
+2378,1,2,Police Academy (1984),87928.0,9336.0,True,True,True,0
+2571,1,2,"Matrix, The (1999)",133093.0,603.0,True,True,False,1
+2617,1,2,"Mummy, The (1999)",120616.0,564.0,True,True,False,1
+2644,1,2,Dracula (1931),21814.0,138.0,True,True,True,0
+2706,1,2,American Pie (1999),163651.0,2105.0,True,True,True,0
+2795,1,2,National Lampoon's Vacation (1983),85995.0,11153.0,True,True,True,0
+2803,1,2,"Pelican Brief, The (1993)",107798.0,9944.0,True,True,False,1
+3409,1,2,Final Destination (2000),195714.0,9532.0,True,True,True,0
+3430,1,2,Death Wish (1974),71402.0,13939.0,True,True,True,0
+3527,1,2,Predator (1987),93773.0,106.0,True,True,True,0
+3554,1,2,Love and Basketball (2000),199725.0,14736.0,True,True,False,1
+3578,1,2,Gladiator (2000),172495.0,98.0,True,True,False,1
+3785,1,2,Scary Movie (2000),175142.0,4247.0,True,True,True,0
+3793,1,2,X-Men (2000),120903.0,36657.0,True,True,True,0
+3882,1,2,Bring It On (2000),204946.0,1588.0,True,True,True,0
+3948,1,2,Meet the Parents (2000),212338.0,1597.0,True,True,True,0
+3977,1,2,Charlie's Angels (2000),160127.0,4327.0,True,True,True,0
+4105,1,2,"Evil Dead, The (1981)",83907.0,764.0,True,True,False,1
+4296,1,2,Love Story (1970),66011.0,9062.0,True,True,True,0
+4369,1,2,"Fast and the Furious, The (2001)",232500.0,9799.0,True,True,False,1
+4533,1,2,"Return of the Living Dead, The (1985)",89907.0,10925.0,True,True,False,1
+5219,1,2,Resident Evil (2002),120804.0,1576.0,True,True,True,0
+5418,1,2,"Bourne Identity, The (2002)",258463.0,2501.0,True,True,False,1
+5419,1,2,Scooby-Doo (2002),267913.0,9637.0,True,True,True,0
+5572,1,2,Barbershop (2002),303714.0,10611.0,True,True,True,0
+5588,1,2,"Hills Have Eyes, The (1977)",77681.0,12262.0,True,True,False,1
+7579,1,2,Pride and Prejudice (1940),32943.0,43818.0,True,True,True,0
+8371,1,2,"Chronicles of Riddick, The (2004)",296572.0,2789.0,True,True,False,1
+8533,1,2,"Notebook, The (2004)",332280.0,11036.0,True,True,False,1
+8972,1,2,National Treasure (2004),368891.0,2059.0,True,True,True,0
+26764,1,2,Captain America (1990),103923.0,13995.0,True,True,True,0
+27602,1,2,,,,False,False,False,1
+33004,1,2,"Hitchhiker's Guide to the Galaxy, The (2005)",371724.0,7453.0,True,True,False,1
+40732,1,2,"Descent, The (2005)",435625.0,9392.0,True,True,False,1
+46972,1,2,Night at the Museum (2006),477347.0,1593.0,True,True,True,0
+47382,1,2,Step Up (2006),462590.0,9762.0,True,True,True,0
+48262,1,2,"Bridge, The (2006)",799954.0,1666.0,True,True,False,1
+49286,1,2,"Holiday, The (2006)",457939.0,1581.0,True,True,False,1
+53996,1,2,Transformers (2007),418279.0,1858.0,True,True,True,0
+56152,1,2,Enchanted (2007),461770.0,4523.0,True,True,False,1
+56757,1,2,Sweeney Todd: The Demon Barber of Fleet Street (2007),408236.0,13885.0,True,True,True,0
+57368,1,2,Cloverfield (2008),1060277.0,7191.0,True,True,True,0
+59369,1,2,Taken (2008),936501.0,8681.0,True,True,True,0
+61041,1,2,"Take, The (2007)",828158.0,18056.0,True,True,False,1
+62155,1,2,Nick and Norah's Infinite Playlist (2008),981227.0,12182.0,True,True,False,1
+65514,1,2,Ip Man (2008),1220719.0,14756.0,True,True,True,0
+68358,1,2,Star Trek (2009),796366.0,13475.0,True,True,True,0
+69122,1,2,"Hangover, The (2009)",1119646.0,18785.0,True,True,False,1
+69526,1,2,Transformers: Revenge of the Fallen (2009),1055369.0,8373.0,True,True,True,0
+72998,1,2,Avatar (2009),499549.0,19995.0,True,True,True,0
+74228,1,2,Triangle (2009),1187064.0,26466.0,True,True,True,0
+75395,3,3,Frozen (2010),1323045.0,44363.0,True,True,True,0
+76251,1,2,Kick-Ass (2010),1250777.0,23483.0,True,True,True,0
+77206,1,2,Diary of a Wimpy Kid (2010),1196141.0,33217.0,True,True,True,0
+79695,1,2,"Expendables, The (2010)",1320253.0,27578.0,True,True,False,1
+83086,1,2,Burlesque (2010),1126591.0,42297.0,True,True,True,0
+85788,1,2,Insidious (2010),1591095.0,49018.0,True,True,True,0
+86000,1,2,Boy (2010),1560139.0,39356.0,True,True,False,1
+87520,1,2,Transformers: Dark of the Moon (2011),1399103.0,38356.0,True,True,True,0
+91500,1,2,The Hunger Games (2012),1392170.0,70160.0,True,True,True,0
+91535,1,2,"Bourne Legacy, The (2012)",1194173.0,49040.0,True,True,False,1
+96565,1,2,Bachelorette (2012),1920849.0,84174.0,True,True,False,1
+96588,1,2,Pitch Perfect (2012),1981677.0,114150.0,True,True,True,0
+103075,1,2,"Purge, The (2013)",2184339.0,158015.0,True,True,False,1
+103228,1,2,Pacific Rim (2013),1663662.0,68726.0,True,True,True,0
+103688,3,3,"Conjuring, The (2013)",1457767.0,138843.0,True,True,False,3
+114180,1,2,"Maze Runner, The (2014)",1790864.0,198663.0,True,True,False,1
+126008,1,2,Signs (2008),1377575.0,53214.0,True,True,True,0
+134374,1,2,Tinker Bell (2008),823671.0,13179.0,True,True,True,0
+138042,1,2,The Ritual,460943.0,293625.0,True,True,True,0
+162414,1,2,Moonlight,4975722.0,376867.0,True,True,True,0
