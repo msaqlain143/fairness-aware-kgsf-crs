@@ -1,0 +1,11 @@
+{
+  "experiment": "21.3",
+  "relation_id": 87,
+  "relation_records": 6924,
+  "unique_entities": 6924,
+  "nonself_records": 0,
+  "entity_index_overlap": 6924,
+  "entity_index_nonoverlap": 0,
+  "direct_catalog_overlap": 6924,
+  "direct_catalog_overlap_ratio": 1.0
+}

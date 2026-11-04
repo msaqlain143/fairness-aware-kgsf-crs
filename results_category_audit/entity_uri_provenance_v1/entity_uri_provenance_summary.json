@@ -1,0 +1,24 @@
+{
+  "experiment": "21.4",
+  "catalog_entities": 6924,
+  "relation87_entities": 6924,
+  "entity_index_size": 64362,
+  "statistics": {
+    "catalog_entities": 6924,
+    "entity_uri_available": 6924,
+    "movie_uri_available": 6924,
+    "resource_uri_available": 6112,
+    "entity_movie_uri_match": 6924,
+    "entity_resource_uri_match": 0,
+    "movie_resource_uri_match": 0,
+    "mapping_value_available": 6924,
+    "external_key_available": 812,
+    "one_relation87_record": 6924
+  },
+  "validation": {
+    "catalog_relation87_exact_equality": true,
+    "relation87_self_loop_integrity": true,
+    "metadata_catalog_integrity": true,
+    "entity_index_integrity": true
+  }
+}

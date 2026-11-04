@@ -1,0 +1,13 @@
+﻿method,group,catalog_items,total_exposure_slots,minimum_exposure,q25_exposure,median_exposure,q75_exposure,q90_exposure,q95_exposure,q99_exposure,maximum_exposure
+KGSF_only,zero_shot,2477,1,0,0.0,0.0,0.0,0.0,0.0,0.0,1
+KGSF_only,one_shot,2010,547,0,0.0,0.0,0.0,0.0,1.0,7.0,31
+A0_fixed_025,zero_shot,2477,1,0,0.0,0.0,0.0,0.0,0.0,0.0,1
+A0_fixed_025,one_shot,2010,566,0,0.0,0.0,0.0,0.0,2.0,6.910000000000082,28
+A1_frequency_1,zero_shot,2477,1,0,0.0,0.0,0.0,0.0,0.0,0.0,1
+A1_frequency_1,one_shot,2010,686,0,0.0,0.0,0.0,0.0,2.0,8.0,25
+A2_frequency_context_1,zero_shot,2477,1,0,0.0,0.0,0.0,0.0,0.0,0.0,1
+A2_frequency_context_1,one_shot,2010,677,0,0.0,0.0,0.0,0.0,2.0,8.0,25
+A1_frequency_3,zero_shot,2477,2273,0,0.0,0.0,0.0,3.0,4.0,11.0,121
+A1_frequency_3,one_shot,2010,1149,0,0.0,0.0,0.0,1.0,4.0,11.0,25
+A2_frequency_context_3,zero_shot,2477,2108,0,0.0,0.0,0.0,3.0,4.0,10.0,110
+A2_frequency_context_3,one_shot,2010,1131,0,0.0,0.0,0.0,1.0,3.5499999999999545,10.0,25
