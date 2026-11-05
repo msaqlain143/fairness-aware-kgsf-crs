@@ -1,0 +1,124 @@
+{
+    "experiment": "21.16H",
+    "name": "Record-Level Movie Identity Reconstruction",
+    "created_utc": "2026-11-05T06:04:41.406740+00:00",
+    "purpose": "Reconstruct evidence for all 6,924 identities without automatic merging.",
+    "source_files": {
+        "identity": {
+            "path": "results_category_audit\\experiment_21_15\\unified_movie_entity_mapping.csv",
+            "bytes": 2714878,
+            "sha256": "dc548ddc6590484b5962de6aad334f63b562a80452e71afc0ad95829bf89b391"
+        },
+        "pairwise": {
+            "path": "results_category_audit\\experiment_21_16E\\movielens_conflict_pairwise_analysis.csv",
+            "bytes": 22779,
+            "sha256": "b100043664bdf2d23785c907f44a377d8bcc19432b2f04a195b7ab7642c5a3b0"
+        },
+        "conflict_summary": {
+            "path": "results_category_audit\\experiment_21_16F\\external_identifier_group_summary.csv",
+            "bytes": 6738,
+            "sha256": "41f1bd6da8debf963ea4bf60df892b42fed308f510f142cb9cb3ccd9d92bee08"
+        },
+        "uri_audit": {
+            "path": "results_category_audit\\experiment_21_16A\\uri_title_candidate_audit.csv",
+            "bytes": 931804,
+            "sha256": "ac3be1a575649f948ca1f4dd0d96622e803a26d726156d0765f90e65d19eb2b9"
+        },
+        "merged": {
+            "path": "external_validation\\redial_reference\\movies_merged.csv",
+            "bytes": 2613693,
+            "sha256": "af2aa1ce27b1aba74758e0da9e645650e4df8d24bf72b5460ea9d4d064f0b629"
+        },
+        "mentions": {
+            "path": "external_validation\\redial_reference\\movies_with_mentions.csv",
+            "bytes": 226703,
+            "sha256": "0d408daa474ac95b959a739a261dddd997dd800f5ea585da15a434a26187dbb0"
+        },
+        "links": {
+            "path": "external_validation\\movielens_32m\\links.csv",
+            "bytes": 1950748,
+            "sha256": "ef17da7710be76f7d510d5768d1b61826e3af4bf57812b9ca377e4c912123b22"
+        },
+        "movies": {
+            "path": "external_validation\\movielens_32m\\movies.csv",
+            "bytes": 4242926,
+            "sha256": "b37ca1abc7798de741138ed252b62f69f7e37c84b8a8fab1b82d409b4c6c5cc2"
+        }
+    },
+    "source_validation": {
+        "identity_population_6924": true,
+        "internal_entity_ids_unique": true,
+        "canonical_ids_nonblank": true,
+        "canonical_ids_unique": true,
+        "URI_population_6112": true,
+        "numeric_population_812": true,
+        "mention_ids_unique": true,
+        "MovieLens_link_ids_unique": true,
+        "MovieLens_movie_ids_unique": true,
+        "pairwise_population_104": true,
+        "merged_ids_nonblank": true
+    },
+    "counts": {
+        "master_identities": 6924,
+        "uri_identities": 6112,
+        "numeric_identities": 812,
+        "database_ids": 6925,
+        "database_movielens_relationships": 59946,
+        "pairwise_records": 104,
+        "conflict_groups": 100,
+        "unresolved_identities": 6112
+    },
+    "decision_distribution": {
+        "UNRESOLVED": 6112,
+        "VERIFIED_SAME_ENTITY": 812
+    },
+    "validation": {
+        "master_population_6924": true,
+        "master_internal_ids_unique": true,
+        "master_canonical_ids_unique": true,
+        "uri_population_6112": true,
+        "numeric_population_812": true,
+        "pairwise_population_104": true,
+        "conflict_groups_100": true,
+        "decision_register_6924": true,
+        "all_uri_decisions_unresolved": true,
+        "no_automatic_merges": true,
+        "database_inventory_nonempty": true,
+        "database_movielens_relations_nonempty": true
+    },
+    "policy": {
+        "automatic_merging": false,
+        "title_match_is_identity_proof": false,
+        "URI_label_is_authoritative_title": false,
+        "shared_MovieLens_ID_is_individual_identity_proof": false,
+        "IMDb_TMDb_scope": "MovieLens-group-level cross-reference only.",
+        "numeric_status": "Prior 21.15 status carried forward; no fresh 21.14 rerun.",
+        "uncertain_relationships": "Remain UNRESOLVED.",
+        "original_sources_modified": false,
+        "graph_modified": false,
+        "model_training": false,
+        "model_inference": false
+    },
+    "limitations": [
+        "MovieLens links associates IMDb/TMDb IDs with MovieLens IDs, not directly with each ReDial databaseId.",
+        "A shared MovieLens ID does not independently prove two databaseId records are the same real-world movie.",
+        "Title/year agreement is candidate evidence only.",
+        "URI local labels and prior URI title candidates are not independent identity verification.",
+        "This script does not query IMDb or TMDb directly.",
+        "Numeric verification status is carried forward from the earlier workflow."
+    ],
+    "outputs": [
+        "movie_identity_evidence_master.csv",
+        "database_id_record_evidence.csv",
+        "database_id_movielens_relationships.csv",
+        "conflict_record_reconstruction.csv",
+        "conflict_group_reconstruction.csv",
+        "uri_identity_reconstruction.csv",
+        "numeric_identity_reconstruction.csv",
+        "identity_decision_register.csv",
+        "unresolved_identity_records.csv",
+        "experiment_21_16H_manifest.json",
+        "experiment_21_16H_validation_report.txt"
+    ],
+    "completion_status": "COMPLETED_VALIDATIONS_PASSED_WITH_UNRESOLVED_IDENTITIES"
+}

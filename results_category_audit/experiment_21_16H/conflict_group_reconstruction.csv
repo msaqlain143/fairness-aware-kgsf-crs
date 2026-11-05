@@ -1,0 +1,101 @@
+﻿movielens_id,pairwise_comparisons,unique_database_ids,database_ids_a,database_ids_b,valid_pair_membership_rows,imdb_id,tmdb_id,movielens_title,group_identity_decision,decision_scope
+103075,1,1,"[""149216""]","[""151728""]",1,2184339,158015,"Purge, The (2013)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+103228,1,1,"[""120722""]","[""189079""]",1,1663662,68726,Pacific Rim (2013),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+103688,3,2,"[""103906"", ""180231""]","[""180231"", ""185171""]",3,1457767,138843,"Conjuring, The (2013)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+114180,1,1,"[""131313""]","[""152202""]",1,1790864,198663,"Maze Runner, The (2014)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+1219,1,1,"[""94056""]","[""97819""]",1,0054215,539,Psycho (1960),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+126008,1,1,"[""93706""]","[""197111""]",1,1377575,53214,Signs (2008),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+1265,1,1,"[""107379""]","[""120948""]",1,0107048,137,Groundhog Day (1993),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+1270,1,1,"[""100043""]","[""135485""]",1,0088763,105,Back to the Future (1985),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+1275,1,1,"[""155370""]","[""169376""]",1,0091203,8009,Highlander (1986),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+1333,1,1,"[""121386""]","[""127676""]",1,0056869,571,"Birds, The (1963)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+134374,1,1,"[""104784""]","[""183951""]",1,0823671,13179,Tinker Bell (2008),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+138042,1,1,"[""143905""]","[""205943""]",1,0460943,293625,The Ritual,UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+1387,1,1,"[""89213""]","[""180527""]",1,0073195,578,Jaws (1975),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+1407,1,1,"[""169601""]","[""184951""]",1,0117571,4232,Scream (1996),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+145,1,1,"[""101691""]","[""106674""]",1,0112442,9737,Bad Boys (1995),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+1592,1,1,"[""79543""]","[""161520""]",1,0118570,20737,Air Bud (1997),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+162414,1,1,"[""167455""]","[""178032""]",1,4975722,376867,Moonlight,UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+1721,1,1,"[""99584""]","[""175096""]",1,0120338,597,Titanic (1997),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+1954,1,1,"[""105123""]","[""203730""]",1,0075148,1366,Rocky (1976),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+1997,1,1,"[""76012""]","[""76481""]",1,0070047,9552,"Exorcist, The (1973)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+2000,1,1,"[""101794""]","[""183650""]",1,0093409,941,Lethal Weapon (1987),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+2054,1,1,"[""113972""]","[""133983""]",1,0097523,9354,"Honey, I Shrunk the Kids (1989)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+2116,1,1,"[""175843""]","[""193368""]",1,0077869,123,"Lord of the Rings, The (1978)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+2161,1,1,"[""117122""]","[""130782""]",1,0088323,34584,"NeverEnding Story, The (1984)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+2167,1,1,"[""104772""]","[""195447""]",1,0120611,36647,Blade (1998),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+2273,1,1,"[""159382""]","[""193168""]",1,0120812,2109,Rush Hour (1998),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+2378,1,1,"[""81006""]","[""151656""]",1,0087928,9336,Police Academy (1984),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+2571,1,1,"[""85036""]","[""140395""]",1,0133093,603,"Matrix, The (1999)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+2617,1,1,"[""76171""]","[""149348""]",1,0120616,564,"Mummy, The (1999)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+2644,1,1,"[""94741""]","[""189381""]",1,0021814,138,Dracula (1931),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+26764,1,1,"[""139140""]","[""163973""]",1,0103923,13995,Captain America (1990),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+2706,1,1,"[""134643""]","[""192131""]",1,0163651,2105,American Pie (1999),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+27602,1,1,"[""176399""]","[""195484""]",1,,,,UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+2795,1,1,"[""93094""]","[""146481""]",1,0085995,11153,National Lampoon's Vacation (1983),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+2803,1,1,"[""137129""]","[""195687""]",1,0107798,9944,"Pelican Brief, The (1993)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+33004,1,1,"[""90883""]","[""199698""]",1,0371724,7453,"Hitchhiker's Guide to the Galaxy, The (2005)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+3409,1,1,"[""137513""]","[""173868""]",1,0195714,9532,Final Destination (2000),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+3430,1,1,"[""78010""]","[""164364""]",1,0071402,13939,Death Wish (1974),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+3527,1,1,"[""79451""]","[""189494""]",1,0093773,106,Predator (1987),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+3554,1,1,"[""100468""]","[""204341""]",1,0199725,14736,Love and Basketball (2000),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+3578,1,1,"[""92937""]","[""171202""]",1,0172495,98,Gladiator (2000),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+3785,1,1,"[""78186""]","[""88393""]",1,0175142,4247,Scary Movie (2000),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+3793,1,1,"[""136586""]","[""183121""]",1,0120903,36657,X-Men (2000),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+3882,1,1,"[""104766""]","[""110711""]",1,0204946,1588,Bring It On (2000),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+3948,1,1,"[""106317""]","[""170722""]",1,0212338,1597,Meet the Parents (2000),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+3977,1,1,"[""163696""]","[""195904""]",1,0160127,4327,Charlie's Angels (2000),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+40732,1,1,"[""127759""]","[""166883""]",1,0435625,9392,"Descent, The (2005)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+4105,1,1,"[""141963""]","[""178604""]",1,0083907,764,"Evil Dead, The (1981)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+4296,1,1,"[""140611""]","[""169159""]",1,0066011,9062,Love Story (1970),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+4369,1,1,"[""119087""]","[""120849""]",1,0232500,9799,"Fast and the Furious, The (2001)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+4533,1,1,"[""86819""]","[""114652""]",1,0089907,10925,"Return of the Living Dead, The (1985)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+454,1,1,"[""177677""]","[""181540""]",1,0106918,37233,"Firm, The (1993)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+455,1,1,"[""91611""]","[""190919""]",1,0106965,1634,Free Willy (1993),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+46972,1,1,"[""102499""]","[""174073""]",1,0477347,1593,Night at the Museum (2006),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+47382,1,1,"[""134778""]","[""167936""]",1,0462590,9762,Step Up (2006),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+480,1,1,"[""101158""]","[""148231""]",1,0107290,329,Jurassic Park (1993),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+48262,1,1,"[""122411""]","[""191956""]",1,0799954,1666,"Bridge, The (2006)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+49286,1,1,"[""131908""]","[""167746""]",1,0457939,1581,"Holiday, The (2006)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+5219,1,1,"[""166010""]","[""183169""]",1,0120804,1576,Resident Evil (2002),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+53996,1,1,"[""129036""]","[""130376""]",1,0418279,1858,Transformers (2007),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+5418,1,1,"[""128699""]","[""174719""]",1,0258463,2501,"Bourne Identity, The (2002)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+5419,1,1,"[""107050""]","[""139400""]",1,0267913,9637,Scooby-Doo (2002),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+5572,1,1,"[""95780""]","[""162165""]",1,0303714,10611,Barbershop (2002),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+5588,1,1,"[""112792""]","[""201991""]",1,0077681,12262,"Hills Have Eyes, The (1977)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+56152,1,1,"[""92390""]","[""149249""]",1,0461770,4523,Enchanted (2007),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+56757,1,1,"[""107350""]","[""133997""]",1,0408236,13885,Sweeney Todd: The Demon Barber of Fleet Street (2007),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+57368,1,1,"[""76519""]","[""84195""]",1,1060277,7191,Cloverfield (2008),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+586,1,1,"[""90967""]","[""95199""]",1,0099785,771,Home Alone (1990),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+588,1,1,"[""107514""]","[""140973""]",1,0103639,812,Aladdin (1992),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+592,1,1,"[""132481""]","[""181370""]",1,0096895,268,Batman (1989),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+59369,1,1,"[""134823""]","[""144347""]",1,0936501,8681,Taken (2008),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+61041,1,1,"[""148464""]","[""166710""]",1,0828158,18056,"Take, The (2007)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+62155,1,1,"[""108217""]","[""204477""]",1,0981227,12182,Nick and Norah's Infinite Playlist (2008),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+648,1,1,"[""80325""]","[""188057""]",1,0117060,954,Mission: Impossible (1996),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+65514,1,1,"[""168985""]","[""179506""]",1,1220719,14756,Ip Man (2008),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+68358,1,1,"[""155790""]","[""182674""]",1,0796366,13475,Star Trek (2009),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+69,1,1,"[""81162""]","[""149514""]",1,0113118,10634,Friday (1995),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+69122,1,1,"[""135571""]","[""192919""]",1,1119646,18785,"Hangover, The (2009)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+69526,1,1,"[""175295""]","[""181741""]",1,1055369,8373,Transformers: Revenge of the Fallen (2009),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+72998,1,1,"[""90950""]","[""163606""]",1,0499549,19995,Avatar (2009),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+74228,1,1,"[""77521""]","[""81475""]",1,1187064,26466,Triangle (2009),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+75395,3,2,"[""107018"", ""123210""]","[""123210"", ""151348""]",3,1323045,44363,Frozen (2010),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+7579,1,1,"[""119914""]","[""176184""]",1,0032943,43818,Pride and Prejudice (1940),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+76251,1,1,"[""85764""]","[""198707""]",1,1250777,23483,Kick-Ass (2010),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+77206,1,1,"[""82808""]","[""190018""]",1,1196141,33217,Diary of a Wimpy Kid (2010),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+79695,1,1,"[""77868""]","[""137887""]",1,1320253,27578,"Expendables, The (2010)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+83086,1,1,"[""99066""]","[""164798""]",1,1126591,42297,Burlesque (2010),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+8371,1,1,"[""127677""]","[""172049""]",1,0296572,2789,"Chronicles of Riddick, The (2004)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+8533,1,1,"[""185139""]","[""194600""]",1,0332280,11036,"Notebook, The (2004)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+85788,1,1,"[""77128""]","[""196399""]",1,1591095,49018,Insidious (2010),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+858,1,1,"[""114851""]","[""161723""]",1,0068646,238,"Godfather, The (1972)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+86000,1,1,"[""109435""]","[""170521""]",1,1560139,39356,Boy (2010),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+87520,1,1,"[""132189""]","[""150050""]",1,1399103,38356,Transformers: Dark of the Moon (2011),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+8972,1,1,"[""77747""]","[""180899""]",1,0368891,2059,National Treasure (2004),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+91500,1,1,"[""134885""]","[""170174""]",1,1392170,70160,The Hunger Games (2012),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+91535,1,1,"[""129992""]","[""188598""]",1,1194173,49040,"Bourne Legacy, The (2012)",UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+924,1,1,"[""95893""]","[""125118""]",1,0062622,62,2001: A Space Odyssey (1968),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+96565,1,1,"[""110746""]","[""182525""]",1,1920849,84174,Bachelorette (2012),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+96588,1,1,"[""146870""]","[""190814""]",1,1981677,114150,Pitch Perfect (2012),UNRESOLVED,Conflict-group evidence; no automatic entity merging.
+968,1,1,"[""79385""]","[""112233""]",1,0063350,10331,Night of the Living Dead (1968),UNRESOLVED,Conflict-group evidence; no automatic entity merging.

@@ -1,0 +1,38 @@
+EXPERIMENT 21.16H - VALIDATION REPORT
+======================================================================
+UTC: 2026-11-05T06:04:41.406740+00:00
+
+COUNTS
+master_identities: 6924
+uri_identities: 6112
+numeric_identities: 812
+database_ids: 6925
+database_movielens_relationships: 59946
+pairwise_records: 104
+conflict_groups: 100
+unresolved_identities: 6112
+
+DECISION DISTRIBUTION
+UNRESOLVED: 6112
+VERIFIED_SAME_ENTITY: 812
+
+VALIDATION
+master_population_6924: PASS
+master_internal_ids_unique: PASS
+master_canonical_ids_unique: PASS
+uri_population_6112: PASS
+numeric_population_812: PASS
+pairwise_population_104: PASS
+conflict_groups_100: PASS
+decision_register_6924: PASS
+all_uri_decisions_unresolved: PASS
+no_automatic_merges: PASS
+database_inventory_nonempty: PASS
+database_movielens_relations_nonempty: PASS
+
+SAFEGUARDS
+- No automatic entity merging.
+- URI candidates are not treated as identity proof.
+- IMDb/TMDb identifiers are group-level evidence only.
+- Uncertain relationships remain unresolved.
+- Original data, graph and model files are not modified.
