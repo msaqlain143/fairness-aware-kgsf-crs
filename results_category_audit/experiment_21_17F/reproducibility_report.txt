@@ -1,0 +1,25 @@
+EXPERIMENT 21.17F
+IMDb Evidence Quality and Entity Granularity Audit
+=================================================================
+Source entities: 6112
+Master entities: 6112
+Official IMDb records: 577
+Record exceptions: 379
+Granularity reviews: 35
+
+VALIDATION
+population_6112: PASS
+internal_ids_unique: PASS
+source_uris_nonblank: PASS
+master_population_preserved: PASS
+master_entity_ids_unique: PASS
+all_source_uris_preserved: PASS
+record_population_consistent: PASS
+no_automatic_identity_verification: PASS
+no_automatic_merging: PASS
+unresolved_entities_preserved: PASS
+
+No automatic identity verification.
+No automatic entity merging.
+No knowledge graph modification.
+Original source files unchanged.
