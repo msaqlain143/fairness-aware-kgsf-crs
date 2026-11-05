@@ -274,3 +274,5 @@ Temporary Items
 
 backup/
 catalog_audit_corrected.pkl
+external_validation/movielens_32m/*.zip
+*.zip
