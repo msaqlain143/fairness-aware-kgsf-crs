@@ -1,0 +1,40 @@
+{
+    "experiment": "21.16I",
+    "name": "Database Identifier Sentinel and Source Integrity Audit",
+    "created_utc": "2026-11-05T06:47:48.926547+00:00",
+    "counts": {
+        "merged_records": 59946,
+        "mention_records": 6924,
+        "valid_database_records": 6924,
+        "invalid_sentinel_records": 53022,
+        "valid_database_ids": 6924,
+        "mention_ids": 6924,
+        "valid_ids_with_mentions": 6924,
+        "valid_ids_without_mentions": 0,
+        "sentinel_external_links": 53022,
+        "sentinel_external_metadata": 53022
+    },
+    "validation": {
+        "merged_population_preserved": true,
+        "mention_population_preserved": true,
+        "sentinel_records_identified": true,
+        "valid_database_ids_unique_population": true,
+        "all_valid_ids_have_mention_reference": true,
+        "sentinel_records_separated": true
+    },
+    "policy": {
+        "minus_one_is_valid_database_identity": false,
+        "automatic_merging": false,
+        "source_files_modified": false,
+        "identity_mapping_modified": false,
+        "graph_modified": false,
+        "model_training": false,
+        "model_inference": false
+    },
+    "source_hashes": {
+        "merged": "af2aa1ce27b1aba74758e0da9e645650e4df8d24bf72b5460ea9d4d064f0b629",
+        "mentions": "0d408daa474ac95b959a739a261dddd997dd800f5ea585da15a434a26187dbb0",
+        "links": "ef17da7710be76f7d510d5768d1b61826e3af4bf57812b9ca377e4c912123b22",
+        "movies": "b37ca1abc7798de741138ed252b62f69f7e37c84b8a8fab1b82d409b4c6c5cc2"
+    }
+}
