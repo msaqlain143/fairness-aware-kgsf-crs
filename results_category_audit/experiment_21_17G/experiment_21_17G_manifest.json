@@ -1,0 +1,76 @@
+{
+    "experiment": "21.17G",
+    "name": "Independent TMDb Identifier Cross-Validation",
+    "generated_utc": "2026-11-06T02:16:08.070565+00:00",
+    "sources": {
+        "dbpedia_imdb_identifier_source": "results_category_audit\\experiment_21_17C\\imdb_identifier_cross_reference.csv",
+        "movielens_links": "external_validation\\movielens_32m\\links.csv",
+        "movielens_movies": "external_validation\\movielens_32m\\movies.csv"
+    },
+    "source_sha256": {
+        "results_category_audit\\experiment_21_17C\\imdb_identifier_cross_reference.csv": "c1e7fd61c852c4d1129eab0b67684a4c2002de62c4ed31a180673966edb5ee87",
+        "external_validation\\movielens_32m\\links.csv": "ef17da7710be76f7d510d5768d1b61826e3af4bf57812b9ca377e4c912123b22",
+        "external_validation\\movielens_32m\\movies.csv": "b37ca1abc7798de741138ed252b62f69f7e37c84b8a8fab1b82d409b4c6c5cc2"
+    },
+    "counts": {
+        "dbpedia_identities": 6112,
+        "entities_with_dbpedia_imdb_identifiers": 561,
+        "entity_identifier_pairs": 578,
+        "unique_dbpedia_imdb_identifiers_queried": 578,
+        "tmdb_identifier_evidence_rows": 578,
+        "conflict_or_exception_rows": 4,
+        "unresolved_entities": 5656
+    },
+    "identifier_assessment_distribution": {
+        "TMDB_MOVIELENS_IDENTIFIER_AGREEMENT": 469,
+        "TMDB_FOUND_NO_MOVIELENS_REFERENCE": 96,
+        "TMDB_NO_RESULT": 9,
+        "MULTIPLE_TMDB_RESULTS_REVIEW": 3,
+        "TMDB_IDENTIFIER_CONFLICT": 1
+    },
+    "entity_assessment_distribution": {
+        "UNRESOLVED_NO_DBPEDIA_IMDB_IDENTIFIER": 5551,
+        "TMDB_CROSS_REFERENCE_CORROBORATION": 456,
+        "UNRESOLVED_INSUFFICIENT_EVIDENCE": 93,
+        "UNRESOLVED_TMDB_NO_RESULT": 8,
+        "TMDB_CONFLICT_OR_CARDINALITY_REVIEW": 4
+    },
+    "validation": {
+        "master_population_6112": true,
+        "master_entity_ids_unique": true,
+        "all_source_entities_preserved": true,
+        "detail_population_matches_identifier_pairs": true,
+        "no_automatic_identity_verification": true,
+        "no_automatic_entity_merging": true,
+        "all_master_rows_have_source_uri": true
+    },
+    "methodology": {
+        "lookup_endpoint": "TMDb API v3 /find/{external_id}",
+        "external_source": "imdb_id",
+        "lookup_identifier_provenance": "dbpedia_imdb_ids column from Experiment 21.17C only",
+        "matching_imdb_ids_used_as_lookup_source": false,
+        "movielens_role": "Intermediate comparison source; not independent identity proof",
+        "all_tmdb_result_types_preserved": true,
+        "automatic_identity_verification": false,
+        "automatic_entity_merging": false,
+        "checkpointing_enabled": true
+    },
+    "limitations": [
+        "TMDb lookup results corroborate identifier correspondence but do not alone prove DBpedia entity identity.",
+        "MovieLens TMDb identifiers are used as comparison references.",
+        "A successful API response with no results is not an API failure.",
+        "Multiple results and multiple MovieLens candidates remain review cases.",
+        "Identities without DBpedia-origin IMDb identifiers remain unresolved.",
+        "No automatic identity verification or entity merging is performed."
+    ],
+    "outputs": [
+        "tmdb_identity_evidence_master.csv",
+        "tmdb_identifier_cross_reference.csv",
+        "tmdb_identifier_conflicts.csv",
+        "tmdb_unresolved_identities.csv",
+        "tmdb_api_checkpoint.jsonl",
+        "experiment_21_17G_manifest.json",
+        "reproducibility_report.txt"
+    ],
+    "completion_status": "COMPLETED_ALL_VALIDATIONS_PASSED"
+}

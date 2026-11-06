@@ -1,0 +1,33 @@
+EXPERIMENT 21.17G — REPRODUCIBILITY REPORT
+Generated UTC: 2026-11-06T02:16:08.070565+00:00
+
+Lookup identifiers were restricted to DBpedia-origin IMDb IDs.
+MovieLens was used only as an intermediate comparison source.
+All TMDb result categories were preserved.
+No automatic identity verification or entity merging was performed.
+
+Counts:
+- dbpedia_identities: 6112
+- entities_with_dbpedia_imdb_identifiers: 561
+- entity_identifier_pairs: 578
+- unique_dbpedia_imdb_identifiers_queried: 578
+- tmdb_identifier_evidence_rows: 578
+- conflict_or_exception_rows: 4
+- unresolved_entities: 5656
+
+Validation:
+- master_population_6112: PASS
+- master_entity_ids_unique: PASS
+- all_source_entities_preserved: PASS
+- detail_population_matches_identifier_pairs: PASS
+- no_automatic_identity_verification: PASS
+- no_automatic_entity_merging: PASS
+- all_master_rows_have_source_uri: PASS
+
+Limitations:
+- TMDb lookup results corroborate identifier correspondence but do not alone prove DBpedia entity identity.
+- MovieLens TMDb identifiers are used as comparison references.
+- A successful API response with no results is not an API failure.
+- Multiple results and multiple MovieLens candidates remain review cases.
+- Identities without DBpedia-origin IMDb identifiers remain unresolved.
+- No automatic identity verification or entity merging is performed.
