@@ -1,0 +1,53 @@
+{
+    "experiment": "21.17C",
+    "purpose": "Cross-reference DBpedia IMDb identifiers against MovieLens 32M.",
+    "outputs": [
+        "imdb_identifier_cross_reference.csv",
+        "imdb_identifier_unmatched.csv",
+        "imdb_match_summary.json",
+        "experiment_21_17C_manifest.json"
+    ],
+    "summary": {
+        "experiment": "21.17C",
+        "name": "IMDb Identifier Cross-Reference Validation",
+        "counts": {
+            "dbpedia_uri_population": 6112,
+            "unique_dbpedia_entities": 6112,
+            "records_with_imdb_identifiers": 561,
+            "records_with_movielens_matches": 460,
+            "records_without_matches": 5652,
+            "unique_movielens_imdb_identifiers": 87585
+        },
+        "status_distribution": {
+            "NO_IMDb_IDENTIFIER": 5551,
+            "UNIQUE_IMDB_CROSS_REFERENCE": 456,
+            "IMDB_NOT_FOUND_IN_MOVIELENS": 101,
+            "MULTIPLE_CROSS_REFERENCE_CANDIDATES": 4
+        },
+        "validation": {
+            "dbpedia_population_6112": true,
+            "dbpedia_entity_ids_unique": true,
+            "dbpedia_uris_unique": true,
+            "movielens_movie_ids_unique": true,
+            "movielens_metadata_ids_unique": true,
+            "output_population_preserved": true,
+            "output_entity_ids_unique": true,
+            "all_source_uris_preserved": true,
+            "no_automatic_identity_verification": true
+        },
+        "methodology": {
+            "identifier": "Normalized IMDb numeric identifier",
+            "minimum_imdb_width": 7,
+            "title_matching_is_identity_proof": false,
+            "automatic_entity_merging": false,
+            "automatic_identity_verification": false,
+            "unresolved_records_preserved": true
+        },
+        "source_hashes": {
+            "dbpedia_metadata": "f863286dcb14780dffd505bb9c9f6f7643c21dd913386d769705d01d8d3f0814",
+            "movielens_links": "ef17da7710be76f7d510d5768d1b61826e3af4bf57812b9ca377e4c912123b22",
+            "movielens_movies": "b37ca1abc7798de741138ed252b62f69f7e37c84b8a8fab1b82d409b4c6c5cc2"
+        },
+        "completion_status": "COMPLETED"
+    }
+}

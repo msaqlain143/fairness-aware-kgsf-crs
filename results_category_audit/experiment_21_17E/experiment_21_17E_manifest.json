@@ -1,0 +1,69 @@
+{
+    "experiment": "21.17E",
+    "name": "Official IMDb Identifier Cross-Validation",
+    "generated_utc": "2026-11-05T08:15:07.354140+00:00",
+    "sources": {
+        "experiment_21_17C": "results_category_audit\\experiment_21_17C\\imdb_identifier_cross_reference.csv",
+        "experiment_21_17D": "results_category_audit\\experiment_21_17D\\imdb_identity_verification_master.csv",
+        "official_imdb_dataset": "external_validation\\imdb\\title.basics.tsv.gz"
+    },
+    "source_hashes": {
+        "experiment_21_17C": "c1e7fd61c852c4d1129eab0b67684a4c2002de62c4ed31a180673966edb5ee87",
+        "experiment_21_17D": "e6b24aca053107474327c61149d0c09b67401b779dfd65307aa0306474291b0b",
+        "official_imdb_dataset": "b21a800d45e56eb07f8f8eb87053c63e828b71532cb1b31948c426acd3562c13"
+    },
+    "counts": {
+        "dbpedia_identities": 6112,
+        "unique_target_imdb_ids": 578,
+        "official_imdb_records_matched": 577,
+        "identifier_comparisons": 577,
+        "unmatched_entity_records": 5551,
+        "official_dataset_records_scanned": 12928096,
+        "official_dataset_matching_rows": 577
+    },
+    "assessment_distribution": {
+        "UNRESOLVED_NO_IMDB_IDENTIFIER": 5551,
+        "IDENTIFIER_TITLE_VARIATION_REVIEW": 311,
+        "STRONG_IDENTIFIER_TITLE_YEAR_CORROBORATION": 199,
+        "IDENTIFIER_CARDINALITY_REVIEW": 5,
+        "IDENTIFIER_TITLE_CORROBORATION_REVIEW": 25,
+        "UNRESOLVED_PARTIAL_IDENTIFIER_MATCH": 1,
+        "YEAR_CONFLICT_REQUIRES_REVIEW": 20
+    },
+    "validation": {
+        "master_population_6112": true,
+        "master_entity_ids_unique": true,
+        "all_source_uris_preserved": true,
+        "official_identifiers_match_target_set": true,
+        "all_comparisons_have_official_records": true,
+        "no_automatic_identity_verification": true,
+        "no_automatic_merging": true,
+        "all_entities_accounted_for": true
+    },
+    "methodology": {
+        "identifier_matching": "Exact normalized IMDb tconst",
+        "title_matching": "Conservative Unicode-normalized equality",
+        "year_matching": "Comparison with available DBpedia and MovieLens years",
+        "title_type_preserved": true,
+        "identity_verification_automatic": false,
+        "automatic_entity_merging": false,
+        "unresolved_records_preserved": true
+    },
+    "limitations": [
+        "Official IMDb identifier existence does not independently prove DBpedia identity.",
+        "Title agreement is corroborating evidence, not standalone identity proof.",
+        "Missing years remain incomplete rather than being assumed to agree.",
+        "IMDb dataset coverage and update date may affect available records.",
+        "Film series and individual film granularity require separate investigation.",
+        "No automatic identity verification or merging was performed."
+    ],
+    "completion_status": "COMPLETED_ALL_VALIDATIONS_PASSED",
+    "outputs": [
+        "imdb_identity_evidence_master.csv",
+        "imdb_official_identifier_matches.csv",
+        "imdb_title_year_comparison.csv",
+        "imdb_unmatched_identifiers.csv",
+        "experiment_21_17E_manifest.json",
+        "reproducibility_report.txt"
+    ]
+}

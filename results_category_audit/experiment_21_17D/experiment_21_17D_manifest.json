@@ -1,0 +1,59 @@
+{
+    "experiment": "21.17D",
+    "name": "Record-Level IMDb Identity and Metadata Verification",
+    "purpose": "Conservative assessment of existing IMDb cross-reference evidence for 6,112 DBpedia movie identities.",
+    "source": "results_category_audit\\experiment_21_17C\\imdb_identifier_cross_reference.csv",
+    "source_sha256": "c1e7fd61c852c4d1129eab0b67684a4c2002de62c4ed31a180673966edb5ee87",
+    "counts": {
+        "total_uri_identities": 6112,
+        "strong_identifier_title_year_candidates": 0,
+        "records_requiring_review": 6112,
+        "multiple_candidate_records": 4,
+        "unmatched_records": 5652
+    },
+    "identity_assessment_distribution": {
+        "UNRESOLVED_NO_IMDB_IDENTIFIER": 5551,
+        "UNRESOLVED_IMDB_NOT_IN_MOVIELENS": 101,
+        "IDENTIFIER_TITLE_CORROBORATION_YEAR_INCOMPLETE": 303,
+        "IDENTIFIER_MATCH_TITLE_VARIATION_REVIEW": 147,
+        "YEAR_CONFLICT_REQUIRES_REVIEW": 5,
+        "ENTITY_GRANULARITY_REVIEW": 4,
+        "IDENTIFIER_CARDINALITY_REVIEW": 1
+    },
+    "validation": {
+        "master_population_6112": true,
+        "master_entity_ids_unique": true,
+        "master_uri_population_preserved": true,
+        "strong_candidates_are_unique_identifier_matches": true,
+        "multiple_candidates_preserved": true,
+        "all_original_records_accounted_for": true,
+        "no_automatic_identity_verification": true,
+        "no_automatic_entity_merging": true
+    },
+    "methodology": {
+        "identifier_cross_reference": "Existing IMDb-to-MovieLens matches",
+        "title_normalization": true,
+        "release_year_comparison": true,
+        "title_matching_alone_is_identity_proof": false,
+        "automatic_identity_verification": false,
+        "automatic_entity_merging": false,
+        "unresolved_records_preserved": true,
+        "all_original_uris_preserved": true
+    },
+    "limitations": [
+        "IMDb identifier correspondence is not independently revalidated against IMDb itself.",
+        "MovieLens metadata is used as a cross-reference source.",
+        "Normalized title agreement does not independently prove identity.",
+        "Release years extracted from labels and titles may be incomplete.",
+        "Movie series and adaptations require entity-granularity review.",
+        "No records are automatically declared verified."
+    ],
+    "outputs": [
+        "imdb_identity_verification_master.csv",
+        "imdb_identity_records_requiring_review.csv",
+        "strong_imdb_identity_candidates.csv",
+        "multiple_candidate_identity_review.csv",
+        "unmatched_imdb_identity_records.csv"
+    ],
+    "completion_status": "COMPLETED_ALL_VALIDATIONS_PASSED"
+}

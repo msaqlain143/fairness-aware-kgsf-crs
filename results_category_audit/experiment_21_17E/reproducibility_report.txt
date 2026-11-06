@@ -1,0 +1,32 @@
+EXPERIMENT 21.17E REPRODUCIBILITY REPORT
+============================================================
+Generated UTC: 2026-11-05T08:15:07.354140+00:00
+DBpedia identities: 6112
+Unique target IMDb IDs: 578
+Official IMDb matches: 577
+Comparison records: 577
+
+ASSESSMENT DISTRIBUTION
+----------------------------------------
+IDENTIFIER_CARDINALITY_REVIEW: 5
+IDENTIFIER_TITLE_CORROBORATION_REVIEW: 25
+IDENTIFIER_TITLE_VARIATION_REVIEW: 311
+STRONG_IDENTIFIER_TITLE_YEAR_CORROBORATION: 199
+UNRESOLVED_NO_IMDB_IDENTIFIER: 5551
+UNRESOLVED_PARTIAL_IDENTIFIER_MATCH: 1
+YEAR_CONFLICT_REQUIRES_REVIEW: 20
+
+VALIDATION
+----------------------------------------
+master_population_6112: PASS
+master_entity_ids_unique: PASS
+all_source_uris_preserved: PASS
+official_identifiers_match_target_set: PASS
+all_comparisons_have_official_records: PASS
+no_automatic_identity_verification: PASS
+no_automatic_merging: PASS
+all_entities_accounted_for: PASS
+
+No automatic identity verification.
+No automatic entity merging.
+Original source files unchanged.
