@@ -1,0 +1,58 @@
+EXPERIMENT 21.17H
+TMDb Evidence Quality and Identity Verification
+
+DBpedia entities preserved: 6112
+IMDb/TMDb identifier pairs: 578
+Record-level rows including no-result placeholders: 582
+TMDb candidate rows: 573
+No-result identifier rows: 9
+
+Record assessments:
+{
+    "TITLE_AGREEMENT_YEAR_INCOMPLETE": 364,
+    "STRONG_TMDb_TITLE_YEAR_CORROBORATION": 165,
+    "TITLE_VARIATION_REVIEW": 31,
+    "NO_TMDB_RESULT": 9,
+    "YEAR_CONFLICT_REVIEW": 7,
+    "NON_MOVIE_MEDIA_TYPE_REVIEW": 6
+}
+
+Entity assessments:
+{
+    "UNRESOLVED_NO_TMDb_RESULT": 5559,
+    "UNRESOLVED_INSUFFICIENT_EVIDENCE": 355,
+    "TMDb_STRONG_CORROBORATION_CANDIDATE": 163,
+    "TITLE_VARIATION_REQUIRES_REVIEW": 22,
+    "YEAR_CONFLICT_REQUIRES_REVIEW": 7,
+    "MEDIA_TYPE_REQUIRES_REVIEW": 6
+}
+
+Validation:
+{
+    "tmdb_master_population_6112": true,
+    "tmdb_crossref_population_578": true,
+    "conflict_population_4": true,
+    "dbpedia_population_6112": true,
+    "imdb_master_population_6112": true,
+    "tmdb_master_entity_ids_unique": true,
+    "dbpedia_entity_ids_unique": true,
+    "imdb_master_entity_ids_unique": true,
+    "crossref_identifiers_nonblank": true,
+    "crossref_entity_ids_nonblank": true,
+    "crossref_identifier_pairs_unique": true,
+    "entity_population_6112": true,
+    "entity_ids_unique": true,
+    "all_source_entities_preserved": true,
+    "identifier_pair_population_preserved": true,
+    "all_578_identifier_pairs_accounted_for": true,
+    "record_rows_cover_identifier_pairs": true,
+    "record_tmdb_ids_nonblank_only_for_candidates": true,
+    "no_automatic_identity_verification": true,
+    "no_automatic_entity_merging": true,
+    "conflict_register_population_4": true
+}
+
+Automatic identity verification: DISABLED
+Automatic entity merging: DISABLED
+Original source files modified: NO
+Knowledge graph modified: NO
