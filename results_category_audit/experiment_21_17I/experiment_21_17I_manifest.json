@@ -1,0 +1,72 @@
+{
+    "experiment": "21.17I",
+    "name": "Cross-Source Movie Identity Evidence Integration",
+    "generated_utc": "2026-11-06T11:52:57.869312+00:00",
+    "sources": {
+        "imdb_master": "results_category_audit\\experiment_21_17F\\imdb_evidence_quality_master.csv",
+        "imdb_records": "results_category_audit\\experiment_21_17F\\imdb_evidence_record_level.csv",
+        "tmdb_master": "results_category_audit\\experiment_21_17H\\tmdb_evidence_quality_master.csv",
+        "tmdb_records": "results_category_audit\\experiment_21_17H\\tmdb_evidence_record_level.csv",
+        "dbpedia": "results_category_audit\\experiment_21_17B\\dbpedia_independent_metadata_evidence.csv"
+    },
+    "source_sha256": {
+        "imdb_master": "beb1e2326c3f4168b0500d1be98db01b3779f700a1d46c2dd91266fe272e24f6",
+        "imdb_records": "66143dfa2ecbb7e42826e9d4efee9ac6e388e8c32a56dab25aabcd54c3fe20ef",
+        "tmdb_master": "0535a5abeb0e5985bb4396cf18a1d6565a513b54caf9e37f8840b1bb96dad7f5",
+        "tmdb_records": "52293d8d6999e70e9833eea62b25dbb910331f34062c54234f70d77496c5e92b",
+        "dbpedia": "f863286dcb14780dffd505bb9c9f6f7643c21dd913386d769705d01d8d3f0814"
+    },
+    "counts": {
+        "dbpedia_entities": 6112,
+        "imdb_record_rows": 577,
+        "tmdb_record_rows": 582,
+        "integrated_record_rows": 1159,
+        "integrated_entities": 6112,
+        "exception_entities": 70
+    },
+    "assessment_distribution": {
+        "UNRESOLVED_INSUFFICIENT_EVIDENCE": 5522,
+        "STRONG_IMDB_ONLY_CORROBORATION": 194,
+        "PARTIAL_CORROBORATION": 164,
+        "STRONG_TMDB_ONLY_CORROBORATION": 162,
+        "GRANULARITY_REQUIRES_REVIEW": 35,
+        "CONFLICT_REQUIRES_REVIEW": 24,
+        "MEDIA_TYPE_REQUIRES_REVIEW": 11
+    },
+    "validation": {
+        "dbpedia_population_6112": true,
+        "imdb_master_population_6112": true,
+        "tmdb_master_population_6112": true,
+        "dbpedia_entity_ids_unique": true,
+        "imdb_master_entity_ids_unique": true,
+        "tmdb_master_entity_ids_unique": true,
+        "imdb_record_population_577": true,
+        "tmdb_record_population_582": true,
+        "all_source_entity_ids_nonblank": true,
+        "integrated_population_6112": true,
+        "integrated_entity_ids_unique": true,
+        "all_imdb_uris_preserved": true,
+        "all_tmdb_uris_preserved": true,
+        "record_population_1159": true,
+        "all_imdb_records_preserved": true,
+        "all_tmdb_records_preserved": true,
+        "record_keys_unique": true,
+        "master_population_6112": true,
+        "master_entity_ids_unique": true,
+        "all_entities_preserved": true,
+        "all_imdb_rows_preserved": true,
+        "all_tmdb_rows_preserved": true,
+        "no_automatic_verification": true,
+        "no_automatic_merging": true,
+        "all_uris_nonblank": true
+    },
+    "methodology": {
+        "entity_matching": "Exact movie_entity_id",
+        "uri_validation": "Exact source URI comparison",
+        "record_preservation": "All source records retained",
+        "tmdb_imdb_dependency": "TMDb lookups originated from IMDb identifiers; not treated as fully independent proof.",
+        "automatic_identity_verification": false,
+        "automatic_entity_merging": false
+    },
+    "completion_status": "COMPLETED_ALL_VALIDATIONS_PASSED"
+}
