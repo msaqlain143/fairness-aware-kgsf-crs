@@ -1,0 +1,117 @@
+{
+    "experiment": "21.23B",
+    "split": "validation_only",
+    "catalog_population": 6924,
+    "event_population": 21070,
+    "method_count": 7,
+    "top_k": 10,
+    "verified_category_count": 202,
+    "ambiguous_identity_count": 6,
+    "methods": [
+        {
+            "method": "A0_fixed_025",
+            "events": 3010,
+            "HR@10": 0.20863787375415282,
+            "HR@50": 0.42093023255813955,
+            "NDCG@10": 0.11346712620400375,
+            "MRR@10": 0.08457838949533303,
+            "item_exposure_gini": 0.9505470211945164,
+            "catalog_coverage": 0.19540727902946273,
+            "category_exposure_gini": 0.9295285911569879,
+            "unknown_category_exposure_share": 0.9718936877076412
+        },
+        {
+            "method": "A1_frequency_1",
+            "events": 3010,
+            "HR@10": 0.20996677740863787,
+            "HR@50": 0.4245847176079734,
+            "NDCG@10": 0.11299436337149026,
+            "MRR@10": 0.08357854769814903,
+            "item_exposure_gini": 0.9459632824150579,
+            "catalog_coverage": 0.21013864818024264,
+            "category_exposure_gini": 0.9227449723389605,
+            "unknown_category_exposure_share": 0.9722923588039867
+        },
+        {
+            "method": "A1_frequency_3",
+            "events": 3010,
+            "HR@10": 0.2053156146179402,
+            "HR@50": 0.42425249169435214,
+            "NDCG@10": 0.10895912238972423,
+            "MRR@10": 0.07978260296366609,
+            "item_exposure_gini": 0.9174724536543892,
+            "catalog_coverage": 0.30285961871750433,
+            "category_exposure_gini": 0.8775665476383705,
+            "unknown_category_exposure_share": 0.9675747508305648
+        },
+        {
+            "method": "A1_frequency_7",
+            "events": 3010,
+            "HR@10": 0.13222591362126246,
+            "HR@50": 0.3362126245847176,
+            "NDCG@10": 0.06089679111606435,
+            "MRR@10": 0.03959987871117439,
+            "item_exposure_gini": 0.8313743328132108,
+            "catalog_coverage": 0.4568168688619295,
+            "category_exposure_gini": 0.7828279702970298,
+            "unknown_category_exposure_share": 0.9362126245847177
+        },
+        {
+            "method": "A2_frequency_context_1",
+            "events": 3010,
+            "HR@10": 0.20996677740863787,
+            "HR@50": 0.42425249169435214,
+            "NDCG@10": 0.11303365462765357,
+            "MRR@10": 0.08361269313927122,
+            "item_exposure_gini": 0.946126007857498,
+            "catalog_coverage": 0.21013864818024264,
+            "category_exposure_gini": 0.9233837738417991,
+            "unknown_category_exposure_share": 0.9724584717607974
+        },
+        {
+            "method": "A2_frequency_context_3",
+            "events": 3010,
+            "HR@10": 0.20564784053156146,
+            "HR@50": 0.4232558139534884,
+            "NDCG@10": 0.10878689677229375,
+            "MRR@10": 0.07945591414860519,
+            "item_exposure_gini": 0.9184983331126171,
+            "catalog_coverage": 0.3008376660889659,
+            "category_exposure_gini": 0.8778759170881116,
+            "unknown_category_exposure_share": 0.9676744186046512
+        },
+        {
+            "method": "A2_frequency_context_7",
+            "events": 3010,
+            "HR@10": 0.1335548172757475,
+            "HR@50": 0.34053156146179403,
+            "NDCG@10": 0.06209899036444995,
+            "MRR@10": 0.04071520856404577,
+            "item_exposure_gini": 0.8323486510399574,
+            "catalog_coverage": 0.4556614673599076,
+            "category_exposure_gini": 0.7846717424907048,
+            "unknown_category_exposure_share": 0.9370099667774087
+        }
+    ],
+    "methodological_notes": [
+        "Zero-exposure catalog items are included in item Gini.",
+        "Multi-genre exposure is allocated fractionally.",
+        "Ambiguous identities are excluded from verified categories.",
+        "Unknown-category exposure is reported separately.",
+        "Group codes are reported without assuming their semantics.",
+        "Results use validation data only."
+    ],
+    "validation": {
+        "experiment": "21.23B",
+        "catalog_population": 6924,
+        "methods": 7,
+        "all_catalog_items_preserved": true,
+        "identical_recommendation_opportunities": true,
+        "invalid_recommendation_ids": 0,
+        "duplicate_top10_recommendations": 0,
+        "recommendation_slot_conservation": true,
+        "zero_exposure_items_included": true,
+        "fractional_category_allocation": true,
+        "ambiguous_identity_items_excluded_from_verified_categories": true
+    }
+}

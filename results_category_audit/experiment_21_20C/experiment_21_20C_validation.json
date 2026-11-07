@@ -1,0 +1,12 @@
+{
+    "experiment": "21.20C",
+    "target_entity_count": 6,
+    "all_target_entities_present": true,
+    "all_target_imdb_records_preserved": true,
+    "all_target_tmdb_candidates_preserved": true,
+    "candidate_records_preserved": true,
+    "all_entity_decisions_pending": true,
+    "no_automatic_identity_verification": true,
+    "no_automatic_entity_merging": true,
+    "original_source_records_unchanged": true
+}
