@@ -1,0 +1,3 @@
+﻿predicate,record_count,unique_movies,unique_values,unique_movie_value_pairs,predicate_role
+http://dbpedia.org/property/genre,3,3,2,3,EXPLICIT_GENRE
+http://purl.org/dc/terms/subject,722,24,616,722,GENERAL_SUBJECT

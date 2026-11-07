@@ -1,0 +1,48 @@
+{
+    "experiment": "21.18A.5",
+    "name": "Complete Movie-Centric Relationship Structure Discovery",
+    "generated_utc": "2026-11-07T05:58:47.539835+00:00",
+    "source_hashes": {
+        "dbpedia_subkg": "efe60b68c84ca516fa8b9f37b303e98dd216febc94a95c2e812c95dfafadc9bb",
+        "entity2id": "6ac542fa3894cc95a200e9755145a33f839a73ea8aa4ab64e691fa8482a1dc79",
+        "movie_ids": "e764884035078d2e7138ae447d3956b113a46dcbe8aaccf2f4684b30678b2765"
+    },
+    "counts": {
+        "movie_population": 6924,
+        "previous_audit_population": 6112,
+        "additional_movie_population": 812,
+        "kg_heads": 23160,
+        "global_triples": 165696,
+        "unique_relations": 214,
+        "movie_centric_triples": 72880,
+        "unique_neighbor_entities": 29299,
+        "global_duplicate_groups": 0,
+        "movie_duplicate_groups": 0,
+        "invalid_records": 0
+    },
+    "direction_definition": {
+        "MOVIE_AS_HEAD": "Movie is original triple head",
+        "MOVIE_AS_TAIL": "Movie is original triple tail",
+        "MOVIE_TO_MOVIE": "Distinct movie entities at both endpoints",
+        "SELF_LOOP": "Original head and tail are identical"
+    },
+    "validation": {
+        "original_movie_population_6924": true,
+        "all_movies_mapped": true,
+        "all_original_triples_preserved": true,
+        "original_relation_population_214": true,
+        "movie_edge_population_consistent": true,
+        "participation_population_6924": true,
+        "neighbor_inventory_unique": true,
+        "no_missing_entity_mappings": true
+    },
+    "completion_status": "COMPLETED_ALL_VALIDATIONS_PASSED",
+    "methodological_constraints": [
+        "All 6924 original movie IDs retained",
+        "Original triple direction preserved",
+        "No relation assumed to represent genre",
+        "No automatic semantic classification",
+        "No graph modification",
+        "No automatic entity merging"
+    ]
+}
