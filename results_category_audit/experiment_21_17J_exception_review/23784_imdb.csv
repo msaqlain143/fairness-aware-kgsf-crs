@@ -1,0 +1,4 @@
+﻿movie_entity_id,source_uri,imdb_id,imdb_title,imdb_original_title,imdb_start_year,imdb_title_type,imdb_genres,title_comparison,year_comparison,record_evidence_assessment,automatic_identity_verification,automatic_merging
+23784,http://dbpedia.org/resource/Zeitgeist_(film_series),tt1166827,Zeitgeist,Zeitgeist,2007,video,"Documentary,History",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+23784,http://dbpedia.org/resource/Zeitgeist_(film_series),tt1332128,Zeitgeist: Addendum,Zeitgeist: Addendum,2008,video,"Documentary,History,War",EXACT_NORMALIZED_LABEL_MATCH,YEAR_AGREEMENT,NON_FEATURE_VIDEO_REVIEW,False,False
+23784,http://dbpedia.org/resource/Zeitgeist_(film_series),tt1781069,Zeitgeist: Moving Forward,Zeitgeist: Moving Forward,2011,movie,Documentary,EXACT_NORMALIZED_LABEL_MATCH,YEAR_AGREEMENT,STRONG_MOVIE_CORROBORATION,False,False

@@ -1,0 +1,5 @@
+﻿dependency_category,record_or_entity_count,interpretation
+IMDB_SEEDED_TMDB_LOOKUP,582,TMDb candidate retrieval is associated with an IMDb lookup identifier.
+MOVIELENS_SHARED_TMDB_SUPPORT,472,MovieLens cross-reference shares a TMDb identifier.
+OFFICIAL_IMDB_DATASET_RECORD,577,Official IMDb dataset record retrieved for an IMDb identifier.
+NO_DIRECT_DBPEDIA_TMDB_IDENTIFIER,6112,No direct TMDb identifier found in DBpedia metadata.

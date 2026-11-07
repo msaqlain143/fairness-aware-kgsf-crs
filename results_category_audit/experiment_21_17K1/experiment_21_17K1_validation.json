@@ -1,0 +1,9 @@
+{
+    "entity_master_population_6112": true,
+    "entity_master_ids_unique": true,
+    "integrated_record_population_preserved": true,
+    "all_integrated_records_accounted_for": true,
+    "all_source_entities_preserved": true,
+    "no_automatic_identity_verification": true,
+    "no_automatic_entity_merging": true
+}
