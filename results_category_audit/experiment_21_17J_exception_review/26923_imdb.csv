@@ -1,0 +1,2 @@
+﻿movie_entity_id,source_uri,imdb_id,imdb_title,imdb_original_title,imdb_start_year,imdb_title_type,imdb_genres,title_comparison,year_comparison,record_evidence_assessment,automatic_identity_verification,automatic_merging
+26923,http://dbpedia.org/resource/Helter_Skelter_(1976_film),tt0074621,Helter Skelter,Helter Skelter,1976,tvMiniSeries,"Crime,Drama,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TV_MINISERIES_REVIEW,False,False
