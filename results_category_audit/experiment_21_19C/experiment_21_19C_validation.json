@@ -1,0 +1,10 @@
+{
+    "catalog_population_preserved": true,
+    "unique_movie_ids": true,
+    "all_raw_edges_preserved": true,
+    "all_raw_movie_uris_mapped": true,
+    "item_profiles_complete": true,
+    "accepted_genres_require_manual_validation": true,
+    "no_automatic_genre_assignment": true,
+    "no_original_kg_modification": true
+}

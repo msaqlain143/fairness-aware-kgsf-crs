@@ -1,0 +1,20 @@
+{
+    "experiment": "21.19C",
+    "catalog_population": 6924,
+    "original_category_edge_records": 725,
+    "unique_category_bearing_movies": 24,
+    "movies_with_accepted_genre_evidence": 17,
+    "movies_without_original_category_evidence": 6900,
+    "movies_without_accepted_genre_evidence": 6907,
+    "accepted_genre_edge_records": 23,
+    "accepted_hybrid_edge_records": 16,
+    "attribute_only_edge_records": 5,
+    "unvalidated_edge_records": 678,
+    "catalog_population_preserved": true,
+    "all_original_category_edges_preserved": true,
+    "all_category_movies_mapped": true,
+    "no_automatic_genre_assignment": true,
+    "no_original_kg_modification": true,
+    "category_evidence_coverage_percent": 0.3466,
+    "accepted_genre_coverage_percent": 0.2455
+}

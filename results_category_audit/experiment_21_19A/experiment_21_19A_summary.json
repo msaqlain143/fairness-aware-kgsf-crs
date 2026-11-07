@@ -1,0 +1,16 @@
+{
+    "experiment": "21.19A",
+    "movie_population": 6924,
+    "taxonomy_population": 616,
+    "original_category_records": 725,
+    "direct_category_matches": 722,
+    "exact_kg_category_matches": 0,
+    "combined_evidence_records": 722,
+    "movies_with_any_category_evidence": 24,
+    "movies_with_usable_genre": 17,
+    "movies_without_usable_genre": 6907,
+    "accepted_taxonomy_categories": 35,
+    "pending_taxonomy_categories": 576,
+    "category_uri_intersection_with_kg": 0,
+    "usable_genre_coverage_ratio": 0.002455228191796649
+}
