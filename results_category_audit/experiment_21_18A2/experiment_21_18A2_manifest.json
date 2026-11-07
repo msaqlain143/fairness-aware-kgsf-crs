@@ -1,0 +1,42 @@
+{
+    "experiment": "21.18A.2",
+    "generated_utc": "2026-11-07T04:32:48.040184+00:00",
+    "source_file": "results_category_audit/dbpedia_pilot/category_predicate_audit.csv",
+    "source_sha256": "8b72c7388deb50f8e9d2f37802a5201eaf7a4d470cfbaf73bee381b87816b6e9",
+    "raw_records": 725,
+    "unique_movie_entities": 24,
+    "unique_category_values": 618,
+    "unique_uri_values": 617,
+    "unique_literal_values": 1,
+    "unique_edge_combinations": 724,
+    "duplicate_records": 1,
+    "duplicate_groups": 1,
+    "predicate_distribution": {
+        "http://purl.org/dc/terms/subject": 722,
+        "http://dbpedia.org/property/genre": 3
+    },
+    "entity_type_distribution": {
+        "http://www.w3.org/2004/02/skos/core#Concept": 722,
+        "": 2,
+        "http://www.w3.org/2002/07/owl#Thing": 1
+    },
+    "validation_distribution": {
+        "VALID_SUBJECT_EDGE_REQUIRES_SEMANTIC_CLASSIFICATION": 720,
+        "VALID_DUPLICATE_REVIEW": 2,
+        "REVIEW_LITERAL_VALUE": 2,
+        "VALID_EXPLICIT_GENRE_EDGE": 1
+    },
+    "automatic_semantic_classification": false,
+    "automatic_identity_merging": false,
+    "validation": {
+        "source_population_725": true,
+        "all_source_records_preserved": true,
+        "source_record_ids_unique": true,
+        "all_movie_uris_preserved": true,
+        "no_missing_required_values": true,
+        "duplicate_audit_consistent": true,
+        "no_automatic_semantic_classification": true,
+        "no_automatic_entity_merging": true
+    },
+    "completion_status": "COMPLETED_ALL_VALIDATIONS_PASSED"
+}
