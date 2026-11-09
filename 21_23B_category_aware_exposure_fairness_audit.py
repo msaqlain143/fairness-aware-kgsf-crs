@@ -1,4 +1,4 @@
-
+﻿
 import json
 from pathlib import Path
 from collections import Counter
@@ -177,9 +177,14 @@ for movie_id, row in profiles.iterrows():
 
     categories = {}
 
-    # IMDb genre evidence.
     imdb_genres = parse_list(
-        row["imdb_genres"], delimiter=","
+    row["imdb_genres"], delimiter="|"
+    )
+
+    # DBpedia
+    dbpedia_genres = parse_list(
+        row["canonical_genres"],
+        delimiter=";"
     )
 
     imdb_conflict = parse_bool(
@@ -207,12 +212,8 @@ for movie_id, row in profiles.iterrows():
 
     if dbpedia_valid:
 
-        for genre in parse_list(
-            row["canonical_genres"], delimiter="|"
-        ):
-
+        for genre in dbpedia_genres:
             key = normalize_category(genre)
-
             if key:
                 categories[key] = genre
 
