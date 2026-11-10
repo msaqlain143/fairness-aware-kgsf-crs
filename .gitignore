@@ -279,3 +279,7 @@ external_validation/movielens_32m/*.zip
 
 # External IMDb datasets
 external_validation/imdb/*.tsv.gz
+
+results_corrected/
+*.npz
+*.csv

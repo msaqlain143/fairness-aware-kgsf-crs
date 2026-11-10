@@ -1,0 +1,150 @@
+{
+  "experiment": "22.2_proposal_aligned_component_ablation",
+  "full_method_tuning_choice": {
+    "component": "B5_graded_support",
+    "policy_mode": "graded",
+    "kg_rank_threshold": null,
+    "lambda": 1.2,
+    "selection_status": "selected_on_tuning",
+    "tuning_fairness": 4.4876116416450085,
+    "tuning_ndcg10": 0.09916623557630987
+  },
+  "selected_parameters": [
+    {
+      "component": "FULL_KG_FairCRS",
+      "policy_mode": "graded",
+      "kg_rank_threshold": null,
+      "lambda": 1.2,
+      "selection_status": "selected_on_tuning_among_B1_to_B5",
+      "tuning_fairness": 4.4876116416450085,
+      "tuning_ndcg10": 0.09916623557630987
+    },
+    {
+      "component": "ABL_no_KG_support",
+      "policy_mode": "none",
+      "kg_rank_threshold": null,
+      "lambda": 1.2,
+      "selection_status": "selected_on_tuning",
+      "tuning_fairness": 3.3885449341856124,
+      "tuning_ndcg10": 0.09898070235384769
+    },
+    {
+      "component": "ABL_no_adaptive_calibration",
+      "policy_mode": "graded",
+      "kg_rank_threshold": null,
+      "lambda": 0.0,
+      "selection_status": "selected_on_tuning",
+      "tuning_fairness": 7.487749361825631,
+      "tuning_ndcg10": 0.10166256007401335
+    },
+    {
+      "component": "ABL_frozen_exposure_history",
+      "policy_mode": "graded",
+      "kg_rank_threshold": null,
+      "lambda": 1.2,
+      "selection_status": "selected_on_tuning",
+      "tuning_fairness": 4.777911177266171,
+      "tuning_ndcg10": 0.0970915813151448
+    }
+  ],
+  "heldout_component_comparison": [
+    {
+      "method": "A1_frequency_3",
+      "component_removed": "none_reference",
+      "events": 624,
+      "HR@10": 0.20833333333333334,
+      "NDCG@10": 0.10522873076228759,
+      "retention_vs_A1": 1.0,
+      "category_group_log_rate_MAD": 8.65293355545022,
+      "mean_eligible_categorized_candidates": NaN,
+      "mean_top10_promoted_positions": 0.0,
+      "verified_categories": 30,
+      "supported_category_group_cells": 113
+    },
+    {
+      "method": "FULL_KG_FairCRS",
+      "component_removed": "none",
+      "events": 624,
+      "HR@10": 0.20192307692307693,
+      "NDCG@10": 0.10360198288152302,
+      "retention_vs_A1": 0.9845408390848698,
+      "category_group_log_rate_MAD": 5.044996507647226,
+      "mean_eligible_categorized_candidates": 18.078525641025642,
+      "mean_top10_promoted_positions": 2.171474358974359,
+      "verified_categories": 30,
+      "supported_category_group_cells": 113
+    },
+    {
+      "method": "ABL_no_KG_support",
+      "component_removed": "no_KG_support",
+      "events": 624,
+      "HR@10": 0.20192307692307693,
+      "NDCG@10": 0.10366267893890657,
+      "retention_vs_A1": 0.9851176402773131,
+      "category_group_log_rate_MAD": 5.439779266516091,
+      "mean_eligible_categorized_candidates": 30.38301282051282,
+      "mean_top10_promoted_positions": 2.0,
+      "verified_categories": 30,
+      "supported_category_group_cells": 113
+    },
+    {
+      "method": "ABL_no_adaptive_calibration",
+      "component_removed": "no_adaptive_calibration",
+      "events": 624,
+      "HR@10": 0.20833333333333334,
+      "NDCG@10": 0.10522873076228759,
+      "retention_vs_A1": 0.9999999999904968,
+      "category_group_log_rate_MAD": 8.65293355545022,
+      "mean_eligible_categorized_candidates": 18.078525641025642,
+      "mean_top10_promoted_positions": 0.0,
+      "verified_categories": 30,
+      "supported_category_group_cells": 113
+    },
+    {
+      "method": "ABL_frozen_exposure_history",
+      "component_removed": "frozen_exposure_history",
+      "events": 624,
+      "HR@10": 0.1971153846153846,
+      "NDCG@10": 0.10106502741191455,
+      "retention_vs_A1": 0.9604318771007576,
+      "category_group_log_rate_MAD": 5.261713825512653,
+      "mean_eligible_categorized_candidates": 18.078525641025642,
+      "mean_top10_promoted_positions": 3.2451923076923075,
+      "verified_categories": 30,
+      "supported_category_group_cells": 113
+    }
+  ],
+  "checks": {
+    "experiment": "22.2_proposal_aligned_component_ablation",
+    "split": "validation_only",
+    "test_split_evaluated": false,
+    "checkpoint_modified": false,
+    "events": 3010,
+    "conversations": 883,
+    "warmup_events": 1817,
+    "tuning_events": 569,
+    "heldout_events": 624,
+    "same_split_seed_as_22_0_and_22_1": true,
+    "candidate_pool": "frozen M2 Top-500",
+    "full_method_gate_selected_only_from_tuning": true,
+    "full_method_selected_gate": "B5_graded_support",
+    "full_method_selected_lambda": 1.2,
+    "utility_constraint": "NDCG@10 >= 95% of A1_frequency_3 on tuning partition",
+    "ablation_components": [
+      "KG contextual support",
+      "adaptive category exposure calibration",
+      "online exposure-history updates"
+    ],
+    "no_category_calibration_reference": "unchanged A1_frequency_3",
+    "paired_bootstrap_unit": "conversation",
+    "bootstrap_replicates": 1000,
+    "test_set_access": false,
+    "limitations": [
+      "This experiment uses the same validation events and split as 22.0/22.1.",
+      "It is a component ablation, not independent external validation.",
+      "Category disparity applies only to items with accepted category evidence.",
+      "KG rank is a contextual retrieval-support proxy, not a semantic relevance label.",
+      "The opportunity denominator is the existing rank-discounted candidate-pool proxy."
+    ]
+  }
+}
