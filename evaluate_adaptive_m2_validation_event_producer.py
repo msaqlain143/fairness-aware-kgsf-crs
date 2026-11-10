@@ -1,4 +1,4 @@
-
+﻿
 """Phase 5.5: validation-only adaptive KGSF + KG rank fusion.
 
 A0: fixed alpha=0.25.
@@ -218,6 +218,61 @@ def make_event_record(
     }
 
 
+def make_candidate_record(
+    event_id,
+    method,
+    fused_scores,
+    movie_ids,
+    kg_ranked,
+    top_k=500,
+):
+    """Save pre-calibration M2 candidates, scores, and KG retrieval ranks."""
+    fused_scores = np.asarray(fused_scores, dtype=np.float64)
+    movie_ids = np.asarray(movie_ids, dtype=np.int64)
+
+    if fused_scores.ndim != 1:
+        raise ValueError("Expected one-dimensional candidate scores.")
+    if len(fused_scores) != len(movie_ids):
+        raise ValueError("Candidate score/catalog length mismatch.")
+    if not np.isfinite(fused_scores).all():
+        raise ValueError("Non-finite candidate scores detected.")
+    if top_k <= 0:
+        raise ValueError("Candidate export top_k must be positive.")
+
+    k = min(int(top_k), len(fused_scores))
+    order = np.lexsort((movie_ids, -fused_scores))[:k]
+
+    candidate_ids = movie_ids[order].astype(int).tolist()
+    candidate_scores = fused_scores[order].astype(float).tolist()
+
+    if len(candidate_ids) != len(set(candidate_ids)):
+        raise RuntimeError("Duplicate candidate movie IDs.")
+
+    # KG rank is 1-based; 0 means the candidate was not KG-retrieved.
+    kg_rank_by_movie = {}
+    for rank, movie_id in enumerate(kg_ranked, start=1):
+        kg_rank_by_movie.setdefault(int(movie_id), rank)
+
+    candidate_kg_ranks = [
+        int(kg_rank_by_movie.get(movie_id, 0))
+        for movie_id in candidate_ids
+    ]
+
+    if not (
+        len(candidate_ids) == len(candidate_scores) == len(candidate_kg_ranks)
+    ):
+        raise RuntimeError("Candidate IDs, scores, and KG ranks are misaligned.")
+
+    return {
+        "event_id": int(event_id),
+        "method": method,
+        "candidate_k": int(k),
+        "candidate_movie_ids": json.dumps(candidate_ids),
+        "candidate_scores": json.dumps(candidate_scores),
+        "candidate_kg_ranks": json.dumps(candidate_kg_ranks),
+    }
+
+
 def validate_catalog(movie_ids, group_ids, n_movies):
     """Validate catalog alignment before evaluating recommendations."""
     if len(movie_ids) != n_movies:
@@ -264,6 +319,8 @@ def main():
     parser.add_argument("--hub-cutoff", type=int, default=500)
     parser.add_argument("--rrf-k", type=int, default=60)
     parser.add_argument("--base-alpha", type=float, default=0.25)
+    parser.add_argument("--candidate-top-k", type=int, default=500,
+                        help="Number of M2 candidates exported per event/method.")
 
     parser.add_argument(
         "--strengths",
@@ -287,6 +344,8 @@ def main():
 
     if args.batch_size <= 0:
         raise ValueError("Batch size must be positive.")
+    if args.candidate_top_k < 50:
+        raise ValueError("Candidate export top-k must be at least 50.")
 
     if not args.strengths or any(
         not np.isfinite(x) or x < 0 for x in args.strengths
@@ -384,6 +443,7 @@ def main():
 
     n_events = 0
     event_rows = []
+    candidate_rows = []
 
     system.model.eval()
 
@@ -530,6 +590,13 @@ def main():
                     )
                 )
 
+                candidate_rows.append(
+                    make_candidate_record(
+                        event_id, method, fused, movie_ids, kg_ranked,
+                        top_k=args.candidate_top_k,
+                    )
+                )
+
                 # A1/A2: adaptive variants.
                 for strength in strengths:
                     factor = freq_factors[strength]
@@ -569,6 +636,12 @@ def main():
                             bool(unique_context),
                             movie_ids,
                             group_ids,
+                        )
+                    )
+                    candidate_rows.append(
+                        make_candidate_record(
+                            event_id, method_a1, fused_a1, movie_ids, kg_ranked,
+                            top_k=args.candidate_top_k,
                         )
                     )
 
@@ -612,6 +685,13 @@ def main():
                             bool(unique_context),
                             movie_ids,
                             group_ids,
+                        )
+                    )
+
+                    candidate_rows.append(
+                        make_candidate_record(
+                            event_id, method_a2, fused_a2, movie_ids, kg_ranked,
+                            top_k=args.candidate_top_k,
                         )
                     )
 
@@ -667,11 +747,32 @@ def main():
                 f"Incomplete method set for event {eid}."
             )
 
+    expected_candidate_rows = n_events * len(variant_names)
+    if len(candidate_rows) != expected_candidate_rows:
+        raise RuntimeError(
+            f"Expected {expected_candidate_rows} candidate records, "
+            f"observed {len(candidate_rows)}."
+        )
+
+    candidate_pairs = [
+        (row["event_id"], row["method"]) for row in candidate_rows
+    ]
+    event_pairs = [
+        (row["event_id"], row["method"]) for row in event_rows
+    ]
+    if len(candidate_pairs) != len(set(candidate_pairs)):
+        raise RuntimeError("Duplicate event-method candidate records.")
+    if set(candidate_pairs) != set(event_pairs):
+        raise RuntimeError("Candidate records do not match event records.")
+
     # Write event-level records using the original output naming convention.
     target_path = Path(args.out)
 
     event_path = target_path.with_name(
         target_path.stem + "_events.csv"
+    )
+    candidate_path = target_path.with_name(
+        target_path.stem + "_candidates.csv"
     )
 
     target_path.parent.mkdir(
@@ -690,6 +791,18 @@ def main():
 
         writer.writeheader()
         writer.writerows(event_rows)
+
+    with candidate_path.open(
+        "w",
+        newline="",
+        encoding="utf-8-sig",
+    ) as candidate_file:
+        writer = csv.DictWriter(
+            candidate_file,
+            fieldnames=list(candidate_rows[0].keys()),
+        )
+        writer.writeheader()
+        writer.writerows(candidate_rows)
 
     report = {
         "split": "validation_only",
@@ -716,6 +829,11 @@ def main():
         "test_split_evaluated": False,
         "event_level_csv": str(event_path),
         "event_level_rows": len(event_rows),
+        "candidate_level_csv": str(candidate_path),
+        "candidate_level_rows": len(candidate_rows),
+        "candidate_export_top_k": args.candidate_top_k,
+        "candidate_scores_saved": True,
+        "candidate_kg_ranks_saved": True,
         "results": results,
         "caution": (
             "Exploratory validation comparison, not a novelty claim. "
@@ -734,6 +852,7 @@ def main():
     print(json.dumps(report, indent=2))
     print("Saved:", target_path.resolve())
     print("Saved event-level records:", event_path.resolve())
+    print("Saved candidate-level records:", candidate_path.resolve())
     print(
         f"Validation events: {n_events}; "
         f"methods: {len(variant_names)}; "
