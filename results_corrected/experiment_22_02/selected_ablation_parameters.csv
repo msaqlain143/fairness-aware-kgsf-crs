@@ -1,5 +1,5 @@
 component,policy_mode,kg_rank_threshold,lambda,selection_status,tuning_fairness,tuning_ndcg10
-FULL_KG_FairCRS,graded,,1.2,selected_on_tuning_among_B1_to_B5,4.4876116416450085,0.09916623557630987
-ABL_no_KG_support,none,,1.2,selected_on_tuning,3.3885449341856124,0.09898070235384769
-ABL_no_adaptive_calibration,graded,,0.0,selected_on_tuning,7.487749361825631,0.10166256007401335
-ABL_frozen_exposure_history,graded,,1.2,selected_on_tuning,4.777911177266171,0.0970915813151448
+FULL_KG_FairCRS,graded,,1.2,selected_on_tuning_among_B1_to_B5,4.4870275419084695,0.09916623557630987
+ABL_no_KG_support,none,,1.2,selected_on_tuning,3.3883045258603617,0.09898070235384769
+ABL_no_adaptive_calibration,graded,,0.0,selected_on_tuning,7.487749335522028,0.10166256007401335
+ABL_frozen_exposure_history,graded,,1.2,selected_on_tuning,4.777911224103497,0.0970915813151448

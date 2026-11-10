@@ -6,7 +6,7 @@
     "kg_rank_threshold": null,
     "lambda": 1.2,
     "selection_status": "selected_under_95pct_utility_constraint",
-    "tuning_fairness": 3.3885449341856124,
+    "tuning_fairness": 3.3883045258603617,
     "tuning_ndcg10": 0.09898070235384769
   },
   "tuning_baseline_A1_NDCG10": 0.10166256007401335,
@@ -18,7 +18,7 @@
       "kg_rank_threshold": null,
       "lambda": 1.2,
       "selection_status": "selected_under_95pct_utility_constraint",
-      "tuning_fairness": 3.3885449341856124,
+      "tuning_fairness": 3.3883045258603617,
       "tuning_ndcg10": 0.09898070235384769
     },
     {
@@ -27,7 +27,7 @@
       "kg_rank_threshold": 50,
       "lambda": 0.8,
       "selection_status": "selected_under_95pct_utility_constraint",
-      "tuning_fairness": 5.436633460937034,
+      "tuning_fairness": 5.4363227406967995,
       "tuning_ndcg10": 0.10099030240036032
     },
     {
@@ -36,8 +36,8 @@
       "kg_rank_threshold": 100,
       "lambda": 0.8,
       "selection_status": "selected_under_95pct_utility_constraint",
-      "tuning_fairness": 5.243672476213482,
-      "tuning_ndcg10": 0.10095127490040677
+      "tuning_fairness": 5.2431960446390455,
+      "tuning_ndcg10": 0.10030264529332673
     },
     {
       "policy": "B3_rank_le_250",
@@ -45,7 +45,7 @@
       "kg_rank_threshold": 250,
       "lambda": 0.8,
       "selection_status": "selected_under_95pct_utility_constraint",
-      "tuning_fairness": 5.724381228063525,
+      "tuning_fairness": 5.723872555425756,
       "tuning_ndcg10": 0.10028018982130754
     },
     {
@@ -54,7 +54,7 @@
       "kg_rank_threshold": 500,
       "lambda": 0.8,
       "selection_status": "selected_under_95pct_utility_constraint",
-      "tuning_fairness": 5.727012823432591,
+      "tuning_fairness": 5.726683568352847,
       "tuning_ndcg10": 0.10028018982130754
     },
     {
@@ -63,7 +63,7 @@
       "kg_rank_threshold": null,
       "lambda": 1.2,
       "selection_status": "selected_under_95pct_utility_constraint",
-      "tuning_fairness": 4.4876116416450085,
+      "tuning_fairness": 4.4870275419084695,
       "tuning_ndcg10": 0.09916623557630987
     }
   ],
@@ -78,13 +78,13 @@
       "HR@10": 0.20833333333333334,
       "NDCG@10": 0.10522873076228759,
       "retention_vs_A1": 1.0,
-      "category_group_log_rate_MAD": 8.65293355545022,
+      "category_group_log_rate_MAD": 8.652933552601432,
       "mean_eligible_categorized_candidates": NaN,
       "mean_top10_promoted_positions": 0.0,
       "verified_categories": 30,
       "supported_category_group_cells": 113,
       "verified_category_exposure": 88.7209836101003,
-      "verified_category_opportunity_mass": 36.83866160859912
+      "verified_category_opportunity_mass": 36.83866261289872
     },
     {
       "method": "B0_no_gate",
@@ -94,15 +94,15 @@
       "selection_status": "selected_under_95pct_utility_constraint",
       "events": 624,
       "HR@10": 0.20192307692307693,
-      "NDCG@10": 0.10366267893890657,
-      "retention_vs_A1": 0.9851176402773131,
-      "category_group_log_rate_MAD": 5.439779266516091,
+      "NDCG@10": 0.1035904345458805,
+      "retention_vs_A1": 0.9844310940032865,
+      "category_group_log_rate_MAD": 5.440763080317853,
       "mean_eligible_categorized_candidates": 30.38301282051282,
-      "mean_top10_promoted_positions": 2.0,
+      "mean_top10_promoted_positions": 2.0256410256410255,
       "verified_categories": 30,
       "supported_category_group_cells": 113,
-      "verified_category_exposure": 201.0452514742391,
-      "verified_category_opportunity_mass": 36.83866160859912
+      "verified_category_exposure": 202.9779390062108,
+      "verified_category_opportunity_mass": 36.83866261289872
     },
     {
       "method": "B1_rank_le_50",
@@ -114,13 +114,13 @@
       "HR@10": 0.20673076923076922,
       "NDCG@10": 0.10484723301049996,
       "retention_vs_A1": 0.9963745856286549,
-      "category_group_log_rate_MAD": 6.129610533206186,
+      "category_group_log_rate_MAD": 6.125590064270173,
       "mean_eligible_categorized_candidates": 2.6698717948717947,
-      "mean_top10_promoted_positions": 1.142628205128205,
+      "mean_top10_promoted_positions": 1.123397435897436,
       "verified_categories": 30,
       "supported_category_group_cells": 113,
-      "verified_category_exposure": 145.93709769614668,
-      "verified_category_opportunity_mass": 36.83866160859912
+      "verified_category_exposure": 144.42065778149166,
+      "verified_category_opportunity_mass": 36.83866261289872
     },
     {
       "method": "B2_rank_le_100",
@@ -130,15 +130,15 @@
       "selection_status": "selected_under_95pct_utility_constraint",
       "events": 624,
       "HR@10": 0.20833333333333334,
-      "NDCG@10": 0.10518635963505844,
-      "retention_vs_A1": 0.9995973425895969,
-      "category_group_log_rate_MAD": 7.230742147975078,
+      "NDCG@10": 0.10522301645200507,
+      "retention_vs_A1": 0.9999456962823644,
+      "category_group_log_rate_MAD": 7.229411756246614,
       "mean_eligible_categorized_candidates": 5.86698717948718,
-      "mean_top10_promoted_positions": 1.0080128205128205,
+      "mean_top10_promoted_positions": 0.9887820512820513,
       "verified_categories": 30,
       "supported_category_group_cells": 113,
-      "verified_category_exposure": 134.64881397544409,
-      "verified_category_opportunity_mass": 36.83866160859912
+      "verified_category_exposure": 133.10051794870202,
+      "verified_category_opportunity_mass": 36.83866261289872
     },
     {
       "method": "B3_rank_le_250",
@@ -150,13 +150,13 @@
       "HR@10": 0.20673076923076922,
       "NDCG@10": 0.10478290436034457,
       "retention_vs_A1": 0.9957632635145443,
-      "category_group_log_rate_MAD": 7.8043615845466645,
+      "category_group_log_rate_MAD": 7.802755339382769,
       "mean_eligible_categorized_candidates": 14.028846153846153,
-      "mean_top10_promoted_positions": 0.8717948717948718,
+      "mean_top10_promoted_positions": 0.8669871794871795,
       "verified_categories": 30,
       "supported_category_group_cells": 113,
-      "verified_category_exposure": 127.07483618190307,
-      "verified_category_opportunity_mass": 36.83866160859912
+      "verified_category_exposure": 126.73836593049298,
+      "verified_category_opportunity_mass": 36.83866261289872
     },
     {
       "method": "B4_rank_le_500",
@@ -165,16 +165,16 @@
       "selected_lambda": 0.8,
       "selection_status": "selected_under_95pct_utility_constraint",
       "events": 624,
-      "HR@10": 0.20512820512820512,
-      "NDCG@10": 0.10431965944637361,
-      "retention_vs_A1": 0.9913609970364563,
-      "category_group_log_rate_MAD": 7.803158417673473,
+      "HR@10": 0.20673076923076922,
+      "NDCG@10": 0.10478290436034457,
+      "retention_vs_A1": 0.9957632635145443,
+      "category_group_log_rate_MAD": 7.801494366924267,
       "mean_eligible_categorized_candidates": 16.52403846153846,
-      "mean_top10_promoted_positions": 0.8942307692307693,
+      "mean_top10_promoted_positions": 0.8926282051282052,
       "verified_categories": 30,
       "supported_category_group_cells": 113,
-      "verified_category_exposure": 128.48266532695442,
-      "verified_category_opportunity_mass": 36.83866160859912
+      "verified_category_exposure": 128.4062937477615,
+      "verified_category_opportunity_mass": 36.83866261289872
     },
     {
       "method": "B5_graded_support",
@@ -183,16 +183,16 @@
       "selected_lambda": 1.2,
       "selection_status": "selected_under_95pct_utility_constraint",
       "events": 624,
-      "HR@10": 0.20192307692307693,
-      "NDCG@10": 0.10360198288152302,
-      "retention_vs_A1": 0.9845408390848698,
-      "category_group_log_rate_MAD": 5.044996507647226,
+      "HR@10": 0.20352564102564102,
+      "NDCG@10": 0.10406522779549399,
+      "retention_vs_A1": 0.9889431055629578,
+      "category_group_log_rate_MAD": 5.040712960736238,
       "mean_eligible_categorized_candidates": 18.078525641025642,
-      "mean_top10_promoted_positions": 2.171474358974359,
+      "mean_top10_promoted_positions": 2.1474358974358974,
       "verified_categories": 30,
       "supported_category_group_cells": 113,
-      "verified_category_exposure": 205.58524069583981,
-      "verified_category_opportunity_mass": 36.83866160859912
+      "verified_category_exposure": 202.68264503436913,
+      "verified_category_opportunity_mass": 36.83866261289872
     }
   ],
   "checks": {
