@@ -1,0 +1,23 @@
+{
+    "experiment": "21.22A",
+    "catalog_population": 6924,
+    "unique_catalog_items": 6924,
+    "imdb_source_records": 577,
+    "imdb_unique_movie_ids": 561,
+    "dbpedia_profile_records": 6924,
+    "ambiguous_identity_entities": 6,
+    "category_availability_distribution": {
+        "UNKNOWN": 6342,
+        "IMDB_GENRE_EVIDENCE": 553,
+        "DBPEDIA_GENRE_EVIDENCE": 12,
+        "UNVALIDATED_EVIDENCE_ONLY": 7,
+        "IDENTITY_REVIEW_REQUIRED": 6,
+        "MULTI_SOURCE_GENRE_EVIDENCE": 2,
+        "HYBRID_EVIDENCE_ONLY": 2
+    },
+    "evidence_records": 578,
+    "unknown_category_items": 6342,
+    "catalog_population_preserved": true,
+    "automatic_entity_merging": false,
+    "unknown_categories_invented": false
+}

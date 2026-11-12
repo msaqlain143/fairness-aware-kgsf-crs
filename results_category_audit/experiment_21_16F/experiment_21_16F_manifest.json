@@ -1,0 +1,53 @@
+{
+    "experiment": "21.16F",
+    "name": "External Movie Identifier Evidence Validation",
+    "purpose": "Cross-reference MovieLens conflict groups against independent MovieLens IMDb/TMDb metadata.",
+    "timestamp_utc": "2026-11-04T12:39:43.455132+00:00",
+    "source_counts": {
+        "merged_records": 59946,
+        "movielens_link_records": 87585,
+        "movielens_movie_records": 87585,
+        "conflict_groups": 100,
+        "pairwise_comparisons": 104
+    },
+    "evidence_counts": {
+        "groups_with_imdb": 99,
+        "groups_with_tmdb": 99,
+        "groups_all_titles_match": 66,
+        "groups_with_title_mismatches": 34,
+        "missing_external_reference_ids": 1
+    },
+    "validation": {
+        "pairwise_population_preserved": true,
+        "conflict_group_population_preserved": true,
+        "external_link_integrity": true,
+        "external_movie_integrity": true,
+        "all_pairwise_records_accounted_for": true,
+        "no_automatic_identity_merging": true,
+        "group_level_evidence_explicit": true
+    },
+    "source_checksums": {
+        "movielens_archive_sha256": "e4a68655d7386b8f95f2f2424b2ff975dfdd15ffd59e0d864a14dca43e99d6ee"
+    },
+    "identity_policy": {
+        "external_identifiers_are_group_level_evidence": true,
+        "shared_movielens_id_is_identity_proof": false,
+        "title_match_is_identity_proof": false,
+        "automatic_entity_merging": false,
+        "unresolved_records_preserved": true
+    },
+    "limitations": [
+        "IMDb and TMDb identifiers are inherited from the shared MovieLens ID.",
+        "They do not independently verify each conflicting database record.",
+        "Title agreement is supporting evidence, not identity proof.",
+        "External database records have not yet been independently retrieved.",
+        "No automatic identity resolution has been performed."
+    ],
+    "outputs": [
+        "external_identifier_pairwise_evidence.csv",
+        "external_identifier_group_summary.csv",
+        "missing_external_reference_ids.csv",
+        "experiment_21_16F_manifest.json"
+    ],
+    "completion_status": "COMPLETED_VALIDATION"
+}

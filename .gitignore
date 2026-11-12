@@ -274,3 +274,12 @@ Temporary Items
 
 backup/
 catalog_audit_corrected.pkl
+external_validation/movielens_32m/*.zip
+*.zip
+
+# External IMDb datasets
+external_validation/imdb/*.tsv.gz
+
+results_corrected/
+*.npz
+*.csv

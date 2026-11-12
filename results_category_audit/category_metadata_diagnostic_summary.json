@@ -1,0 +1,16 @@
+{
+  "catalog_movies": 6924,
+  "catalog_ids_unique": true,
+  "movie_ids_missing_from_entity2id": 0,
+  "movie_ids_missing_examples": [],
+  "raw_kg_head_entities": 23160,
+  "raw_kg_relation_ids": 214,
+  "raw_kg_edge_records": 165696,
+  "catalog_movies_with_at_least_one_direct_kg_edge": 5966,
+  "catalog_movies_without_direct_kg_edge": 958,
+  "direct_edge_records_incident_to_catalog_movies": 65949,
+  "distinct_neighbor_entities_of_catalog_movies": 22403,
+  "genre_keyword_candidate_edge_records_unverified": 50,
+  "genre_keyword_candidate_neighbor_entities_unverified": 36,
+  "critical_limitation": "The raw subgraph contains integer relation IDs, but this archive does not include a verified relation-ID-to-DBpedia-property mapping. URI keyword matches are discovery candidates only, not validated genres."
+}

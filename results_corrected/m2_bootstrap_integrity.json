@@ -1,0 +1,87 @@
+{
+    "experiment": "M2.1A",
+    "split": "validation_only",
+    "catalog_size": 6924,
+    "catalog_source": "data\\dataset\\redial\\nltk\\movie_ids.json",
+    "conversation_count": 883,
+    "method_count": 7,
+    "top_k": 10,
+    "total_events": 21070,
+    "total_recommendation_slots_all_methods": 210700,
+    "methods": {
+        "A0_fixed_025": {
+            "events": 3010,
+            "conversations": 883,
+            "recommendation_slots": 30100,
+            "unique_exposed_movies": 1353,
+            "zero_exposure_movies": 5571,
+            "catalog_coverage": 0.19540727902946273,
+            "item_exposure_gini": 0.9505470211945164
+        },
+        "A1_frequency_1": {
+            "events": 3010,
+            "conversations": 883,
+            "recommendation_slots": 30100,
+            "unique_exposed_movies": 1455,
+            "zero_exposure_movies": 5469,
+            "catalog_coverage": 0.21013864818024264,
+            "item_exposure_gini": 0.9459632824150579
+        },
+        "A1_frequency_3": {
+            "events": 3010,
+            "conversations": 883,
+            "recommendation_slots": 30100,
+            "unique_exposed_movies": 2097,
+            "zero_exposure_movies": 4827,
+            "catalog_coverage": 0.30285961871750433,
+            "item_exposure_gini": 0.9174724536543892
+        },
+        "A1_frequency_7": {
+            "events": 3010,
+            "conversations": 883,
+            "recommendation_slots": 30100,
+            "unique_exposed_movies": 3163,
+            "zero_exposure_movies": 3761,
+            "catalog_coverage": 0.4568168688619295,
+            "item_exposure_gini": 0.8313743328132108
+        },
+        "A2_frequency_context_1": {
+            "events": 3010,
+            "conversations": 883,
+            "recommendation_slots": 30100,
+            "unique_exposed_movies": 1455,
+            "zero_exposure_movies": 5469,
+            "catalog_coverage": 0.21013864818024264,
+            "item_exposure_gini": 0.946126007857498
+        },
+        "A2_frequency_context_3": {
+            "events": 3010,
+            "conversations": 883,
+            "recommendation_slots": 30100,
+            "unique_exposed_movies": 2083,
+            "zero_exposure_movies": 4841,
+            "catalog_coverage": 0.3008376660889659,
+            "item_exposure_gini": 0.9184983331126171
+        },
+        "A2_frequency_context_7": {
+            "events": 3010,
+            "conversations": 883,
+            "recommendation_slots": 30100,
+            "unique_exposed_movies": 3155,
+            "zero_exposure_movies": 3769,
+            "catalog_coverage": 0.4556614673599076,
+            "item_exposure_gini": 0.8323486510399574
+        }
+    },
+    "checks": {
+        "original_catalog_membership": true,
+        "valid_top10_lists": true,
+        "no_duplicate_recommendations": true,
+        "identical_opportunities": true,
+        "identical_event_counts": true,
+        "slot_conservation": true,
+        "zero_exposure_items_included": true
+    },
+    "identical_opportunities": true,
+    "test_split_evaluated": false
+}

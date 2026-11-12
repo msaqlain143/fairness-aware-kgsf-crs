@@ -1,0 +1,9 @@
+proposed,baseline,metric,groups_with_positive_mean_difference,groups_with_original_difference_outside_range,mean_fraction_positive_across_groups
+A1_frequency_3,A0_fixed_025,exposure,4,0,0.8
+A1_frequency_3,A0_fixed_025,coverage,5,2,1.0
+A1_frequency_3,A1_frequency_1,exposure,4,0,0.8
+A1_frequency_3,A1_frequency_1,coverage,5,1,1.0
+A1_frequency_3,KGSF_only,exposure,4,0,0.8
+A1_frequency_3,KGSF_only,coverage,5,1,1.0
+A2_frequency_context_3,A1_frequency_3,exposure,1,2,0.2
+A2_frequency_context_3,A1_frequency_3,coverage,0,0,0.0

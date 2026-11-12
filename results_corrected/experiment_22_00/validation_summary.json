@@ -1,0 +1,181 @@
+{
+  "experiment": "22.00_KG_FairCRS",
+  "split": "validation_only",
+  "selected_lambda": 0.8,
+  "selection_reason": "Minimum category-group log exposure/opportunity disparity among settings satisfying the 95% NDCG@10 constraint.",
+  "tuning_baseline_A1_NDCG10": 0.10166256007401335,
+  "tuning_lambda_results": [
+    {
+      "lambda": 0.0,
+      "NDCG@10": 0.10166256007401335,
+      "HR@10": 0.1968365553602812,
+      "category_group_log_rate_MAD": 7.487749361825631,
+      "retention_vs_A1": 0.9999999999901635,
+      "meets_95pct_utility": true
+    },
+    {
+      "lambda": 0.05,
+      "NDCG@10": 0.10162235997950599,
+      "HR@10": 0.1968365553602812,
+      "category_group_log_rate_MAD": 6.934939111086329,
+      "retention_vs_A1": 0.9996045732521618,
+      "meets_95pct_utility": true
+    },
+    {
+      "lambda": 0.1,
+      "NDCG@10": 0.10153709798183616,
+      "HR@10": 0.1968365553602812,
+      "category_group_log_rate_MAD": 6.932919024985129,
+      "retention_vs_A1": 0.9987658967757194,
+      "meets_95pct_utility": true
+    },
+    {
+      "lambda": 0.2,
+      "NDCG@10": 0.10151606956470771,
+      "HR@10": 0.1968365553602812,
+      "category_group_log_rate_MAD": 7.225393863471143,
+      "retention_vs_A1": 0.9985590515308924,
+      "meets_95pct_utility": true
+    },
+    {
+      "lambda": 0.4,
+      "NDCG@10": 0.10149070070509128,
+      "HR@10": 0.1968365553602812,
+      "category_group_log_rate_MAD": 6.207677428652722,
+      "retention_vs_A1": 0.9983095116845841,
+      "meets_95pct_utility": true
+    },
+    {
+      "lambda": 0.8,
+      "NDCG@10": 0.10028018982130754,
+      "HR@10": 0.19507908611599298,
+      "category_group_log_rate_MAD": 5.380328837775249,
+      "retention_vs_A1": 0.9864023662921158,
+      "meets_95pct_utility": true
+    },
+    {
+      "lambda": 1.2,
+      "NDCG@10": 0.09933133817453728,
+      "HR@10": 0.19332161687170474,
+      "category_group_log_rate_MAD": 5.886318654545455,
+      "retention_vs_A1": 0.9770690222756937,
+      "meets_95pct_utility": true
+    }
+  ],
+  "heldout_baselines": [
+    {
+      "method": "A0_fixed_025",
+      "events": 624,
+      "HR@10": 0.1987179487179487,
+      "NDCG@10": 0.10611995209162263
+    },
+    {
+      "method": "A1_frequency_3",
+      "events": 624,
+      "HR@10": 0.20833333333333334,
+      "NDCG@10": 0.10522873076228759
+    }
+  ],
+  "heldout_policy_results": [
+    {
+      "events": 624,
+      "HR@10": 0.20512820512820512,
+      "NDCG@10": 0.1042655207633555,
+      "mean_eligible_categorized_candidates": 30.38301282051282,
+      "mean_top10_promoted_positions": 0.8509615384615384,
+      "method": "A2_category_only"
+    },
+    {
+      "events": 624,
+      "HR@10": 0.20673076923076922,
+      "NDCG@10": 0.10478290436034457,
+      "mean_eligible_categorized_candidates": 18.078525641025642,
+      "mean_top10_promoted_positions": 0.9455128205128205,
+      "method": "A3_KG_FairCRS"
+    }
+  ],
+  "heldout_fairness": [
+    {
+      "method": "A1_frequency_3",
+      "category_group_log_rate_MAD": 8.65293355545022,
+      "verified_categories": 30,
+      "category_group_cells_with_opportunity": 113,
+      "heldout_verified_category_exposure": 88.7209836101003,
+      "heldout_verified_category_opportunity_mass": 36.83866160859912
+    },
+    {
+      "method": "A2_category_only",
+      "category_group_log_rate_MAD": 6.930472171351354,
+      "verified_categories": 30,
+      "category_group_cells_with_opportunity": 113,
+      "heldout_verified_category_exposure": 126.37258288334587,
+      "heldout_verified_category_opportunity_mass": 36.83866160859912
+    },
+    {
+      "method": "A3_KG_FairCRS",
+      "category_group_log_rate_MAD": 7.794306451647287,
+      "verified_categories": 30,
+      "category_group_cells_with_opportunity": 113,
+      "heldout_verified_category_exposure": 131.70322522426522,
+      "heldout_verified_category_opportunity_mass": 36.83866160859912
+    }
+  ],
+  "category_assignment_counts": {
+    "catalog_items": 6924,
+    "items_with_verified_categories": 567,
+    "items_without_verified_categories": 6357,
+    "distinct_categories": 30
+  },
+  "group_distribution": {
+    "0": 1385,
+    "1": 1385,
+    "2": 1385,
+    "3": 1385,
+    "4": 1384
+  },
+  "checks": {
+    "split": "validation_only",
+    "test_split_evaluated": false,
+    "checkpoint_modified": false,
+    "events": 3010,
+    "conversations": 883,
+    "warmup_conversations": 530,
+    "tuning_conversations": 177,
+    "heldout_conversations": 176,
+    "warmup_events": 1817,
+    "tuning_events": 569,
+    "heldout_events": 624,
+    "primary_m2_method": "A1_frequency_3",
+    "baseline_method": "A0_fixed_025",
+    "candidate_pool_size": 500,
+    "top10_export_integrity": true,
+    "all_candidate_ids_in_catalog": true,
+    "all_popularity_groups_valid": true,
+    "category_acceptance_logic": "Experiment 21.23B",
+    "category_assignment_source": "Experiment 21.22A profile",
+    "unknown_category_items_retained_without_category_bonus": true,
+    "contextual_eligibility": "candidate KG rank > 0",
+    "contextual_eligibility_is_not_semantic_relevance_claim": true,
+    "chronological_order": "ascending event_id within processed split",
+    "current_event_excluded_from_its_own_deficit": true,
+    "lambda_grid": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.4,
+      0.8,
+      1.2
+    ],
+    "selected_lambda": 0.8,
+    "selection_reason": "Minimum category-group log exposure/opportunity disparity among settings satisfying the 95% NDCG@10 constraint.",
+    "utility_constraint": "NDCG@10 >= 95% of A1_frequency_3 on tuning conversations",
+    "limitations": [
+      "Candidate pool is restricted to the exported M2 Top-500.",
+      "KG rank > 0 is a KG-support signal, not a guarantee of semantic relevance.",
+      "Category fairness is measurable only for validated category evidence.",
+      "The 60/20/20 conversation split is one deterministic validation partition.",
+      "Opportunity mass uses normalized rank-discount weights over the M2 Top-500; it is a proxy for predicted relevance, not observed user relevance."
+    ]
+  }
+}

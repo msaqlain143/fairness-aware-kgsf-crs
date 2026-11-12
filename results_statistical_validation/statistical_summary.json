@@ -1,0 +1,16 @@
+{
+    "experiment": 10,
+    "catalog_items": 6924,
+    "frequency_groups": 5,
+    "bootstrap_iterations": 3000,
+    "random_seed": 20261103,
+    "zero_shot_items": 2477,
+    "one_shot_items": 2010,
+    "raw_connected_items": 5966,
+    "kgsf_connected_items": 5947,
+    "raw_only_connected": 19,
+    "kgsf_only_connected": 0,
+    "mcnemar_exact_p": 3.814697265625e-06,
+    "wilcoxon_degree_p": 4.088832073440748e-98,
+    "interpretation_warning": "Statistical significance does not establish causality. Item-level bootstrap intervals quantify uncertainty under item resampling, not conversational sampling."
+}

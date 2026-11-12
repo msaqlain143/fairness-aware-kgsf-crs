@@ -1,0 +1,474 @@
+movie_entity_id,source_uri,imdb_ids,movielens_id,movielens_title,movielens_imdb_id,tmdb_id
+40738,http://dbpedia.org/resource/North_Dallas_Forty,"[""0079640""]",3506,North Dallas Forty (1979),0079640,29786
+13816,http://dbpedia.org/resource/The_Parent_Trap_(1998_film),"[""0120783""]",2059,"Parent Trap, The (1998)",0120783,9820
+17714,http://dbpedia.org/resource/Mississippi_Damned,"[""1169834""]",148923,Mississippi Damned (2009),1169834,193309
+58318,http://dbpedia.org/resource/Double_Impact,"[""0101764""]",4200,Double Impact (1991),0101764,9594
+24339,http://dbpedia.org/resource/Torque_(film),"[""0329691""]",7175,Torque (2004),0329691,10718
+30919,http://dbpedia.org/resource/Death_of_a_Ghost_Hunter,"[""1160317""]",138526,Death of a Ghost Hunter (2007),1160317,18441
+47459,http://dbpedia.org/resource/The_Sweetest_Thing,"[""0253867""]",5296,"Sweetest Thing, The (2002)",0253867,11812
+7364,http://dbpedia.org/resource/Straight_to_Hell_(film),"[""0094048""]",7878,Straight to Hell (1987),0094048,9698
+45916,http://dbpedia.org/resource/Beethoven's_2nd_(film),"[""0106375""]",6794,Beethoven's 2nd (1993),0106375,10438
+552,http://dbpedia.org/resource/Shade_(film),"[""0323939""]",7383,Shade (2003),0323939,14576
+29787,http://dbpedia.org/resource/Yes_(film),"[""0381717""]",33832,Yes (2004),0381717,25312
+27967,"http://dbpedia.org/resource/We,_the_Women","[""0046309""]",121043,"We, the Women (1953)",0046309,82063
+13451,http://dbpedia.org/resource/The_Librarians_(film),"[""0362820""]",123822,The Librarians (Strike Force) (2004),0362820,146608
+13065,http://dbpedia.org/resource/White_House_Down,"[""2334879""]",103339,White House Down (2013),2334879,117251
+27074,http://dbpedia.org/resource/Live_Free_or_Die_(2006_film),"[""0432318""]",67138,Live Free or Die (2006),0432318,7517
+57208,http://dbpedia.org/resource/In_Good_Company_(2004_film),"[""0385267""]",30822,In Good Company (2004),0385267,1901
+1154,http://dbpedia.org/resource/Fatal_Bond,"[""0104233""]",140505,Fatal Bond (1991),0104233,128795
+62437,http://dbpedia.org/resource/Twisted_(2004_film),"[""0315297""]",7321,Twisted (2004),0315297,13572
+51034,http://dbpedia.org/resource/The_Incredible_Invasion,"[""0063132""]",161408,Alien Terror (1971),0063132,42523
+23784,http://dbpedia.org/resource/Zeitgeist_(film_series),"[""1166827"", ""1332128"", ""1781069""]",58376,Zeitgeist: The Movie (2007),1166827,13016
+23784,http://dbpedia.org/resource/Zeitgeist_(film_series),"[""1166827"", ""1332128"", ""1781069""]",65225,Zeitgeist: Addendum (2008),1332128,13180
+23784,http://dbpedia.org/resource/Zeitgeist_(film_series),"[""1166827"", ""1332128"", ""1781069""]",84273,Zeitgeist: Moving Forward (2011),1781069,54293
+49590,http://dbpedia.org/resource/Paparazzi_(2004_film),"[""0338325""]",8835,Paparazzi (2004),0338325,15644
+47609,http://dbpedia.org/resource/The_Haunting_(1999_film),"[""0171363""]",2719,"Haunting, The (1999)",0171363,11618
+39590,http://dbpedia.org/resource/Uprising_(2001_film),"[""0250798""]",27372,Uprising (2001),0250798,31010
+51447,http://dbpedia.org/resource/For_a_Few_Dollars_More,"[""0059578""]",3681,For a Few Dollars More (Per qualche dollaro in più) (1965),0059578,938
+52028,http://dbpedia.org/resource/Night_of_the_Living_Dead_(film_series),"[""0063350"", ""0077402"", ""0088993"", ""0418819"", ""0848557"", ""1134854""]",33834,Land of the Dead (2005),0418819,11683
+52028,http://dbpedia.org/resource/Night_of_the_Living_Dead_(film_series),"[""0063350"", ""0077402"", ""0088993"", ""0418819"", ""0848557"", ""1134854""]",58332,Diary of the Dead (2007),0848557,13025
+52028,http://dbpedia.org/resource/Night_of_the_Living_Dead_(film_series),"[""0063350"", ""0077402"", ""0088993"", ""0418819"", ""0848557"", ""1134854""]",6731,Day of the Dead (1985),0088993,8408
+52028,http://dbpedia.org/resource/Night_of_the_Living_Dead_(film_series),"[""0063350"", ""0077402"", ""0088993"", ""0418819"", ""0848557"", ""1134854""]",7387,Dawn of the Dead (1978),0077402,923
+52028,http://dbpedia.org/resource/Night_of_the_Living_Dead_(film_series),"[""0063350"", ""0077402"", ""0088993"", ""0418819"", ""0848557"", ""1134854""]",75425,Survival of the Dead (2009),1134854,29426
+52028,http://dbpedia.org/resource/Night_of_the_Living_Dead_(film_series),"[""0063350"", ""0077402"", ""0088993"", ""0418819"", ""0848557"", ""1134854""]",968,Night of the Living Dead (1968),0063350,10331
+60914,http://dbpedia.org/resource/We're_Back!_A_Dinosaur's_Story_(film),"[""0108526""]",3400,We're Back! A Dinosaur's Story (1993),0108526,18890
+64085,http://dbpedia.org/resource/The_Mask_(1988_film),"[""0095598""]",156708,The Mask (1988),0095598,131334
+18357,http://dbpedia.org/resource/Deranged_(1974_film),"[""0071408""]",8139,Deranged (1974),0071408,39844
+43978,http://dbpedia.org/resource/Maverick_(film),"[""0110478""]",368,Maverick (1994),0110478,9359
+52128,http://dbpedia.org/resource/Boat_Trip_(film),"[""0285462""]",6249,Boat Trip (2003),0285462,9557
+722,http://dbpedia.org/resource/Jennifer's_Body,"[""1131734""]",71205,Jennifer's Body (2009),1131734,19994
+20221,http://dbpedia.org/resource/Night_Falls_on_Manhattan,"[""0119783""]",1404,Night Falls on Manhattan (1996),0119783,46027
+27657,http://dbpedia.org/resource/Religulous,"[""0815241""]",59126,Religulous (2008),0815241,13007
+34589,http://dbpedia.org/resource/Johnny_Be_Good,"[""0095409""]",4516,Johnny Be Good (1988),0095409,20443
+34739,http://dbpedia.org/resource/The_Mission_(1986_film),"[""0091530""]",2745,"Mission, The (1986)",0091530,11416
+12226,http://dbpedia.org/resource/Black_Beauty_(1971_film),"[""0066834""]",8929,Black Beauty (1971),0066834,28356
+39179,"http://dbpedia.org/resource/Red_Firecracker,_Green_Firecracker","[""0110769""]",309,"Red Firecracker, Green Firecracker (Pao Da Shuang Deng) (1994)",0110769,159185
+29124,http://dbpedia.org/resource/The_Maltese_Falcon_(1941_film),"[""0033870""]",913,"Maltese Falcon, The (1941)",0033870,963
+23354,http://dbpedia.org/resource/Into_Temptation_(film),"[""1232824""]",201256,Into Temptation (2009),1232824,26037
+18587,http://dbpedia.org/resource/New_Jersey_Drive,"[""0113967""]",283,New Jersey Drive (1995),0113967,39310
+20967,http://dbpedia.org/resource/Conviction_(2010_film),"[""1244754""]",80939,Conviction (2010),1244754,45094
+35306,http://dbpedia.org/resource/The_Goonies,"[""0089218""]",2005,"Goonies, The (1985)",0089218,9340
+20412,http://dbpedia.org/resource/Bananas_(film),"[""0066808""]",1078,Bananas (1971),0066808,11302
+19616,http://dbpedia.org/resource/Europa_Report,"[""2051879""]",103306,Europa Report (2013),2051879,174772
+14501,http://dbpedia.org/resource/Tank_(film),"[""0088224""]",8634,Tank (1984),0088224,21871
+33326,http://dbpedia.org/resource/Houseguest,"[""0110066""]",248,Houseguest (1994),0110066,17207
+28789,http://dbpedia.org/resource/Girlfight,"[""0210075""]",3915,Girlfight (2000),0210075,19348
+41746,http://dbpedia.org/resource/The_Long_Voyage_Home,"[""0032728""]",48123,"Long Voyage Home, The (1940)",0032728,52859
+21756,http://dbpedia.org/resource/Bichhoo,"[""0252277""]",146398,Bicchoo (2000),0252277,232496
+24838,http://dbpedia.org/resource/Rolling_Thunder_(film),"[""0076637""]",7923,Rolling Thunder (1977),0076637,21948
+9726,http://dbpedia.org/resource/From_the_Hip_(film),"[""0093051""]",2751,From the Hip (1987),0093051,24081
+26224,http://dbpedia.org/resource/Dragon:_The_Bruce_Lee_Story,"[""0106770""]",5055,Dragon: The Bruce Lee Story (1993),0106770,10423
+38358,http://dbpedia.org/resource/Ayn_Rand:_A_Sense_of_Life,"[""0118662""]",1780,Ayn Rand: A Sense of Life (1997),0118662,49645
+63960,http://dbpedia.org/resource/Indian_Summer_(1993_film),"[""0107212""]",5589,Indian Summer (1993),0107212,33506
+9342,http://dbpedia.org/resource/Ed_(film),"[""0116165""]",619,Ed (1996),0116165,32308
+50824,http://dbpedia.org/resource/And_Then_There_Were_None_(1974_film),"[""0072263""]",109055,Ten Little Indians (Ein Unbekannter rechnet ab) (And Then There Were None) (1974),0072263,4883
+27764,http://dbpedia.org/resource/It_Came_from_Outer_Space,"[""0045920""]",2661,It Came from Outer Space (1953),0045920,19483
+16080,http://dbpedia.org/resource/Spartan_(film),"[""0360009""]",7348,Spartan (2004),0360009,11169
+47872,http://dbpedia.org/resource/Blue_Chips,"[""0109305""]",424,Blue Chips (1994),0109305,19819
+55715,http://dbpedia.org/resource/Death_Racers,"[""1261046""]",116758,Death Racers (2008),1261046,22515
+53708,http://dbpedia.org/resource/Carriers_(film),"[""0806203""]",73168,Carriers (2009),0806203,25769
+42617,http://dbpedia.org/resource/Scary_Movie_(film_series),"[""0175142"", ""0257106"", ""0306047"", ""0362120"", ""0795461""]",101997,Scary Movie 5 (Scary MoVie) (2013),0795461,4258
+42617,http://dbpedia.org/resource/Scary_Movie_(film_series),"[""0175142"", ""0257106"", ""0306047"", ""0362120"", ""0795461""]",3785,Scary Movie (2000),0175142,4247
+42617,http://dbpedia.org/resource/Scary_Movie_(film_series),"[""0175142"", ""0257106"", ""0306047"", ""0362120"", ""0795461""]",4388,Scary Movie 2 (2001),0257106,4248
+42617,http://dbpedia.org/resource/Scary_Movie_(film_series),"[""0175142"", ""0257106"", ""0306047"", ""0362120"", ""0795461""]",44972,Scary Movie 4 (2006),0362120,4257
+42617,http://dbpedia.org/resource/Scary_Movie_(film_series),"[""0175142"", ""0257106"", ""0306047"", ""0362120"", ""0795461""]",6888,Scary Movie 3 (2003),0306047,4256
+54313,http://dbpedia.org/resource/Brewster's_Millions_(1985_film),"[""0088850""]",4010,Brewster's Millions (1985),0088850,11064
+56204,http://dbpedia.org/resource/First_Kid,"[""0116311""]",881,First Kid (1996),0116311,12559
+56742,http://dbpedia.org/resource/Balls_of_Fury,"[""0424823""]",54732,Balls of Fury (2007),0424823,9750
+35133,http://dbpedia.org/resource/Les_Misérables_(1948_film),"[""0039629""]",145638,Les Misérables (1948),0039629,4419
+46842,http://dbpedia.org/resource/Night_Monster,"[""0035124""]",132944,Night Monster (1942),0035124,99545
+18278,http://dbpedia.org/resource/The_Lovers_(1994_film),"[""0110340""]",125337,The Lovers (1994),0110340,70916
+50604,http://dbpedia.org/resource/My_Dog_Skip_(film),"[""0156812""]",3189,My Dog Skip (1999),0156812,17908
+61920,http://dbpedia.org/resource/Jane_Austen_in_Manhattan,"[""0080945""]",65078,Jane Austen in Manhattan (1980),0080945,185156
+35436,http://dbpedia.org/resource/Birdman_of_Alcatraz_(film),"[""0055798""]",7062,Birdman of Alcatraz (1962),0055798,898
+15967,http://dbpedia.org/resource/The_Replacement_Killers,"[""0120008""]",1769,"Replacement Killers, The (1998)",0120008,11702
+16559,http://dbpedia.org/resource/The_Edge_(1997_film),"[""0119051""]",1615,"Edge, The (1997)",0119051,9433
+28345,http://dbpedia.org/resource/Rachel_Getting_Married,"[""1084950""]",62344,Rachel Getting Married (2008),1084950,14976
+12151,http://dbpedia.org/resource/Rio_Bravo_(film),"[""0053221""]",4329,Rio Bravo (1959),0053221,301
+42067,http://dbpedia.org/resource/So_I_Married_an_Axe_Murderer,"[""0108174""]",543,So I Married an Axe Murderer (1993),0108174,10442
+33331,http://dbpedia.org/resource/CQ_(film),"[""0254199""]",5390,CQ (2001),0254199,27834
+30181,http://dbpedia.org/resource/The_Ruins_(film),"[""0963794""]",58975,"Ruins, The (2008)",0963794,11152
+17549,http://dbpedia.org/resource/Hollywood_Shuffle,"[""0093200""]",4116,Hollywood Shuffle (1987),0093200,34101
+61025,http://dbpedia.org/resource/The_Fog_of_War,"[""0317910""]",7156,"Fog of War: Eleven Lessons from the Life of Robert S. McNamara, The (2003)",0317910,12698
+14023,http://dbpedia.org/resource/Twister_(1989_film),"[""0096321""]",7781,Twister (1990),0096321,77780
+15054,http://dbpedia.org/resource/Kazaam,"[""0116756""]",810,Kazaam (1996),0116756,11511
+5765,http://dbpedia.org/resource/The_Visit_(2000_film),"[""0199129""]",4260,"Visit, The (2000)",0199129,70282
+59952,http://dbpedia.org/resource/Rush_Hour_2,"[""0266915""]",4701,Rush Hour 2 (2001),0266915,5175
+14806,http://dbpedia.org/resource/Bulletproof_(1996_film),"[""0115783""]",886,Bulletproof (1996),0115783,10723
+5981,http://dbpedia.org/resource/Any_Given_Sunday,"[""0146838""]",3173,Any Given Sunday (1999),0146838,9563
+61719,http://dbpedia.org/resource/Ninja_(film),"[""1182921""]",73741,Ninja (2009),1182921,25602
+15943,http://dbpedia.org/resource/Mickey_(2004_film),"[""0277895""]",7452,Mickey (2003),0277895,54807
+62705,http://dbpedia.org/resource/Eight_Men_Out,"[""0095082""]",4322,Eight Men Out (1988),0095082,13554
+32994,http://dbpedia.org/resource/Turner_&_Hooch,"[""0098536""]",4677,Turner & Hooch (1989),0098536,6951
+46540,http://dbpedia.org/resource/The_Running_Man_(1987_film),"[""0093894""]",3698,"Running Man, The (1987)",0093894,865
+21261,http://dbpedia.org/resource/13_Ghosts,"[""0053559""]",4792,13 Ghosts (1960),0053559,29756
+37938,http://dbpedia.org/resource/Missing_in_Action_(film),"[""0087727""]",3766,Missing in Action (1984),0087727,15379
+19623,http://dbpedia.org/resource/Sixty_Million_Dollar_Man,"[""0112446""]",189645,Sixty Million Dollar Man (1995),0112446,52324
+13342,http://dbpedia.org/resource/Dave_(film),"[""0106673""]",440,Dave (1993),0106673,11566
+42307,http://dbpedia.org/resource/The_Good_Son_(film),"[""0107034""]",5111,"Good Son, The (1993)",0107034,9272
+45241,http://dbpedia.org/resource/Dance_Me_to_My_Song,"[""0154378""]",135921,Dance Me to My Song (1998),0154378,139075
+52673,http://dbpedia.org/resource/The_Cabinet_of_Dr._Caligari,"[""0010323""]",6987,"Cabinet of Dr. Caligari, The (Cabinet des Dr. Caligari., Das) (1920)",0010323,234
+2364,http://dbpedia.org/resource/A_Far_Off_Place,"[""0106868""]",2045,"Far Off Place, A (1993)",0106868,24736
+24667,http://dbpedia.org/resource/Hard_Eight_(film),"[""0119256""]",2952,Sydney (Hard Eight) (1996),0119256,8052
+57244,http://dbpedia.org/resource/Bad_Girls_(1994_film),"[""0109198""]",416,Bad Girls (1994),0109198,11853
+30488,http://dbpedia.org/resource/Booty_Call,"[""0118750""]",1468,Booty Call (1997),0118750,21915
+31835,http://dbpedia.org/resource/Mr._Wrong,"[""0117102""]",102,Mr. Wrong (1996),0117102,47475
+51587,http://dbpedia.org/resource/Bloodsport_(film),"[""0092675""]",3444,Bloodsport (1988),0092675,11690
+8098,http://dbpedia.org/resource/Book_of_Shadows:_Blair_Witch_2,"[""0229260""]",3973,Book of Shadows: Blair Witch 2 (2000),0229260,11531
+47904,http://dbpedia.org/resource/Deep_Impact_(film),"[""0120647""]",1876,Deep Impact (1998),0120647,8656
+8046,http://dbpedia.org/resource/Cloak_&_Dagger_(1984_film),"[""0087065""]",26504,Cloak & Dagger (1984),0087065,48677
+32546,http://dbpedia.org/resource/Urban_Legends:_Final_Cut,"[""0192731""]",3908,Urban Legends: Final Cut (2000),0192731,12212
+19878,http://dbpedia.org/resource/Drunken_Master,"[""0080179""]",2924,Drunken Master (Jui kuen) (1978),0080179,11230
+1911,http://dbpedia.org/resource/Future_X-Cops,"[""1337055""]",215681,Future X-Cops (2010),1337055,41535
+22763,http://dbpedia.org/resource/Nausicaä_of_the_Valley_of_the_Wind_(film),"[""0087544""]",7099,Nausicaä of the Valley of the Wind (Kaze no tani no Naushika) (1984),0087544,81
+11941,http://dbpedia.org/resource/Are_We_Done_Yet%3F,"[""0422774""]",52279,Are We Done Yet? (2007),0422774,10172
+36331,http://dbpedia.org/resource/The_Truth_About_Cats_&_Dogs,"[""0117979""]",708,"Truth About Cats & Dogs, The (1996)",0117979,8866
+63346,http://dbpedia.org/resource/Obsession_(1997_film),"[""0118700""]",182669,Obsession (1997),0118700,98544
+31638,http://dbpedia.org/resource/Sky_Captain_and_the_World_of_Tomorrow,"[""0346156""]",8865,Sky Captain and the World of Tomorrow (2004),0346156,5137
+24262,http://dbpedia.org/resource/The_Brothers_(2001_film),"[""0250274""]",4227,"Brothers, The (2001)",0250274,20322
+19243,http://dbpedia.org/resource/The_Emperor's_New_Groove,"[""0120917""]",4016,"Emperor's New Groove, The (2000)",0120917,11688
+9888,http://dbpedia.org/resource/Winter_Passing,"[""0380817""]",43914,Winter Passing (2005),0380817,14256
+14610,http://dbpedia.org/resource/The_Final_Countdown_(film),"[""0080736""]",4939,"Final Countdown, The (1980)",0080736,8738
+5126,http://dbpedia.org/resource/Gunfight_at_the_O.K._Corral_(film),"[""0050468""]",6356,Gunfight at the O.K. Corral (1957),0050468,22201
+58577,http://dbpedia.org/resource/Three_Days_of_the_Condor,"[""0073802""]",2819,Three Days of the Condor (3 Days of the Condor) (1975),0073802,11963
+23773,http://dbpedia.org/resource/Alex_&_Emma,"[""0318283""]",6493,Alex and Emma (2003),0318283,17813
+31330,http://dbpedia.org/resource/Nancy_Drew_(2002_film),"[""0329414""]",140639,Nancy Drew (2002),0329414,109797
+15454,http://dbpedia.org/resource/Pan_(1995_film),"[""0114081""]",127001,Pan (1995),0114081,87506
+45520,http://dbpedia.org/resource/Something_New_(film),"[""0437777""]",43684,Something New (2006),0437777,15363
+53578,http://dbpedia.org/resource/The_Entity,"[""0082334""]",5731,"Entity, The (1981)",0082334,24740
+51212,http://dbpedia.org/resource/The_Box_(2003_film),"[""0359024""]",267280,The Box (2003),0359024,73942
+61654,http://dbpedia.org/resource/Christmas_in_Connecticut,"[""0037595""]",42518,Christmas in Connecticut (1945),0037595,13669
+59043,http://dbpedia.org/resource/Alaska_(1996_film),"[""0115493""]",808,Alaska (1996),0115493,36344
+14620,http://dbpedia.org/resource/Back_to_School,"[""0090685""]",2416,Back to School (1986),0090685,15596
+48998,http://dbpedia.org/resource/Dracula_(2006_film),"[""0847161""]",202033,Dracula (2006),0847161,40631
+37568,http://dbpedia.org/resource/Outsider_(1997_film),"[""0117273""]",86440,Outsider (1997),0117273,152861
+2805,http://dbpedia.org/resource/Santa's_Slay,"[""0393685""]",44779,Santa's Slay (2005),0393685,12591
+45164,http://dbpedia.org/resource/Aladdin_(1992_Golden_Films_film),"[""0827990""]",114240,Aladdin (1992),0827990,343693
+12495,http://dbpedia.org/resource/15_Park_Avenue,"[""0449159""]",244688,15 Park Avenue (2006),0449159,23130
+32897,http://dbpedia.org/resource/Horror_Express,"[""0068713""]",3490,Horror Express (1972),0068713,32613
+55432,http://dbpedia.org/resource/Dead_Again,"[""0101669""]",3044,Dead Again (1991),0101669,11498
+20213,http://dbpedia.org/resource/The_Monster_Squad,"[""0093560""]",4135,"Monster Squad, The (1987)",0093560,13509
+49323,http://dbpedia.org/resource/Coming_Home_(2012_film),"[""2194497""]",175897,Coming Home (2012),2194497,139159
+32054,http://dbpedia.org/resource/The_Lion_King,"[""0110357""]",364,"Lion King, The (1994)",0110357,8587
+54656,http://dbpedia.org/resource/Sultan_(2016_film),"[""4832640""]",161034,Sultan (2016),4832640,376812
+13642,http://dbpedia.org/resource/Shooter_(2007_film),"[""0822854""]",51935,Shooter (2007),0822854,7485
+21297,http://dbpedia.org/resource/Empire_of_the_Ants_(film),"[""0075989""]",4944,Empire of the Ants (1977),0075989,42218
+47562,http://dbpedia.org/resource/Bridge_to_Terabithia_(2007_film),"[""0398808""]",50601,Bridge to Terabithia (2007),0398808,1265
+51305,http://dbpedia.org/resource/Heist_(2001_film),"[""0252503""]",4889,Heist (2001),0252503,11088
+19087,http://dbpedia.org/resource/The_Incredible_Mr._Limpet,"[""0058230""]",5651,"Incredible Mr. Limpet, The (1964)",0058230,19953
+28514,http://dbpedia.org/resource/El_Dorado_(1966_film),"[""0061619""]",3487,El Dorado (1966),0061619,6644
+16003,http://dbpedia.org/resource/Wonderland_(1999_film),"[""0171865""]",3823,Wonderland (1999),0171865,32640
+12713,http://dbpedia.org/resource/Ladybugs_(film),"[""0104670""]",26778,Ladybugs (1992),0104670,19087
+8201,http://dbpedia.org/resource/Chasing_Liberty,"[""0360139""]",7169,Chasing Liberty (2004),0360139,14844
+19906,http://dbpedia.org/resource/Diabolique_(1996_film),"[""0116095""]",640,Diabolique (1996),0116095,10988
+4889,http://dbpedia.org/resource/Ladder_49,"[""0349710""]",8908,Ladder 49 (2004),0349710,11128
+23177,http://dbpedia.org/resource/L.A._Confidential_(film),"[""0119488""]",1617,L.A. Confidential (1997),0119488,2118
+25750,http://dbpedia.org/resource/Brides_(2004_film),"[""0368619""]",41094,Brides (Nyfes) (2004),0368619,24223
+60359,http://dbpedia.org/resource/Jack_the_Ripper_(1976_film),"[""0074408""]",111804,Jack the Ripper (Jess Franco's Jack the Ripper) (1976),0074408,39567
+17342,http://dbpedia.org/resource/Gunslinger_(film),"[""0049287""]",165425,Gunslinger (1956),0049287,187790
+436,http://dbpedia.org/resource/Japanese_Story,"[""0304229""]",7167,Japanese Story (2003),0304229,13433
+45450,http://dbpedia.org/resource/Kung_Fu_Hustle,"[""0373074""]",31878,Kung Fu Hustle (Gong fu) (2004),0373074,9470
+62680,http://dbpedia.org/resource/Kids_in_the_Hall:_Brain_Candy,"[""0116768""]",663,Kids in the Hall: Brain Candy (1996),0116768,18414
+59048,http://dbpedia.org/resource/The_Muppet_Christmas_Carol,"[""0104940""]",2083,"Muppet Christmas Carol, The (1992)",0104940,10437
+63563,http://dbpedia.org/resource/Cry_Danger,"[""0043435""]",200556,Cry Danger (1951),0043435,25726
+9067,"http://dbpedia.org/resource/I_Love_You,_Man","[""1155056""]",67087,"I Love You, Man (2009)",1155056,16538
+30728,http://dbpedia.org/resource/Necessary_Roughness_(film),"[""0102517""]",4221,Necessary Roughness (1991),0102517,20704
+12231,http://dbpedia.org/resource/Darkness_Falls_(1999_film),"[""0131349""]",137737,Darkness Falls (1999),0131349,56608
+18284,http://dbpedia.org/resource/After_Hours_(film),"[""0088680""]",7419,After Hours (1985),0088680,10843
+26645,http://dbpedia.org/resource/Treehouse_Hostage,"[""0165994""]",233977,Treehouse Hostage (1999),0165994,258574
+11721,http://dbpedia.org/resource/Water_(1985_film),"[""0090297""]",122088,Water (1985),0090297,19127
+4024,http://dbpedia.org/resource/Multiplicity_(film),"[""0117108""]",719,Multiplicity (1996),0117108,9304
+34246,http://dbpedia.org/resource/New_Jack_City,"[""0102526""]",6977,New Jack City (1991),0102526,10952
+14621,http://dbpedia.org/resource/ExTerminators_(film),"[""1209378""]",179031,ExTerminators (2010),1209378,25891
+13150,http://dbpedia.org/resource/The_Man_Who_Saw_Tomorrow,"[""0081109""]",5200,"Man Who Saw Tomorrow, The (1980)",0081109,46973
+63260,http://dbpedia.org/resource/Forget_Paris,"[""0113097""]",237,Forget Paris (1995),0113097,10525
+55917,http://dbpedia.org/resource/Play_Misty_for_Me,"[""0067588""]",4803,Play Misty for Me (1971),0067588,15393
+16982,http://dbpedia.org/resource/Slugs_(1988_film),"[""0093995""]",157212,Slugs (1988),0093995,28452
+63327,http://dbpedia.org/resource/Only_the_Strong_(film),"[""0107750""]",7192,Only the Strong (1993),0107750,15797
+10935,http://dbpedia.org/resource/The_Breaks_(1999_film),"[""0181322""]",2508,"Breaks, The (1999)",0181322,15031
+50026,http://dbpedia.org/resource/P.S._I_Love_You_(film),"[""0431308""]",56941,P.S. I Love You (2007),0431308,6023
+35518,http://dbpedia.org/resource/Blank_Check_(film),"[""0109287""]",2036,Blank Check (1994),0109287,13962
+25123,http://dbpedia.org/resource/Death_Becomes_Her,"[""0104070""]",3258,Death Becomes Her (1992),0104070,9374
+25066,http://dbpedia.org/resource/Mickey's_Christmas_Carol,"[""0085936""]",136542,Mickey's Christmas Carol (1983),0085936,14813
+25672,http://dbpedia.org/resource/What_About_Bob%3F,"[""0103241""]",3809,What About Bob? (1991),0103241,10276
+8025,http://dbpedia.org/resource/Fight_Club,"[""0137523""]",2959,Fight Club (1999),0137523,550
+58951,http://dbpedia.org/resource/Startup.com,"[""0256408""]",4304,Startup.com (2001),0256408,14268
+27540,http://dbpedia.org/resource/Dangerous_Minds,"[""0112792""]",31,Dangerous Minds (1995),0112792,9909
+28955,http://dbpedia.org/resource/The_Guardian_(1990_film),"[""0099710""]",2982,"Guardian, The (1990)",0099710,32043
+19700,http://dbpedia.org/resource/The_Yes_Man,"[""0102693""]",138464,Il portaborse (1991),0102693,57110
+23787,http://dbpedia.org/resource/When_a_Man_Loves_a_Woman_(film),"[""0111693""]",381,When a Man Loves a Woman (1994),0111693,10449
+29532,http://dbpedia.org/resource/Fly_Away_Home,"[""0116329""]",986,Fly Away Home (1996),0116329,11076
+57797,http://dbpedia.org/resource/Groundhog_Day_(film),"[""0107048""]",1265,Groundhog Day (1993),0107048,137
+26016,http://dbpedia.org/resource/Love_Stinks_(film),"[""0188863""]",2809,Love Stinks (1999),0188863,15122
+36167,http://dbpedia.org/resource/Knight_and_Day,"[""1013743""]",79185,Knight and Day (2010),1013743,37834
+51705,http://dbpedia.org/resource/The_Maze_(1953_film),"[""0046057""]",89485,"Maze, The (1953)",0046057,85498
+59753,"http://dbpedia.org/resource/Mystery,_Alaska","[""0134618""]",2889,"Mystery, Alaska (1999)",0134618,15198
+32164,http://dbpedia.org/resource/The_Tao_of_Steve,"[""0234853""]",3852,"Tao of Steve, The (2000)",0234853,20438
+16557,http://dbpedia.org/resource/Down_by_Law_(film),"[""0090967""]",1273,Down by Law (1986),0090967,1554
+42469,http://dbpedia.org/resource/The_Driver,"[""0077474""]",41136,"Driver, The (1978)",0077474,2153
+21947,http://dbpedia.org/resource/Them_(2006_film),"[""0465203""]",53326,Them (Ils) (2006),0465203,10832
+24809,http://dbpedia.org/resource/Grimm_(film),"[""0365289""]",174835,Grimm (2003),0365289,50387
+6941,http://dbpedia.org/resource/Love_Don't_Cost_a_Thing_(film),"[""0337592""]",7148,Love Don't Cost a Thing (2003),0337592,21542
+53297,"http://dbpedia.org/resource/The_House_of_1,000_Dolls","[""0061451""]",165263,"House of 1,000 Dolls (1967)",0061451,110202
+63660,http://dbpedia.org/resource/Beautiful_Creatures_(2000_film),"[""0221889""]",4242,Beautiful Creatures (2000),0221889,15940
+34285,http://dbpedia.org/resource/48_Hrs.,"[""0083511""]",5049,48 Hrs. (1982),0083511,150
+43592,http://dbpedia.org/resource/Forever_Strong,"[""0840322""]",86330,Forever Strong (2008),0840322,31451
+14920,http://dbpedia.org/resource/The_One_(2001_film),"[""0267804""]",4887,"One, The (2001)",0267804,10796
+23356,http://dbpedia.org/resource/Mary_Reilly_(film),"[""0117002""]",92,Mary Reilly (1996),0117002,9095
+21157,http://dbpedia.org/resource/The_Natural_(film),"[""0087781""]",3098,"Natural, The (1984)",0087781,11393
+50925,http://dbpedia.org/resource/Courage_Under_Fire,"[""0115956""]",647,Courage Under Fire (1996),0115956,10684
+17625,http://dbpedia.org/resource/The_Last_Starfighter,"[""0087597""]",8633,"Last Starfighter, The (1984)",0087597,11884
+19768,http://dbpedia.org/resource/The_Preacher's_Wife,"[""0117372""]",1363,"Preacher's Wife, The (1996)",0117372,21539
+28579,http://dbpedia.org/resource/American_Me,"[""0103671""]",6022,American Me (1992),0103671,13199
+643,http://dbpedia.org/resource/Sex_and_Zen,"[""0105287""]",5006,Sex and Zen (Rou pu Tuan zhi tou Qing bao Jian) (1992),0105287,45491
+40266,http://dbpedia.org/resource/Sgt._Bilko,"[""0117608""]",637,Sgt. Bilko (1996),0117608,9099
+21773,http://dbpedia.org/resource/A_Lot_like_Love,"[""0391304""]",33145,"Lot Like Love, A (2005)",0391304,8976
+33726,http://dbpedia.org/resource/Journey_to_the_Center_of_the_Earth_(2008_direct-to-video_film),"[""1231575""]",192003,Journey to the Center of the Earth (2008),1231575,45361
+1828,http://dbpedia.org/resource/Hard_Target,"[""0107076""]",464,Hard Target (1993),0107076,2019
+63542,"http://dbpedia.org/resource/Food,_Inc.","[""1286537""]",71282,"Food, Inc. (2008)",1286537,18570
+33540,http://dbpedia.org/resource/The_Lost_World_(1998_film),"[""0138581""]",226278,The Lost World (1998),0138581,2997
+59844,http://dbpedia.org/resource/Night_of_Terror,"[""0024382""]",161534,Night of Terror (1933),0024382,138956
+25477,http://dbpedia.org/resource/The_Dark_Half_(film),"[""0106664""]",2898,"Dark Half, The (1993)",0106664,10349
+37852,http://dbpedia.org/resource/Shakes_the_Clown,"[""0102898""]",3544,Shakes the Clown (1992),0102898,26291
+2538,http://dbpedia.org/resource/Man_of_the_West,"[""0051899""]",36056,Man of the West (1958),0051899,14674
+41537,http://dbpedia.org/resource/Deliver_Us_from_Eva,"[""0301181""]",6154,Deliver Us from Eva (2003),0301181,26454
+55644,http://dbpedia.org/resource/Better_Off_Dead_(film),"[""0088794""]",1257,Better Off Dead... (1985),0088794,13667
+28599,http://dbpedia.org/resource/Master_of_the_Flying_Guillotine,"[""0072913""]",7899,Master of the Flying Guillotine (Du bi quan wang da po xue di zi) (1975),0072913,49636
+32213,http://dbpedia.org/resource/Rabbits_(film),"[""0347840""]",153070,Rabbits (2002),0347840,44351
+58736,http://dbpedia.org/resource/Train_of_Life,"[""0170705""]",3003,Train of Life (Train de vie) (1998),0170705,8056
+39106,http://dbpedia.org/resource/A_Perfect_Getaway,"[""0971209""]",70208,"Perfect Getaway, A (2009)",0971209,12403
+53891,http://dbpedia.org/resource/The_Adventures_of_Robin_Hood,"[""0029843""]",940,"Adventures of Robin Hood, The (1938)",0029843,10907
+50516,http://dbpedia.org/resource/Racing_Stripes,"[""0376105""]",31223,Racing Stripes (2005),0376105,6439
+33443,http://dbpedia.org/resource/The_Last_Dragon_(2004_film),"[""0433367""]",160702,Dragons: A Fantasy Made Real (2004),0433367,27243
+9187,http://dbpedia.org/resource/Jump_Tomorrow,"[""0273300""]",4451,Jump Tomorrow (2001),0273300,25985
+36119,http://dbpedia.org/resource/Flywheel_(film),"[""0425027""]",93267,Flywheel (2003),0425027,17345
+44404,http://dbpedia.org/resource/Dracula's_Daughter,"[""0027545""]",49571,Dracula's Daughter (1936),0027545,22440
+49436,http://dbpedia.org/resource/Far_from_Home_(1989_film),"[""0097332""]",88158,Far from Home (1989),0097332,27984
+13035,http://dbpedia.org/resource/Billy_Budd_(film),"[""0055796""]",67098,Billy Budd (1962),0055796,5334
+2227,http://dbpedia.org/resource/Billy_Liar_(film),"[""0056868""]",4687,Billy Liar (1963),0056868,26535
+45628,http://dbpedia.org/resource/Meet_the_Parents_(1992_film),"[""0104844""]",281170,Meet the Parents (1992),0104844,236405
+5127,http://dbpedia.org/resource/Tap_(film),"[""0098442""]",4674,Tap (1989),0098442,16560
+54899,http://dbpedia.org/resource/Passenger_57,"[""0105104""]",7017,Passenger 57 (1992),0105104,10538
+55513,http://dbpedia.org/resource/Red_(2008_film),"[""0972883""]",62235,Red (2008),0972883,13200
+35853,http://dbpedia.org/resource/Little_Darlings,"[""0081060""]",5197,Little Darlings (1980),0081060,27458
+11154,"http://dbpedia.org/resource/I,_Zombie","[""0210740""]",175509,"I, Zombie: The Chronicles of Pain (1998)",0210740,68180
+51604,http://dbpedia.org/resource/Dead_Calm_(film),"[""0097162""]",3203,Dead Calm (1989),0097162,10493
+9608,http://dbpedia.org/resource/Madeline_(1998_film),"[""0123987""]",1919,Madeline (1998),0123987,35680
+56393,http://dbpedia.org/resource/The_Walking_Dead_(1995_film),"[""0114888""]",336,"Walking Dead, The (1995)",0114888,95963
+6640,http://dbpedia.org/resource/Commando_(1985_film),"[""0088944""]",6664,Commando (1985),0088944,10999
+7509,http://dbpedia.org/resource/The_Seeker_(film),"[""0484562""]",55259,"Seeker: The Dark Is Rising, The (2007)",0484562,2274
+22015,http://dbpedia.org/resource/Funny_Farm_(film),"[""0095188""]",2796,Funny Farm (1988),0095188,14170
+13211,http://dbpedia.org/resource/In_Dreams_(film),"[""0120710""]",2446,In Dreams (1999),0120710,28902
+41834,http://dbpedia.org/resource/Red_Sundown,"[""0049667""]",202029,Red Sundown (1956),0049667,136228
+28172,http://dbpedia.org/resource/Flowers_in_the_Attic_(1987_film),"[""0093036""]",4109,Flowers in the Attic (1987),0093036,15658
+5300,http://dbpedia.org/resource/Spaceman_(2016_film),"[""2262518""]",165895,Spaceman (2016),2262518,375082
+58229,http://dbpedia.org/resource/Supersonic_Man,"[""0079971""]",140976,Supersonic Man (1979),0079971,28482
+16787,http://dbpedia.org/resource/Cosmos_(2015_film),"[""4035268""]",148374,Cosmos (2015),4035268,315868
+10423,http://dbpedia.org/resource/The_Arrival_(1996_film),"[""0115571""]",748,"Arrival, The (1996)",0115571,10547
+46273,http://dbpedia.org/resource/Deception_(2008_film),"[""0800240""]",59256,Deception (2008),0800240,13018
+56675,http://dbpedia.org/resource/Popcorn_(1991_film),"[""0102690""]",4430,Popcorn (1991),0102690,39875
+10768,http://dbpedia.org/resource/Eddie_(film),"[""0116168""]",656,Eddie (1996),0116168,11107
+278,http://dbpedia.org/resource/End_of_Days_(film),"[""0146675""]",3113,End of Days (1999),0146675,9946
+52866,http://dbpedia.org/resource/The_Deep_End_of_the_Ocean_(film),"[""0120646""]",2546,"Deep End of the Ocean, The (1999)",0120646,30943
+26874,http://dbpedia.org/resource/The_Rookie_(2002_film),"[""0265662""]",5267,"Rookie, The (2002)",0265662,14635
+49006,http://dbpedia.org/resource/Seems_Like_Old_Times_(film),"[""0081480""]",5241,Seems Like Old Times (1980),0081480,28124
+36241,http://dbpedia.org/resource/Julia_and_Julia,"[""0093092""]",4112,Julia and Julia (Giulia e Giulia) (1987),0093092,58084
+29616,http://dbpedia.org/resource/Tears_of_the_Sun,"[""0314353""]",6213,Tears of the Sun (2003),0314353,9567
+21707,http://dbpedia.org/resource/The_Hunted_(1995_film),"[""0113360""]",251,"Hunted, The (1995)",0113360,32631
+41043,http://dbpedia.org/resource/Weirdsville,"[""0758798""]",55294,Weirdsville (2007),0758798,14251
+53741,http://dbpedia.org/resource/Three_to_Tango,"[""0144640""]",2978,Three to Tango (1999),0144640,10563
+42717,http://dbpedia.org/resource/Manhunt:_The_Search_for_Bin_Laden,"[""2475544""]",102235,Manhunt (2013),2475544,159011
+52123,http://dbpedia.org/resource/Persuasion_(2007_film),"[""0844330""]",74508,Persuasion (2007),0844330,13949
+51097,http://dbpedia.org/resource/Guarding_Tess,"[""0109951""]",6992,Guarding Tess (1994),0109951,6472
+32537,http://dbpedia.org/resource/High_Sierra_(film),"[""0033717""]",7216,High Sierra (1941),0033717,27725
+27117,http://dbpedia.org/resource/P2_(film),"[""0804516""]",56165,P2 (2007),0804516,13474
+18393,http://dbpedia.org/resource/Hanover_Street_(film),"[""0079268""]",197649,Hanover Street (1979),0079268,26659
+228,http://dbpedia.org/resource/Murder_by_Invitation,"[""0033928""]",263053,Murder by Invitation (1941),0033928,252463
+29961,http://dbpedia.org/resource/Pay_It_Forward_(film),"[""0223897""]",3969,Pay It Forward (2000),0223897,10647
+23612,http://dbpedia.org/resource/A_Kid_in_King_Arthur's_Court,"[""0113538""]",258,"Kid in King Arthur's Court, A (1995)",0113538,37108
+16642,http://dbpedia.org/resource/Knights_(film),"[""0107333""]",122264,Knights (1993),0107333,52627
+33740,http://dbpedia.org/resource/Lassie_(1994_film),"[""0110305""]",484,Lassie (1994),0110305,29918
+2689,http://dbpedia.org/resource/The_Cotton_Club_(film),"[""0087089""]",4690,"Cotton Club, The (1984)",0087089,2148
+58926,http://dbpedia.org/resource/The_Avengers_(1998_film),"[""0118661""]",2153,"Avengers, The (1998)",0118661,9320
+39341,http://dbpedia.org/resource/The_Sure_Thing,"[""0090103""]",6636,"Sure Thing, The (1985)",0090103,8992
+13400,http://dbpedia.org/resource/Malcolm_X_(1992_film),"[""0104797""]",3246,Malcolm X (1992),0104797,1883
+38244,http://dbpedia.org/resource/The_Shootist,"[""0075213""]",4710,"Shootist, The (1976)",0075213,12584
+11540,http://dbpedia.org/resource/Tom_Sawyer_(2000_film),"[""0224267""]",115935,Tom Sawyer (2000),0224267,42313
+2039,http://dbpedia.org/resource/Major_Payne,"[""0110443""]",267,Major Payne (1995),0110443,11008
+9448,http://dbpedia.org/resource/The_Champ_(1979_film),"[""0078950""]",3428,"Champ, The (1979)",0078950,30547
+53565,http://dbpedia.org/resource/Narc_(film),"[""0272207""]",5959,Narc (2002),0272207,11022
+14675,http://dbpedia.org/resource/Godzilla_vs._SpaceGodzilla,"[""0109916""]",105837,Godzilla vs. SpaceGodzilla (Gojira VS Supesugojira) (1994),0109916,39466
+57794,http://dbpedia.org/resource/Jesus_Camp,"[""0486358""]",47999,Jesus Camp (2006),0486358,1776
+43193,http://dbpedia.org/resource/The_Hills_Run_Red_(1966_film),"[""0060416""]",124915,The Hills Run Red (1966),0060416,95019
+34679,http://dbpedia.org/resource/Dus,"[""0415768""]",153032,Dus (2005),0415768,58302
+55961,http://dbpedia.org/resource/The_Inkwell,"[""0110137""]",476,"Inkwell, The (1994)",0110137,59930
+35362,http://dbpedia.org/resource/Charles_Manson_Superstar,"[""0097047""]",265314,Charles Manson Superstar (1989),0097047,60078
+49653,http://dbpedia.org/resource/Open_Range_(2003_film),"[""0316356""]",6617,Open Range (2003),0316356,2055
+28557,http://dbpedia.org/resource/Great_Balls_of_Fire!_(film),"[""0097457""]",4599,Great Balls of Fire! (1989),0097457,11465
+24458,http://dbpedia.org/resource/The_14,"[""0070921""]",154264,The 14 (1973),0070921,142616
+35947,http://dbpedia.org/resource/The_400_Blows,"[""0053198""]",2731,"400 Blows, The (Les quatre cents coups) (1959)",0053198,147
+15187,http://dbpedia.org/resource/All_the_Right_Moves_(film),"[""0085154""]",5226,All the Right Moves (1983),0085154,18172
+64011,http://dbpedia.org/resource/Bad_Boys_(2003_film),"[""0323551""]",27643,Pahat pojat (2003),0323551,20164
+26267,http://dbpedia.org/resource/O_Concurso,"[""2616114""]",220570,O Concurso (2013),2616114,210802
+20917,http://dbpedia.org/resource/Pumping_Iron,"[""0076578""]",7225,Pumping Iron (1977),0076578,5205
+41398,http://dbpedia.org/resource/Dead_Presidents,"[""0112819""]",42,Dead Presidents (1995),0112819,11443
+62285,http://dbpedia.org/resource/Thinner_(film),"[""0117894""]",742,Thinner (1996),0117894,10280
+16776,http://dbpedia.org/resource/Black_Rain_(1989_Japanese_film),"[""0097694""]",32974,Black Rain (Kuroi ame) (1989),0097694,185987
+34564,http://dbpedia.org/resource/Revenge_(1990_film),"[""0100485""]",7032,Revenge (1990),0100485,14249
+9116,http://dbpedia.org/resource/Sabotage_(2014_film),"[""1742334""]",109072,Sabotage (2014),1742334,144336
+57025,http://dbpedia.org/resource/Hooper_(film),"[""0077696""]",8259,Hooper (1978),0077696,16214
+20157,http://dbpedia.org/resource/American_Movie,"[""0181288""]",3007,American Movie (1999),0181288,14242
+50825,http://dbpedia.org/resource/Gone_Fishin'_(film),"[""0119214""]",870,Gone Fishin' (1997),0119214,9054
+6868,http://dbpedia.org/resource/Traffic_(2011_film),"[""1821682""]",186707,Traffic (2011),1821682,142948
+15902,http://dbpedia.org/resource/Conan_the_Barbarian_(1982_film),"[""0082198""]",1587,Conan the Barbarian (1982),0082198,9387
+7980,http://dbpedia.org/resource/The_Frisco_Kid,"[""0079180""]",33126,"Frisco Kid, The (1979)",0079180,16972
+44799,http://dbpedia.org/resource/The_Little_Shop_of_Horrors,"[""0054033""]",2747,"Little Shop of Horrors, The (1960)",0054033,24452
+33573,http://dbpedia.org/resource/Bedtime_Stories_(film),"[""0960731""]",65088,Bedtime Stories (2008),0960731,10202
+61739,http://dbpedia.org/resource/The_Seven-Ups,"[""0070672""]",117370,The Seven-Ups (1973),0070672,32080
+25847,http://dbpedia.org/resource/Seven_Pounds,"[""0814314""]",64716,Seven Pounds (2008),0814314,11321
+42201,http://dbpedia.org/resource/The_Tuxedo,"[""0290095""]",5621,"Tuxedo, The (2002)",0290095,10771
+25873,http://dbpedia.org/resource/Escape_to_Witch_Mountain_(1975_film),"[""0072951""]",1009,Escape to Witch Mountain (1975),0072951,14821
+54188,http://dbpedia.org/resource/Far_and_Away,"[""0104231""]",3259,Far and Away (1992),0104231,11259
+63246,http://dbpedia.org/resource/The_Toy_(1982_film),"[""0084809""]",4929,"Toy, The (1982)",0084809,23805
+51385,http://dbpedia.org/resource/The_Dark_Night_(film),"[""0097998""]",239528,The Dark Night of the Soul (1989),0097998,189325
+20818,http://dbpedia.org/resource/Dan_in_Real_Life,"[""0480242""]",55267,Dan in Real Life (2007),0480242,7211
+51430,http://dbpedia.org/resource/Five_Deadly_Venoms,"[""0077559""]",26399,Five Deadly Venoms (1978),0077559,13481
+1475,http://dbpedia.org/resource/Where_the_Heart_Is_(2000_film),"[""0198021""]",3565,Where the Heart Is (2000),0198021,10564
+9130,http://dbpedia.org/resource/The_Jacket,"[""0366627""]",27788,"Jacket, The (2005)",0366627,9667
+62150,http://dbpedia.org/resource/Crossroads_(2002_film),"[""0275022""]",5106,Crossroads (2002),0275022,17130
+41127,http://dbpedia.org/resource/The_Specialist,"[""0111255""]",315,"Specialist, The (1994)",0111255,2636
+38423,http://dbpedia.org/resource/The_Great_White_Hype,"[""0116448""]",725,"Great White Hype, The (1996)",0116448,20759
+31458,http://dbpedia.org/resource/Sherlock_Holmes_(1922_film),"[""0013597""]",139873,Sherlock Holmes (1922),0013597,53800
+53025,http://dbpedia.org/resource/War_and_Peace_(2002_film),"[""0311356""]",6674,War and Peace (Jang Aur Aman) (2001),0311356,143795
+23891,http://dbpedia.org/resource/Shanghai_Knights,"[""0300471""]",6156,Shanghai Knights (2003),0300471,6038
+38153,http://dbpedia.org/resource/The_Cabinet_of_Caligari,"[""0055819""]",111745,"Cabinet of Caligari, The (1962)",0055819,109133
+20622,http://dbpedia.org/resource/Nothing_to_Lose_(1997_film),"[""0119807""]",7048,Nothing to Lose (1997),0119807,11676
+28640,http://dbpedia.org/resource/Beerfest,"[""0486551""]",47640,Beerfest (2006),0486551,9988
+56390,http://dbpedia.org/resource/The_Big_Cube,"[""0064088""]",124725,The Big Cube (1969),0064088,72100
+35115,http://dbpedia.org/resource/Joséphine_(2013_film),"[""2430044""]",127025,Josephine (2013),2430044,199661
+10986,http://dbpedia.org/resource/Must_Love_Dogs,"[""0417001""]",34336,Must Love Dogs (2005),0417001,11648
+9680,http://dbpedia.org/resource/Blackbeard's_Ghost,"[""0062737""]",2035,Blackbeard's Ghost (1968),0062737,16249
+39700,http://dbpedia.org/resource/Into_the_Storm_(2009_film),"[""0992993""]",111314,Into the Storm (2009),0992993,36465
+27344,http://dbpedia.org/resource/The_Landlord,"[""0065963""]",26229,"Landlord, The (1970)",0065963,64828
+11463,http://dbpedia.org/resource/Dark_Tower_(1987_film),"[""0092831""]",122451,Dark Tower (1989),0092831,106280
+42171,http://dbpedia.org/resource/Twice-Told_Tales_(film),"[""0057608""]",116680,Twice-Told Tales (1963),0057608,47553
+31128,http://dbpedia.org/resource/Green_Card_(film),"[""0099699""]",6238,Green Card (1990),0099699,12157
+3226,http://dbpedia.org/resource/Love_Potion_No._9_(film),"[""0102343""]",4317,Love Potion #9 (1992),0102343,26255
+21367,http://dbpedia.org/resource/The_Diary_of_Anne_Frank_(1959_film),"[""0052738""]",7303,The Diary of Anne Frank (1959),0052738,2576
+15503,http://dbpedia.org/resource/W._(film),"[""1175491""]",62437,W. (2008),1175491,10523
+4630,http://dbpedia.org/resource/Devil_in_a_Blue_Dress_(film),"[""0112857""]",164,Devil in a Blue Dress (1995),0112857,8512
+35646,http://dbpedia.org/resource/Pacific_Heights_(film),"[""0100318""]",3219,Pacific Heights (1990),0100318,2990
+23568,http://dbpedia.org/resource/Flatliners,"[""0099582""]",3686,Flatliners (1990),0099582,1551
+40803,http://dbpedia.org/resource/Blades_(film),"[""0096936""]",201104,Blades (1989),0096936,121390
+4321,http://dbpedia.org/resource/The_300_Spartans,"[""0055719""]",46653,"300 Spartans, The (1962)",0055719,19972
+47093,http://dbpedia.org/resource/Fatty_Joins_the_Force,"[""0002851""]",279568,Fatty Joins the Force (1913),0002851,161522
+48139,http://dbpedia.org/resource/The_Professional_(1981_film),"[""0082949""]",5782,"Professional, The (Le professionnel) (1981)",0082949,1672
+35603,http://dbpedia.org/resource/Jury_Duty_(film),"[""0113500""]",174,Jury Duty (1995),0113500,19326
+18191,http://dbpedia.org/resource/Suburban_Mayhem,"[""0450506""]",165703,Suburban Mayhem (2006),0450506,13943
+19904,http://dbpedia.org/resource/Deadly_Friend,"[""0090917""]",2465,Deadly Friend (1986),0090917,33278
+54755,http://dbpedia.org/resource/House_of_D,"[""0372334""]",33136,House of D (2004),0372334,24363
+59074,http://dbpedia.org/resource/Days_of_Glory_(2006_film),"[""0444182""]",51007,Days of Glory (Indigènes) (2006),0444182,2016
+60824,http://dbpedia.org/resource/Dogtown_and_Z-Boys,"[""0275309""]",5325,Dogtown and Z-Boyz (2001),0275309,1282
+57111,http://dbpedia.org/resource/Ghost_Dog:_The_Way_of_the_Samurai,"[""0165798""]",3328,Ghost Dog: The Way of the Samurai (1999),0165798,4816
+49225,http://dbpedia.org/resource/Navy_SEALs_(film),"[""0100232""]",4207,Navy Seals (1990),0100232,12773
+53506,http://dbpedia.org/resource/The_Spanish_Prisoner,"[""0120176""]",1834,"Spanish Prisoner, The (1997)",0120176,29193
+52754,http://dbpedia.org/resource/Escape_to_Witch_Mountain_(1995_film),"[""0112985""]",164859,Escape to Witch Mountain (1995),0112985,239033
+40631,http://dbpedia.org/resource/The_Minus_Man,"[""0151582""]",2844,"Minus Man, The (1999)",0151582,21719
+35615,http://dbpedia.org/resource/Total_Eclipse_(film),"[""0114702""]",202,Total Eclipse (1995),0114702,36834
+35927,http://dbpedia.org/resource/Psych-Out,"[""0063469""]",45991,Psych-Out (1968),0063469,63100
+41612,http://dbpedia.org/resource/The_Sandlot_2,"[""0418131""]",170305,The Sandlot 2 (2005),0418131,18500
+32654,http://dbpedia.org/resource/Wayne's_World_2,"[""0108525""]",3254,Wayne's World 2 (1993),0108525,8873
+7137,http://dbpedia.org/resource/Jack_Frost_(1998_film),"[""0141109""]",2392,Jack Frost (1998),0141109,9745
+23315,http://dbpedia.org/resource/Bringing_Out_the_Dead,"[""0163988""]",2976,Bringing Out the Dead (1999),0163988,8649
+62153,http://dbpedia.org/resource/Titanic_(1997_film),"[""0120338""]",1721,Titanic (1997),0120338,597
+62785,http://dbpedia.org/resource/One_Day_in_September,"[""0230591""]",3989,One Day in September (1999),0230591,34045
+8392,http://dbpedia.org/resource/Young_Sherlock_Holmes,"[""0090357""]",2414,Young Sherlock Holmes (1985),0090357,11904
+25771,http://dbpedia.org/resource/Valerian_and_the_City_of_a_Thousand_Planets,"[""2239822""]",173291,Valerian and the City of a Thousand Planets (2017),2239822,339964
+15775,http://dbpedia.org/resource/The_Buddy_Holly_Story,"[""0077280""]",2866,"Buddy Holly Story, The (1978)",0077280,24153
+36640,http://dbpedia.org/resource/Jack_(1996_film),"[""0116669""]",765,Jack (1996),0116669,7095
+9672,http://dbpedia.org/resource/Going_in_Style,"[""0079219""]",7414,Going in Style (1979),0079219,65066
+52072,http://dbpedia.org/resource/Henry_Gamble's_Birthday_Party,"[""3703836""]",160084,Henry Gamble's Birthday Party (2016),3703836,339739
+35269,http://dbpedia.org/resource/Blue_Streak_(film),"[""0181316""]",2860,Blue Streak (1999),0181316,11001
+44832,http://dbpedia.org/resource/The_Reckless_Moment,"[""0041786""]",55713,The Reckless Moment (1949),0041786,28007
+15787,http://dbpedia.org/resource/From_Hell_(film),"[""0120681""]",4865,From Hell (2001),0120681,768
+48413,http://dbpedia.org/resource/The_Deep_Six,"[""0050298""]",122595,The Deep Six (1958),0050298,102078
+173,http://dbpedia.org/resource/Light_It_Up_(film),"[""0172726""]",3050,Light It Up (1999),0172726,19052
+18838,http://dbpedia.org/resource/Ruby_Bridges_(film),"[""0138068""]",151729,Ruby Bridges (1998),0138068,96715
+27114,http://dbpedia.org/resource/The_Caddy,"[""0045589""]",77223,"Caddy, The (1953)",0045589,44747
+17072,http://dbpedia.org/resource/Tales_from_the_Darkside:_The_Movie,"[""0100740""]",2327,Tales from the Darkside: The Movie (1990),0100740,20701
+32815,http://dbpedia.org/resource/Creature_(1985_film),"[""0088961""]",138746,Creature (1985),0088961,58903
+29640,http://dbpedia.org/resource/Highlander:_The_Source,"[""0299981""]",121117,Highlander: The Source (2007),0299981,13360
+1987,http://dbpedia.org/resource/The_Bewitched_Inn,"[""0000138""]",174025,The Bewitched Inn (1897),0000138,104476
+250,http://dbpedia.org/resource/Gunsmoke_(film),"[""0045847""]",153678,Gunsmoke (1953),0045847,128851
+184,http://dbpedia.org/resource/Drop_Zone_(film),"[""0109676""]",227,Drop Zone (1994),0109676,4954
+21223,http://dbpedia.org/resource/Scent_of_a_Woman_(1974_film),"[""0072037""]",52424,Scent of a Woman (Profumo di donna) (1974),0072037,47848
+39727,http://dbpedia.org/resource/Man_of_the_House_(1995_film),"[""0113755""]",274,Man of the House (1995),0113755,40490
+11476,http://dbpedia.org/resource/Désirée_(film),"[""0046903""]",74337,Desirée (1954),0046903,43333
+52826,http://dbpedia.org/resource/The_Final_Cut_(2004_film),"[""0364343""]",8939,"Final Cut, The (2004)",0364343,11099
+12489,http://dbpedia.org/resource/The_Boy_in_the_Plastic_Bubble,"[""0074236""]",139521,The Boy in the Plastic Bubble (1976),0074236,9878
+35048,http://dbpedia.org/resource/Jaws_(film),"[""0073195""]",1387,Jaws (1975),0073195,578
+42377,http://dbpedia.org/resource/The_Abyss_(1988_film),"[""0095773""]",163436,L'oeuvre au noir (1988),0095773,64386
+11397,http://dbpedia.org/resource/The_Thirteenth_Floor,"[""0139809""]",2672,"Thirteenth Floor, The (1999)",0139809,1090
+20230,http://dbpedia.org/resource/Cromwell_(film),"[""0065593""]",8272,Cromwell (1970),0065593,31675
+10104,http://dbpedia.org/resource/Hard_to_Kill,"[""0099739""]",26688,Hard to Kill (1990),0099739,9569
+276,http://dbpedia.org/resource/Belly_(film),"[""0158493""]",2332,Belly (1998),0158493,12888
+23743,http://dbpedia.org/resource/Beer_for_My_Horses_(film),"[""1178640""]",128167,Beer for My Horses (2008),1178640,15926
+61074,http://dbpedia.org/resource/28_Days_(film),"[""0191754""]",3534,28 Days (2000),0191754,10468
+63435,http://dbpedia.org/resource/Hunger_(2001_film),"[""0237320""]",156115,Hunger (2001),0237320,76105
+12677,http://dbpedia.org/resource/The_Greatest_Show_on_Earth_(film),"[""0044672""]",1943,"Greatest Show on Earth, The (1952)",0044672,27191
+13428,http://dbpedia.org/resource/Curly_Sue,"[""0101635""]",6558,Curly Sue (1991),0101635,11894
+48645,http://dbpedia.org/resource/Hunt_for_the_Wilderpeople,"[""4698684""]",152970,Hunt for the Wilderpeople (2016),4698684,371645
+54201,http://dbpedia.org/resource/Ladyhawke_(film),"[""0089457""]",3479,Ladyhawke (1985),0089457,526
+27567,http://dbpedia.org/resource/A_(1998_Japanese_film),"[""0241146""]",172395,A (1998),0241146,24791
+34546,http://dbpedia.org/resource/Haven_(film),"[""0386504""]",170237,Haven (2004),0386504,9830
+5819,http://dbpedia.org/resource/Mean_Streets,"[""0070379""]",8042,Mean Streets (1973),0070379,203
+21739,http://dbpedia.org/resource/The_Petrified_Forest,"[""0028096""]",25828,"Petrified Forest, The (1936)",0028096,17030
+42393,http://dbpedia.org/resource/Honey_(2003_film),"[""0322589""]",7142,Honey (2003),0322589,10028
+39558,http://dbpedia.org/resource/Dreamer_(2005_film),"[""0418647""]",39307,Dreamer: Inspired by a True Story (2005),0418647,12920
+55180,http://dbpedia.org/resource/The_Zodiac_(film),"[""0371739""]",241910,The Zodiac (2005),0371739,11345
+13607,http://dbpedia.org/resource/Joyeux_Noël,"[""0424205""]",40414,Joyeux Noël (Merry Christmas) (2005),0424205,11661
+26544,http://dbpedia.org/resource/Liar_Liar,"[""0119528""]",1485,Liar Liar (1997),0119528,1624
+5970,http://dbpedia.org/resource/A_Bronx_Tale,"[""0106489""]",428,"Bronx Tale, A (1993)",0106489,1607
+51325,http://dbpedia.org/resource/Trees_Lounge,"[""0117958""]",1051,Trees Lounge (1996),0117958,27845
+62709,http://dbpedia.org/resource/Broken_Arrow_(1950_film),"[""0042286""]",54121,Broken Arrow (1950),0042286,37292
+30657,http://dbpedia.org/resource/The_Paper_(film),"[""0110771""]",371,"Paper, The (1994)",0110771,12280
+38955,http://dbpedia.org/resource/Prime_(film),"[""0387514""]",39449,Prime (2005),0387514,2313
+37077,http://dbpedia.org/resource/Absentia_(film),"[""1610996""]",93819,Absentia (2011),1610996,74777
+52001,http://dbpedia.org/resource/The_Sea_Wolves,"[""0081470""]",3137,"Sea Wolves, The (1980)",0081470,19664
+9749,http://dbpedia.org/resource/Magic_(1978_film),"[""0077889""]",44911,Magic (1978),0077889,34193
+53386,http://dbpedia.org/resource/The_Incident_(1967_film),"[""0061814""]",26167,The Incident (1967),0061814,66043
+20049,http://dbpedia.org/resource/The_Tooth_Fairy_(film),"[""0473553""]",122817,The Tooth Fairy (2006),0473553,53953
+59365,http://dbpedia.org/resource/Picture_Perfect_(1997_film),"[""0119896""]",1593,Picture Perfect (1997),0119896,9413
+48112,http://dbpedia.org/resource/Boys_on_the_Side,"[""0112571""]",218,Boys on the Side (1995),0112571,9382
+62815,http://dbpedia.org/resource/The_Big_Bus,"[""0074205""]",5490,The Big Bus (1976),0074205,19133
+32649,http://dbpedia.org/resource/Deathtrap_(film),"[""0083806""]",5938,Deathtrap (1982),0083806,17590
+44787,http://dbpedia.org/resource/Ice_Cold_in_Alex,"[""0053935""]",7821,Ice-Cold in Alex (1958),0053935,16284
+62045,http://dbpedia.org/resource/The_Score_(2001_film),"[""0227445""]",4448,"Score, The (2001)",0227445,11371
+13486,http://dbpedia.org/resource/The_Taming_of_the_Shrew,"[""0020479"", ""0061407"", ""0081597""]",102039,"Taming of the Shrew, The (1980)",0081597,71508
+13486,http://dbpedia.org/resource/The_Taming_of_the_Shrew,"[""0020479"", ""0061407"", ""0081597""]",124633,The Taming of the Shrew (1929),0020479,91715
+13486,http://dbpedia.org/resource/The_Taming_of_the_Shrew,"[""0020479"", ""0061407"", ""0081597""]",3028,"Taming of the Shrew, The (1967)",0061407,25560
+30952,http://dbpedia.org/resource/10_Things_I_Hate_About_You,"[""0147800""]",2572,10 Things I Hate About You (1999),0147800,4951
+37231,http://dbpedia.org/resource/Samsara_(2001_film),"[""0196069""]",8485,Samsara (2001),0196069,8341
+61554,http://dbpedia.org/resource/August_Rush,"[""0426931""]",55872,August Rush (2007),0426931,5123
+52745,http://dbpedia.org/resource/Men_of_Honor,"[""0203019""]",3980,Men of Honor (2000),0203019,11978
+201,http://dbpedia.org/resource/The_In-Laws_(2003_film),"[""0314786""]",6374,"In-Laws, The (2003)",0314786,5146
+51730,http://dbpedia.org/resource/Creature_of_the_Walking_Dead,"[""0407696""]",262821,Creature of the Walking Dead (1965),0407696,115128
+27435,http://dbpedia.org/resource/Invasion_of_the_Body_Snatchers,"[""0049366""]",2664,Invasion of the Body Snatchers (1956),0049366,11549
+33764,http://dbpedia.org/resource/James_Bond_(2015_film),"[""4896340""]",228995,James Bond (2015),4896340,360133
+4140,http://dbpedia.org/resource/Gaslight_(1940_film),"[""0031359""]",25852,Gaslight (1940),0031359,55207
+47638,http://dbpedia.org/resource/Get_Rich_or_Die_Tryin'_(film),"[""0430308""]",40574,Get Rich or Die Tryin' (2005),0430308,10060
+3178,http://dbpedia.org/resource/The_Wood,"[""0161100""]",2714,"Wood, The (1999)",0161100,16158
+16950,http://dbpedia.org/resource/The_Ninth_Configuration,"[""0081237""]",5208,"Ninth Configuration, The (a.k.a. Twinkle, Twinkle, Killer Kane) (1980)",0081237,18910
+27227,http://dbpedia.org/resource/The_Negotiator,"[""0120768""]",2058,"Negotiator, The (1998)",0120768,9631
+29022,http://dbpedia.org/resource/Coach_Carter,"[""0393162""]",31225,Coach Carter (2005),0393162,7214
+49615,http://dbpedia.org/resource/Mermaids_(1990_film),"[""0100140""]",4205,Mermaids (1990),0100140,4587
+53414,http://dbpedia.org/resource/The_Serpent_and_the_Rainbow_(film),"[""0096071""]",4541,"Serpent and the Rainbow, The (1988)",0096071,11503
+61000,http://dbpedia.org/resource/Blindside_(film),"[""0090748""]",140936,Blindside (1986),0090748,109610
+1494,http://dbpedia.org/resource/The_Legend_of_Bagger_Vance,"[""0146984""]",3978,"Legend of Bagger Vance, The (2000)",0146984,4958
+9257,http://dbpedia.org/resource/Last_Action_Hero,"[""0107362""]",485,Last Action Hero (1993),0107362,9593
+36318,http://dbpedia.org/resource/Rules_of_Engagement_(film),"[""0160797""]",3513,Rules of Engagement (2000),0160797,10479
+24743,http://dbpedia.org/resource/The_Story_of_Ruth,"[""0054343""]",109203,"Story of Ruth, The (1960)",0054343,43042
+27920,http://dbpedia.org/resource/Faust_(1994_film),"[""0109781""]",1151,Lesson Faust (1994),0109781,18919
+22888,http://dbpedia.org/resource/Touch_of_Evil,"[""0052311""]",1248,Touch of Evil (1958),0052311,1480
+54566,http://dbpedia.org/resource/Dancemaker,"[""0175550""]",2538,Dancemaker (1998),0175550,113286
+8838,http://dbpedia.org/resource/Employee_of_the_Month_(2006_film),"[""0424993""]",48520,Employee of the Month (2006),0424993,9794

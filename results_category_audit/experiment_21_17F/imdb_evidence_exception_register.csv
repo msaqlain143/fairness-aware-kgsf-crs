@@ -1,0 +1,380 @@
+﻿movie_entity_id,source_uri,imdb_id,imdb_title,imdb_original_title,imdb_start_year,imdb_title_type,imdb_genres,title_comparison,year_comparison,record_evidence_assessment,automatic_identity_verification,automatic_merging
+26829,http://dbpedia.org/resource/The_Golden_Temple_(film),tt2187680,The Golden Temple: Olympic Regeneration of East London,The Golden Temple: Olympic Regeneration of East London,2012,movie,Documentary,TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+13816,http://dbpedia.org/resource/The_Parent_Trap_(1998_film),tt0120783,The Parent Trap,The Parent Trap,1998,movie,"Adventure,Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+24339,http://dbpedia.org/resource/Torque_(film),tt0329691,Torque,Torque,2004,movie,"Action,Comedy,Crime",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+47459,http://dbpedia.org/resource/The_Sweetest_Thing,tt0253867,The Sweetest Thing,The Sweetest Thing,2002,movie,"Comedy,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+7364,http://dbpedia.org/resource/Straight_to_Hell_(film),tt0094048,Straight to Hell,Straight to Hell,1987,movie,"Action,Comedy,Western",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+45916,http://dbpedia.org/resource/Beethoven's_2nd_(film),tt0106375,Beethoven's 2nd,Beethoven's 2nd,1993,movie,"Comedy,Family,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+552,http://dbpedia.org/resource/Shade_(film),tt0323939,Shade,Shade,2003,movie,"Crime,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+29787,http://dbpedia.org/resource/Yes_(film),tt0381717,Yes,Yes,2004,movie,"Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+13451,http://dbpedia.org/resource/The_Librarians_(film),tt0362820,The Librarians,The Librarians,2003,movie,"Action,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+27074,http://dbpedia.org/resource/Live_Free_or_Die_(2006_film),tt0432318,Live Free or Die,Live Free or Die,2006,movie,"Comedy,Crime",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+57208,http://dbpedia.org/resource/In_Good_Company_(2004_film),tt0385267,In Good Company,In Good Company,2004,movie,"Comedy,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+62437,http://dbpedia.org/resource/Twisted_(2004_film),tt0315297,Twisted,Twisted,2004,movie,"Crime,Drama,Mystery",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+23784,http://dbpedia.org/resource/Zeitgeist_(film_series),tt1166827,Zeitgeist,Zeitgeist,2007,video,"Documentary,History",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+23784,http://dbpedia.org/resource/Zeitgeist_(film_series),tt1332128,Zeitgeist: Addendum,Zeitgeist: Addendum,2008,video,"Documentary,History,War",EXACT_NORMALIZED_LABEL_MATCH,YEAR_AGREEMENT,NON_FEATURE_VIDEO_REVIEW,False,False
+49590,http://dbpedia.org/resource/Paparazzi_(2004_film),tt0338325,Paparazzi,Paparazzi,2004,movie,"Action,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+50079,http://dbpedia.org/resource/Dusk_to_Dawn,tt0013091,Dusk to Dawn,Dusk to Dawn,1922,movie,Drama,EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+47609,http://dbpedia.org/resource/The_Haunting_(1999_film),tt0171363,The Haunting,The Haunting,1999,movie,"Fantasy,Horror,Mystery",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+39590,http://dbpedia.org/resource/Uprising_(2001_film),tt0250798,Uprising,Uprising,2001,tvMovie,"Drama,War",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+52028,http://dbpedia.org/resource/Night_of_the_Living_Dead_(film_series),tt0063350,Night of the Living Dead,Night of the Living Dead,1968,movie,"Horror,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+52028,http://dbpedia.org/resource/Night_of_the_Living_Dead_(film_series),tt0077402,Dawn of the Dead,Dawn of the Dead,1978,movie,"Horror,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+52028,http://dbpedia.org/resource/Night_of_the_Living_Dead_(film_series),tt0088993,Day of the Dead,Day of the Dead,1985,movie,"Horror,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+52028,http://dbpedia.org/resource/Night_of_the_Living_Dead_(film_series),tt0418819,Land of the Dead,Land of the Dead,2005,movie,"Horror,Sci-Fi,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+52028,http://dbpedia.org/resource/Night_of_the_Living_Dead_(film_series),tt0848557,Diary of the Dead,Diary of the Dead,2007,movie,"Fantasy,Horror,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+52028,http://dbpedia.org/resource/Night_of_the_Living_Dead_(film_series),tt1134854,Survival of the Dead,Survival of the Dead,2009,movie,"Comedy,Drama,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+60914,http://dbpedia.org/resource/We're_Back!_A_Dinosaur's_Story_(film),tt0108526,We're Back! A Dinosaur's Story,We're Back! A Dinosaur's Story,1993,movie,"Adventure,Animation,Comedy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+64085,http://dbpedia.org/resource/The_Mask_(1988_film),tt0095598,La maschera,La maschera,1988,movie,"Fantasy,Mystery,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+18357,http://dbpedia.org/resource/Deranged_(1974_film),tt0071408,Deranged,Deranged,1974,movie,"Drama,Horror,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+43978,http://dbpedia.org/resource/Maverick_(film),tt0110478,Maverick,Maverick,1994,movie,"Action,Adventure,Comedy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+52128,http://dbpedia.org/resource/Boat_Trip_(film),tt0285462,Boat Trip,Boat Trip,2002,movie,Comedy,TITLE_VARIATION_REVIEW,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+34739,http://dbpedia.org/resource/The_Mission_(1986_film),tt0091530,The Mission,The Mission,1986,movie,"Adventure,Drama,History",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+12226,http://dbpedia.org/resource/Black_Beauty_(1971_film),tt0066834,Black Beauty,Black Beauty,1971,movie,"Drama,Family,Western",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+7448,http://dbpedia.org/resource/Écoute_voir,tt0078549,See Here My Love,Écoute voir...,1978,movie,"Mystery,Sci-Fi,Thriller",TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+29124,http://dbpedia.org/resource/The_Maltese_Falcon_(1941_film),tt0033870,The Maltese Falcon,The Maltese Falcon,1941,movie,"Crime,Drama,Film-Noir",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+23354,http://dbpedia.org/resource/Into_Temptation_(film),tt1232824,Into Temptation,Into Temptation,2009,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+20967,http://dbpedia.org/resource/Conviction_(2010_film),tt1244754,Conviction,Conviction,2010,movie,"Biography,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+20412,http://dbpedia.org/resource/Bananas_(film),tt0066808,Bananas,Bananas,1971,movie,Comedy,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+3836,http://dbpedia.org/resource/Showboy,tt0326148,Showboy,Showboy,2002,movie,"Comedy,Drama",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+14501,http://dbpedia.org/resource/Tank_(film),tt0088224,Tank,Tank,1984,movie,"Action,Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+33326,http://dbpedia.org/resource/Houseguest,tt0110066,Houseguest,Houseguest,1995,movie,Comedy,EXACT_NORMALIZED_LABEL_MATCH,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+58936,http://dbpedia.org/resource/Haunted_Mansion_(1998_film),tt0256071,Haunted Mansion,Heung Gong dai yat hung chak,1998,movie,Horror,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+19266,http://dbpedia.org/resource/Men_(1997_film),tt0119653,Men,Men,1997,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+24838,http://dbpedia.org/resource/Rolling_Thunder_(film),tt0076637,Rolling Thunder,Rolling Thunder,1977,movie,"Crime,Drama,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+9726,http://dbpedia.org/resource/From_the_Hip_(film),tt0093051,From the Hip,From the Hip,1987,movie,"Comedy,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+10250,http://dbpedia.org/resource/Dragon_Tiger_Gate,tt0482930,Dragon Tiger Gate,Lung foo moon,2006,movie,"Action,Fantasy,Thriller",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+38358,http://dbpedia.org/resource/Ayn_Rand:_A_Sense_of_Life,tt0118662,Ayn Rand: A Sense of Life,Ayn Rand: A Sense of Life,1996,movie,"Biography,Documentary",EXACT_NORMALIZED_LABEL_MATCH,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+63960,http://dbpedia.org/resource/Indian_Summer_(1993_film),tt0107212,Indian Summer,Indian Summer,1993,movie,"Comedy,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+9342,http://dbpedia.org/resource/Ed_(film),tt0116165,Ed,Ed,1996,movie,"Comedy,Family,Sport",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+50824,http://dbpedia.org/resource/And_Then_There_Were_None_(1974_film),tt0072263,Ten Little Indians,Ein Unbekannter rechnet ab,1974,movie,"Crime,Mystery,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+16080,http://dbpedia.org/resource/Spartan_(film),tt0360009,Spartan,Spartan,2004,movie,"Action,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+42718,http://dbpedia.org/resource/Rocky_(1981_film),tt0215132,Rocky,Rocky,1981,movie,"Action,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+55715,http://dbpedia.org/resource/Death_Racers,tt1261046,Death Racers,Death Racers,2008,video,"Action,Adventure,Comedy",EXACT_NORMALIZED_LABEL_MATCH,YEAR_AGREEMENT,NON_FEATURE_VIDEO_REVIEW,False,False
+53708,http://dbpedia.org/resource/Carriers_(film),tt0806203,Carriers,Carriers,2009,movie,"Adventure,Drama,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+42617,http://dbpedia.org/resource/Scary_Movie_(film_series),tt0175142,Scary Movie,Scary Movie,2000,movie,Comedy,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+42617,http://dbpedia.org/resource/Scary_Movie_(film_series),tt0257106,Scary Movie 2,Scary Movie 2,2001,movie,"Comedy,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+42617,http://dbpedia.org/resource/Scary_Movie_(film_series),tt0306047,Scary Movie 3,Scary Movie 3,2003,movie,Comedy,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+42617,http://dbpedia.org/resource/Scary_Movie_(film_series),tt0362120,Scary Movie 4,Scary Movie 4,2006,movie,Comedy,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+42617,http://dbpedia.org/resource/Scary_Movie_(film_series),tt0795461,Scary Movie 5,Scary Movie 5,2013,movie,"Comedy,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+54313,http://dbpedia.org/resource/Brewster's_Millions_(1985_film),tt0088850,Brewster's Millions,Brewster's Millions,1985,movie,Comedy,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+35133,http://dbpedia.org/resource/Les_Misérables_(1948_film),tt0039629,Les Misérables,Caccia all'uomo,1948,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+18278,http://dbpedia.org/resource/The_Lovers_(1994_film),tt0110340,The Lovers,Liang Zhu,1994,movie,"Comedy,Drama,Fantasy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+50604,http://dbpedia.org/resource/My_Dog_Skip_(film),tt0156812,My Dog Skip,My Dog Skip,2000,movie,"Comedy,Drama,Family",TITLE_VARIATION_REVIEW,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+39646,http://dbpedia.org/resource/Jill_Rips,tt0199650,Jill Rips,Jill Rips,2000,movie,"Drama,Thriller",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+51779,http://dbpedia.org/resource/The_Grandfather_(1954_film),tt0201413,El abuelo,El abuelo,1954,movie,"Drama,Family",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+35436,http://dbpedia.org/resource/Birdman_of_Alcatraz_(film),tt0055798,Birdman of Alcatraz,Birdman of Alcatraz,1962,movie,"Biography,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+16559,http://dbpedia.org/resource/The_Edge_(1997_film),tt0119051,The Edge,The Edge,1997,movie,"Action,Adventure,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+39866,http://dbpedia.org/resource/Out_to_Kill,tt3122422,Out to Kill,Out to Kill,2014,movie,"Drama,Mystery",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+27898,http://dbpedia.org/resource/Lóve,tt2165959,Lóve,Lóve,2011,movie,"Drama,Romance",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+12151,http://dbpedia.org/resource/Rio_Bravo_(film),tt0053221,Rio Bravo,Rio Bravo,1959,movie,Western,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+33331,http://dbpedia.org/resource/CQ_(film),tt0254199,CQ,CQ,2001,movie,"Comedy,Drama,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+30181,http://dbpedia.org/resource/The_Ruins_(film),tt0963794,The Ruins,The Ruins,2008,movie,"Adventure,Horror,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+29608,http://dbpedia.org/resource/New_Year's_Eve_(2002_film),tt0378437,New Year's Eve,New Year's Eve,2002,short,"Romance,Short",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+14023,http://dbpedia.org/resource/Twister_(1989_film),tt0096321,Twister,Twister,1989,movie,"Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+5765,http://dbpedia.org/resource/The_Visit_(2000_film),tt0199129,The Visit,The Visit,2000,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+41084,http://dbpedia.org/resource/Independence_Day_(1983_film),tt0085724,Independence Day,Independence Day,1983,movie,"Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+14806,http://dbpedia.org/resource/Bulletproof_(1996_film),tt0115783,Bulletproof,Bulletproof,1996,movie,"Action,Comedy,Crime",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+61719,http://dbpedia.org/resource/Ninja_(film),tt1182921,Ninja,Ninja,2009,movie,"Action,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+15943,http://dbpedia.org/resource/Mickey_(2004_film),tt0277895,Mickey,Mickey,2004,movie,"Drama,Sport",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+33123,http://dbpedia.org/resource/The_Enemy_(1979_film),tt0138412,The Enemy,Düsman,1980,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+46540,http://dbpedia.org/resource/The_Running_Man_(1987_film),tt0093894,The Running Man,The Running Man,1987,movie,"Action,Sci-Fi,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+37938,http://dbpedia.org/resource/Missing_in_Action_(film),tt0087727,Missing in Action,Missing in Action,1984,movie,"Action,Adventure,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+13342,http://dbpedia.org/resource/Dave_(film),tt0106673,Dave,Dave,1993,movie,"Comedy,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+42307,http://dbpedia.org/resource/The_Good_Son_(film),tt0107034,The Good Son,The Good Son,1993,movie,"Drama,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+24667,http://dbpedia.org/resource/Hard_Eight_(film),tt0119256,Hard Eight,Sydney,1996,movie,"Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+57244,http://dbpedia.org/resource/Bad_Girls_(1994_film),tt0109198,Bad Girls,Bad Girls,1994,movie,"Action,Adventure,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+51587,http://dbpedia.org/resource/Bloodsport_(film),tt0092675,Bloodsport,Bloodsport,1988,movie,"Action,Drama,Sport",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+16243,http://dbpedia.org/resource/The_King_(1995_film),tt0271595,The King,The King,1995,movie,"Action,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+47904,http://dbpedia.org/resource/Deep_Impact_(film),tt0120647,Deep Impact,Deep Impact,1998,movie,"Action,Drama,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+8046,http://dbpedia.org/resource/Cloak_&_Dagger_(1984_film),tt0087065,Cloak & Dagger,Cloak & Dagger,1984,movie,"Action,Adventure,Crime",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+22763,http://dbpedia.org/resource/Nausicaä_of_the_Valley_of_the_Wind_(film),tt0087544,Nausicaä of the Valley of the Wind,Kaze no tani no Naushika,1984,movie,"Adventure,Animation,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+47428,http://dbpedia.org/resource/The_Kid_(1999_film),tt0223603,The Kid,Lau sing yue,1999,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+63346,http://dbpedia.org/resource/Obsession_(1997_film),tt0118700,Obsession,Obsession,1997,movie,"Drama,Music,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+47810,http://dbpedia.org/resource/Keith_(film),tt0435679,Keith,Keith,2008,movie,"Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+24262,http://dbpedia.org/resource/The_Brothers_(2001_film),tt0250274,The Brothers,The Brothers,2001,movie,"Comedy,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+14610,http://dbpedia.org/resource/The_Final_Countdown_(film),tt0080736,The Final Countdown,The Final Countdown,1980,movie,"Action,Adventure,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+5126,http://dbpedia.org/resource/Gunfight_at_the_O.K._Corral_(film),tt0050468,Gunfight at the O.K. Corral,Gunfight at the O.K. Corral,1957,movie,"Biography,Drama,Western",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+31330,http://dbpedia.org/resource/Nancy_Drew_(2002_film),tt0329414,Nancy Drew,Nancy Drew,2002,tvMovie,Mystery,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+15454,http://dbpedia.org/resource/Pan_(1995_film),tt0114081,Pan,Pan,1995,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+45520,http://dbpedia.org/resource/Something_New_(film),tt0437777,Something New,Something New,2006,movie,"Comedy,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+53578,http://dbpedia.org/resource/The_Entity,tt0082334,The Entity,The Entity,1982,movie,"Drama,Horror",EXACT_NORMALIZED_LABEL_MATCH,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+51212,http://dbpedia.org/resource/The_Box_(2003_film),tt0359024,The Box,The Box,2003,movie,"Crime,Drama,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+59043,http://dbpedia.org/resource/Alaska_(1996_film),tt0115493,Alaska,Alaska,1996,movie,"Adventure,Drama,Family",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+45934,http://dbpedia.org/resource/Holmes_&_Watson._Madrid_Days,tt2108535,Holmes & Watson. Madrid Days,Holmes & Watson: Madrid Days,2012,movie,"Drama,Mystery,Thriller",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+34456,http://dbpedia.org/resource/Friends_(1993_film),tt0106968,Friends,Friends,1993,movie,"Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+48998,http://dbpedia.org/resource/Dracula_(2006_film),tt0847161,Dracula,Dracula,2006,tvMovie,"Drama,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+37568,http://dbpedia.org/resource/Outsider_(1997_film),tt0117273,Outsider,Outsider,1997,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+3626,http://dbpedia.org/resource/Charade_(1953_film),tt0045620,Charade,Charade,1954,movie,"Comedy,Drama,Mystery",TITLE_VARIATION_REVIEW,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+45164,http://dbpedia.org/resource/Aladdin_(1992_Golden_Films_film),tt0827990,Aladdin,Aladdin,1992,video,"Adventure,Animation,Comedy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+12495,http://dbpedia.org/resource/15_Park_Avenue,tt0449159,15 Park Avenue,15 Park Avenue,2005,movie,Drama,EXACT_NORMALIZED_LABEL_MATCH,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+49323,http://dbpedia.org/resource/Coming_Home_(2012_film),tt2194497,Coming Home,À moi seule,2012,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+54656,http://dbpedia.org/resource/Sultan_(2016_film),tt4832640,Sultan,Sultan,2016,movie,"Action,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+618,http://dbpedia.org/resource/Brave_New_World_(1998_film),tt0145600,Brave New World,Brave New World,1998,tvMovie,"Drama,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+13642,http://dbpedia.org/resource/Shooter_(2007_film),tt0822854,Shooter,Shooter,2007,movie,"Action,Drama,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+21297,http://dbpedia.org/resource/Empire_of_the_Ants_(film),tt0075989,Empire of the Ants,Empire of the Ants,1977,movie,"Adventure,Horror,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+47562,http://dbpedia.org/resource/Bridge_to_Terabithia_(2007_film),tt0398808,Bridge to Terabithia,Bridge to Terabithia,2007,movie,"Drama,Family,Fantasy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+30096,http://dbpedia.org/resource/Rubber_(1936_film),tt0028211,Rubber,Rubber,1936,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+51305,http://dbpedia.org/resource/Heist_(2001_film),tt0252503,Heist,Heist,2001,movie,"Action,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+28514,http://dbpedia.org/resource/El_Dorado_(1966_film),tt0061619,El Dorado,El Dorado,1966,movie,"Drama,Romance,Western",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+16003,http://dbpedia.org/resource/Wonderland_(1999_film),tt0171865,Wonderland,Wonderland,1999,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+12713,http://dbpedia.org/resource/Ladybugs_(film),tt0104670,Ladybugs,Ladybugs,1992,movie,"Comedy,Sport",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+39069,http://dbpedia.org/resource/Sam_(1986_film),tt0091887,Sam,Sam,1986,short,"Documentary,Short",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+22573,http://dbpedia.org/resource/Girls'_Night,tt0119201,Girls' Night,Girls' Night,1998,movie,"Comedy,Drama,Romance",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+39468,http://dbpedia.org/resource/Seasons_of_Our_Love,tt0188207,Seasons of Our Love,Le stagioni del nostro amore,1966,movie,Drama,EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+19906,http://dbpedia.org/resource/Diabolique_(1996_film),tt0116095,Diabolique,Diabolique,1996,movie,"Drama,Horror,Mystery",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+39400,http://dbpedia.org/resource/Bachelor_Party_(2012_film),tt2229208,Bachelor Party,Bachelor Party,2012,movie,"Action,Comedy,Crime",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+23177,http://dbpedia.org/resource/L.A._Confidential_(film),tt0119488,L.A. Confidential,L.A. Confidential,1997,movie,"Crime,Drama,Mystery",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+25750,http://dbpedia.org/resource/Brides_(2004_film),tt0368619,Brides,Nyfes,2004,movie,"Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+60359,http://dbpedia.org/resource/Jack_the_Ripper_(1976_film),tt0074408,Jack the Ripper,Jack the Ripper,1976,movie,"Crime,Drama,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+17342,http://dbpedia.org/resource/Gunslinger_(film),tt0049287,Gunslinger,Gunslinger,1956,movie,"Drama,Romance,Western",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+30728,http://dbpedia.org/resource/Necessary_Roughness_(film),tt0102517,Necessary Roughness,Necessary Roughness,1991,movie,"Comedy,Sport",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+3260,http://dbpedia.org/resource/Sky_Raiders,tt0034197,Sky Raiders,Sky Raiders,1941,movie,"Action,Adventure,Drama",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+12231,http://dbpedia.org/resource/Darkness_Falls_(1999_film),tt0131349,Darkness Falls,Darkness Falls,1999,movie,"Drama,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+18284,http://dbpedia.org/resource/After_Hours_(film),tt0088680,After Hours,After Hours,1985,movie,"Comedy,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+11721,http://dbpedia.org/resource/Water_(1985_film),tt0090297,Water,Water,1985,movie,"Adventure,Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+4024,http://dbpedia.org/resource/Multiplicity_(film),tt0117108,Multiplicity,Multiplicity,1996,movie,"Comedy,Romance,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+14621,http://dbpedia.org/resource/ExTerminators_(film),tt1209378,ExTerminators,ExTerminators,2009,movie,"Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+13150,http://dbpedia.org/resource/The_Man_Who_Saw_Tomorrow,tt0081109,The Man Who Saw Tomorrow,The Man Who Saw Tomorrow,1981,movie,"Biography,Drama,History",EXACT_NORMALIZED_LABEL_MATCH,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+15845,http://dbpedia.org/resource/Anna_in_Kungfuland,tt0395942,Anna in Kung-Fu Land,An Na yu wu lin,2003,movie,"Action,Comedy,Romance",TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+16982,http://dbpedia.org/resource/Slugs_(1988_film),tt0093995,Slugs,"Slugs, muerte viscosa",1988,movie,Horror,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+63327,http://dbpedia.org/resource/Only_the_Strong_(film),tt0107750,Only the Strong,Only the Strong,1993,movie,"Action,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+10935,http://dbpedia.org/resource/The_Breaks_(1999_film),tt0181322,The Breaks,The Breaks,1999,movie,Comedy,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+50026,http://dbpedia.org/resource/P.S._I_Love_You_(film),tt0431308,P.S. I Love You,P.S. I Love You,2007,movie,"Comedy,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+35518,http://dbpedia.org/resource/Blank_Check_(film),tt0109287,Blank Check,Blank Check,1994,movie,"Comedy,Crime,Family",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+17599,http://dbpedia.org/resource/The_Queen_(2012_film),tt2548096,The Queen,The Queen,2012,movie,"Action,Drama,War",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+43363,http://dbpedia.org/resource/The_Runaway_Bride_(film),tt0021324,The Runaway Bride,The Runaway Bride,1930,movie,"Crime,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+27559,http://dbpedia.org/resource/Requiem_for_a_Dream_(soundtrack),tt0543739,Bounty Hunter,Bounty Hunter,2000,tvEpisode,"Action,Adventure,Crime",TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TV_EPISODE_REVIEW,False,False
+45631,http://dbpedia.org/resource/Ghost_Rider_(1982_film),tt0862703,Ghost Rider,Ghost Rider,1982,short,"Drama,Fantasy,Short",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+28955,http://dbpedia.org/resource/The_Guardian_(1990_film),tt0099710,The Guardian,The Guardian,1990,movie,"Drama,Fantasy,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+2740,http://dbpedia.org/resource/The_Golem_(1915_film),tt0004026,The Golem,Der Golem,1914,movie,Horror,TITLE_VARIATION_REVIEW,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+23787,http://dbpedia.org/resource/When_a_Man_Loves_a_Woman_(film),tt0111693,When a Man Loves a Woman,When a Man Loves a Woman,1994,movie,"Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+57797,http://dbpedia.org/resource/Groundhog_Day_(film),tt0107048,Groundhog Day,Groundhog Day,1993,movie,"Comedy,Drama,Fantasy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+26016,http://dbpedia.org/resource/Love_Stinks_(film),tt0188863,Love Stinks,Love Stinks,1999,movie,Comedy,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+51705,http://dbpedia.org/resource/The_Maze_(1953_film),tt0046057,The Maze,The Maze,1953,movie,"Drama,Fantasy,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+55354,http://dbpedia.org/resource/Hangover_(2010_film),tt1737174,Hangover,Hangover,2010,movie,Comedy,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+16557,http://dbpedia.org/resource/Down_by_Law_(film),tt0090967,Down by Law,Down by Law,1986,movie,"Comedy,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+21947,http://dbpedia.org/resource/Them_(2006_film),tt0465203,Them,Ils,2006,movie,"Horror,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+24809,http://dbpedia.org/resource/Grimm_(film),tt0365289,Grimm,Grimm,2003,movie,"Adventure,Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+6941,http://dbpedia.org/resource/Love_Don't_Cost_a_Thing_(film),tt0337592,Love Don't Cost a Thing,Love Don't Cost a Thing,2003,movie,"Comedy,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+53297,"http://dbpedia.org/resource/The_House_of_1,000_Dolls",tt0061451,"House of 1,000 Dolls",La casa de las mil muñecas,1967,movie,"Crime,Drama,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+63660,http://dbpedia.org/resource/Beautiful_Creatures_(2000_film),tt0221889,Beautiful Creatures,Beautiful Creatures,2000,movie,"Comedy,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+14920,http://dbpedia.org/resource/The_One_(2001_film),tt0267804,The One,The One,2001,movie,"Action,Sci-Fi,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+23356,http://dbpedia.org/resource/Mary_Reilly_(film),tt0117002,Mary Reilly,Mary Reilly,1996,movie,"Drama,Horror,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+15220,http://dbpedia.org/resource/K_(2002_film),tt0333694,K,K,2002,movie,"Drama,Fantasy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+21157,http://dbpedia.org/resource/The_Natural_(film),tt0087781,The Natural,The Natural,1984,movie,"Drama,Sport",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+643,http://dbpedia.org/resource/Sex_and_Zen,tt0105287,Sex and Zen,Yuk po tuen: Tau ching bo gam,1991,movie,"Comedy,Drama,Fantasy",EXACT_NORMALIZED_LABEL_MATCH,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+33726,http://dbpedia.org/resource/Journey_to_the_Center_of_the_Earth_(2008_direct-to-video_film),tt1231575,Journey to the Center of the Earth,Journey to the Center of the Earth,2008,video,"Action,Adventure,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+14731,http://dbpedia.org/resource/Ride_(2009_film),tt1580017,Ride,Ride,2009,movie,"Action,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+33540,http://dbpedia.org/resource/The_Lost_World_(1998_film),tt0138581,The Lost World,The Lost World,1998,movie,"Adventure,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+25477,http://dbpedia.org/resource/The_Dark_Half_(film),tt0106664,The Dark Half,The Dark Half,1993,movie,"Horror,Mystery,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+37852,http://dbpedia.org/resource/Shakes_the_Clown,tt0102898,Shakes the Clown,Shakes the Clown,1991,movie,"Comedy,Crime,Drama",EXACT_NORMALIZED_LABEL_MATCH,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+862,http://dbpedia.org/resource/The_Three_Musketeers_(1986_film),tt0787216,The Three Musketeers,The Three Musketeers,1986,tvMovie,"Adventure,Animation,Family",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+55644,http://dbpedia.org/resource/Better_Off_Dead_(film),tt0088794,Better Off Dead,Better Off Dead...,1985,movie,"Comedy,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+28599,http://dbpedia.org/resource/Master_of_the_Flying_Guillotine,tt0072913,Master of the Flying Guillotine,Du bi quan wang da po xue di zi,1976,movie,"Action,Drama,Fantasy",EXACT_NORMALIZED_LABEL_MATCH,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+62598,http://dbpedia.org/resource/Anth,tt0135140,Anth,Anth,1994,movie,Action,EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+32213,http://dbpedia.org/resource/Rabbits_(film),tt0347840,Rabbits,Rabbits,2002,short,"Drama,Fantasy,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+12769,http://dbpedia.org/resource/Wind_in_the_Willows_(1988_film),tt0787244,Wind in the Willows,Wind in the Willows,1988,tvMovie,"Animation,Family",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+24118,http://dbpedia.org/resource/Holiday_(2006_film),tt0461062,Holiday,Holiday,2006,movie,"Drama,Musical,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+9777,http://dbpedia.org/resource/Debbie_Does_Dallas,tt0077415,Debbie Does Dallas,Debbie Does Dallas,1978,movie,"Adult,Comedy",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+9777,http://dbpedia.org/resource/Debbie_Does_Dallas,tt0083807,Debbie Does Dallas Part II,Debbie Does Dallas Part II,1981,movie,"Adult,Comedy",TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+9777,http://dbpedia.org/resource/Debbie_Does_Dallas,tt0124352,Debbie Does Dallas III: [the Final Chapter],Debbie Does Dallas III: [The Final Chapter],1985,movie,"Adult,Comedy",TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+33443,http://dbpedia.org/resource/The_Last_Dragon_(2004_film),tt0433367,Dragons: A Fantasy Made Real,The Last Dragon,2004,tvMovie,"Documentary,Fantasy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+36119,http://dbpedia.org/resource/Flywheel_(film),tt0425027,Flywheel,Flywheel,2003,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+49436,http://dbpedia.org/resource/Far_from_Home_(1989_film),tt0097332,Far from Home,Far from Home,1989,movie,"Crime,Drama,Mystery",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+13035,http://dbpedia.org/resource/Billy_Budd_(film),tt0055796,Billy Budd,Billy Budd,1962,movie,"Adventure,Drama,War",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+2227,http://dbpedia.org/resource/Billy_Liar_(film),tt0056868,Billy Liar,Billy Liar,1963,movie,"Comedy,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+45628,http://dbpedia.org/resource/Meet_the_Parents_(1992_film),tt0104844,Meet the Parents,Meet the Parents,1991,movie,Comedy,TITLE_VARIATION_REVIEW,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+27903,http://dbpedia.org/resource/Monster_(1980_film),tt0079573,Monstroid,Monster,1980,movie,"Horror,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+5127,http://dbpedia.org/resource/Tap_(film),tt0098442,Tap,Tap,1989,movie,"Comedy,Drama,Music",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+55513,http://dbpedia.org/resource/Red_(2008_film),tt0972883,Red,Red,2008,movie,"Drama,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+9338,http://dbpedia.org/resource/Money_(1993_film),tt0265341,Money,Money,1993,movie,"Action,Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+11154,"http://dbpedia.org/resource/I,_Zombie",tt0210740,I Zombie: The Chronicles of Pain,I Zombie: The Chronicles of Pain,1998,movie,"Drama,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+51604,http://dbpedia.org/resource/Dead_Calm_(film),tt0097162,Dead Calm,Dead Calm,1989,movie,"Horror,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+9608,http://dbpedia.org/resource/Madeline_(1998_film),tt0123987,Madeline,Madeline,1998,movie,"Comedy,Family",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+10162,http://dbpedia.org/resource/Tooth_Fairy_(2004_film),tt0432465,Tooth Fairy,Tooth Fairy,2004,short,"Comedy,Family,Short",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+46023,http://dbpedia.org/resource/Return_of_the_Man_from_U.N.C.L.E.,tt0086191,The Return of the Man from U.N.C.L.E.: The Fifteen Years Later Affair,The Return of the Man from U.N.C.L.E.: The Fifteen Years Later Affair,1983,tvMovie,"Action,Adventure,Crime",TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+56393,http://dbpedia.org/resource/The_Walking_Dead_(1995_film),tt0114888,The Walking Dead,The Walking Dead,1995,movie,"Action,Drama,War",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+39059,http://dbpedia.org/resource/Miami_Connection,tt0092549,Miami Connection,Miami Connection,1988,movie,"Action,Crime,Music",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+6640,http://dbpedia.org/resource/Commando_(1985_film),tt0088944,Commando,Commando,1985,movie,"Action,Adventure,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+8622,http://dbpedia.org/resource/Sleeper_(2005_film),tt0420886,Sleeper,Schläfer,2005,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+7509,http://dbpedia.org/resource/The_Seeker_(film),tt0484562,The Seeker: The Dark Is Rising,The Seeker: The Dark Is Rising,2007,movie,"Adventure,Drama,Family",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+22015,http://dbpedia.org/resource/Funny_Farm_(film),tt0095188,Funny Farm,Funny Farm,1988,movie,Comedy,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+13211,http://dbpedia.org/resource/In_Dreams_(film),tt0120710,In Dreams,In Dreams,1999,movie,"Drama,Fantasy,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+28172,http://dbpedia.org/resource/Flowers_in_the_Attic_(1987_film),tt0093036,Flowers in the Attic,Flowers in the Attic,1987,movie,"Drama,Mystery,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+5300,http://dbpedia.org/resource/Spaceman_(2016_film),tt2262518,Spaceman,Spaceman,2016,movie,"Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+16787,http://dbpedia.org/resource/Cosmos_(2015_film),tt4035268,Cosmos,Cosmos,2015,movie,"Comedy,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+60243,http://dbpedia.org/resource/The_Hobbit_(1985_film),tt2563662,"Skazochnoe puteshestvie mistera Bilbo Begginsa, Khobbita","Skazochnoe puteshestvie mistera Bilbo Begginsa, Khobbita",1985,tvSpecial,"Adventure,Family,Fantasy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TV_SPECIAL_REVIEW,False,False
+10423,http://dbpedia.org/resource/The_Arrival_(1996_film),tt0115571,The Arrival,The Arrival,1996,movie,"Mystery,Sci-Fi,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+46273,http://dbpedia.org/resource/Deception_(2008_film),tt0800240,Deception,Deception,2008,movie,"Crime,Drama,Mystery",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+56675,http://dbpedia.org/resource/Popcorn_(1991_film),tt0102690,Popcorn,Popcorn,1991,movie,"Comedy,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+10768,http://dbpedia.org/resource/Eddie_(film),tt0116168,Eddie,Eddie,1996,movie,"Comedy,Sport",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+278,http://dbpedia.org/resource/End_of_Days_(film),tt0146675,End of Days,End of Days,1999,movie,"Action,Fantasy,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+52866,http://dbpedia.org/resource/The_Deep_End_of_the_Ocean_(film),tt0120646,The Deep End of the Ocean,The Deep End of the Ocean,1999,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+26874,http://dbpedia.org/resource/The_Rookie_(2002_film),tt0265662,The Rookie,The Rookie,2002,movie,"Drama,Family,Sport",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+49006,http://dbpedia.org/resource/Seems_Like_Old_Times_(film),tt0081480,Seems Like Old Times,Seems Like Old Times,1980,movie,"Comedy,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+3064,http://dbpedia.org/resource/Goodbye_Again_(1933_film),tt0024075,Goodbye Again,Goodbye Again,1933,movie,"Comedy,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+21707,http://dbpedia.org/resource/The_Hunted_(1995_film),tt0113360,The Hunted,The Hunted,1995,movie,"Action,Drama,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+5858,http://dbpedia.org/resource/The_Mysterious_Monsters,tt0073427,The Mysterious Monsters,The Mysterious Monsters,1975,movie,"Documentary,Mystery",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+42717,http://dbpedia.org/resource/Manhunt:_The_Search_for_Bin_Laden,tt2475544,Manhunt: The Inside Story of the Hunt for Bin Laden,Manhunt: The Inside Story of the Hunt for Bin Laden,2013,movie,"Documentary,History,War",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+52123,http://dbpedia.org/resource/Persuasion_(2007_film),tt0844330,Persuasion,Persuasion,2007,tvMovie,"Drama,Family,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+63393,http://dbpedia.org/resource/The_True_Nature_of_Bernadette,tt0069477,The True Nature of Bernadette,La vraie nature de Bernadette,1972,movie,"Comedy,Drama",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+32537,http://dbpedia.org/resource/High_Sierra_(film),tt0033717,High Sierra,High Sierra,1941,movie,"Action,Adventure,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+27117,http://dbpedia.org/resource/P2_(film),tt0804516,P2,P2,2007,movie,"Crime,Horror,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+18393,http://dbpedia.org/resource/Hanover_Street_(film),tt0079268,Hanover Street,Hanover Street,1979,movie,"Action,Adventure,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+28221,http://dbpedia.org/resource/A_Kid_for_Two_Farthings_(film),tt0048250,A Kid for Two Farthings,A Kid for Two Farthings,1955,movie,"Comedy,Drama,Family",TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+59442,http://dbpedia.org/resource/Father_Xmas,tt0364339,Father Xmas,Father Xmas,2001,short,"Comedy,Drama,Family",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+29961,http://dbpedia.org/resource/Pay_It_Forward_(film),tt0223897,Pay It Forward,Pay It Forward,2000,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+16642,http://dbpedia.org/resource/Knights_(film),tt0107333,Knights,Knights,1993,movie,"Action,Adventure,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+33740,http://dbpedia.org/resource/Lassie_(1994_film),tt0110305,Lassie,Lassie,1994,movie,"Adventure,Family",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+17846,http://dbpedia.org/resource/Fighter_(2011_film),tt2876908,Fighter,Fighter,2011,movie,Action,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+2689,http://dbpedia.org/resource/The_Cotton_Club_(film),tt0087089,The Cotton Club,The Cotton Club,1984,movie,"Crime,Drama,Music",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+58926,http://dbpedia.org/resource/The_Avengers_(1998_film),tt0118661,The Avengers,The Avengers,1998,movie,"Action,Adventure,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+13400,http://dbpedia.org/resource/Malcolm_X_(1992_film),tt0104797,Malcolm X,Malcolm X,1992,movie,"Biography,Drama,History",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+11540,http://dbpedia.org/resource/Tom_Sawyer_(2000_film),tt0224267,Tom Sawyer,Tom Sawyer,2000,video,"Adventure,Animation,Family",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+9448,http://dbpedia.org/resource/The_Champ_(1979_film),tt0078950,The Champ,The Champ,1979,movie,"Drama,Sport",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+53565,http://dbpedia.org/resource/Narc_(film),tt0272207,Narc,Narc,2002,movie,"Crime,Drama,Mystery",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+43193,http://dbpedia.org/resource/The_Hills_Run_Red_(1966_film),tt0060416,The Hills Run Red,Un fiume di dollari,1966,movie,"Action,Drama,Western",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+35362,http://dbpedia.org/resource/Charles_Manson_Superstar,tt0097047,Charles Manson Superstar,Charles Manson Superstar,1989,video,"Biography,Crime,Documentary",EXACT_NORMALIZED_LABEL_MATCH,YEAR_AGREEMENT,NON_FEATURE_VIDEO_REVIEW,False,False
+49653,http://dbpedia.org/resource/Open_Range_(2003_film),tt0316356,Open Range,Open Range,2003,movie,"Action,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+12113,http://dbpedia.org/resource/Speed_(1984_film),tt0088159,Speed,Speed,1984,short,"Documentary,History,Short",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+28557,http://dbpedia.org/resource/Great_Balls_of_Fire!_(film),tt0097457,Great Balls of Fire!,Great Balls of Fire!,1989,movie,"Biography,Drama,Music",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+24458,http://dbpedia.org/resource/The_14,tt0070921,The Wild Little Bunch,The 14,1973,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+15187,http://dbpedia.org/resource/All_the_Right_Moves_(film),tt0085154,All the Right Moves,All the Right Moves,1983,movie,"Drama,Romance,Sport",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+64011,http://dbpedia.org/resource/Bad_Boys_(2003_film),tt0323551,Bad Boys,Pahat pojat,2003,movie,"Action,Biography,Crime",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+26267,http://dbpedia.org/resource/O_Concurso,tt2616114,The Test,O Concurso,2013,movie,Comedy,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+44554,http://dbpedia.org/resource/King_Kung_Fu,tt0228486,King Kung Fu,King Kung Fu,1976,movie,"Action,Comedy",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+62285,http://dbpedia.org/resource/Thinner_(film),tt0117894,Thinner,Thinner,1996,movie,"Fantasy,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+16776,http://dbpedia.org/resource/Black_Rain_(1989_Japanese_film),tt0097694,Black Rain,Kuroi ame,1989,movie,"Drama,War",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+34564,http://dbpedia.org/resource/Revenge_(1990_film),tt0100485,Revenge,Revenge,1990,movie,"Action,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+61996,http://dbpedia.org/resource/Going_Back_(film),tt0085602,Going Back,Going Back,1984,movie,"Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+11715,http://dbpedia.org/resource/Black_Roses_(1988_film),tt0094752,Black Roses,Black Roses,1988,movie,"Horror,Music",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+46742,http://dbpedia.org/resource/The_Flesh_Is_Weak,tt0050399,The Flesh Is Weak,The Flesh Is Weak,1957,movie,"Crime,Drama",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+20750,http://dbpedia.org/resource/Bridesmaids_(1989_film),tt0096980,Bridesmaids,Bridesmaids,1989,tvMovie,"Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+9116,http://dbpedia.org/resource/Sabotage_(2014_film),tt1742334,Sabotage,Sabotage,2014,movie,"Action,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+57025,http://dbpedia.org/resource/Hooper_(film),tt0077696,Hooper,Hooper,1978,movie,"Action,Comedy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+50825,http://dbpedia.org/resource/Gone_Fishin'_(film),tt0119214,Gone Fishin',Gone Fishin',1997,movie,"Comedy,Crime",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+6868,http://dbpedia.org/resource/Traffic_(2011_film),tt1821682,Traffic,Traffic,2011,movie,"Action,Adventure,Mystery",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+15902,http://dbpedia.org/resource/Conan_the_Barbarian_(1982_film),tt0082198,Conan the Barbarian,Conan the Barbarian,1982,movie,"Adventure,Fantasy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+12533,http://dbpedia.org/resource/Dear_Diary_(1996_film),tt0116058,Dear Diary,Dear Diary,1996,short,"Comedy,Short",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+33573,http://dbpedia.org/resource/Bedtime_Stories_(film),tt0960731,Bedtime Stories,Bedtime Stories,2008,movie,"Adventure,Comedy,Family",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+57894,http://dbpedia.org/resource/No_Escape_(1953_film),tt0046130,No Escape,No Escape,1953,movie,"Crime,Drama,Film-Noir",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+26923,http://dbpedia.org/resource/Helter_Skelter_(1976_film),tt0074621,Helter Skelter,Helter Skelter,1976,tvMiniSeries,"Crime,Drama,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TV_MINISERIES_REVIEW,False,False
+19638,http://dbpedia.org/resource/Underworld_(1985_film),tt0090233,Underworld,Underworld,1985,movie,"Action,Horror,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+63495,http://dbpedia.org/resource/The_Great_Dan_Patch,tt0041426,The Great Dan Patch,The Great Dan Patch,1949,movie,"Adventure,Biography,Drama",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+25873,http://dbpedia.org/resource/Escape_to_Witch_Mountain_(1975_film),tt0072951,Escape to Witch Mountain,Escape to Witch Mountain,1975,movie,"Adventure,Family,Fantasy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+41565,http://dbpedia.org/resource/Fever_(2016_film),tt4022278,Fever,Fever,2016,movie,"Crime,Mystery",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+53181,http://dbpedia.org/resource/Sigh_(film),tt0276504,Sigh,Yi sheng tan xi,2000,movie,"Drama,Family,Romance",TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+63246,http://dbpedia.org/resource/The_Toy_(1982_film),tt0084809,The Toy,The Toy,1982,movie,Comedy,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+51385,http://dbpedia.org/resource/The_Dark_Night_(film),tt0097998,The Dark Night of the Soul,La noche oscura,1989,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+1475,http://dbpedia.org/resource/Where_the_Heart_Is_(2000_film),tt0198021,Where the Heart Is,Where the Heart Is,2000,movie,"Comedy,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+33405,http://dbpedia.org/resource/Invasion_of_the_Scream_Queens,tt0229477,Invasion of the Scream Queens,Invasion of the Scream Queens,1992,movie,Documentary,EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+62150,http://dbpedia.org/resource/Crossroads_(2002_film),tt0275022,Crossroads,Crossroads,2002,movie,"Comedy,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+31458,http://dbpedia.org/resource/Sherlock_Holmes_(1922_film),tt0013597,Sherlock Holmes,Sherlock Holmes,1922,movie,"Drama,Mystery",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+49237,http://dbpedia.org/resource/Nightmare_(2000_film),tt0269266,Nightmare,Gawi,2000,movie,"Crime,Horror,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+53025,http://dbpedia.org/resource/War_and_Peace_(2002_film),tt0311356,War and Peace,Jang Aur Aman,2002,movie,"Documentary,War",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+20622,http://dbpedia.org/resource/Nothing_to_Lose_(1997_film),tt0119807,Nothing to Lose,Nothing to Lose,1997,movie,"Action,Adventure,Comedy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+15253,http://dbpedia.org/resource/Twin_Husbands_(1933_film),tt0025921,Twin Husbands,Twin Husbands,1933,movie,"Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+56390,http://dbpedia.org/resource/The_Big_Cube,tt0064088,The Big Cube,The Big Cube,1968,movie,"Drama,Mystery,Thriller",EXACT_NORMALIZED_LABEL_MATCH,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+35115,http://dbpedia.org/resource/Joséphine_(2013_film),tt2430044,Joséphine,Joséphine,2013,movie,"Comedy,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+39700,http://dbpedia.org/resource/Into_the_Storm_(2009_film),tt0992993,Into the Storm,Into the Storm,2009,tvMovie,"Biography,Drama,History",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+52695,http://dbpedia.org/resource/Life_(1996_film),tt0116875,Life,Life,1996,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+11463,http://dbpedia.org/resource/Dark_Tower_(1987_film),tt0092831,Dark Tower,Dark Tower,1989,movie,"Horror,Mystery,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+42171,http://dbpedia.org/resource/Twice-Told_Tales_(film),tt0057608,Twice-Told Tales,Twice-Told Tales,1963,movie,"Horror,Mystery,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+31128,http://dbpedia.org/resource/Green_Card_(film),tt0099699,Green Card,Green Card,1990,movie,"Comedy,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+3226,http://dbpedia.org/resource/Love_Potion_No._9_(film),tt0102343,Love Potion No. 9,Love Potion No. 9,1992,movie,"Comedy,Fantasy,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+21367,http://dbpedia.org/resource/The_Diary_of_Anne_Frank_(1959_film),tt0052738,The Diary of Anne Frank,The Diary of Anne Frank,1959,movie,"Biography,Drama,Family",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+15503,http://dbpedia.org/resource/W._(film),tt1175491,W.,W.,2008,movie,"Biography,Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+4630,http://dbpedia.org/resource/Devil_in_a_Blue_Dress_(film),tt0112857,Devil in a Blue Dress,Devil in a Blue Dress,1995,movie,"Crime,Drama,Mystery",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+35646,http://dbpedia.org/resource/Pacific_Heights_(film),tt0100318,Pacific Heights,Pacific Heights,1990,movie,"Drama,Mystery,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+40803,http://dbpedia.org/resource/Blades_(film),tt0096936,Blades,Blades,1988,movie,"Comedy,Horror,Sport",TITLE_VARIATION_REVIEW,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+48139,http://dbpedia.org/resource/The_Professional_(1981_film),tt0082949,The Professional,Le professionnel,1981,movie,"Action,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+35603,http://dbpedia.org/resource/Jury_Duty_(film),tt0113500,Jury Duty,Jury Duty,1995,movie,Comedy,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+2615,http://dbpedia.org/resource/Daddy_(2001_film),tt0297067,Daddy,Daddy,2001,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+17791,http://dbpedia.org/resource/Stealing_Home_(2001_film),tt0479168,Stealing Home: The Case of Contemporary Cuban Baseball,Stealing Home: The Case of Contemporary Cuban Baseball,2001,tvMovie,"Documentary,Sport",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+59074,http://dbpedia.org/resource/Days_of_Glory_(2006_film),tt0444182,Days of Glory,Indigènes,2006,movie,"Drama,War",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+29554,http://dbpedia.org/resource/Roman_Holiday_(1987_film),tt0093877,Roman Holiday,Roman Holiday,1987,tvMovie,"Comedy,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+49225,http://dbpedia.org/resource/Navy_SEALs_(film),tt0100232,Navy Seals,Navy Seals,1990,movie,"Action,Adventure,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+52754,http://dbpedia.org/resource/Escape_to_Witch_Mountain_(1995_film),tt0112985,Escape to Witch Mountain,Escape to Witch Mountain,1995,tvMovie,"Adventure,Family,Fantasy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+35615,http://dbpedia.org/resource/Total_Eclipse_(film),tt0114702,Total Eclipse,Total Eclipse,1995,movie,"Biography,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+45647,http://dbpedia.org/resource/The_13th_Floor_(1988_film),tt0094591,The 13th Floor,The 13th Floor,1988,movie,Horror,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+41612,http://dbpedia.org/resource/The_Sandlot_2,tt0418131,The Sandlot 2,The Sandlot 2,2005,video,"Comedy,Family,Sport",EXACT_NORMALIZED_LABEL_MATCH,YEAR_AGREEMENT,NON_FEATURE_VIDEO_REVIEW,False,False
+43905,http://dbpedia.org/resource/Countryman_(film),tt0083762,Countryman,Countryman,1982,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+7137,http://dbpedia.org/resource/Jack_Frost_(1998_film),tt0141109,Jack Frost,Jack Frost,1998,movie,"Comedy,Drama,Family",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+29696,http://dbpedia.org/resource/Cat_and_Mouse_(2003_film),tt0366720,Cat and Mouse,Lou she oi sheung mao,2003,movie,"Action,Comedy,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+62153,http://dbpedia.org/resource/Titanic_(1997_film),tt0120338,Titanic,Titanic,1997,movie,"Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+36640,http://dbpedia.org/resource/Jack_(1996_film),tt0116669,Jack,Jack,1996,movie,"Comedy,Drama,Fantasy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+9227,http://dbpedia.org/resource/The_Unmasking,tt0452474,The Unmasking,The Unmasking,1914,short,"Drama,Short",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+52072,http://dbpedia.org/resource/Henry_Gamble's_Birthday_Party,tt3703836,Henry Gamble's Birthday Party,Henry Gamble's Birthday Party,2015,movie,Drama,EXACT_NORMALIZED_LABEL_MATCH,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+35269,http://dbpedia.org/resource/Blue_Streak_(film),tt0181316,Blue Streak,Blue Streak,1999,movie,"Action,Comedy,Crime",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+15787,http://dbpedia.org/resource/From_Hell_(film),tt0120681,From Hell,From Hell,2001,movie,"Crime,Horror,Mystery",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+173,http://dbpedia.org/resource/Light_It_Up_(film),tt0172726,Light It Up,Light It Up,1999,movie,"Drama,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+18838,http://dbpedia.org/resource/Ruby_Bridges_(film),tt0138068,Ruby Bridges,Ruby Bridges,1998,tvMovie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+54007,http://dbpedia.org/resource/Run_for_Money,tt0254463,A Run for Money,Kaç Para Kaç,1999,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+32815,http://dbpedia.org/resource/Creature_(1985_film),tt0088961,Creature,Creature,1985,movie,"Horror,Sci-Fi",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+29640,http://dbpedia.org/resource/Highlander:_The_Source,tt0299981,Highlander: The Source,Highlander: The Source,2007,tvMovie,"Action,Adventure,Drama",EXACT_NORMALIZED_LABEL_MATCH,YEAR_AGREEMENT,TV_MOVIE_REVIEW,False,False
+250,http://dbpedia.org/resource/Gunsmoke_(film),tt0045847,Gunsmoke,Gunsmoke,1953,movie,"Drama,Western",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+184,http://dbpedia.org/resource/Drop_Zone_(film),tt0109676,Drop Zone,Drop Zone,1994,movie,"Action,Adventure,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+21223,http://dbpedia.org/resource/Scent_of_a_Woman_(1974_film),tt0072037,Scent of a Woman,Profumo di donna,1974,movie,"Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+39727,http://dbpedia.org/resource/Man_of_the_House_(1995_film),tt0113755,Man of the House,Man of the House,1995,movie,"Comedy,Family",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+11476,http://dbpedia.org/resource/Désirée_(film),tt0046903,Désirée,Désirée,1954,movie,"Biography,Drama,History",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+52826,http://dbpedia.org/resource/The_Final_Cut_(2004_film),tt0364343,The Final Cut,The Final Cut,2004,movie,"Drama,Sci-Fi,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+12489,http://dbpedia.org/resource/The_Boy_in_the_Plastic_Bubble,tt0074236,The Boy in the Plastic Bubble,The Boy in the Plastic Bubble,1976,tvMovie,"Drama,Romance",EXACT_NORMALIZED_LABEL_MATCH,YEAR_AGREEMENT,TV_MOVIE_REVIEW,False,False
+35048,http://dbpedia.org/resource/Jaws_(film),tt0073195,Jaws,Jaws,1975,movie,"Adventure,Drama,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+42377,http://dbpedia.org/resource/The_Abyss_(1988_film),tt0095773,L'oeuvre au noir,L'oeuvre au noir,1988,movie,"Drama,History",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+20230,http://dbpedia.org/resource/Cromwell_(film),tt0065593,Cromwell,Cromwell,1970,movie,"Biography,Drama,History",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+276,http://dbpedia.org/resource/Belly_(film),tt0158493,Belly,Belly,1998,movie,"Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+49744,"http://dbpedia.org/resource/Liar,_Liar_(1993_film)",tt0107400,"Liar, Liar: Between Father and Daughter","Liar, Liar",1993,tvMovie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+23743,http://dbpedia.org/resource/Beer_for_My_Horses_(film),tt1178640,Beer for My Horses,Beer for My Horses,2008,movie,"Action,Comedy,Crime",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+61074,http://dbpedia.org/resource/28_Days_(film),tt0191754,28 Days,28 Days,2000,movie,"Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+45766,http://dbpedia.org/resource/Displaced_(2010_film),tt2685554,Episode dated 6 April 1974,Episode dated 6 April 1974,1974,tvEpisode,News,TITLE_VARIATION_REVIEW,YEAR_CONFLICT,TV_EPISODE_REVIEW,False,False
+63435,http://dbpedia.org/resource/Hunger_(2001_film),tt0237320,Hunger,Hunger,2001,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+12677,http://dbpedia.org/resource/The_Greatest_Show_on_Earth_(film),tt0044672,The Greatest Show on Earth,The Greatest Show on Earth,1952,movie,"Drama,Family,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+36736,http://dbpedia.org/resource/Bim,tt0195557,Bim,Bim,1974,movie,Drama,EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+54201,http://dbpedia.org/resource/Ladyhawke_(film),tt0089457,Ladyhawke,Ladyhawke,1985,movie,"Adventure,Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+12320,http://dbpedia.org/resource/River_Queen,tt0388377,River Queen,River Queen,2005,movie,"Action,Adventure,Drama",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+27567,http://dbpedia.org/resource/A_(1998_Japanese_film),tt0241146,A,A,1998,movie,Documentary,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+61440,http://dbpedia.org/resource/Mama_(1990_film),tt0104800,Mama,Mama,1990,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+34546,http://dbpedia.org/resource/Haven_(film),tt0386504,Haven,Haven,2004,movie,"Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+21739,http://dbpedia.org/resource/The_Petrified_Forest,tt0394853,The Petrified Forest,The Petrified Forest,1955,tvEpisode,"Comedy,Drama,Family",EXACT_NORMALIZED_LABEL_MATCH,YEAR_CONFLICT,TV_EPISODE_REVIEW,False,False
+42393,http://dbpedia.org/resource/Honey_(2003_film),tt0322589,Honey,Honey,2003,movie,"Drama,Music,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+6541,http://dbpedia.org/resource/To_(film),tt0124903,To,To,1964,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+39558,http://dbpedia.org/resource/Dreamer_(2005_film),tt0418647,Dreamer,Dreamer: Inspired by a True Story,2005,movie,"Drama,Family,Sport",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+55180,http://dbpedia.org/resource/The_Zodiac_(film),tt0371739,The Zodiac,The Zodiac,2005,movie,"Crime,Drama,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+13607,http://dbpedia.org/resource/Joyeux_Noël,tt0424205,Joyeux Noel,Joyeux Noël,2005,movie,"Drama,History,Music",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+11990,http://dbpedia.org/resource/Why%3F_(film),tt0093786,Proc?,Proc?,1987,movie,"Drama,Sport",TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+43140,http://dbpedia.org/resource/Hitman_(1997_film),tt0421066,Hitman,Hitman,1997,movie,Action,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+62709,http://dbpedia.org/resource/Broken_Arrow_(1950_film),tt0042286,Broken Arrow,Broken Arrow,1950,movie,"Drama,Romance,Western",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+9733,http://dbpedia.org/resource/Gone_Fishing_(2008_film),tt1191904,Gone Fishing,Gone Fishing,2008,short,"Drama,Short",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+46776,http://dbpedia.org/resource/Bunny_(2005_film),tt0432090,Bunny,Bunny,2005,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+30657,http://dbpedia.org/resource/The_Paper_(film),tt0110771,The Paper,The Paper,1994,movie,"Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+38955,http://dbpedia.org/resource/Prime_(film),tt0387514,Prime,Prime,2005,movie,"Comedy,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+37077,http://dbpedia.org/resource/Absentia_(film),tt1610996,Absentia,Absentia,2011,movie,"Drama,Horror,Mystery",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+9749,http://dbpedia.org/resource/Magic_(1978_film),tt0077889,Magic,Magic,1978,movie,"Drama,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+53386,http://dbpedia.org/resource/The_Incident_(1967_film),tt0061814,The Incident,The Incident,1967,movie,"Crime,Drama,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+20049,http://dbpedia.org/resource/The_Tooth_Fairy_(film),tt0473553,The Tooth Fairy,The Tooth Fairy,2006,video,"Horror,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+59365,http://dbpedia.org/resource/Picture_Perfect_(1997_film),tt0119896,Picture Perfect,Picture Perfect,1997,movie,"Comedy,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+32649,http://dbpedia.org/resource/Deathtrap_(film),tt0083806,Deathtrap,Deathtrap,1982,movie,"Comedy,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+12092,http://dbpedia.org/resource/Capturing_Bad_Bill,tt0269049,Capturing Bad Bill,Capturing Bad Bill,1915,short,"Comedy,Short",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+62045,http://dbpedia.org/resource/The_Score_(2001_film),tt0227445,The Score,The Score,2001,movie,"Crime,Drama,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+13486,http://dbpedia.org/resource/The_Taming_of_the_Shrew,tt0081597,The Taming of the Shrew,The Taming of the Shrew,1980,tvMovie,"Comedy,Romance",EXACT_NORMALIZED_LABEL_MATCH,YEAR_AGREEMENT,TV_MOVIE_REVIEW,False,False
+37231,http://dbpedia.org/resource/Samsara_(2001_film),tt0196069,Samsara,Samsara,2001,movie,"Adventure,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+49678,http://dbpedia.org/resource/Chances:_The_Women_of_Magdalene,tt0809417,Chances: The Women of Magdalene,Chances: The Women of Magdalene,2006,movie,Documentary,EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,YEAR_EVIDENCE_INCOMPLETE,False,False
+201,http://dbpedia.org/resource/The_In-Laws_(2003_film),tt0314786,The In-Laws,The In-Laws,2003,movie,"Action,Comedy,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+59470,http://dbpedia.org/resource/Gamer_(2011_film),tt2217809,Gamer,Gámer,2011,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+21603,http://dbpedia.org/resource/The_Siege_(1956_film),tt0049579,The Siege,Opsada,1956,movie,"Comedy,Drama,Thriller",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+33764,http://dbpedia.org/resource/James_Bond_(2015_film),tt4896340,James Bond,James Bond,2015,movie,"Action,Comedy",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+4140,http://dbpedia.org/resource/Gaslight_(1940_film),tt0031359,Angel Street,Gaslight,1940,movie,"Drama,Mystery,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+47638,http://dbpedia.org/resource/Get_Rich_or_Die_Tryin'_(film),tt0430308,Get Rich or Die Tryin',Get Rich or Die Tryin',2005,movie,"Biography,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+49615,http://dbpedia.org/resource/Mermaids_(1990_film),tt0100140,Mermaids,Mermaids,1990,movie,"Comedy,Drama,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+39637,http://dbpedia.org/resource/The_Last_Man_(2006_film),tt0867278,The Last Man,Atlal,2006,tvMovie,Drama,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+53414,http://dbpedia.org/resource/The_Serpent_and_the_Rainbow_(film),tt0096071,The Serpent and the Rainbow,The Serpent and the Rainbow,1988,movie,"Fantasy,Horror",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+61000,http://dbpedia.org/resource/Blindside_(film),tt0090748,Blindside,Blindside,1987,movie,Thriller,TITLE_VARIATION_REVIEW,YEAR_CONFLICT,YEAR_CONFLICT_REVIEW,False,False
+32195,http://dbpedia.org/resource/Requiem_(1995_film),tt0114271,Requiem,Requiem,1995,short,Short,TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+38177,http://dbpedia.org/resource/Jurrat_(film),tt0926204,Jurrat,Jurrat,1989,movie,"Action,Crime,Drama",TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+36318,http://dbpedia.org/resource/Rules_of_Engagement_(film),tt0160797,Rules of Engagement,Rules of Engagement,2000,movie,"Drama,Thriller,War",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+29443,http://dbpedia.org/resource/Notebook_(2006_film),tt0924260,Notebook,Notebook,2006,movie,"Drama,Musical,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+27920,http://dbpedia.org/resource/Faust_(1994_film),tt0109781,Faust,Lekce Faust,1994,movie,"Animation,Comedy,Drama",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+8838,http://dbpedia.org/resource/Employee_of_the_Month_(2006_film),tt0424993,Employee of the Month,Employee of the Month,2006,movie,"Comedy,Romance",TITLE_VARIATION_REVIEW,YEAR_AGREEMENT,TITLE_VARIATION_REVIEW,False,False
+29936,http://dbpedia.org/resource/Henry_IV_(film),tt0087208,Henry IV,Enrico IV,1984,movie,Drama,TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TITLE_VARIATION_REVIEW,False,False
+54867,http://dbpedia.org/resource/The_Last_Kingdom_(TV_series),tt4179452,The Last Kingdom,The Last Kingdom,2015,tvSeries,"Action,Drama,History",TITLE_VARIATION_REVIEW,YEAR_INCOMPLETE,TV_SERIES_REVIEW,False,False
+26844,http://dbpedia.org/resource/Midsomer_Murders,tt0118401,Midsomer Murders,Midsomer Murders,1997,tvSeries,"Crime,Drama,Mystery",EXACT_NORMALIZED_LABEL_MATCH,YEAR_INCOMPLETE,TV_SERIES_REVIEW,False,False

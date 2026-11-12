@@ -1,0 +1,31 @@
+{
+    "experiment": "21.14",
+    "purpose": "Verify numeric external identifiers against independent ReDial movie metadata.",
+    "counts": {
+        "numeric_identifiers": 812,
+        "internal_catalog": 6924,
+        "merged_reference_records": 59946,
+        "mention_reference_records": 6924,
+        "merged_target_matches": 812,
+        "mention_target_matches": 812,
+        "internal_catalog_matches": 812,
+        "title_matches": 812,
+        "verified": 812,
+        "requiring_review": 0
+    },
+    "validation": {
+        "numeric_mapping_unique": true,
+        "internal_movie_catalog_unique": true,
+        "all_internal_ids_in_catalog": true,
+        "all_merged_references_unique": true,
+        "all_mention_references_unique": true,
+        "all_titles_match": true,
+        "all_mappings_verified": true
+    },
+    "interpretation_status": "ALL_VERIFIED",
+    "limitations": [
+        "Title agreement is supporting evidence, not independent proof of the original identifier-generation process.",
+        "Title normalization does not establish identity when different movies share similar titles.",
+        "Only the supplied reference datasets were used."
+    ]
+}

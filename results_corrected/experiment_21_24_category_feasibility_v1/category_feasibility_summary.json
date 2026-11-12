@@ -1,0 +1,24 @@
+{
+  "experiment": "21.24",
+  "split": "catalog_metadata_and_training_frequency",
+  "catalog_items": 6924,
+  "verified_category_items": 15,
+  "unknown_category_items": 6903,
+  "ambiguous_identity_items": 6,
+  "unique_verified_categories": 13,
+  "categories_with_all_five_groups": 0,
+  "categories_with_at_least_three_groups": 3,
+  "category_item_assignments": 32,
+  "popularity_group_codes": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "validation": {
+    "catalog_preserved": true,
+    "category_mapping_unique": true,
+    "no_automatic_identity_merging": true
+  }
+}

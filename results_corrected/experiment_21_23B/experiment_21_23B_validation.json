@@ -1,0 +1,13 @@
+{
+    "experiment": "21.23B",
+    "catalog_population": 6924,
+    "methods": 7,
+    "all_catalog_items_preserved": true,
+    "identical_recommendation_opportunities": true,
+    "invalid_recommendation_ids": 0,
+    "duplicate_top10_recommendations": 0,
+    "recommendation_slot_conservation": true,
+    "zero_exposure_items_included": true,
+    "fractional_category_allocation": true,
+    "ambiguous_identity_items_excluded_from_verified_categories": true
+}

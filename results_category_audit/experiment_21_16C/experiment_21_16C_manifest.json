@@ -1,0 +1,38 @@
+{
+    "experiment": "21.16C",
+    "name": "Database Identifier Multiplicity and Movie Identity Resolution",
+    "counts": {
+        "merged_records": 59946,
+        "mention_records": 6924,
+        "unified_entities": 6924,
+        "unique_database_ids": 6925,
+        "exact_duplicate_rows": 0,
+        "database_ids_multiple_records": 1,
+        "database_ids_multiple_titles": 1,
+        "database_ids_multiple_movielens": 1,
+        "movielens_ids_multiple_database_ids": 100,
+        "title_collision_groups": 73,
+        "merged_mention_id_intersection": 6924,
+        "identity_resolution_records": 6924
+    },
+    "validation": {
+        "unified_population_6924": true,
+        "unified_entity_id_unique": true,
+        "numeric_crosswalk_unique": true,
+        "mention_ids_unique": true,
+        "database_id_multiplicity_audited": true,
+        "movielens_multiplicity_audited": true,
+        "resolution_population_preserved": true,
+        "all_numeric_candidates_accounted_for": true
+    },
+    "interpretation": {
+        "title_matching": "Not sufficient as standalone identity proof.",
+        "numeric_mapping": "Preserved using Experiment 21.14.",
+        "uri_mapping": "Original canonical URI preserved.",
+        "unresolved_records": "Must remain explicitly unresolved."
+    },
+    "original_files_modified": false,
+    "graph_modified": false,
+    "model_training": false,
+    "model_inference": false
+}

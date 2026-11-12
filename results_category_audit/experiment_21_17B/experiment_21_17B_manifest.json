@@ -1,0 +1,23 @@
+{
+    "experiment": "21.17B",
+    "source_population": 6112,
+    "checkpointed_records": 6112,
+    "exported_records": 6112,
+    "failed_records": 0,
+    "retrieval_status": {
+        "METADATA_RETRIEVED": 5743,
+        "NO_METADATA_RETURNED": 369
+    },
+    "identity_verification_claim": false,
+    "automatic_identity_merging": false,
+    "master_mapping_modified": false,
+    "knowledge_graph_modified": false,
+    "completed_at_utc": "2026-11-05T07:47:45.156405+00:00",
+    "source_file": "D:\\Implementation\\fairness-aware-kgsf-crs\\results_category_audit\\experiment_21_17A\\dbpedia_uri_record_inventory.csv",
+    "source_sha256": "eda685c6c0fa027db460afdf7ab23fec69ab7add8d4d154a71a31d41df398b3e",
+    "endpoint": "https://dbpedia.org/sparql",
+    "batch_size": 20,
+    "maximum_retries": 3,
+    "output_directory": "D:\\Implementation\\fairness-aware-kgsf-crs\\results_category_audit\\experiment_21_17B",
+    "interpretation": "Metadata retrieval is evidence collection, not independent identity verification."
+}

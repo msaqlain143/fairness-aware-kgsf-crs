@@ -1,0 +1,617 @@
+category_uri,preferred_label_provisional,alternative_labels,label_count,source_row_count,preliminary_class,validated_type,canonical_genre,parent_genre,temporal_modifier,geographical_modifier,manual_decision,review_notes,annotation_status,entity_id,present_in_neighbor_inventory
+http://dbpedia.org/resource/Category:1920s_American_films,1920s American films,1920s American films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:1920s_English-language_films,1920s English-language films,1920s English-language films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1923_drama_films,1923 drama films,1923 drama films,1,1,potential_genre,primary_genre,Drama,,1923,,ACCEPT_GENRE,Genre label denotes a recognized film genre; year retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1923_films,1923 films,1923 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1923_lost_films,1923 lost films,1923 lost films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1940_drama_films,1940 drama films,1940 drama films,1,1,potential_genre,primary_genre,Drama,,1940,,ACCEPT_GENRE,Genre label denotes a recognized film genre; year retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1940_films,1940 films,1940 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1940s_American_films,1940s American films,1940s American films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:1940s_English-language_films,1940s English-language films,1940s English-language films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1950s_American_films,1950s American films,1950s American films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:1950s_English-language_films,1950s English-language films,1950s English-language films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1950s_Western_(genre)_musical_films,1950s Western (genre) musical films,1950s Western (genre) musical films,1,1,potential_genre,hybrid_genre,Western;Musical,,1950s,,ACCEPT_HYBRID,Two genre components; decade retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1955_films,1955 films,1955 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1955_musical_films,1955 musical films,1955 musical films,1,1,potential_genre,primary_genre,Musical,,1955,,ACCEPT_GENRE,Musical is treated as a genre; year retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1960s_Italian_films,1960s Italian films,1960s Italian films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1960s_Italian-language_films,1960s Italian-language films,1960s Italian-language films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1965_Western_(genre)_films,1965 Western (genre) films,1965 Western (genre) films,1,1,potential_genre,primary_genre,Western,,1965,,ACCEPT_GENRE,Western is treated as a genre; year retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1965_films,1965 films,1965 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1980s_American_films,1980s American films,1980s American films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:1980s_British_films,1980s British films,1980s British films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:1980s_English-language_films,1980s English-language films,1980s English-language films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1980s_superhero_films,1980s superhero films,1980s superhero films,1,1,potential_genre,subgenre,Superhero,Action,,,ACCEPT_GENRE,Superhero is retained as a genre/subgenre label; decade retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1983_films,1983 films,1983 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1990s_American_films,1990s American films,1990s American films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:1990s_British_films,1990s British films,1990s British films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:1990s_English-language_films,1990s English-language films,1990s English-language films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1990s_Mandarin-language_films,1990s Mandarin-language films,1990s Mandarin-language films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1990s_adventure_drama_films,1990s adventure drama films,1990s adventure drama films,1,1,potential_genre,hybrid_genre,Adventure;Drama,,1990s,,ACCEPT_HYBRID,Two genre components; decade retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1990s_children's_adventure_films,1990s children's adventure films,1990s children's adventure films,1,1,potential_genre,primary_genre,Adventure,,1990s,Children,ACCEPT_GENRE,Adventure is genre; audience is a separate modifier.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1990s_children's_animated_films,1990s children's animated films,1990s children's animated films,1,1,potential_genre,format_attribute,Animation,,1990s,Children,ATTRIBUTE_ONLY,"Animation is a format, not a genre; audience is separate.",ANNOTATED,,False
+http://dbpedia.org/resource/Category:1990s_children's_comedy_films,1990s children's comedy films,1990s children's comedy films,1,1,potential_genre,primary_genre,Comedy,,1990s,Children,ACCEPT_GENRE,Comedy is genre; audience is a separate modifier.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1990s_children's_drama_films,1990s children's drama films,1990s children's drama films,1,1,potential_genre,primary_genre,Drama,,1990s,Children,ACCEPT_GENRE,Drama is genre; audience is a separate modifier.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1990s_children's_fantasy_films,1990s children's fantasy films,1990s children's fantasy films,1,1,potential_genre,primary_genre,Fantasy,,1990s,Children,ACCEPT_GENRE,Fantasy is genre; audience is a separate modifier.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1990s_fantasy_comedy_films,1990s fantasy comedy films,1990s fantasy comedy films,1,1,potential_genre,hybrid_genre,Fantasy;Comedy,,1990s,,ACCEPT_HYBRID,Two genre components; decade retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1994_children's_films,1994 children's films,1994 children's films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1994_directorial_debut_films,1994 directorial debut films,1994 directorial debut films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1994_drama_films,1994 drama films,1994 drama films,1,1,potential_genre,primary_genre,Drama,,1994,,ACCEPT_GENRE,Drama is genre; year retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1994_films,1994 films,1994 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1994_romantic_drama_films,1994 romantic drama films,1994 romantic drama films,1,1,potential_genre,hybrid_genre,Romance;Drama,,1994,,ACCEPT_HYBRID,Romance and drama are retained as separate genre components.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1996_children's_films,1996 children's films,1996 children's films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1996_comedy_films,1996 comedy films,1996 comedy films,1,1,potential_genre,primary_genre,Comedy,,1996,,ACCEPT_GENRE,Comedy is genre; year retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1996_films,1996 films,1996 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1998_American_animated_films,1998 American animated films,1998 American animated films,1,1,potential_genre,format_attribute,Animation,,1998,United States,ATTRIBUTE_ONLY,Animation is a format; country and year are separate modifiers.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1998_children's_films,1998 children's films,1998 children's films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:1998_comedy_films,1998 comedy films,1998 comedy films,1,1,potential_genre,primary_genre,Comedy,,1998,,ACCEPT_GENRE,Comedy is genre; year retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:1998_computer-animated_films,1998 computer-animated films,1998 computer-animated films,1,1,potential_genre,format_attribute,Computer animation,Animation,1998,,ATTRIBUTE_ONLY,"Computer animation is a production/visual format, not a genre.",ANNOTATED,,False
+http://dbpedia.org/resource/Category:1998_films,1998 films,1998 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2000s_American_films,2000s American films,2000s American films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:2000s_British_films,2000s British films,2000s British films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:2000s_English-language_films,2000s English-language films,2000s English-language films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2000s_action_adventure_films,2000s action adventure films,2000s action adventure films,1,1,potential_genre,hybrid_genre,Action;Adventure,,2000s,,ACCEPT_HYBRID,Two genre components; decade retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_action_horror_films,2000s action horror films,2000s action horror films,1,1,potential_genre,hybrid_genre,Action;Horror,,2000s,,ACCEPT_HYBRID,Two genre components; decade retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_adventure_comedy_films,2000s adventure comedy films,2000s adventure comedy films,1,1,potential_genre,hybrid_genre,Adventure;Comedy,,2000s,,ACCEPT_HYBRID,Two genre components; decade retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_buddy_comedy_films,2000s buddy comedy films,2000s buddy comedy films,1,1,potential_genre,subgenre,Buddy comedy,Comedy,2000s,,ACCEPT_GENRE,Buddy comedy treated as a comedy subgenre.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_children's_adventure_films,2000s children's adventure films,2000s children's adventure films,1,1,potential_genre,primary_genre,Adventure,,2000s,Children,ACCEPT_GENRE,Adventure is genre; audience is a separate modifier.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_children's_animated_films,2000s children's animated films,2000s children's animated films,1,1,potential_genre,format_attribute,Animation,,2000s,Children,ATTRIBUTE_ONLY,"Animation is a format, not a genre; audience is separate.",ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_children's_comedy_films,2000s children's comedy films,2000s children's comedy films,1,1,potential_genre,primary_genre,Comedy,,2000s,Children,ACCEPT_GENRE,Comedy is genre; audience is a separate modifier.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_comedy_road_movies,2000s comedy road movies,2000s comedy road movies,1,1,potential_genre,hybrid_genre,Comedy;Road movie,,2000s,,ACCEPT_HYBRID,Comedy and road movie are retained as genre/narrative-type components.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_coming-of-age_drama_films,2000s coming-of-age drama films,2000s coming-of-age drama films,1,1,potential_genre,hybrid_genre,Coming-of-age;Drama,,2000s,,ACCEPT_HYBRID,Coming-of-age narrative and drama genre are retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_coming-of-age_films,2000s coming-of-age films,2000s coming-of-age films,1,1,potential_genre,narrative_subgenre,Coming-of-age,,2000s,,ACCEPT_GENRE,Coming-of-age is treated as a narrative genre/subgenre.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_fantasy_adventure_films,2000s fantasy adventure films,2000s fantasy adventure films,1,1,potential_genre,hybrid_genre,Fantasy;Adventure,,2000s,,ACCEPT_HYBRID,Two genre components; decade retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_fantasy_comedy_films,2000s fantasy comedy films,2000s fantasy comedy films,1,1,potential_genre,hybrid_genre,Fantasy;Comedy,,2000s,,ACCEPT_HYBRID,Two genre components; decade retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_feminist_films,2000s feminist films,2000s feminist films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2000s_monster_movies,2000s monster movies,2000s monster movies,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2000s_pregnancy_films,2000s pregnancy films,2000s pregnancy films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2000s_romance_films,2000s romance films,2000s romance films,1,1,potential_genre,primary_genre,Romance,,2000s,,ACCEPT_GENRE,Romance is genre; decade retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_satirical_films,2000s satirical films,2000s satirical films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2000s_science_fiction_adventure_films,2000s science fiction adventure films,2000s science fiction adventure films,1,1,potential_genre,hybrid_genre,Science fiction;Adventure,,2000s,,ACCEPT_HYBRID,Two genre components; decade retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_science_fiction_comedy_films,2000s science fiction comedy films,2000s science fiction comedy films,1,1,potential_genre,hybrid_genre,Science fiction;Comedy,,2000s,,ACCEPT_HYBRID,Two genre components; decade retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_science_fiction_war_films,2000s science fiction war films,2000s science fiction war films,1,1,potential_genre,hybrid_genre,Science fiction;War,,2000s,,ACCEPT_HYBRID,Two genre components; decade retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2000s_survival_films,2000s survival films,2000s survival films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2004_black_comedy_films,2004 black comedy films,2004 black comedy films,1,1,potential_genre,subgenre,Black comedy,Comedy,2004,,ACCEPT_GENRE,Black comedy is treated as a comedy subgenre.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2004_comedy_films,2004 comedy films,2004 comedy films,1,1,potential_genre,primary_genre,Comedy,,2004,,ACCEPT_GENRE,Comedy is genre; year retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2004_films,2004 films,2004 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2004_science_fiction_films,2004 science fiction films,2004 science fiction films,1,1,potential_genre,primary_genre,Science fiction,,2004,,ACCEPT_GENRE,Science fiction is genre; year retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2006_directorial_debut_films,2006 directorial debut films,2006 directorial debut films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2006_films,2006 films,2006 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2007_American_animated_films,2007 American animated films,2007 American animated films,1,1,potential_genre,format_attribute,Animation,,2007,United States,ATTRIBUTE_ONLY,Animation is a format; country and year are separate modifiers.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2007_action_thriller_films,2007 action thriller films,2007 action thriller films,1,1,potential_genre,hybrid_genre,Action;Thriller,,2007,,ACCEPT_HYBRID,Two genre components; year retained separately.,ANNOTATED,,False
+http://dbpedia.org/resource/Category:2007_comedy_films,2007 comedy films,2007 comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2007_computer-animated_films,2007 computer-animated films,2007 computer-animated films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2007_directorial_debut_films,2007 directorial debut films,2007 directorial debut films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2007_fantasy_films,2007 fantasy films,2007 fantasy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2007_films,2007 films,2007 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2007_science_fiction_action_films,2007 science fiction action films,2007 science fiction action films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2007_science_fiction_horror_films,2007 science fiction horror films,2007 science fiction horror films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2007_thriller_films,2007 thriller films,2007 thriller films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2008_American_animated_films,2008 American animated films,2008 American animated films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2008_comedy_films,2008 comedy films,2008 comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2008_computer-animated_films,2008 computer-animated films,2008 computer-animated films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2008_directorial_debut_films,2008 directorial debut films,2008 directorial debut films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2008_films,2008 films,2008 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2008_independent_films,2008 independent films,2008 independent films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2009_3D_films,2009 3D films,2009 3D films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2009_films,2009 films,2009 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2009_science_fiction_action_films,2009 science fiction action films,2009 science fiction action films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2010_action_drama_films,2010 action drama films,2010 action drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2010_films,2010 films,2010 films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:2010_martial_arts_films,2010 martial arts films,2010 martial arts films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_American_films,2010s American films,2010s American films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_British_films,2010s British films,2010s British films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_Canadian_films,2010s Canadian films,2010s Canadian films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_English-language_films,2010s English-language films,2010s English-language films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_French_films,2010s French films,2010s French films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_Hong_Kong_films,2010s Hong Kong films,2010s Hong Kong films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_Serbian-language_films,2010s Serbian-language films,2010s Serbian-language films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_buddy_comedy-drama_films,2010s buddy comedy-drama films,2010s buddy comedy-drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_coming-of-age_comedy-drama_films,2010s coming-of-age comedy-drama films,2010s coming-of-age comedy-drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_coming-of-age_drama_films,2010s coming-of-age drama films,2010s coming-of-age drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_dance_films,2010s dance films,2010s dance films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_disaster_films,2010s disaster films,2010s disaster films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_female_buddy_films,2010s female buddy films,2010s female buddy films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_prison_films,2010s prison films,2010s prison films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2010s_survival_films,2010s survival films,2010s survival films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2012_action_thriller_films,2012 action thriller films,2012 action thriller films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2012_comedy-drama_films,2012 comedy-drama films,2012 comedy-drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2012_crime_action_films,2012 crime action films,2012 crime action films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2012_crime_thriller_films,2012 crime thriller films,2012 crime thriller films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2012_films,2012 films,2012 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2012_independent_films,2012 independent films,2012 independent films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2012_multilingual_films,2012 multilingual films,2012 multilingual films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2012_science_fiction_action_films,2012 science fiction action films,2012 science fiction action films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2013_films,2013 films,2013 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2014_films,2014 films,2014 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2014_horror_films,2014 horror films,2014 horror films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2014_horror_thriller_films,2014 horror thriller films,2014 horror thriller films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2015_3D_films,2015 3D films,2015 3D films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2015_action_films,2015 action films,2015 action films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:2015_films,2015 films,2015 films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:20th_Century_Fox_Animation_films,20th Century Fox Animation films,20th Century Fox Animation films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:20th_Century_Fox_animated_films,20th Century Fox animated films,20th Century Fox animated films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:20th_Century_Fox_films,20th Century Fox films,20th Century Fox films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:20th_Century_Studios_franchises,20th Century Studios franchises,20th Century Studios franchises,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:A_Bug's_Life,A Bug's Life,A Bug's Life,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:African-American_drama_films,African-American drama films,African-American drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Alliance_Films_films,Alliance Films films,Alliance Films films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_3D_films,American 3D films,American 3D films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_Western_(genre)_musical_films,American Western (genre) musical films,American Western (genre) musical films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_action_adventure_films,American action adventure films,American action adventure films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_action_films,American action films,American action films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_action_horror_films,American action horror films,American action horror films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_action_thriller_films,American action thriller films,American action thriller films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_adventure_comedy_films,American adventure comedy films,American adventure comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_adventure_drama_films,American adventure drama films,American adventure drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_animated_films_about_revenge,American animated films about revenge,American animated films about revenge,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_black_comedy_films,American black comedy films,American black comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_black-and-white_films,American black-and-white films,American black-and-white films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_buddy_comedy_films,American buddy comedy films,American buddy comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_buddy_comedy-drama_films,American buddy comedy-drama films,American buddy comedy-drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_children's_adventure_films,American children's adventure films,American children's adventure films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_children's_animated_adventure_films,American children's animated adventure films,American children's animated adventure films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_children's_animated_comedy_films,American children's animated comedy films,American children's animated comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_children's_animated_fantasy_films,American children's animated fantasy films,American children's animated fantasy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_children's_comedy_films,American children's comedy films,American children's comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_children's_drama_films,American children's drama films,American children's drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_children's_fantasy_films,American children's fantasy films,American children's fantasy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_comedy_road_movies,American comedy road movies,American comedy road movies,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_coming-of-age_comedy-drama_films,American coming-of-age comedy-drama films,American coming-of-age comedy-drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_coming-of-age_drama_films,American coming-of-age drama films,American coming-of-age drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_coming-of-age_films,American coming-of-age films,American coming-of-age films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_computer-animated_films,American computer-animated films,American computer-animated films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_dance_films,American dance films,American dance films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_disaster_films,American disaster films,American disaster films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_drama_road_movies,American drama road movies,American drama road movies,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_epic_fantasy_films,American epic fantasy films,American epic fantasy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_epic_films,American epic films,American epic films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_fantasy_adventure_films,American fantasy adventure films,American fantasy adventure films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_fantasy_comedy_films,American fantasy comedy films,American fantasy comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_fantasy_films,American fantasy films,American fantasy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_female_buddy_films,American female buddy films,American female buddy films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_feminist_comedy_films,American feminist comedy films,American feminist comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_films_about_cannabis,American films about cannabis,American films about cannabis,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:American_films_about_revenge,American films about revenge,American films about revenge,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:American_independent_films,American independent films,American independent films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_martial_arts_films,American martial arts films,American martial arts films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_musical_films,American musical films,American musical films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_political_drama_films,American political drama films,American political drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_post-apocalyptic_films,American post-apocalyptic films,American post-apocalyptic films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_pregnancy_films,American pregnancy films,American pregnancy films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_robot_films,American robot films,American robot films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_satirical_films,American satirical films,American satirical films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_science_fiction_action_films,American science fiction action films,American science fiction action films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_science_fiction_adventure_films,American science fiction adventure films,American science fiction adventure films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_science_fiction_comedy_films,American science fiction comedy films,American science fiction comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_science_fiction_horror_films,American science fiction horror films,American science fiction horror films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_science_fiction_thriller_films,American science fiction thriller films,American science fiction thriller films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_sequel_films,American sequel films,American sequel films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_silent_feature_films,American silent feature films,American silent feature films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_space_adventure_films,American space adventure films,American space adventure films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_superhero_films,American superhero films,American superhero films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_survival_films,American survival films,American survival films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_teen_drama_films,American teen drama films,American teen drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:American_vampire_films,American vampire films,American vampire films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_adventure_films,Animated adventure films,Animated adventure films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_buddy_films,Animated buddy films,Animated buddy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_about_animals,Animated films about animals,Animated films about animals,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_about_ants,Animated films about ants,Animated films about ants,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_about_birds,Animated films about birds,Animated films about birds,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_about_elephants,Animated films about elephants,Animated films about elephants,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_about_families,Animated films about families,Animated films about families,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_about_friendship,Animated films about friendship,Animated films about friendship,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_about_insects,Animated films about insects,Animated films about insects,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_about_kangaroos_and_wallabies,Animated films about kangaroos and wallabies,Animated films about kangaroos and wallabies,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_about_mice,Animated films about mice,Animated films about mice,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_about_talking_animals,Animated films about talking animals,Animated films about talking animals,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_about_witchcraft,Animated films about witchcraft,Animated films about witchcraft,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_about_wizards,Animated films about wizards,Animated films about wizards,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_based_on_children's_books,Animated films based on children's books,Animated films based on children's books,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_based_on_works_by_Dr._Seuss,Animated films based on works by Dr. Seuss,Animated films based on works by Dr. Seuss,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_set_in_castles,Animated films set in castles,Animated films set in castles,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_set_in_jungles,Animated films set in jungles,Animated films set in jungles,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_set_in_the_Middle_Ages,Animated films set in the Middle Ages,Animated films set in the Middle Ages,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Animated_films_set_on_islands,Animated films set on islands,Animated films set on islands,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Apocalyptic_films,Apocalyptic films,Apocalyptic films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Arthurian_animated_films,Arthurian animated films,Arthurian animated films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Articles_containing_video_clips,Articles containing video clips,Articles containing video clips,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Avatar_(2009_film),Avatar (2009 film),Avatar (2009 film),1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Avatar_(franchise)_films,Avatar (franchise) films,Avatar (franchise) films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:BAFTA_winners_(films),BAFTA winners (films),BAFTA winners (films),1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Best_Animated_Feature_Broadcast_Film_Critics_Association_Award_winners,Best Animated Feature Broadcast Film Critics Association Award winners,Best Animated Feature Broadcast Film Critics Association Award winners,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Best_Drama_Picture_Golden_Globe_winners,Best Drama Picture Golden Globe winners,Best Drama Picture Golden Globe winners,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Blue_Sky_Studios_films,Blue Sky Studios films,Blue Sky Studios films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:British_action_thriller_films,British action thriller films,British action thriller films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:British_adventure_drama_films,British adventure drama films,British adventure drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:British_children's_adventure_films,British children's adventure films,British children's adventure films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:British_children's_drama_films,British children's drama films,British children's drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:British_coming-of-age_films,British coming-of-age films,British coming-of-age films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:British_crime_action_films,British crime action films,British crime action films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:British_crime_thriller_films,British crime thriller films,British crime thriller films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:British_fantasy_films,British fantasy films,British fantasy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:British_multilingual_films,British multilingual films,British multilingual films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:British_sequel_films,British sequel films,British sequel films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:British_superhero_films,British superhero films,British superhero films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Canadian_horror_thriller_films,Canadian horror thriller films,Canadian horror thriller films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Canadian_natural_horror_films,Canadian natural horror films,Canadian natural horror films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Chinese_coming-of-age_drama_films,Chinese coming-of-age drama films,Chinese coming-of-age drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Chinese_martial_arts_films,Chinese martial arts films,Chinese martial arts films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Chinese_remakes_of_foreign_films,Chinese remakes of foreign films,Chinese remakes of foreign films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Chinese_romantic_drama_films,Chinese romantic drama films,Chinese romantic drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:CinemaScope_films,CinemaScope films,CinemaScope films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Columbia_Pictures_films,Columbia Pictures films,Columbia Pictures films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Comedy_film_remakes,Comedy film remakes,Comedy film remakes,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Comedy_films_about_Asian_Americans,Comedy films about Asian Americans,Comedy films about Asian Americans,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Davis_Entertainment_films,Davis Entertainment films,Davis Entertainment films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Disney_controversies,Disney controversies,Disney controversies,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Dollars_Trilogy,Dollars Trilogy,Dollars Trilogy,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:DreamWorks_Animation_animated_films,DreamWorks Animation animated films,DreamWorks Animation animated films || DreamWorks Animation films,2,2,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:DreamWorks_Pictures_films,DreamWorks Pictures films,DreamWorks Pictures films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Dune_Entertainment_films,Dune Entertainment films,Dune Entertainment films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_Canadian_films,English-language Canadian films,English-language Canadian films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_Chinese_films,English-language Chinese films,English-language Chinese films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_French_films,English-language French films,English-language French films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_Hong_Kong_films,English-language Hong Kong films,English-language Hong Kong films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_Italian_films,English-language Italian films,English-language Italian films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_Western_(genre)_musical_films,English-language Western (genre) musical films,English-language Western (genre) musical films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_action_adventure_films,English-language action adventure films,English-language action adventure films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_action_drama_films,English-language action drama films,English-language action drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_action_films,English-language action films,English-language action films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_action_horror_films,English-language action horror films,English-language action horror films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_action_thriller_films,English-language action thriller films,English-language action thriller films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_adventure_comedy_films,English-language adventure comedy films,English-language adventure comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_adventure_drama_films,English-language adventure drama films,English-language adventure drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_adventure_films,English-language adventure films,English-language adventure films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_black_comedy_films,English-language black comedy films,English-language black comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_buddy_comedy_films,English-language buddy comedy films,English-language buddy comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_buddy_comedy-drama_films,English-language buddy comedy-drama films,English-language buddy comedy-drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_crime_action_films,English-language crime action films,English-language crime action films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_crime_films,English-language crime films,English-language crime films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_crime_thriller_films,English-language crime thriller films,English-language crime thriller films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_drama_films,English-language drama films,English-language drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_fantasy_adventure_films,English-language fantasy adventure films,English-language fantasy adventure films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_fantasy_comedy_films,English-language fantasy comedy films,English-language fantasy comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_horror_thriller_films,English-language horror thriller films,English-language horror thriller films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_independent_films,English-language independent films,English-language independent films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_musical_films,English-language musical films,English-language musical films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_romance_films,English-language romance films,English-language romance films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_science_fiction_action_films,English-language science fiction action films,English-language science fiction action films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_science_fiction_adventure_films,English-language science fiction adventure films,English-language science fiction adventure films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_science_fiction_comedy_films,English-language science fiction comedy films,English-language science fiction comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_science_fiction_horror_films,English-language science fiction horror films,English-language science fiction horror films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:English-language_war_films,English-language war films,English-language war films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Environmental_films,Environmental films,Environmental films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:EuropaCorp_films,EuropaCorp films,EuropaCorp films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Fairy_tale_parody_films,Fairy tale parody films,Fairy tale parody films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Famous_Players-Lasky_films,Famous Players-Lasky films,Famous Players-Lasky films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Fiction_about_fratricide,Fiction about fratricide,Fiction about fratricide,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Fictional-language_films,Fictional-language films,Fictional-language films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:FilmDistrict_films,FilmDistrict films,FilmDistrict films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_Indian_Americans,Films about Indian Americans,Films about Indian Americans,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_Korean_Americans,Films about Korean Americans,Films about Korean Americans,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_agriculture,Films about agriculture,Films about agriculture,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_androids,Films about androids,Films about androids,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_bears,Films about bears,Films about bears,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_body_swapping,Films about body swapping,Films about body swapping,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_bullying,Films about bullying,Films about bullying,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_cancer,Films about cancer,Films about cancer,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_cancer_in_the_United_States,Films about cancer in the United States,Films about cancer in the United States,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_child_abuse,Films about child abuse,Films about child abuse,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_children,Films about children,Films about children,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_class_reunions,Films about class reunions,Films about class reunions,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_cloning,Films about cloning,Films about cloning,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_computing,Films about computing,Films about computing,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_consciousness_transfer,Films about consciousness transfer,Films about consciousness transfer,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_cyborgs,Films about cyborgs,Films about cyborgs,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_death,Films about death,Films about death,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_depression,Films about depression,Films about depression,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_dragons,Films about dragons,Films about dragons,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_dysfunctional_families,Films about dysfunctional families,Films about dysfunctional families,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_earthquakes,Films about earthquakes,Films about earthquakes,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_educators,Films about educators,Films about educators,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_extraterrestrial_life,Films about extraterrestrial life,Films about extraterrestrial life,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_families,Films about families,Films about families,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_farmers,Films about farmers,Films about farmers,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_financial_crises,Films about financial crises,Films about financial crises,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_friendship,Films about friendship,Films about friendship,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_holography,Films about holography,Films about holography,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_horses,Films about horses,Films about horses,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_internal_migration,Films about internal migration,Films about internal migration,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_magic,Films about magic,Films about magic,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_mannequins,Films about mannequins,Films about mannequins,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_marriage,Films about marriage,Films about marriage,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_people_with_paraplegia_or_tetraplegia,Films about people with paraplegia or tetraplegia,Films about people with paraplegia or tetraplegia,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_prison_escapes,Films about prison escapes,Films about prison escapes,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_race_and_ethnicity,Films about race and ethnicity,Films about race and ethnicity,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_rape,Films about rape,Films about rape,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_rape_in_the_United_States,Films about rape in the United States,Films about rape in the United States,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_rebellions,Films about rebellions,Films about rebellions,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_siblicide,Films about siblicide,Films about siblicide,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_social_realism,Films about social realism,Films about social realism,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_sole_survivors,Films about sole survivors,Films about sole survivors,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_teacher–student_relationships,Films about teacher–student relationships,Films about teacher–student relationships,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_technology,Films about technology,Films about technology,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_telekinesis,Films about telekinesis,Films about telekinesis,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_telepresence,Films about telepresence,Films about telepresence,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_the_Serbian_Mafia,Films about the Serbian Mafia,Films about the Serbian Mafia,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_the_labor_movement,Films about the labor movement,Films about the labor movement,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_tsunamis,Films about tsunamis,Films about tsunamis,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_about_viral_outbreaks,Films about viral outbreaks,Films about viral outbreaks,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_adapted_into_comics,Films adapted into comics,Films adapted into comics,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_adapted_into_television_shows,Films adapted into television shows,Films adapted into television shows,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_American_horror_novels,Films based on American horror novels,Films based on American horror novels,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_American_novels,Films based on American novels,Films based on American novels,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_American_short_stories,Films based on American short stories,Films based on American short stories,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_Black_Beauty,Films based on Black Beauty,Films based on Black Beauty,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_Chinese_novels,Films based on Chinese novels,Films based on Chinese novels,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_I_Am_Legend,Films based on I Am Legend,Films based on I Am Legend,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_adaptations,Films based on adaptations,Films based on adaptations,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_children's_books,Films based on children's books,Films based on children's books,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_fantasy_novels,Films based on fantasy novels,Films based on fantasy novels,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_musicals_by_Rodgers_and_Hammerstein,Films based on musicals by Rodgers and Hammerstein,Films based on musicals by Rodgers and Hammerstein,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_science_fiction_novels,Films based on science fiction novels,Films based on science fiction novels,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_short_fiction,Films based on short fiction,Films based on short fiction,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_television_series,Films based on television series,Films based on television series,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_works_by_Ira_Levin,Films based on works by Ira Levin,Films based on works by Ira Levin,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_works_by_John_Carpenter,Films based on works by John Carpenter,Films based on works by John Carpenter,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_works_by_John_Steinbeck,Films based on works by John Steinbeck,Films based on works by John Steinbeck,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_based_on_works_by_Roald_Dahl,Films based on works by Roald Dahl,Films based on works by Roald Dahl,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Brad_Peyton,Films directed by Brad Peyton,Films directed by Brad Peyton,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Caroline_Thompson,Films directed by Caroline Thompson,Films directed by Caroline Thompson,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Chris_Miller_(animator),Films directed by Chris Miller (animator),Films directed by Chris Miller (animator),1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Danny_DeVito,Films directed by Danny DeVito,Films directed by Danny DeVito,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Danny_Leiner,Films directed by Danny Leiner,Films directed by Danny Leiner,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Francis_Lawrence,Films directed by Francis Lawrence,Films directed by Francis Lawrence,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Frank_Oz,Films directed by Frank Oz,Films directed by Frank Oz,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Fred_Zinnemann,Films directed by Fred Zinnemann,Films directed by Fred Zinnemann,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_George_Fitzmaurice,Films directed by George Fitzmaurice,Films directed by George Fitzmaurice,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Harald_Zwart,Films directed by Harald Zwart,Films directed by Harald Zwart,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_He_Ping,Films directed by He Ping,Films directed by He Ping,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_James_Cameron,Films directed by James Cameron,Films directed by James Cameron,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Jimmy_Hayward,Films directed by Jimmy Hayward,Films directed by Jimmy Hayward,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_John_Ford,Films directed by John Ford,Films directed by John Ford,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_John_Lasseter,Films directed by John Lasseter,Films directed by John Lasseter,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Nick_Love,Films directed by Nick Love,Films directed by Nick Love,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Noah_Baumbach,Films directed by Noah Baumbach,Films directed by Noah Baumbach,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Richard_Lester,Films directed by Richard Lester,Films directed by Richard Lester,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Sergio_Leone,Films directed by Sergio Leone,Films directed by Sergio Leone,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_directed_by_Steve_Martino,Films directed by Steve Martino,Films directed by Steve Martino,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_featuring_a_Best_Supporting_Actress_Academy_Award–winning_performance,Films featuring a Best Supporting Actress Academy Award–winning performance,Films featuring a Best Supporting Actress Academy Award–winning performance,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_involved_in_plagiarism_controversies,Films involved in plagiarism controversies,Films involved in plagiarism controversies,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Akiva_Goldsman,Films produced by Akiva Goldsman,Films produced by Akiva Goldsman,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Alberto_Grimaldi,Films produced by Alberto Grimaldi,Films produced by Alberto Grimaldi,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Aron_Warner,Films produced by Aron Warner,Films produced by Aron Warner,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Beau_Flynn,Films produced by Beau Flynn,Films produced by Beau Flynn,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Danny_DeVito,Films produced by Danny DeVito,Films produced by Danny DeVito,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Darla_K._Anderson,Films produced by Darla K. Anderson,Films produced by Darla K. Anderson,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Darryl_F._Zanuck,Films produced by Darryl F. Zanuck,Films produced by Darryl F. Zanuck,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_David_Heyman,Films produced by David Heyman,Films produced by David Heyman,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Donald_De_Line,Films produced by Donald De Line,Films produced by Donald De Line,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Jada_Pinkett_Smith,Films produced by Jada Pinkett Smith,Films produced by Jada Pinkett Smith,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_James_Cameron,Films produced by James Cameron,Films produced by James Cameron,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Jerry_Weintraub,Films produced by Jerry Weintraub,Films produced by Jerry Weintraub,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_John_Davis,Films produced by John Davis,Films produced by John Davis,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Jon_Landau,Films produced by Jon Landau,Films produced by Jon Landau,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Luc_Besson,Films produced by Luc Besson,Films produced by Luc Besson,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Michael_Shamberg,Films produced by Michael Shamberg,Films produced by Michael Shamberg,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Neal_H._Moritz,Films produced by Neal H. Moritz,Films produced by Neal H. Moritz,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Peter_MacGregor-Scott,Films produced by Peter MacGregor-Scott,Films produced by Peter MacGregor-Scott,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Pierre_Spengler,Films produced by Pierre Spengler,Films produced by Pierre Spengler,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Scott_Rudin,Films produced by Scott Rudin,Films produced by Scott Rudin,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Stacey_Sher,Films produced by Stacey Sher,Films produced by Stacey Sher,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Will_Smith,Films produced by Will Smith,Films produced by Will Smith,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_produced_by_Wyck_Godfrey,Films produced by Wyck Godfrey,Films produced by Wyck Godfrey,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_Adolph_Deutsch,Films scored by Adolph Deutsch,Films scored by Adolph Deutsch,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_Alexandre_Azaria,Films scored by Alexandre Azaria,Films scored by Alexandre Azaria,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_Alfred_Newman,Films scored by Alfred Newman,Films scored by Alfred Newman,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_Andrew_Lockington,Films scored by Andrew Lockington,Films scored by Andrew Lockington,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_Danny_Elfman,Films scored by Danny Elfman,Films scored by Danny Elfman,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_David_Arnold,Films scored by David Arnold,Films scored by David Arnold,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_David_Kitay,Films scored by David Kitay,Films scored by David Kitay,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_David_Newman_(composer),Films scored by David Newman (composer),Films scored by David Newman (composer),1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_Ennio_Morricone,Films scored by Ennio Morricone,Films scored by Ennio Morricone,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_Giorgio_Moroder,Films scored by Giorgio Moroder,Films scored by Giorgio Moroder,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_Harry_Gregson-Williams,Films scored by Harry Gregson-Williams,Films scored by Harry Gregson-Williams,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_James_Horner,Films scored by James Horner,Films scored by James Horner,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_James_Newton_Howard,Films scored by James Newton Howard,Films scored by James Newton Howard,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_John_Powell,Films scored by John Powell,Films scored by John Powell,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_Ken_Thorne,Films scored by Ken Thorne,Films scored by Ken Thorne,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_Lorne_Balfe,Films scored by Lorne Balfe,Films scored by Lorne Balfe,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_Patrick_Doyle,Films scored by Patrick Doyle,Films scored by Patrick Doyle,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_scored_by_Randy_Newman,Films scored by Randy Newman,Films scored by Randy Newman,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_1983,Films set in 1983,Films set in 1983,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_1990,Films set in 1990,Films set in 1990,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_1994,Films set in 1994,Films set in 1994,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_1996,Films set in 1996,Films set in 1996,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_2009,Films set in 2009,Films set in 2009,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_2012,Films set in 2012,Films set in 2012,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_2015,Films set in 2015,Films set in 2015,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_2079,Films set in 2079,Films set in 2079,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_Arizona,Films set in Arizona,Films set in Arizona,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_Beijing,Films set in Beijing,Films set in Beijing,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_California,Films set in California,Films set in California,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_China,Films set in China,Films set in China,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_Colombia,Films set in Colombia,Films set in Colombia,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_Connecticut,Films set in Connecticut,Films set in Connecticut,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_Detroit,Films set in Detroit,Films set in Detroit,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_England,Films set in England,Films set in England,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_Kansas,Films set in Kansas,Films set in Kansas,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_London,Films set in London,Films set in London,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_Los_Angeles,Films set in Los Angeles,Films set in Los Angeles,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_Manhattan,Films set in Manhattan,Films set in Manhattan,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_Nevada,Films set in Nevada,Films set in Nevada,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_New_Jersey,Films set in New Jersey,Films set in New Jersey,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_New_Mexico,Films set in New Mexico,Films set in New Mexico,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_New_York_City,Films set in New York City,Films set in New York City,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_Oklahoma,Films set in Oklahoma,Films set in Oklahoma,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_Paris,Films set in Paris,Films set in Paris,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+"http://dbpedia.org/resource/Category:Films_set_in_Pasadena,_California","Films set in Pasadena, California","Films set in Pasadena, California",1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_Pisa,Films set in Pisa,Films set in Pisa,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+"http://dbpedia.org/resource/Category:Films_set_in_Sacramento,_California","Films set in Sacramento, California","Films set in Sacramento, California",1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_San_Francisco,Films set in San Francisco,Films set in San Francisco,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_Texas,Films set in Texas,Films set in Texas,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+"http://dbpedia.org/resource/Category:Films_set_in_Washington,_D.C.","Films set in Washington, D.C.","Films set in Washington, D.C.",1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_West_Virginia,Films set in West Virginia,Films set in West Virginia,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_forests,Films set in forests,Films set in forests,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_libraries,Films set in libraries,Films set in libraries,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_prison,Films set in prison,Films set in prison,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_schools,Films set in schools,Films set in schools,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_the_1900s,Films set in the 1900s,Films set in the 1900s,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_the_1910s,Films set in the 1910s,Films set in the 1910s,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_the_1990s,Films set in the 1990s,Films set in the 1990s,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_the_2070s,Films set in the 2070s,Films set in the 2070s,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_the_2140s,Films set in the 2140s,Films set in the 2140s,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_the_2150s,Films set in the 2150s,Films set in the 2150s,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_the_American_frontier,Films set in the American frontier,Films set in the American frontier,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_the_San_Fernando_Valley,Films set in the San Fernando Valley,Films set in the San Fernando Valley,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_in_the_future,Films set in the future,Films set in the future,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_on_farms,Films set on farms,Films set on farms,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_set_on_fictional_moons,Films set on fictional moons,Films set on fictional moons,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_at_Cinecittà_Studios,Films shot at Cinecittà Studios,Films shot at Cinecittà Studios,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_at_Pinewood_Studios,Films shot at Pinewood Studios,Films shot at Pinewood Studios,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_at_Village_Roadshow_Studios,Films shot at Village Roadshow Studios,Films shot at Village Roadshow Studios,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Almería,Films shot in Almería,Films shot in Almería,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Arizona,Films shot in Arizona,Films shot in Arizona,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Beijing,Films shot in Beijing,Films shot in Beijing,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Belgrade,Films shot in Belgrade,Films shot in Belgrade,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Brisbane,Films shot in Brisbane,Films shot in Brisbane,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_British_Columbia,Films shot in British Columbia,Films shot in British Columbia,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Buckinghamshire,Films shot in Buckinghamshire,Films shot in Buckinghamshire,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Budapest,Films shot in Budapest,Films shot in Budapest,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Calgary,Films shot in Calgary,Films shot in Calgary,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_California,Films shot in California,Films shot in California,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_China,Films shot in China,Films shot in China,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Connecticut,Films shot in Connecticut,Films shot in Connecticut,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Detroit,Films shot in Detroit,Films shot in Detroit,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_England,Films shot in England,Films shot in England,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Hawaii,Films shot in Hawaii,Films shot in Hawaii,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Hungary,Films shot in Hungary,Films shot in Hungary,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Italy,Films shot in Italy,Films shot in Italy,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Kent,Films shot in Kent,Films shot in Kent,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_London,Films shot in London,Films shot in London,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Los_Angeles,Films shot in Los Angeles,Films shot in Los Angeles,1,1,,,,,,,,,PENDING,,False
+"http://dbpedia.org/resource/Category:Films_shot_in_Los_Angeles_County,_California","Films shot in Los Angeles County, California","Films shot in Los Angeles County, California",1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Manitoba,Films shot in Manitoba,Films shot in Manitoba,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Michigan,Films shot in Michigan,Films shot in Michigan,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_New_Jersey,Films shot in New Jersey,Films shot in New Jersey,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_New_Mexico,Films shot in New Mexico,Films shot in New Mexico,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_New_York_(state),Films shot in New York (state),Films shot in New York (state),1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_New_York_City,Films shot in New York City,Films shot in New York City,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_New_Zealand,Films shot in New Zealand,Films shot in New Zealand,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Oklahoma,Films shot in Oklahoma,Films shot in Oklahoma,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Ontario,Films shot in Ontario,Films shot in Ontario,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Paris,Films shot in Paris,Films shot in Paris,1,1,,,,,,,,,PENDING,,False
+"http://dbpedia.org/resource/Category:Films_shot_in_Sacramento,_California","Films shot in Sacramento, California","Films shot in Sacramento, California",1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_San_Francisco,Films shot in San Francisco,Films shot in San Francisco,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Serbia,Films shot in Serbia,Films shot in Serbia,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Slovakia,Films shot in Slovakia,Films shot in Slovakia,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Toronto,Films shot in Toronto,Films shot in Toronto,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_Utah,Films shot in Utah,Films shot in Utah,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_the_Hudson_Valley,Films shot in the Hudson Valley,Films shot in the Hudson Valley,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_shot_in_the_United_Kingdom,Films shot in the United Kingdom,Films shot in the United Kingdom,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_that_won_the_Best_Original_Score_Academy_Award,Films that won the Best Original Score Academy Award,Films that won the Best Original Score Academy Award,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_that_won_the_Best_Sound_Mixing_Academy_Award,Films that won the Best Sound Mixing Academy Award,Films that won the Best Sound Mixing Academy Award,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_that_won_the_Best_Visual_Effects_Academy_Award,Films that won the Best Visual Effects Academy Award,Films that won the Best Visual Effects Academy Award,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_using_motion_capture,Films using motion capture,Films using motion capture,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_whose_art_director_won_the_Best_Art_Direction_Academy_Award,Films whose art director won the Best Art Direction Academy Award,Films whose art director won the Best Art Direction Academy Award,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_whose_cinematographer_won_the_Best_Cinematography_Academy_Award,Films whose cinematographer won the Best Cinematography Academy Award,Films whose cinematographer won the Best Cinematography Academy Award,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_whose_director_won_the_Best_Directing_Academy_Award,Films whose director won the Best Directing Academy Award,Films whose director won the Best Directing Academy Award,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Films_whose_director_won_the_Best_Director_Golden_Globe,Films whose director won the Best Director Golden Globe,Films whose director won the Best Director Golden Globe,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Akiva_Goldsman,Films with screenplays by Akiva Goldsman,Films with screenplays by Akiva Goldsman,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Andrew_Adamson,Films with screenplays by Andrew Adamson,Films with screenplays by Andrew Adamson,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Andrew_Stanton,Films with screenplays by Andrew Stanton,Films with screenplays by Andrew Stanton,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Bob_Shaw,Films with screenplays by Bob Shaw,Films with screenplays by Bob Shaw,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Carlton_Cuse,Films with screenplays by Carlton Cuse,Films with screenplays by Carlton Cuse,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Caroline_Thompson,Films with screenplays by Caroline Thompson,Films with screenplays by Caroline Thompson,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Cinco_Paul_and_Ken_Daurio,Films with screenplays by Cinco Paul and Ken Daurio,Films with screenplays by Cinco Paul and Ken Daurio,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_David_Newman_(screenwriter),Films with screenplays by David Newman (screenwriter),Films with screenplays by David Newman (screenwriter),1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Donald_McEnery,Films with screenplays by Donald McEnery,Films with screenplays by Donald McEnery,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Greta_Gerwig,Films with screenplays by Greta Gerwig,Films with screenplays by Greta Gerwig,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_James_Cameron,Films with screenplays by James Cameron,Films with screenplays by James Cameron,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Jeffrey_Price_and_Peter_S._Seaman,Films with screenplays by Jeffrey Price and Peter S. Seaman,Films with screenplays by Jeffrey Price and Peter S. Seaman,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Joe_Ranft,Films with screenplays by Joe Ranft,Films with screenplays by Joe Ranft,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_John_Hodge,Films with screenplays by John Hodge,Films with screenplays by John Hodge,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_John_Lasseter,Films with screenplays by John Lasseter,Films with screenplays by John Lasseter,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Leslie_Newman,Films with screenplays by Leslie Newman,Films with screenplays by Leslie Newman,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Luc_Besson,Films with screenplays by Luc Besson,Films with screenplays by Luc Besson,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Luciano_Vincenzoni,Films with screenplays by Luciano Vincenzoni,Films with screenplays by Luciano Vincenzoni,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Nicholas_Kazan,Films with screenplays by Nicholas Kazan,Films with screenplays by Nicholas Kazan,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Nunnally_Johnson,Films with screenplays by Nunnally Johnson,Films with screenplays by Nunnally Johnson,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Ouida_Bergère,Films with screenplays by Ouida Bergère,Films with screenplays by Ouida Bergère,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Paul_Rudnick,Films with screenplays by Paul Rudnick,Films with screenplays by Paul Rudnick,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Peter_Buchman,Films with screenplays by Peter Buchman,Films with screenplays by Peter Buchman,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Robin_Swicord,Films with screenplays by Robin Swicord,Films with screenplays by Robin Swicord,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Sergio_Donati,Films with screenplays by Sergio Donati,Films with screenplays by Sergio Donati,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Sergio_Leone,Films with screenplays by Sergio Leone,Films with screenplays by Sergio Leone,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_Sonya_Levien,Films with screenplays by Sonya Levien,Films with screenplays by Sonya Levien,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Films_with_screenplays_by_William_Ludwig,Films with screenplays by William Ludwig,Films with screenplays by William Ludwig,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Foreign_films_set_in_the_United_States,Foreign films set in the United States,Foreign films set in the United States,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:French_science_fiction_action_films,French science fiction action films,French science fiction action films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Golden_Eagle_Award_(Russia)_for_Best_Foreign_Language_Film_winners,Golden Eagle Award (Russia) for Best Foreign Language Film winners,Golden Eagle Award (Russia) for Best Foreign Language Film winners,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Great_Depression_films,Great Depression films,Great Depression films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Harold_&_Kumar,Harold & Kumar,Harold & Kumar,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Heyday_Films_films,Heyday Films films,Heyday Films films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:High_fantasy_films,High fantasy films,High fantasy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Hong_Kong_martial_arts_films,Hong Kong martial arts films,Hong Kong martial arts films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Hong_Kong_sequel_films,Hong Kong sequel films,Hong Kong sequel films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Horton_the_Elephant,Horton the Elephant,Horton the Elephant,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:IFC_Films_films,IFC Films films,IFC Films films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:IMAX_films,IMAX films,IMAX films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Italian_buddy_films,Italian buddy films,Italian buddy films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Italian_films_about_revenge,Italian films about revenge,Italian films about revenge,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Italian_sequel_films,Italian sequel films,Italian sequel films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Kung_fu_films,Kung fu films,Kung fu films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:LGBTQ-related_black_comedy_films,LGBTQ-related black comedy films,LGBTQ-related black comedy films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:LGBTQ-related_science_fiction_comedy-drama_films,LGBTQ-related science fiction comedy-drama films,LGBTQ-related science fiction comedy-drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Lightstorm_Entertainment_films,Lightstorm Entertainment films,Lightstorm Entertainment films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Lionsgate_Canada_films,Lionsgate Canada films,Lionsgate Canada films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Live-action_films_based_on_DC_Comics,Live-action films based on DC Comics,Live-action films based on DC Comics,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Lost_American_drama_films,Lost American drama films,Lost American drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Lost_silent_American_films,Lost silent American films,Lost silent American films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Lost_silent_drama_films,Lost silent drama films,Lost silent drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Martial_arts_tournament_films,Martial arts tournament films,Martial arts tournament films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Matilda_(novel),Matilda (novel),Matilda (novel),1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Military_science_fiction_films,Military science fiction films,Military science fiction films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:New_Line_Cinema_films,New Line Cinema films,New Line Cinema films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Nickelodeon_Kids'_Choice_Award–winning_films,Nickelodeon Kids' Choice Award–winning films,Nickelodeon Kids' Choice Award–winning films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Oklahoma!,Oklahoma!,Oklahoma!,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Open_Road_Films_films,Open Road Films films,Open Road Films films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Original_Film_films,Original Film films,Original Film films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Overbrook_Entertainment_films,Overbrook Entertainment films,Overbrook Entertainment films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Paramount_Pictures_animated_films,Paramount Pictures animated films,Paramount Pictures animated films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Paramount_Pictures_films,Paramount Pictures films,Paramount Pictures films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Pixar_animated_films,Pixar animated films,Pixar animated films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Planetary_romances,Planetary romances,Planetary romances,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Produzioni_Europee_Associati_films,Produzioni Europee Associati films,Produzioni Europee Associati films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:RKO_Pictures_films,RKO Pictures films,RKO Pictures films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Remakes_of_American_films,Remakes of American films,Remakes of American films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Revisionist_Western_(genre)_films,Revisionist Western (genre) films,Revisionist Western (genre) films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Rotoscoped_films,Rotoscoped films,Rotoscoped films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Saturn_Award–winning_films,Saturn Award–winning films,Saturn Award–winning films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Science_fiction_film_remakes,Science fiction film remakes,Science fiction film remakes,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Shrek_(franchise)_films,Shrek (franchise) films,Shrek (franchise) films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Silent_American_drama_films,Silent American drama films,Silent American drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Singaporean_comedy-drama_films,Singaporean comedy-drama films,Singaporean comedy-drama films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Social_science_fiction_films,Social science fiction films,Social science fiction films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Spaghetti_Western_films,Spaghetti Western films,Spaghetti Western films,1,1,potential_genre,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Stoner_films,Stoner films,Stoner films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Superman_(1978_film_series),Superman (1978 film series),Superman (1978 film series),1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Superman_films,Superman films,Superman films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Sword_and_sorcery_films,Sword and sorcery films,Sword and sorcery films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Teen_Choice_Award_winning_films,Teen Choice Award winning films,Teen Choice Award winning films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:The_Ant_and_the_Grasshopper,The Ant and the Grasshopper,The Ant and the Grasshopper,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:The_Grapes_of_Wrath,The Grapes of Wrath,The Grapes of Wrath,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:The_Inheritance_Cycle,The Inheritance Cycle,The Inheritance Cycle,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:The_Karate_Kid_(franchise)_films,The Karate Kid (franchise) films,The Karate Kid (franchise) films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:The_Last_Judgment_in_film,The Last Judgment in film,The Last Judgment in film,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Transhumanism_in_film,Transhumanism in film,Transhumanism in film,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:TriStar_Pictures_films,TriStar Pictures films,TriStar Pictures films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:U.S._Route_66,U.S. Route 66,U.S. Route 66,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:United_Artists_films,United Artists films,United Artists films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:United_States_National_Film_Registry_films,United States National Film Registry films,United States National Film Registry films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Vertigo_Films_films,Vertigo Films films,Vertigo Films films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Village_Roadshow_Pictures_films,Village Roadshow Pictures films,Village Roadshow Pictures films,1,1,,,,,,,,,PENDING,,False
+http://dbpedia.org/resource/Category:Warner_Bros._films,Warner Bros. films,Warner Bros. films,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:White_Castle_(restaurant),White Castle (restaurant),White Castle (restaurant),1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:Works_subject_to_a_lawsuit,Works subject to a lawsuit,Works subject to a lawsuit,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False
+http://dbpedia.org/resource/Category:World_record_holders,World record holders,World record holders,1,1,ambiguous_or_other,,,,,,PENDING,**,PENDING,,False

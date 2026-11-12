@@ -1,0 +1,36 @@
+EXPERIMENT 21.17I
+CROSS-SOURCE IDENTITY EVIDENCE INTEGRATION
+
+Entities: 6112
+IMDb records: 577
+TMDb records: 582
+Combined records: 1159
+
+dbpedia_population_6112: PASS
+imdb_master_population_6112: PASS
+tmdb_master_population_6112: PASS
+dbpedia_entity_ids_unique: PASS
+imdb_master_entity_ids_unique: PASS
+tmdb_master_entity_ids_unique: PASS
+imdb_record_population_577: PASS
+tmdb_record_population_582: PASS
+all_source_entity_ids_nonblank: PASS
+integrated_population_6112: PASS
+integrated_entity_ids_unique: PASS
+all_imdb_uris_preserved: PASS
+all_tmdb_uris_preserved: PASS
+record_population_1159: PASS
+all_imdb_records_preserved: PASS
+all_tmdb_records_preserved: PASS
+record_keys_unique: PASS
+master_population_6112: PASS
+master_entity_ids_unique: PASS
+all_entities_preserved: PASS
+all_imdb_rows_preserved: PASS
+all_tmdb_rows_preserved: PASS
+no_automatic_verification: PASS
+no_automatic_merging: PASS
+all_uris_nonblank: PASS
+
+No automatic identity verification.
+No automatic entity merging.

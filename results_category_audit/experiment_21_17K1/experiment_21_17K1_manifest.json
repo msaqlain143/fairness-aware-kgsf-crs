@@ -1,0 +1,47 @@
+{
+    "experiment": "21.17K1",
+    "name": "Identifier Dependency Audit",
+    "generated_utc": "2026-11-07T03:36:32.933414+00:00",
+    "source_hashes": {
+        "dbpedia": "f863286dcb14780dffd505bb9c9f6f7643c21dd913386d769705d01d8d3f0814",
+        "imdb": "66143dfa2ecbb7e42826e9d4efee9ac6e388e8c32a56dab25aabcd54c3fe20ef",
+        "tmdb": "52293d8d6999e70e9833eea62b25dbb910331f34062c54234f70d77496c5e92b",
+        "integrated": "115da1546b68c0e32c951479ccfb5fd2ea9ad148af3b24a74dfbbf95952035e3",
+        "tmdb_crossref": "e1193cf78cf88e9dfc0d8e60cfa14b089c27b0f70f6725f5f6171700a3dcbf48",
+        "movielens": "ef17da7710be76f7d510d5768d1b61826e3af4bf57812b9ca377e4c912123b22"
+    },
+    "counts": {
+        "dbpedia_entities": 6112,
+        "imdb_records": 577,
+        "tmdb_records": 582,
+        "integrated_records": 1159,
+        "tmdb_crossref_records": 578,
+        "movielens_records": 87585,
+        "master_entities": 6112,
+        "audited_integrated_records": 1159
+    },
+    "validation": {
+        "entity_master_population_6112": true,
+        "entity_master_ids_unique": true,
+        "integrated_record_population_preserved": true,
+        "all_integrated_records_accounted_for": true,
+        "all_source_entities_preserved": true,
+        "no_automatic_identity_verification": true,
+        "no_automatic_entity_merging": true
+    },
+    "methodology": {
+        "tmdb_lookup_dependency": "TMDb records retain the IMDb identifier used in the lookup.",
+        "movieLens_role": "Shared identifier cross-reference; not independent proof.",
+        "direct_dbpedia_tmdb_ids": "Extracted from DBpedia metadata without inferring missing values.",
+        "identity_verification": false,
+        "automatic_entity_merging": false
+    },
+    "limitations": [
+        "The audit traces recorded identifier relationships, not every internal API operation.",
+        "IMDb and TMDb metadata are not automatically independent identity evidence.",
+        "A shared MovieLens identifier is a cross-reference, not independent identity proof.",
+        "Direct identifier absence in retrieved DBpedia metadata does not prove global absence.",
+        "No identity was automatically verified or merged."
+    ],
+    "completion_status": "COMPLETED_ALL_VALIDATIONS_PASSED"
+}

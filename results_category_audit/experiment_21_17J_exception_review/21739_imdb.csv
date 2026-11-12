@@ -1,0 +1,3 @@
+﻿movie_entity_id,source_uri,imdb_id,imdb_title,imdb_original_title,imdb_start_year,imdb_title_type,imdb_genres,title_comparison,year_comparison,record_evidence_assessment,automatic_identity_verification,automatic_merging
+21739,http://dbpedia.org/resource/The_Petrified_Forest,tt0028096,The Petrified Forest,The Petrified Forest,1936,movie,"Drama,Thriller",EXACT_NORMALIZED_LABEL_MATCH,YEAR_AGREEMENT,STRONG_MOVIE_CORROBORATION,False,False
+21739,http://dbpedia.org/resource/The_Petrified_Forest,tt0394853,The Petrified Forest,The Petrified Forest,1955,tvEpisode,"Comedy,Drama,Family",EXACT_NORMALIZED_LABEL_MATCH,YEAR_CONFLICT,TV_EPISODE_REVIEW,False,False

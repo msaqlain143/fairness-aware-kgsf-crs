@@ -1,0 +1,186 @@
+{
+    "experiment": "21.16G",
+    "name": "Source Schema and Record Inventory",
+    "sources": {
+        "merged_reference": {
+            "status": "LOADED",
+            "rows": 59946,
+            "columns": [
+                "index",
+                "movieName",
+                "databaseId",
+                "movielensId"
+            ],
+            "missing_values": {
+                "index": 0,
+                "movieName": 0,
+                "databaseId": 0,
+                "movielensId": 0
+            }
+        },
+        "mention_reference": {
+            "status": "LOADED",
+            "rows": 6924,
+            "columns": [
+                "movieId",
+                "movieName",
+                "nbMentions"
+            ],
+            "missing_values": {
+                "movieId": 0,
+                "movieName": 0,
+                "nbMentions": 0
+            }
+        },
+        "movielens_links": {
+            "status": "LOADED",
+            "rows": 87585,
+            "columns": [
+                "movieId",
+                "imdbId",
+                "tmdbId"
+            ],
+            "missing_values": {
+                "movieId": 0,
+                "imdbId": 0,
+                "tmdbId": 124
+            }
+        },
+        "movielens_movies": {
+            "status": "LOADED",
+            "rows": 87585,
+            "columns": [
+                "movieId",
+                "title",
+                "genres"
+            ],
+            "missing_values": {
+                "movieId": 0,
+                "title": 0,
+                "genres": 0
+            }
+        },
+        "unified_identity": {
+            "status": "LOADED",
+            "rows": 6924,
+            "columns": [
+                "movie_entity_id",
+                "canonical_entity_id",
+                "identity_type",
+                "canonical_identifier",
+                "original_entity2id_key",
+                "original_movie_uri",
+                "mapping_value",
+                "resource_uri",
+                "external_numeric_id",
+                "uri_local_name",
+                "movie_title",
+                "mention_count",
+                "title_status",
+                "identity_provenance",
+                "identity_status"
+            ],
+            "missing_values": {
+                "movie_entity_id": 0,
+                "canonical_entity_id": 0,
+                "identity_type": 0,
+                "canonical_identifier": 0,
+                "original_entity2id_key": 0,
+                "original_movie_uri": 0,
+                "mapping_value": 0,
+                "resource_uri": 812,
+                "external_numeric_id": 6112,
+                "uri_local_name": 812,
+                "movie_title": 6112,
+                "mention_count": 6112,
+                "title_status": 0,
+                "identity_provenance": 0,
+                "identity_status": 0
+            }
+        },
+        "pairwise_evidence": {
+            "status": "LOADED",
+            "rows": 104,
+            "columns": [
+                "movielens_id",
+                "database_id_a",
+                "database_id_b",
+                "database_title_a",
+                "database_title_b",
+                "database_record_count_a",
+                "database_record_count_b",
+                "reference_title",
+                "reference_genres",
+                "imdb_id",
+                "tmdb_id",
+                "imdb_available",
+                "tmdb_available",
+                "title_a_matches_reference",
+                "title_b_matches_reference",
+                "year_a",
+                "year_b",
+                "reference_year",
+                "both_source_titles_match",
+                "candidate_classification",
+                "identity_decision",
+                "evidence_scope"
+            ],
+            "missing_values": {
+                "movielens_id": 0,
+                "database_id_a": 0,
+                "database_id_b": 0,
+                "database_title_a": 0,
+                "database_title_b": 0,
+                "database_record_count_a": 0,
+                "database_record_count_b": 0,
+                "reference_title": 1,
+                "reference_genres": 1,
+                "imdb_id": 1,
+                "tmdb_id": 1,
+                "imdb_available": 0,
+                "tmdb_available": 0,
+                "title_a_matches_reference": 0,
+                "title_b_matches_reference": 0,
+                "year_a": 59,
+                "year_b": 36,
+                "reference_year": 3,
+                "both_source_titles_match": 0,
+                "candidate_classification": 0,
+                "identity_decision": 0,
+                "evidence_scope": 0
+            }
+        },
+        "conflict_summary": {
+            "status": "LOADED",
+            "rows": 100,
+            "columns": [
+                "movielens_id",
+                "pairwise_comparisons",
+                "unique_database_ids",
+                "reference_title",
+                "imdb_id",
+                "tmdb_id",
+                "imdb_available",
+                "tmdb_available",
+                "all_source_titles_match",
+                "pairwise_title_mismatches"
+            ],
+            "missing_values": {
+                "movielens_id": 0,
+                "pairwise_comparisons": 0,
+                "unique_database_ids": 0,
+                "reference_title": 1,
+                "imdb_id": 1,
+                "tmdb_id": 1,
+                "imdb_available": 0,
+                "tmdb_available": 0,
+                "all_source_titles_match": 0,
+                "pairwise_title_mismatches": 0
+            }
+        }
+    },
+    "foreigners_investigated": [
+        "176399",
+        "195484"
+    ]
+}

@@ -1,0 +1,43 @@
+﻿PROJECT: Fairness-Aware KGSF-CRS
+
+BRANCH: dev/kg-rag-calibration
+
+LAST COMPLETED EXPERIMENT:
+21.16G - Source Schema and Record Inventory
+
+COMPLETED MILESTONES:
+- 21.14 Numeric-to-movie semantic alignment
+- 21.15 Unified movie identity reconstruction
+- 21.16A URI title candidate audit
+- 21.16C Database identifier multiplicity audit
+- 21.16E MovieLens-database cross-reference validation
+- 21.16F External movie identifier evidence validation
+- 21.16G Source schema and record inventory
+
+NEXT EXPERIMENT:
+21.16H - Record-level identity reconstruction
+
+MAIN OBJECTIVE:
+Establish independently supported movie identity relationships
+for all 6,924 ReDial movie entities.
+
+IDENTITY STATUSES:
+- VERIFIED_SAME_ENTITY
+- VERIFIED_DISTINCT_ENTITIES
+- UNRESOLVED
+
+IMPORTANT:
+- Do not modify original source datasets.
+- Do not automatically merge entities.
+- Preserve all original identifiers.
+- Maintain record-level provenance.
+- Every identity decision must have supporting evidence.
+
+HARDWARE:
+24 GB RAM
+NVIDIA RTX 3060
+At least 50 GB available storage.
+
+NEXT SESSION:
+Start with Git verification and inspect Experiment 21.16G outputs.
+Then design Experiment 21.16H.

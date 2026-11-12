@@ -1,0 +1,46 @@
+{
+    "experiment": "21.16A",
+    "name": "URI Movie Title Candidate and Metadata Source Audit",
+    "purpose": "Audit title candidates for DBpedia URI entities and reconcile verified numeric movie identities.",
+    "source_files": [
+        "results_category_audit\\experiment_21_15\\unified_movie_entity_mapping.csv",
+        "external_validation\\redial_reference\\movies_with_mentions.csv",
+        "results_category_audit\\experiment_21_14\\numeric_movie_semantic_alignment.csv"
+    ],
+    "counts": {
+        "total_movie_entities": 6924,
+        "numeric": 812,
+        "uri": 6112,
+        "numeric_verified": 812,
+        "uri_unique_candidates": 1695,
+        "uri_ambiguous_candidates": 0,
+        "uri_unmatched": 4417
+    },
+    "validation": {
+        "catalog_population": true,
+        "internal_id_uniqueness": true,
+        "reference_id_uniqueness": true,
+        "numeric_population": true,
+        "uri_population": true,
+        "numeric_crosswalk_verification": true,
+        "inventory_population": true
+    },
+    "interpretation": {
+        "numeric_titles": "Verified using Experiment 21.14.",
+        "uri_exact_matches": "Candidate matches only; require independent validation.",
+        "ambiguous_titles": "Require further investigation.",
+        "unmatched_titles": "Require additional metadata sources.",
+        "uri_local_labels": "Never treated as independently verified movie titles."
+    },
+    "limitations": [
+        "An exact normalized URI-label match does not prove movie identity.",
+        "Similar titles may refer to different films.",
+        "No external metadata retrieval was performed.",
+        "No genre classification was performed."
+    ],
+    "outputs": [
+        "movie_metadata_enrichment_inventory.csv",
+        "uri_title_candidate_audit.csv",
+        "experiment_21_16A_manifest.json"
+    ]
+}

@@ -1,0 +1,4 @@
+﻿movie_entity_id,source_uri,imdb_id,imdb_title,imdb_original_title,imdb_start_year,imdb_title_type,imdb_genres,title_comparison,year_comparison,record_evidence_assessment,automatic_identity_verification,automatic_merging
+13486,http://dbpedia.org/resource/The_Taming_of_the_Shrew,tt0020479,The Taming of the Shrew,The Taming of the Shrew,1929,movie,"Comedy,Romance",EXACT_NORMALIZED_LABEL_MATCH,YEAR_AGREEMENT,STRONG_MOVIE_CORROBORATION,False,False
+13486,http://dbpedia.org/resource/The_Taming_of_the_Shrew,tt0061407,The Taming of the Shrew,The Taming of the Shrew,1967,movie,"Comedy,Drama,Romance",EXACT_NORMALIZED_LABEL_MATCH,YEAR_AGREEMENT,STRONG_MOVIE_CORROBORATION,False,False
+13486,http://dbpedia.org/resource/The_Taming_of_the_Shrew,tt0081597,The Taming of the Shrew,The Taming of the Shrew,1980,tvMovie,"Comedy,Romance",EXACT_NORMALIZED_LABEL_MATCH,YEAR_AGREEMENT,TV_MOVIE_REVIEW,False,False

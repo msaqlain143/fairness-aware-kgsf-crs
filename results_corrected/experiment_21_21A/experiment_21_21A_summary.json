@@ -1,0 +1,14 @@
+{
+    "experiment": "21.21A",
+    "input_file": "results_corrected\\m2_validation_fairness_accuracy_tradeoff.csv",
+    "total_rows": 7,
+    "unique_methods": 7,
+    "unique_splits": 1,
+    "duplicate_method_split_rows": 0,
+    "confidence_interval_checks": 49,
+    "confidence_interval_failures": 14,
+    "delta_interval_checks": 49,
+    "delta_interval_failures": 12,
+    "baseline_candidate_rows": 1,
+    "original_results_modified": false
+}

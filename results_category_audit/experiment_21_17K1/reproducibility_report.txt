@@ -1,0 +1,14 @@
+EXPERIMENT 21.17K1 - REPRODUCIBILITY REPORT
+=================================================================
+Entities: 6112
+Integrated records audited: 1159
+IMDb records: 577
+TMDb records: 582
+
+All original inputs were read-only.
+No knowledge graph modification.
+No automatic identity verification.
+No automatic entity merging.
+
+IMPORTANT: Identifier dependency is not equivalent to
+independent identity corroboration.

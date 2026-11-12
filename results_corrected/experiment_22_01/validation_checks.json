@@ -1,0 +1,66 @@
+{
+  "experiment": "22.1_KG_relevance_gate_ablation",
+  "split": "validation_only",
+  "test_split_evaluated": false,
+  "checkpoint_modified": false,
+  "events": 3010,
+  "conversations": 883,
+  "warmup_events": 1817,
+  "tuning_events": 569,
+  "heldout_events": 624,
+  "candidate_pool": "same exported M2 Top-500",
+  "primary_backbone": "A1_frequency_3",
+  "same_conversation_split_as_22_0": true,
+  "category_acceptance_logic": "Experiment 21.23B",
+  "popularity_groups": "catalog_audit_corrected.pkl item2group",
+  "kg_rank_interpretation": "contextual support signal, not semantic relevance label",
+  "policies": [
+    {
+      "name": "B0_no_gate",
+      "mode": "none",
+      "threshold": null
+    },
+    {
+      "name": "B1_rank_le_50",
+      "mode": "threshold",
+      "threshold": 50
+    },
+    {
+      "name": "B2_rank_le_100",
+      "mode": "threshold",
+      "threshold": 100
+    },
+    {
+      "name": "B3_rank_le_250",
+      "mode": "threshold",
+      "threshold": 250
+    },
+    {
+      "name": "B4_rank_le_500",
+      "mode": "threshold",
+      "threshold": 500
+    },
+    {
+      "name": "B5_graded_support",
+      "mode": "graded",
+      "threshold": null
+    }
+  ],
+  "graded_support_formula": "1/log2(KG_rank + 1) for KG rank > 0; zero otherwise",
+  "utility_constraint": "tuning NDCG@10 >= 95% of A1_frequency_3",
+  "selection": "per-policy minimum tuning disparity subject to utility constraint; overall policy selected on tuning partition",
+  "event_order": "ascending event_id, matching Experiment 22.0",
+  "current_event_excluded_from_own_historical_deficit": true,
+  "paired_bootstrap_unit": "conversation",
+  "bootstrap_replicates": 1000,
+  "overall_tuning_selected_policy": "B0_no_gate",
+  "overall_tuning_selected_lambda": 1.2,
+  "limitations": [
+    "Only the frozen exported M2 Top-500 candidate pool is evaluated.",
+    "KG rank is a retrieval-support proxy and does not establish semantic relevance.",
+    "The graded support function is a prespecified monotonic rank weighting, not a learned relevance model.",
+    "Category fairness is evaluated only for validated category assignments.",
+    "The opportunity denominator remains the normalized rank-discounted candidate-pool proxy used in Experiment 22.0.",
+    "This is a single deterministic conversation-disjoint validation split; no test set is accessed."
+  ]
+}

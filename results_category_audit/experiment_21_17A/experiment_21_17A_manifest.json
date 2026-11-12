@@ -1,0 +1,41 @@
+{
+    "experiment": "21.17A",
+    "name": "DBpedia URI Extraction and Structural Validation",
+    "execution_time_utc": "2026-11-05T06:56:38.392354+00:00",
+    "source_file": "results_category_audit\\experiment_21_15\\unified_movie_entity_mapping.csv",
+    "source_sha256": "dc548ddc6590484b5962de6aad334f63b562a80452e71afc0ad95829bf89b391",
+    "counts": {
+        "total_movie_entities": 6924,
+        "uri_entities": 6112,
+        "numeric_entities": 812,
+        "uri_records_exported": 6112,
+        "structural_issues": 0,
+        "structurally_valid": 6112
+    },
+    "validation": {
+        "source_population_6924": true,
+        "source_internal_ids_unique": true,
+        "uri_population_6112": true,
+        "numeric_population_812": true,
+        "all_uri_identifiers_nonblank": true,
+        "original_uri_identifiers_unique": true,
+        "all_uri_records_accounted_for": true
+    },
+    "methodology": {
+        "original_uris_preserved": true,
+        "normalized_uris_are_derived_fields": true,
+        "uri_local_labels_are_not_authoritative_titles": true,
+        "structural_validity_is_not_identity_verification": true,
+        "automatic_merging": false,
+        "graph_modified": false,
+        "model_training": false,
+        "model_inference": false,
+        "external_metadata_retrieval": false
+    },
+    "outputs": [
+        "dbpedia_uri_record_inventory.csv",
+        "dbpedia_uri_structural_issues.csv",
+        "dbpedia_uri_structural_summary.csv"
+    ],
+    "completion_status": "COMPLETED"
+}

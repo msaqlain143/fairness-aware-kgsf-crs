@@ -1,0 +1,4 @@
+﻿value_entity_type,value_type,record_count,unique_values,unique_movies
+,literal,2,1,2
+http://www.w3.org/2002/07/owl#Thing,uri,1,1,1
+http://www.w3.org/2004/02/skos/core#Concept,uri,722,616,24

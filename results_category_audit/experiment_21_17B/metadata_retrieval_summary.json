@@ -1,0 +1,16 @@
+{
+    "experiment": "21.17B",
+    "source_population": 6112,
+    "checkpointed_records": 6112,
+    "exported_records": 6112,
+    "failed_records": 0,
+    "retrieval_status": {
+        "METADATA_RETRIEVED": 5743,
+        "NO_METADATA_RETURNED": 369
+    },
+    "identity_verification_claim": false,
+    "automatic_identity_merging": false,
+    "master_mapping_modified": false,
+    "knowledge_graph_modified": false,
+    "completed_at_utc": "2026-11-05T07:47:45.156405+00:00"
+}

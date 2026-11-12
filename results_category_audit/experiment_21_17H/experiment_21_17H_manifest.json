@@ -1,0 +1,82 @@
+{
+    "experiment": "21.17H",
+    "name": "TMDb Evidence Quality and Identity Verification",
+    "generated_utc": "2026-11-06T11:26:28.374343+00:00",
+    "source_hashes": {
+        "tmdb_master": "e35be10e11c148dfab28da95831277821ef36403e1c8ccd4dc56af155f7aecfc",
+        "tmdb_crossref": "e1193cf78cf88e9dfc0d8e60cfa14b089c27b0f70f6725f5f6171700a3dcbf48",
+        "tmdb_conflicts": "ee08cc894e17519db324a0542995c77505d2b328b7fa93599604f684955ba19c",
+        "imdb_master": "beb1e2326c3f4168b0500d1be98db01b3779f700a1d46c2dd91266fe272e24f6",
+        "imdb_records": "66143dfa2ecbb7e42826e9d4efee9ac6e388e8c32a56dab25aabcd54c3fe20ef",
+        "dbpedia": "f863286dcb14780dffd505bb9c9f6f7643c21dd913386d769705d01d8d3f0814"
+    },
+    "counts": {
+        "source_entities": 6112,
+        "tmdb_identifier_pairs": 578,
+        "record_level_rows_including_no_result_placeholders": 582,
+        "candidate_result_rows": 573,
+        "no_result_identifier_rows": 9,
+        "exception_records": 417,
+        "entity_master_rows": 6112,
+        "conflict_register_rows": 4
+    },
+    "record_assessment_distribution": {
+        "TITLE_AGREEMENT_YEAR_INCOMPLETE": 364,
+        "STRONG_TMDb_TITLE_YEAR_CORROBORATION": 165,
+        "TITLE_VARIATION_REVIEW": 31,
+        "NO_TMDB_RESULT": 9,
+        "YEAR_CONFLICT_REVIEW": 7,
+        "NON_MOVIE_MEDIA_TYPE_REVIEW": 6
+    },
+    "entity_assessment_distribution": {
+        "UNRESOLVED_NO_TMDb_RESULT": 5559,
+        "UNRESOLVED_INSUFFICIENT_EVIDENCE": 355,
+        "TMDb_STRONG_CORROBORATION_CANDIDATE": 163,
+        "TITLE_VARIATION_REQUIRES_REVIEW": 22,
+        "YEAR_CONFLICT_REQUIRES_REVIEW": 7,
+        "MEDIA_TYPE_REQUIRES_REVIEW": 6
+    },
+    "validation": {
+        "tmdb_master_population_6112": true,
+        "tmdb_crossref_population_578": true,
+        "conflict_population_4": true,
+        "dbpedia_population_6112": true,
+        "imdb_master_population_6112": true,
+        "tmdb_master_entity_ids_unique": true,
+        "dbpedia_entity_ids_unique": true,
+        "imdb_master_entity_ids_unique": true,
+        "crossref_identifiers_nonblank": true,
+        "crossref_entity_ids_nonblank": true,
+        "crossref_identifier_pairs_unique": true,
+        "entity_population_6112": true,
+        "entity_ids_unique": true,
+        "all_source_entities_preserved": true,
+        "identifier_pair_population_preserved": true,
+        "all_578_identifier_pairs_accounted_for": true,
+        "record_rows_cover_identifier_pairs": true,
+        "record_tmdb_ids_nonblank_only_for_candidates": true,
+        "no_automatic_identity_verification": true,
+        "no_automatic_entity_merging": true,
+        "conflict_register_population_4": true
+    },
+    "methodology": {
+        "identifier_unit": "One DBpedia entity / IMDb identifier pair; all TMDb candidate rows retained",
+        "no_result_handling": "Explicit placeholder row retained for every identifier pair without returned TMDb candidates",
+        "title_comparison": "Unicode NFKC and case-folded normalized exact equality after removal of parenthetical/bracketed qualifiers",
+        "year_comparison": "Available English DBpedia labels, DBpedia release dates, DBpedia URI year, and TMDb release year",
+        "media_type_assessment": "Explicit TMDb media-type evaluation; non-movie records flagged for review",
+        "imdb_role": "Supporting title/year evidence from prior official IMDb cross-validation",
+        "movielens_role": "Supporting identifier corroboration when TMDb IDs are shared",
+        "automatic_identity_verification": false,
+        "automatic_entity_merging": false
+    },
+    "limitations": [
+        "Title and year agreement are corroborating evidence, not absolute proof of identity.",
+        "DBpedia metadata may be incomplete or contain aliases for related works.",
+        "TMDb search results may contain unrelated candidates or multiple media types.",
+        "IMDb-derived TMDb lookups are not fully independent identifier chains.",
+        "MovieLens identifier agreement is supporting evidence and does not independently prove identity.",
+        "No automatic identity verification or entity merging was performed."
+    ],
+    "completion_status": "COMPLETED_ALL_VALIDATIONS_PASSED"
+}

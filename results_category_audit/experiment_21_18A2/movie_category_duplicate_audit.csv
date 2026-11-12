@@ -1,0 +1,3 @@
+﻿source_record_id,movie_uri,predicate,value_uri_or_literal,value_type,value_label,value_entity_type,movie_entity_id,duplicate_count
+141,http://dbpedia.org/resource/Shrek_the_Third,http://purl.org/dc/terms/subject,http://dbpedia.org/resource/Category:DreamWorks_Animation_animated_films,uri,DreamWorks Animation animated films,http://www.w3.org/2004/02/skos/core#Concept,4191,2
+142,http://dbpedia.org/resource/Shrek_the_Third,http://purl.org/dc/terms/subject,http://dbpedia.org/resource/Category:DreamWorks_Animation_animated_films,uri,DreamWorks Animation films,http://www.w3.org/2004/02/skos/core#Concept,4191,2

@@ -1,0 +1,47 @@
+{
+    "experiment": "21.15",
+    "name": "Unified Movie Entity Identity Reconstruction",
+    "purpose": "Construct a canonical identity table for all 6,924 ReDial movie entities.",
+    "counts": {
+        "total_movies": 6924,
+        "dbpedia_uri_entities": 6112,
+        "numeric_external_id_entities": 812,
+        "verified_entities": 6924,
+        "entities_requiring_review": 0,
+        "unique_internal_ids": 6924,
+        "unique_canonical_ids": 6924
+    },
+    "validation": {
+        "catalog_size": true,
+        "catalog_internal_id_uniqueness": true,
+        "catalog_internal_id_completeness": true,
+        "canonical_identifier_uniqueness": true,
+        "canonical_identifier_completeness": true,
+        "provenance_completeness": true,
+        "uri_population": true,
+        "numeric_population": true,
+        "uri_identity_integrity": true,
+        "numeric_identity_integrity": true,
+        "all_entities_verified": true
+    },
+    "completion_status": "COMPLETE_ALL_VALIDATIONS_PASSED",
+    "identity_policy": {
+        "uri_entities": "Preserve original DBpedia resource URIs.",
+        "numeric_entities": "Preserve verified numeric external identifiers.",
+        "fabricated_uris": false,
+        "original_internal_ids_preserved": true,
+        "uri_local_names_are_authoritative_titles": false,
+        "numeric_movie_titles_source": "Experiment 21.14"
+    },
+    "limitations": [
+        "URI identity validation establishes correspondence with the existing DBpedia URI metadata, not independent verification of every movie title.",
+        "Movie titles are populated from Experiment 21.14 for numeric entities only.",
+        "URI-derived labels are not treated as authoritative titles.",
+        "No new external metadata has been retrieved."
+    ],
+    "outputs": [
+        "unified_movie_entity_mapping.csv",
+        "unified_movie_identity_audit.csv",
+        "unified_movie_identity_manifest.json"
+    ]
+}

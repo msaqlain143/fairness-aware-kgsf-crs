@@ -1,0 +1,7 @@
+policy,policy_mode,kg_rank_threshold,lambda,selection_status,tuning_fairness,tuning_ndcg10
+B0_no_gate,none,,1.2,selected_under_95pct_utility_constraint,3.3883045258603617,0.09898070235384769
+B1_rank_le_50,threshold,50.0,0.8,selected_under_95pct_utility_constraint,5.4363227406967995,0.10099030240036032
+B2_rank_le_100,threshold,100.0,0.8,selected_under_95pct_utility_constraint,5.2431960446390455,0.10030264529332673
+B3_rank_le_250,threshold,250.0,0.8,selected_under_95pct_utility_constraint,5.723872555425756,0.10028018982130754
+B4_rank_le_500,threshold,500.0,0.8,selected_under_95pct_utility_constraint,5.726683568352847,0.10028018982130754
+B5_graded_support,graded,,1.2,selected_under_95pct_utility_constraint,4.4870275419084695,0.09916623557630987

@@ -1,0 +1,77 @@
+movie_entity_id,movie_uri,relation_id,neighbor_entity_id,neighbor_uri,neighbor_local_name,candidate_type
+38606,<http://dbpedia.org/resource/Winter's_Bone>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+39575,<http://dbpedia.org/resource/Police_Story_2_(2007_film)>,122,59738,<http://dbpedia.org/resource/Thriller_Manju>,Thriller Manju>,person
+39575,<http://dbpedia.org/resource/Police_Story_2_(2007_film)>,125,59738,<http://dbpedia.org/resource/Thriller_Manju>,Thriller Manju>,person
+13190,<http://dbpedia.org/resource/Bitter_Harvest_(2016_film)>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+52257,<http://dbpedia.org/resource/Contact_(2009_film)>,150,28600,<http://dbpedia.org/resource/Western_Desert_language>,Western Desert language>,unresolved
+19056,<http://dbpedia.org/resource/Predator_(novel)>,12,40601,<http://dbpedia.org/resource/Crime_novel>,Crime novel>,non_film_genre
+54194,<http://dbpedia.org/resource/Super_Size_Me>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+57173,<http://dbpedia.org/resource/Diary_of_a_Wimpy_Kid>,12,12706,<http://dbpedia.org/resource/Comedy>,Comedy>,potential_genre
+1876,<http://dbpedia.org/resource/Can-Can_(film)>,56,19756,<http://dbpedia.org/resource/Can-Can_(musical)>,Can-Can (musical)>,unresolved
+57292,<http://dbpedia.org/resource/The_Amityville_Horror_(1979_film)>,72,19048,<http://dbpedia.org/resource/The_Amityville_Horror_(1979_film)__1>,The Amityville Horror (1979 film)  1>,potential_genre
+8422,<http://dbpedia.org/resource/Beauty_and_the_Beast_(2017_film)>,56,14148,<http://dbpedia.org/resource/Walt_Disney_Animation_Studios>,Walt Disney Animation Studios>,organization
+30506,<http://dbpedia.org/resource/I_Love_You_Phillip_Morris>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+53966,<http://dbpedia.org/resource/Pirate's_Passage>,15,44801,<http://dbpedia.org/resource/PiP_Animation_Services>,PiP Animation Services>,organization
+48088,<http://dbpedia.org/resource/Meet_the_Parents_(2010_TV_series)>,135,12706,<http://dbpedia.org/resource/Comedy>,Comedy>,potential_genre
+44122,<http://dbpedia.org/resource/Home_Alone_(video_game)>,135,38320,<http://dbpedia.org/resource/Action_game>,Action game>,non_film_genre
+62026,<http://dbpedia.org/resource/Dracula>,12,58751,<http://dbpedia.org/resource/Horror_fiction>,Horror fiction>,potential_genre
+46192,<http://dbpedia.org/resource/Fido_(film)>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+45234,<http://dbpedia.org/resource/Tarzan_(1999_film_soundtrack)>,135,50910,<http://dbpedia.org/resource/Musical_theatre>,Musical theatre>,unresolved
+31330,<http://dbpedia.org/resource/Nancy_Drew_(2002_film)>,135,18451,<http://dbpedia.org/resource/Mystery_film>,Mystery film>,potential_genre
+31330,<http://dbpedia.org/resource/Nancy_Drew_(2002_film)>,135,61441,<http://dbpedia.org/resource/Drama_film>,Drama film>,potential_genre
+31330,<http://dbpedia.org/resource/Nancy_Drew_(2002_film)>,135,30041,<http://dbpedia.org/resource/Crime_film>,Crime film>,potential_genre
+32504,<http://dbpedia.org/resource/Spy_Hard>,125,45013,<http://dbpedia.org/resource/ComedySportz>,ComedySportz>,potential_genre
+27455,<http://dbpedia.org/resource/Manchester_by_the_Sea_(film)>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+12942,<http://dbpedia.org/resource/Puff_the_Magic_Dragon_(film)>,135,7904,<http://dbpedia.org/resource/Animation>,Animation>,potential_genre
+12942,<http://dbpedia.org/resource/Puff_the_Magic_Dragon_(film)>,135,16410,<http://dbpedia.org/resource/Fantasy>,Fantasy>,potential_genre
+38144,<http://dbpedia.org/resource/The_Fifth_Element_(video_game)>,135,61178,<http://dbpedia.org/resource/Action-adventure_game>,Action-adventure game>,non_film_genre
+15858,<http://dbpedia.org/resource/The_Amityville_Curse_(novel)>,12,28510,<http://dbpedia.org/resource/Horror_novel>,Horror novel>,non_film_genre
+26111,<http://dbpedia.org/resource/Pirates_of_the_Caribbean_(film_series)>,56,53994,<http://dbpedia.org/resource/Pirates_of_the_Caribbean_(attraction)>,Pirates of the Caribbean (attraction)>,unresolved
+225,<http://dbpedia.org/resource/Southside_with_You>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+45425,<http://dbpedia.org/resource/Ju-On:_The_Grudge>,150,55121,<http://dbpedia.org/resource/Japanese_horror>,Japanese horror>,potential_genre
+862,<http://dbpedia.org/resource/The_Three_Musketeers_(1986_film)>,122,10729,<http://dbpedia.org/resource/Geoff_Collins_(animation_director)>,Geoff Collins (animation director)>,potential_genre
+33443,<http://dbpedia.org/resource/The_Last_Dragon_(2004_film)>,135,16410,<http://dbpedia.org/resource/Fantasy>,Fantasy>,potential_genre
+33443,<http://dbpedia.org/resource/The_Last_Dragon_(2004_film)>,135,30745,<http://dbpedia.org/resource/Science_fiction>,Science fiction>,potential_genre
+35201,<http://dbpedia.org/resource/Mickey's_Racing_Adventure>,135,17367,<http://dbpedia.org/resource/Adventure_game>,Adventure game>,non_film_genre
+50631,<http://dbpedia.org/resource/True_Blood>,135,20628,<http://dbpedia.org/resource/Drama_(genre)>,Drama (genre)>,potential_genre
+50631,<http://dbpedia.org/resource/True_Blood>,135,54166,<http://dbpedia.org/resource/Dark_fantasy>,Dark fantasy>,potential_genre
+50631,<http://dbpedia.org/resource/True_Blood>,135,48568,<http://dbpedia.org/resource/Horror_and_terror>,Horror and terror>,potential_genre
+41885,<http://dbpedia.org/resource/A_Game_of_Thrones_(role-playing_game)>,135,27189,<http://dbpedia.org/resource/Fantasy_fiction>,Fantasy fiction>,potential_genre
+52123,<http://dbpedia.org/resource/Persuasion_(2007_film)>,135,4328,<http://dbpedia.org/resource/Costume_drama>,Costume drama>,potential_genre
+59914,<http://dbpedia.org/resource/Duel_(1971_film)>,135,23731,<http://dbpedia.org/resource/Thriller_(genre)>,Thriller (genre)>,potential_genre
+37863,<http://dbpedia.org/resource/The_Lucky_Ones_(film)>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+30111,<http://dbpedia.org/resource/Hamlet_(2009_film)>,135,47757,<http://dbpedia.org/resource/Drama>,Drama>,potential_genre
+37944,<http://dbpedia.org/resource/Teeth_(film)>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+3121,<http://dbpedia.org/resource/The_Fall_(2006_film)>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+1229,<http://dbpedia.org/resource/Going_Clear_(film)>,183,45482,<http://dbpedia.org/resource/HBO_Documentary_Films>,HBO Documentary Films>,unresolved
+58342,<http://dbpedia.org/resource/Police_Story_(1996_film)>,122,59738,<http://dbpedia.org/resource/Thriller_Manju>,Thriller Manju>,person
+58342,<http://dbpedia.org/resource/Police_Story_(1996_film)>,125,59738,<http://dbpedia.org/resource/Thriller_Manju>,Thriller Manju>,person
+35412,"<http://dbpedia.org/resource/Tomorrow,_When_the_War_Began>",12,31148,<http://dbpedia.org/resource/Action_genre>,Action genre>,unresolved
+35412,"<http://dbpedia.org/resource/Tomorrow,_When_the_War_Began>",12,9482,<http://dbpedia.org/resource/Adventure_novel>,Adventure novel>,non_film_genre
+54488,<http://dbpedia.org/resource/Mr._Holmes>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+45796,<http://dbpedia.org/resource/CSNY/Déjà_Vu>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+49660,"<http://dbpedia.org/resource/Sister,_Sister_(1982_film)>",135,47757,<http://dbpedia.org/resource/Drama>,Drama>,potential_genre
+46282,<http://dbpedia.org/resource/Romeo_and_Juliet_(2007_film)>,135,60667,<http://dbpedia.org/resource/TV_drama>,TV drama>,potential_genre
+53757,<http://dbpedia.org/resource/Chicago_10_(film)>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+28163,<http://dbpedia.org/resource/Gentlemen_Prefer_Blondes_(1953_film)>,56,447,<http://dbpedia.org/resource/Gentlemen_Prefer_Blondes_(musical)>,Gentlemen Prefer Blondes (musical)>,unresolved
+10728,<http://dbpedia.org/resource/New_Kids_Turbo>,114,61855,<http://dbpedia.org/resource/Comedy_Central>,Comedy Central>,organization
+49744,"<http://dbpedia.org/resource/Liar,_Liar_(1993_film)>",135,61441,<http://dbpedia.org/resource/Drama_film>,Drama film>,potential_genre
+23743,<http://dbpedia.org/resource/Beer_for_My_Horses_(film)>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+60509,<http://dbpedia.org/resource/The_Cove_(film)>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+50170,<http://dbpedia.org/resource/Invincible_(2001_TV_film)>,135,16410,<http://dbpedia.org/resource/Fantasy>,Fantasy>,potential_genre
+11307,<http://dbpedia.org/resource/Grown_Ups_(film)>,125,38134,<http://dbpedia.org/resource/Fred_Wolf_(comedy_writer)>,Fred Wolf (comedy writer)>,potential_genre
+27349,<http://dbpedia.org/resource/The_Homesman>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+27409,<http://dbpedia.org/resource/Final_Fantasy:_The_Spirits_Within>,72,23906,<http://dbpedia.org/resource/Final_Fantasy:_The_Spirits_Within__1>,Final Fantasy: The Spirits Within  1>,potential_genre
+11417,<http://dbpedia.org/resource/Emperor_(film)>,183,63819,<http://dbpedia.org/resource/Roadside_Attractions>,Roadside Attractions>,organization
+3603,<http://dbpedia.org/resource/South_Park>,183,61855,<http://dbpedia.org/resource/Comedy_Central>,Comedy Central>,organization
+3603,<http://dbpedia.org/resource/South_Park>,24,61855,<http://dbpedia.org/resource/Comedy_Central>,Comedy Central>,organization
+45366,<http://dbpedia.org/resource/The_Vampire_Diaries>,135,10439,<http://dbpedia.org/resource/Teen_drama>,Teen drama>,potential_genre
+45366,<http://dbpedia.org/resource/The_Vampire_Diaries>,135,58751,<http://dbpedia.org/resource/Horror_fiction>,Horror fiction>,potential_genre
+45366,<http://dbpedia.org/resource/The_Vampire_Diaries>,135,16410,<http://dbpedia.org/resource/Fantasy>,Fantasy>,potential_genre
+45366,<http://dbpedia.org/resource/The_Vampire_Diaries>,135,37320,<http://dbpedia.org/resource/Romance_(love)>,Romance (love)>,potential_genre
+21274,<http://dbpedia.org/resource/Frontier_(2016_TV_series)>,135,28302,<http://dbpedia.org/resource/Historical_drama>,Historical drama>,potential_genre
+53462,<http://dbpedia.org/resource/Titanic_(2012_miniseries)>,135,37038,<http://dbpedia.org/resource/Period_drama>,Period drama>,potential_genre
+54867,<http://dbpedia.org/resource/The_Last_Kingdom_(TV_series)>,135,28302,<http://dbpedia.org/resource/Historical_drama>,Historical drama>,potential_genre
+3541,"<http://dbpedia.org/resource/Good_Luck_Charlie,_It's_Christmas!>",135,12706,<http://dbpedia.org/resource/Comedy>,Comedy>,potential_genre
+26844,<http://dbpedia.org/resource/Midsomer_Murders>,135,8325,<http://dbpedia.org/resource/Mystery_fiction>,Mystery fiction>,unresolved
+19484,<http://dbpedia.org/resource/Parenthood_(2010_TV_series)>,135,32388,<http://dbpedia.org/resource/Drama_(modern_genre)>,Drama (modern genre)>,potential_genre

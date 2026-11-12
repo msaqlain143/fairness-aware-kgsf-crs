@@ -1,0 +1,36 @@
+{
+  "experiment": 17,
+  "experiment_name": "Randomized Tie-Breaking Sensitivity Analysis",
+  "catalog_size": 6924,
+  "events": 4003,
+  "methods": [
+    "KGSF_only",
+    "A0_fixed_025",
+    "A1_frequency_1",
+    "A2_frequency_context_1",
+    "A1_frequency_3",
+    "A2_frequency_context_3"
+  ],
+  "randomization_replicates": 1000,
+  "seed": 20261104,
+  "original_group_sizes": [
+    1385,
+    1385,
+    1385,
+    1385,
+    1384
+  ],
+  "validation": {
+    "catalog_integrity": "PASS",
+    "recommendation_integrity": "PASS",
+    "event_method_completeness": "PASS",
+    "exposure_conservation": "PASS",
+    "group_size_preservation": "PASS",
+    "randomized_tie_breaking": "PASS"
+  },
+  "interpretation": "Reported quantiles describe sensitivity to randomized tie-breaking under fixed frequency values and fixed recommendation lists. They are not confidence intervals for population-level recommendation performance.",
+  "outputs": [
+    "tie_breaking_sensitivity_summary.csv",
+    "tie_breaking_randomization_distributions.npz"
+  ]
+}

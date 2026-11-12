@@ -1,0 +1,33 @@
+{
+  "experiment": "22.2_proposal_aligned_component_ablation",
+  "split": "validation_only",
+  "test_split_evaluated": false,
+  "checkpoint_modified": false,
+  "events": 3010,
+  "conversations": 883,
+  "warmup_events": 1817,
+  "tuning_events": 569,
+  "heldout_events": 624,
+  "same_split_seed_as_22_0_and_22_1": true,
+  "candidate_pool": "frozen M2 Top-500",
+  "full_method_gate_selected_only_from_tuning": true,
+  "full_method_selected_gate": "B5_graded_support",
+  "full_method_selected_lambda": 1.2,
+  "utility_constraint": "NDCG@10 >= 95% of A1_frequency_3 on tuning partition",
+  "ablation_components": [
+    "KG contextual support",
+    "adaptive category exposure calibration",
+    "online exposure-history updates"
+  ],
+  "no_category_calibration_reference": "unchanged A1_frequency_3",
+  "paired_bootstrap_unit": "conversation",
+  "bootstrap_replicates": 1000,
+  "test_set_access": false,
+  "limitations": [
+    "This experiment uses the same validation events and split as 22.0/22.1.",
+    "It is a component ablation, not independent external validation.",
+    "Category disparity applies only to items with accepted category evidence.",
+    "KG rank is a contextual retrieval-support proxy, not a semantic relevance label.",
+    "The opportunity denominator is the existing rank-discounted candidate-pool proxy."
+  ]
+}

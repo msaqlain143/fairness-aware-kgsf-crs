@@ -1,0 +1,13 @@
+﻿method,group,catalog_items,zero_exposure_items,one_exposure_items,two_or_more_exposure_items,total_exposure_slots,catalog_coverage
+KGSF_only,zero_shot,2477,2476,1,0,1,0.0004037141703673799
+KGSF_only,one_shot,2010,1883,35,92,547,0.06318407960199005
+A0_fixed_025,zero_shot,2477,2476,1,0,1,0.0004037141703673799
+A0_fixed_025,one_shot,2010,1858,48,104,566,0.07562189054726368
+A1_frequency_1,zero_shot,2477,2476,1,0,1,0.0004037141703673799
+A1_frequency_1,one_shot,2010,1824,61,125,686,0.09253731343283582
+A2_frequency_context_1,zero_shot,2477,2476,1,0,1,0.0004037141703673799
+A2_frequency_context_1,one_shot,2010,1826,60,124,677,0.09154228855721393
+A1_frequency_3,zero_shot,2477,1897,197,383,2273,0.23415421881308035
+A1_frequency_3,one_shot,2010,1716,101,193,1149,0.14626865671641792
+A2_frequency_context_3,zero_shot,2477,1923,193,361,2108,0.22365765038352847
+A2_frequency_context_3,one_shot,2010,1716,103,191,1131,0.14626865671641792

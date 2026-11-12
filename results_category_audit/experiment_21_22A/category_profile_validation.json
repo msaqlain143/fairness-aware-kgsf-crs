@@ -1,0 +1,10 @@
+{
+    "experiment": "21.22A",
+    "catalog_population_preserved": true,
+    "unique_movie_ids": true,
+    "all_catalog_items_present": true,
+    "ambiguous_entities_flagged": true,
+    "no_automatic_entity_merging": true,
+    "no_automatic_genre_assignment": true,
+    "unknown_status_preserved": true
+}
