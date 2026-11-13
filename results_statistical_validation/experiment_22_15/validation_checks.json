@@ -1,0 +1,23 @@
+{
+  "required_methods_present": true,
+  "selected_methods_have_identical_event_ids": true,
+  "conversation_mapping_complete": true,
+  "clustered_export_crosscheck_passed": true,
+  "event_method_pairs_unique": true,
+  "catalog_frequency_mapping_validated": true,
+  "zero_shot_mapping_validated": true,
+  "one_shot_mapping_validated": true,
+  "all_recommended_movies_in_catalog": true,
+  "all_top10_lists_have_ten_unique_items": true,
+  "paired_cluster_bootstrap_used": true,
+  "same_resamples_used_for_all_methods": true,
+  "bootstrap_replicate_count_valid": true,
+  "undefined_zero_exposure_replicates_counted": true,
+  "finite_bootstrap_replicates_sufficient": true,
+  "paired_finite_replicate_counts_valid": true,
+  "training_not_performed": true,
+  "retrieval_not_rerun": true,
+  "coefficient_search_not_performed": true,
+  "test_set_used_only_for_frozen_evaluation": true,
+  "overall_pass": true
+}

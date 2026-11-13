@@ -1,0 +1,68 @@
+{
+  "experiment": "22.15",
+  "name": "Cold-start exposure cluster bootstrap",
+  "events": 4003,
+  "event_method_rows": 12009,
+  "conversation_clusters": 1283,
+  "cluster_crosscheck_methods": [
+    "A0_fixed_025",
+    "A1_frequency_3"
+  ],
+  "selected_methods": [
+    "KGSF_only",
+    "A0_fixed_025",
+    "A1_frequency_3"
+  ],
+  "catalog_size": 6924,
+  "zero_shot_catalog_size": 2477,
+  "one_shot_catalog_size": 2010,
+  "bootstrap_replicates": 10000,
+  "seed": 22115,
+  "sampling_unit": "conversation_id",
+  "sampling": "paired_cluster_bootstrap_with_replacement",
+  "exposure_definition": "un-discounted Top-10 recommendation counts",
+  "zero_exposure_resample_policy": "Gini and HHI are undefined for all-zero group exposure; non-finite resamples are excluded from percentile intervals and counted explicitly.",
+  "metrics": [
+    "catalog_coverage",
+    "exposure_gini",
+    "hhi",
+    "exposure_share"
+  ],
+  "comparisons": [
+    {
+      "treatment": "A1_frequency_3",
+      "control": "KGSF_only"
+    },
+    {
+      "treatment": "A1_frequency_3",
+      "control": "A0_fixed_025"
+    }
+  ],
+  "independent_test_set": true,
+  "training_performed": false,
+  "retrieval_rerun": false,
+  "coefficient_search": false,
+  "inputs": {
+    "events": "results_final_test_m2\\adaptive_m2_with_kgsf_baseline_events.csv",
+    "clustered_events": "results_final_test_m2\\adaptive_m2_final_test_events_clustered.csv",
+    "conversation_mapping": "results_final_test_m2\\m2_test_event_conversation_mapping.csv",
+    "catalog_frequency_mapping": "catalog_audit_corrected.pkl"
+  },
+  "outputs": [
+    "cold_start_cluster_bootstrap.csv",
+    "cold_start_paired_effects.csv",
+    "cold_start_statistical_summary.json",
+    "validation_checks.json",
+    "experiment_manifest.json"
+  ],
+  "interpretation": [
+    "Zero-exposure catalog items remain in Gini and HHI denominators.",
+    "Gini and HHI are undefined when a resampled group receives no exposure; such replicates are reported as non-finite.",
+    "Percentile intervals for Gini and HHI are conditional on resamples with positive group exposure; finite replicate counts must be considered when interpreting sparse zero-shot results.",
+    "Paired differences use identical conversation-cluster resamples.",
+    "Exposure share is descriptive, not an equality metric.",
+    "Intervals quantify conversation-cluster sampling uncertainty, not catalog-label uncertainty.",
+    "This is a frozen test-set evaluation; no model or policy is tuned here.",
+    "Exposure is an un-discounted count per Top-10 appearance, not position-discounted attention."
+  ]
+}
