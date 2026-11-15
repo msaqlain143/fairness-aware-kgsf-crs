@@ -1,0 +1,14 @@
+{
+  "exactly_two_methods": true,
+  "paired_event_universe": true,
+  "4003_events_per_method": true,
+  "conversation_cluster_bootstrap": true,
+  "full_catalog_opportunity_used": true,
+  "category_evidence_reused_from_22_16": true,
+  "no_training": true,
+  "no_retrieval": true,
+  "no_parameter_search": true,
+  "holm_correction_applied": true,
+  "bootstrap_replicates_valid": true,
+  "overall_pass": true
+}

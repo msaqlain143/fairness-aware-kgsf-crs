@@ -1,0 +1,33 @@
+{
+  "experiment": "22.22_KBRD_independent_test_export",
+  "dataset": "ReDial",
+  "backbone": "KBRD",
+  "checkpoint": "save\\KBRD.pth",
+  "checkpoint_loaded_strict": true,
+  "split": "independent_test",
+  "raw_test_conversations": 1342,
+  "processed_test_records": 14362,
+  "reconstructed_record_conversation_ids": 14362,
+  "record_role_sequence_verified": true,
+  "events": 4003,
+  "unique_conversations": 1283,
+  "catalog_items": 6924,
+  "score_matrix_shape": [
+    4003,
+    6924
+  ],
+  "top_k": 500,
+  "alignment": "raw conv_id reconstructed from exact CRSLab augmentation boundaries; exact multiset match on (conv_id, target_movie_id)",
+  "alignment_passed": true,
+  "target_used_for_ranking": false,
+  "target_rank_hit10_validation_diagnostic": 0.17037222083437423,
+  "target_rank_hit50_validation_diagnostic": 0.3225081189108169,
+  "test_loader_constructed": true,
+  "test_loader_iterated": false,
+  "test_split_evaluated": true,
+  "files": {
+    "full_scores": "results_final_test_m2\\experiment_22_22\\kbrd_independent_test_full_scores.npz",
+    "top_candidates": "results_final_test_m2\\experiment_22_22\\kbrd_independent_test_top500.csv",
+    "event_manifest": "results_final_test_m2\\experiment_22_22\\kbrd_independent_test_event_manifest.csv"
+  }
+}
