@@ -1,0 +1,13 @@
+{
+  "events_4003": true,
+  "conversations_1283": true,
+  "same_event_universe_all_methods": true,
+  "same_top500_candidate_pools": true,
+  "separate_sequential_ledger_per_method": true,
+  "R1_raw_kg_ranks": true,
+  "frozen_validation_parameters": true,
+  "no_training": true,
+  "no_retrieval_rerun": true,
+  "no_test_tuning": true,
+  "overall_pass": true
+}
