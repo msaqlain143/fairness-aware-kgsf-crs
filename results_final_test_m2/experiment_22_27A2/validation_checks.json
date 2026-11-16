@@ -1,0 +1,29 @@
+{
+  "experiment": "22_27A2",
+  "split": "independent_test",
+  "events": 4003,
+  "unique_events": 4003,
+  "unique_conversations": 1283,
+  "duplicate_event_ids": 0,
+  "all_candidate_counts_500": true,
+  "candidate_source": "Frozen KGSF Top-500",
+  "target_used_for_retrieval": false,
+  "training_performed": false,
+  "parameter_search_performed": false,
+  "hub_cutoff": 500,
+  "graph_variants": [
+    "R0_filtered",
+    "R1_raw"
+  ],
+  "R0_filtered_rank_lengths_valid": true,
+  "R0_filtered_candidate_lengths_valid": true,
+  "R0_filtered_positive_rank_count": 366015,
+  "R0_filtered_zero_rank_count": 1635485,
+  "R0_filtered_retrieved_count_consistent": true,
+  "R1_raw_rank_lengths_valid": true,
+  "R1_raw_candidate_lengths_valid": true,
+  "R1_raw_positive_rank_count": 371134,
+  "R1_raw_zero_rank_count": 1630366,
+  "R1_raw_retrieved_count_consistent": true,
+  "overall_pass": true
+}

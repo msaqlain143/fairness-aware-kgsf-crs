@@ -1,0 +1,66 @@
+{
+  "experiment": "22.26_component_ablation_statistical_inference",
+  "split": "independent_test",
+  "events": 4003,
+  "conversations": 1283,
+  "supported_category_group_cells": 112,
+  "bootstrap_replicates": 10000,
+  "bootstrap_unit": "conversation",
+  "seed": 20261116,
+  "comparisons": [
+    {
+      "left": "A1_no_category_context",
+      "right": "A4_full_KG_FairCRS"
+    },
+    {
+      "left": "A2_no_KG_evidence",
+      "right": "A4_full_KG_FairCRS"
+    },
+    {
+      "left": "A3_no_adaptive_exposure_deficit",
+      "right": "A4_full_KG_FairCRS"
+    },
+    {
+      "left": "A0_KBRD_baseline",
+      "right": "A4_full_KG_FairCRS"
+    }
+  ],
+  "fairness_definition": {
+    "opportunity": "normalized 1/log2(rank+1) weights over all 500 candidates",
+    "exposure": "1/log2(rank+2) weights over saved top-10 recommendations",
+    "genre_allocation": "equal split across verified genres",
+    "metric": "mean absolute deviation of log exposure/opportunity rates across supported category x popularity-group cells"
+  },
+  "inference_scope": "Conditional inference on frozen sequential rankings. The adaptive ranking policy is not rerun inside bootstrap replicates.",
+  "inputs": {
+    "ablation_results": "results_final_test_m2\\experiment_22_25",
+    "kbrd_top500": "results_final_test_m2\\experiment_22_22\\kbrd_independent_test_top500.csv",
+    "catalog": "catalog_audit_corrected.pkl",
+    "category_profiles": "results_category_audit\\experiment_21_22A\\catalog_item_category_profiles.csv"
+  },
+  "outputs": [
+    "component_ablation_point_estimates.csv",
+    "component_ablation_paired_inference.csv",
+    "component_ablation_bootstrap_distributions.npz",
+    "validation_checks.json",
+    "experiment_manifest.json"
+  ],
+  "validation": {
+    "exactly_4003_paired_events": true,
+    "exactly_1283_conversation_clusters": true,
+    "same_event_universe_all_methods": true,
+    "same_conversation_mapping": true,
+    "same_top500_candidate_pools": true,
+    "opportunity_reconstructed_from_full_top500": true,
+    "exposure_reconstructed_from_saved_top10": true,
+    "fairness_mad_recomputed_per_bootstrap_replicate": true,
+    "paired_conversation_cluster_bootstrap": true,
+    "bootstrap_replicates": 10000,
+    "holm_correction_across_12_tests": true,
+    "training_performed": false,
+    "retrieval_rerun": false,
+    "parameter_search": false,
+    "adaptive_policy_rerun_inside_bootstrap": false,
+    "overall_pass": true
+  }
+}
