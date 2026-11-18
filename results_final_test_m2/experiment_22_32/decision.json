@@ -1,0 +1,12 @@
+{
+  "R_cg_reconstructable": true,
+  "rho_cg_reconstructable": true,
+  "R_cg_is_proxy": false,
+  "rho_cg_is_proxy": false,
+  "mathematical_definition": "Appendix B exact definition",
+  "q_status": "OPERATIONAL_LEAKAGE_FREE_SIGNAL",
+  "q_calibration_status": "NOT_YET_VALIDATED_AS_CONTEXTUAL_RELEVANCE",
+  "omega_c_defined": false,
+  "L_fair_identifiable": false,
+  "next_step": "Validate q_ei as contextual relevance, then specify omega_c and implement L_fair."
+}

@@ -1,0 +1,16 @@
+{
+  "experiment": "22.30",
+  "q_status": "OPERATIONAL_PROXY_AVAILABLE",
+  "q_validation_status": "NOT_VALIDATED_AS_DIALOGUE_SEMANTIC_RELEVANCE",
+  "R_cg_status": "RECONSTRUCTABLE_AS_PROXY",
+  "rho_cg_status": "RECONSTRUCTABLE_AS_PROXY",
+  "omega_c_status": "UNSPECIFIED_IN_PROPOSAL_FOR_OPERATIONAL_IMPLEMENTATION",
+  "L_fair_status": "NOT_FINAL_IDENTIFIABLE",
+  "minimum_remaining_work": [
+    "Validate q_proxy against an independent contextual relevance signal.",
+    "Define omega_c operationally.",
+    "Pre-specify R_min.",
+    "Then calculate the final proposal L_fair."
+  ],
+  "scientific_interpretation": "22.30 establishes an operational bridge from frozen KG/context evidence to R_cg, but does not establish that the existing proxy is the proposal's validated contextual relevance q_ei."
+}

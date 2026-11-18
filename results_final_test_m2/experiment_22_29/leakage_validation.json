@@ -1,0 +1,71 @@
+{
+  "q_status": "UNAVAILABLE_AS_VALIDATED_CONTEXTUAL_RELEVANCE",
+  "leakage": {
+    "status": "NOT_ASSESSED"
+  },
+  "previous_relevance_outputs": [
+    {
+      "file": "results_corrected\\adaptive_m2_validation_events.csv",
+      "q_columns": [],
+      "proxy_columns": [
+        "target_movie_id"
+      ]
+    },
+    {
+      "file": "results_corrected\\adaptive_m2_validation_events_clustered.csv",
+      "q_columns": [],
+      "proxy_columns": [
+        "target_movie_id"
+      ]
+    },
+    {
+      "file": "results_corrected\\adaptive_m2_validation_export22_events.csv",
+      "q_columns": [],
+      "proxy_columns": [
+        "target_movie_id"
+      ]
+    },
+    {
+      "file": "results_corrected\\m2_event_conversation_mapping.csv",
+      "q_columns": [],
+      "proxy_columns": [
+        "target_movie_id"
+      ]
+    },
+    {
+      "file": "results_corrected\\experiment_22_04B\\kbrd_validation_event_manifest.csv",
+      "q_columns": [],
+      "proxy_columns": [
+        "target_movie_id"
+      ]
+    },
+    {
+      "file": "results_corrected\\experiment_22_04B\\kbrd_validation_top500.csv",
+      "q_columns": [],
+      "proxy_columns": [
+        "target_movie_id"
+      ]
+    },
+    {
+      "file": "results_corrected\\experiment_22_11\\candidate_level_kbrd_kg_alignment.csv",
+      "q_columns": [],
+      "proxy_columns": [
+        "kg_rank"
+      ]
+    },
+    {
+      "file": "results_corrected\\experiment_22_11\\top10_demotions.csv",
+      "q_columns": [],
+      "proxy_columns": [
+        "kg_rank"
+      ]
+    },
+    {
+      "file": "results_corrected\\experiment_22_11\\top10_promotions.csv",
+      "q_columns": [],
+      "proxy_columns": [
+        "kg_rank"
+      ]
+    }
+  ]
+}

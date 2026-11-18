@@ -1,0 +1,23 @@
+{
+  "experiment": "22.33",
+  "read_only": true,
+  "training": false,
+  "retrieval": false,
+  "ranking_changes": false,
+  "target_used": false,
+  "q_status": "OPERATIONAL_LEAKAGE_FREE_SIGNAL",
+  "R_cg_status": "RECONSTRUCTED",
+  "rho_cg_status": "RECONSTRUCTED",
+  "omega_c_status": "NOT_OPERATIONALLY_SPECIFIED",
+  "L_fair_status": "NOT_FINAL_IDENTIFIABLE",
+  "positive_R_cg_cells": 89,
+  "rho_cells": 96,
+  "omega_category_count": 27,
+  "decision": "ONLY_MISSING_PROPOSAL_INPUT_IS_OMEGA_C",
+  "diagnostic_equal_weight_variance": {
+    "category_count": 27,
+    "global_mean_rho": 130419434502.18187,
+    "equal_category_weight_variance": 8.61179467529776e+22,
+    "status": "DIAGNOSTIC_ONLY_NOT_FINAL_PROPOSAL_LOSS"
+  }
+}

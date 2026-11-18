@@ -1,0 +1,17 @@
+{
+  "operational_q_available": true,
+  "q_event_count": 4003,
+  "q_candidate_instances": 2001500,
+  "q_normalization": "PASS",
+  "q_nonnegative": true,
+  "q_finite": true,
+  "q_target_leakage": false,
+  "q_future_context_leakage": false,
+  "q_is_calibrated_contextual_relevance": false,
+  "q_is_operational_relevance_signal": true,
+  "q_can_support_R_cg_reconstruction": true,
+  "ranking_modified": false,
+  "training_performed": false,
+  "retrieval_performed": false,
+  "next_experiment": "22.32 \u2014 reconstruct R_cg and rho_cg from q_ei without modifying rankings."
+}

@@ -1,0 +1,9 @@
+{
+  "R_positive_cells": 89,
+  "categories_with_R": 27,
+  "groups_with_R": 5,
+  "rho_cells": 96,
+  "min_R_cg": 0.0001225453511668,
+  "median_R_cg": 0.8291599205231601,
+  "max_R_cg": 83.52126305124636
+}

@@ -1,0 +1,23 @@
+{
+  "events": 4003,
+  "conversations": 1283,
+  "catalog_items": 6924,
+  "categorized_catalog_items": 17,
+  "category_coverage": 0.002455228191796649,
+  "candidate_pool_size": 500,
+  "exposure_top_k": 10,
+  "kg_rank_source": "R1_raw_candidate_kg_ranks",
+  "tau": 250.0,
+  "q_definition": "22.18 candidate-pool category context * exp(-KG-rank/tau)",
+  "q_is_validated_semantic_relevance": false,
+  "q_uses_test_target": false,
+  "q_uses_future_exposure": false,
+  "ranking_modified": false,
+  "retrieval_rerun": false,
+  "training": false,
+  "parameter_optimization": false,
+  "R_cg_proxy_reconstructed": true,
+  "rho_cg_proxy_reconstructed": true,
+  "omega_c_operationally_specified": false,
+  "L_fair_final_identifiable": false
+}

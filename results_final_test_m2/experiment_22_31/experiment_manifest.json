@@ -1,0 +1,50 @@
+{
+  "experiment": "22.31",
+  "description": "Leakage-free operational contextual relevance construction from frozen KGSF and KG evidence.",
+  "read_only": true,
+  "training": false,
+  "retrieval": false,
+  "ranking_changes": false,
+  "target_used_for_q": false,
+  "future_dialogue_used": false,
+  "events": 4003,
+  "catalog_items": 6924,
+  "candidate_pool": 500,
+  "kgsf_score_shape": [
+    4003,
+    6924
+  ],
+  "kgsf_movie_id_count": 6924,
+  "kgsf_event_id_count": 4003,
+  "kg_evidence_column": "R1_raw_candidate_kg_ranks",
+  "kg_tau": 50.0,
+  "q_definition": "softmax(frozen KGSF candidate scores) times (1 + exp(-KG_rank/tau)), followed by event-level normalization.",
+  "q_status": "OPERATIONAL_LEAKAGE_FREE_SIGNAL",
+  "validated_contextual_relevance": false,
+  "scientific_limitation": "q is an operational relevance signal derived from frozen model and KG evidence. It has not yet been externally calibrated as a contextual relevance probability.",
+  "q_statistics": {
+    "events": 4003,
+    "candidate_instances": 2001500,
+    "q_sum_min": 0.9999999999999996,
+    "q_sum_max": 1.0000000000000004,
+    "q_sum_mean": 1.0,
+    "q_min": 2.29458862733287e-06,
+    "q_max": 0.956061776630599,
+    "q_mean": 0.002000000000000001,
+    "positive_q_instances": 2001500
+  },
+  "leakage_audit": {
+    "target_movie_id_present_in_input": true,
+    "target_movie_id_used_to_construct_q": false,
+    "future_dialogue_used": false,
+    "training_performed": false,
+    "retrieval_performed": false,
+    "ranking_changed": false,
+    "parameter_optimization_on_independent_test": false,
+    "q_source": [
+      "frozen KGSF event-time scores",
+      "frozen KG evidence"
+    ],
+    "leakage_status": "NO_TARGET_OR_FUTURE_CONTEXT_USED"
+  }
+}
