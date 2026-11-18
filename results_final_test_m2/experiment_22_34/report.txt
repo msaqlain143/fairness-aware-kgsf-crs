@@ -1,0 +1,33 @@
+Experiment 22.34 — Proposal Fairness-Loss Operationalization
+
+Read-only: YES | Training: NO | Retrieval: NO | Ranking changes: NO
+Target use: NO
+
+Input: D:\Implementation\fairness-aware-kgsf-crs\results_final_test_m2\experiment_22_32\R_cg_rho_cg_reconstruction.csv
+Input category-group cells: 96
+Active category-group cells: 89
+Active categories: 27
+R_min: 0.0
+R_min status: POSITIVE_SUPPORT_BASELINE_ONLY_NOT_VALIDATED
+
+L_fair, uniform active-category omega:
+  1817.79109278
+
+L_fair, category relevance-mass omega (sensitivity):
+  10981.4884997
+
+Primary operationalization: omega_c = 1 / number of active categories.
+Sensitivity: omega_c proportional to category relevance mass.
+The proposal does not uniquely prescribe a numerical omega_c.
+
+The default R_min=0 is only a positive-support feasibility baseline.
+It is not a validated low-support threshold. Select and freeze R_min and
+relevance/eligibility thresholds using validation data before final test.
+
+Decision: L_fair is computationally operational from frozen 22.32
+R_cg/E_cg aggregates under explicit omega_c and R_min choices. This
+completes mathematical operationalization, not algorithm validation.
+
+Next: implement eligibility gating, category/group exposure-deficit
+calculation, fairness-adjusted scoring, Top-K ranking, and update the
+exposure ledger only after recommendations are delivered.

@@ -1,0 +1,30 @@
+{
+  "experiment": "22.34_fairness_loss_operationalization",
+  "proposal": "KG_FairCRS_Research_Proposal_20261117",
+  "input": "D:\\Implementation\\fairness-aware-kgsf-crs\\results_final_test_m2\\experiment_22_32\\R_cg_rho_cg_reconstruction.csv",
+  "read_only": true,
+  "training": false,
+  "retrieval": false,
+  "ranking_changes": false,
+  "target_used": false,
+  "omega_c_unique_value_prescribed_by_proposal": false,
+  "outputs": [
+    "active_category_group_fairness_terms.csv",
+    "category_weighting_and_variance.csv",
+    "L_fair_weighting_comparison.csv",
+    "decision.json",
+    "report.txt",
+    "experiment_manifest.json"
+  ],
+  "R_min": 0.0,
+  "epsilon_0": 1e-12,
+  "input_category_group_cells": 96,
+  "active_category_group_cells": 89,
+  "active_categories": 27,
+  "total_active_relevance_mass": 453.4096221434902,
+  "L_fair_uniform_category_weighting": 1817.7910927814978,
+  "L_fair_relevance_mass_category_weighting": 10981.488499691694,
+  "omega_uniform": "1 / number of active categories",
+  "omega_relevance_mass": "sum_g R_cg / sum_c sum_g R_cg",
+  "R_min_status": "POSITIVE_SUPPORT_BASELINE_ONLY_NOT_VALIDATED"
+}
