@@ -1,0 +1,34 @@
+EXPERIMENT 22.24C — BOOTSTRAP BIAS DECOMPOSITION REPORT
+========================================================================
+
+OBSERVED FAIRNESS EFFECT
+Baseline MAD: 13.54384454
+Proposed MAD: 8.36158750
+Observed delta: -5.18225704
+
+BOOTSTRAP DECOMPOSITION
+Baseline bootstrap mean: 13.22554931
+Proposed bootstrap mean: 10.23733830
+Baseline shift: -0.31829524
+Proposed shift: 1.87575079
+Difference in shifts: 2.19404603
+Decomposition identity passed: True
+
+CONVERSATION INFLUENCE
+Top 1% influence concentration: 88.9403%
+Top 5% influence concentration: 94.3166%
+Largest influence conversation: 21333
+
+BOOTSTRAP REPRODUCTION
+Exact original bootstrap reproduction: True
+Maximum absolute difference: 0
+
+ALTERNATIVE WEIGHTING
+Equal-conversation-normalized sensitivity delta mean: -2.87448971
+
+INTERPRETATION
+This diagnostic investigates the numerical decomposition of the fairness bootstrap distribution. It does not establish confirmatory policy-level statistical significance.
+The original event-weighted estimand remains the primary 22.24C fairness estimand.
+The equal-conversation-normalized result is a separate sensitivity estimand.
+
+No model training, retrieval, ranking changes, or independent test reruns were performed.

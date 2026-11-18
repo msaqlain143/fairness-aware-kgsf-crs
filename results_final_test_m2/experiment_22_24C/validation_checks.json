@@ -6,6 +6,9 @@
   "same_opportunity_universe_and_contributions": true,
   "event_level_opportunity_recomputed_from_frozen_top500": true,
   "exposure_recomputed_from_saved_top10_rankings": true,
+  "fixed_fairness_cell_universe": true,
+  "reference_22_16_mad_parity": true,
+  "minimum_cell_support_applied": true,
   "fairness_mad_recomputed_per_bootstrap_replicate": true,
   "conversation_cluster_bootstrap": true,
   "bootstrap_replicates": 10000,
@@ -13,5 +16,9 @@
   "training_performed": false,
   "retrieval_rerun": false,
   "parameter_search": false,
-  "overall_pass": false
+  "overall_pass": true,
+  "minimum_cell_conversations": 20,
+  "fairness_cells_total": 112,
+  "fairness_cells_included": 106,
+  "fairness_cells_excluded": 6
 }

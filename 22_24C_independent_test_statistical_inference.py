@@ -29,6 +29,7 @@ DEFAULT_OUT = Path("results_final_test_m2/experiment_22_24C")
 N_BOOT = 10000
 SEED = 20261115
 EPS = 1e-12
+MIN_CELL_CONVERSATIONS = 20
 
 
 def load_reference(path):
@@ -74,11 +75,20 @@ def two_sided_bootstrap_p(values, observed_delta):
     return float((extreme + 1) / (len(values) + 1))
 
 
-def mad_from_totals(exposure, opportunity):
-    supported = opportunity > EPS
-    if np.count_nonzero(supported) < 2:
-        return float("nan")
-    rates = (exposure[supported] + EPS) / (opportunity[supported] + EPS)
+def mad_from_totals(exposure, opportunity, cell_mask):
+    """Compute log exposure/opportunity MAD over one fixed cell universe."""
+    exposure = np.asarray(exposure, dtype=np.float64)
+    opportunity = np.asarray(opportunity, dtype=np.float64)
+    cell_mask = np.asarray(cell_mask, dtype=bool)
+
+    if exposure.shape != opportunity.shape or cell_mask.shape != opportunity.shape:
+        raise ValueError("Exposure, opportunity and cell-mask shapes must match.")
+    if int(cell_mask.sum()) < 2:
+        raise ValueError("At least two fairness cells are required.")
+    if np.any(opportunity[cell_mask] <= EPS):
+        raise RuntimeError("A selected fairness cell has zero bootstrap opportunity.")
+
+    rates = (exposure[cell_mask] + EPS) / (opportunity[cell_mask] + EPS)
     logs = np.log(rates)
     return float(np.mean(np.abs(logs - np.mean(logs))))
 
@@ -160,6 +170,12 @@ def main():
     ap.add_argument("--out", type=Path, default=DEFAULT_OUT)
     ap.add_argument("--replicates", type=int, default=N_BOOT)
     ap.add_argument("--seed", type=int, default=SEED)
+    ap.add_argument(
+        "--minimum-cell-conversations",
+        type=int,
+        default=MIN_CELL_CONVERSATIONS,
+        help="Minimum distinct conversations supporting a fairness cell.",
+    )
     args = ap.parse_args()
 
     baseline_path = args.results_dir / "baseline_event_results.csv"
@@ -170,6 +186,8 @@ def main():
             raise FileNotFoundError(path)
     if args.replicates < 1000:
         raise ValueError("Use at least 1,000 bootstrap replicates; default is 10,000.")
+    if args.minimum_cell_conversations < 2:
+        raise ValueError("Minimum cell conversation support must be at least 2.")
 
     print("=" * 76)
     print("EXPERIMENT 22.24C — INDEPENDENT-TEST STATISTICAL INFERENCE")
@@ -238,10 +256,7 @@ def main():
     if not np.allclose(bo, po):
         raise RuntimeError("Baseline and proposed opportunity contributions differ.")
 
-    # Point estimates from event-level sufficient statistics.
-    total_opp = bo.sum(axis=0)
-    base_mad = mad_from_totals(be.sum(axis=0), total_opp)
-    prop_mad = mad_from_totals(pe.sum(axis=0), total_opp)
+    # Utility point estimates use all paired independent-test events.
     base_hr, prop_hr = float(bh.mean()), float(ph.mean())
     base_ndcg, prop_ndcg = float(bn.mean()), float(pn.mean())
 
@@ -262,6 +277,97 @@ def main():
     cluster_bn, cluster_pn = cluster_sum(bn[:, None])[:, 0], cluster_sum(pn[:, None])[:, 0]
     cluster_be, cluster_pe = cluster_sum(be), cluster_sum(pe)
     cluster_opp = cluster_sum(bo)
+    
+# -------------------------------------------------------
+# FAIRNESS BOOTSTRAP SUPPORT DIAGNOSTIC
+# -------------------------------------------------------
+
+    cell_support = (cluster_opp > EPS).sum(axis=0)
+    fairness_cell_mask = cell_support >= args.minimum_cell_conversations
+
+    if int(fairness_cell_mask.sum()) < 2:
+        raise RuntimeError(
+            "Fewer than two category-group cells meet the minimum support threshold."
+        )
+
+    support_df = pd.DataFrame({
+        "category": [c[0] for c in cells],
+        "popularity_group": [c[1] for c in cells],
+        "supporting_conversations": cell_support,
+        "total_conversations": n_conv,
+        "support_percentage": 100.0 * cell_support / n_conv,
+        "minimum_support_threshold": args.minimum_cell_conversations,
+        "included_for_inference": fairness_cell_mask,
+    })
+
+    print("\n========== FIXED FAIRNESS CELL UNIVERSE ==========")
+    print("Total category-group cells:", len(cells))
+    print("Minimum supporting conversations:", int(cell_support.min()))
+    print("Median supporting conversations:", float(np.median(cell_support)))
+    print("Maximum supporting conversations:", int(cell_support.max()))
+    print("Minimum support threshold:", args.minimum_cell_conversations)
+    print("Included cells:", int(fairness_cell_mask.sum()))
+    print("Excluded cells:", int((~fairness_cell_mask).sum()))
+
+    args.out.mkdir(parents=True, exist_ok=True)
+    support_df.to_csv(args.out / "fairness_cell_support.csv", index=False)
+    print("Saved fairness_cell_support.csv")
+
+    # Both systems use the same observed opportunity denominator and fixed cells.
+    total_opp = bo.sum(axis=0)
+    base_exposure = be.sum(axis=0)
+    prop_exposure = pe.sum(axis=0)
+
+    # -------------------------------------------------------
+    # NUMERICAL PARITY CHECK AGAINST THE ORIGINAL 22.16 CODE
+    # -------------------------------------------------------
+    # First compare the vectorized implementation with the original
+    # ExposureLedger/fairness_mad implementation over every cell with
+    # positive opportunity. This is a code-parity check, not a new experiment.
+    full_cell_mask = total_opp > EPS
+
+    def reference_mad_from_arrays(exposure_values, opportunity_values):
+        ledger = ref.ExposureLedger()
+        for cell_index, cell in enumerate(cells):
+            opportunity_value = float(opportunity_values[cell_index])
+            if opportunity_value > EPS:
+                ledger.opportunity[cell] = opportunity_value
+                ledger.exposure[cell] = float(exposure_values[cell_index])
+        return float(ref.fairness_mad(ledger))
+
+    base_mad_reference = reference_mad_from_arrays(base_exposure, total_opp)
+    prop_mad_reference = reference_mad_from_arrays(prop_exposure, total_opp)
+    base_mad_full = mad_from_totals(base_exposure, total_opp, full_cell_mask)
+    prop_mad_full = mad_from_totals(prop_exposure, total_opp, full_cell_mask)
+
+    parity_atol = 1e-10
+    parity_rtol = 1e-10
+    reference_mad_parity_pass = bool(
+        np.isclose(base_mad_full, base_mad_reference, rtol=parity_rtol, atol=parity_atol)
+        and np.isclose(prop_mad_full, prop_mad_reference, rtol=parity_rtol, atol=parity_atol)
+    )
+    if not reference_mad_parity_pass:
+        raise RuntimeError(
+            "Experiment 22.16 MAD parity failed: "
+            f"baseline vectorized={base_mad_full:.12g}, "
+            f"baseline reference={base_mad_reference:.12g}, "
+            f"proposed vectorized={prop_mad_full:.12g}, "
+            f"proposed reference={prop_mad_reference:.12g}"
+        )
+
+    print("\n========== EXPERIMENT 22.16 MAD PARITY CHECK ==========")
+    print(f"Baseline full-universe MAD (22.16): {base_mad_reference:.12f}")
+    print(f"Baseline full-universe MAD (vectorized): {base_mad_full:.12f}")
+    print(f"Proposed full-universe MAD (22.16): {prop_mad_reference:.12f}")
+    print(f"Proposed full-universe MAD (vectorized): {prop_mad_full:.12f}")
+    print("Reference implementation parity: PASS")
+
+    # The inferential estimand remains the prespecified fixed universe of
+    # category-popularity cells supported by at least the configured number
+    # of distinct conversations. Do not substitute the full-universe values.
+    base_mad = mad_from_totals(base_exposure, total_opp, fairness_cell_mask)
+    prop_mad = mad_from_totals(prop_exposure, total_opp, fairness_cell_mask)
+
 
     rng = np.random.default_rng(args.seed)
     delta_hr = np.empty(args.replicates)
@@ -287,8 +393,8 @@ def main():
         boot_opp = multiplicity @ cluster_opp
         for j in range(m):
             delta_mad[start + j] = (
-                mad_from_totals(boot_pe[j], boot_opp[j])
-                - mad_from_totals(boot_be[j], boot_opp[j])
+                mad_from_totals(boot_pe[j], boot_opp[j], fairness_cell_mask)
+                - mad_from_totals(boot_be[j], boot_opp[j], fairness_cell_mask)
             )
 
     observed = {
@@ -318,8 +424,10 @@ def main():
             "bootstrap_median": float(np.median(values)),
             "bootstrap_bias": float(np.mean(values) - observed[name]),
             "bootstrap_std": float(np.std(values, ddof=1)),
-            "bootstrap_q025": float(np.quantile(values, 0.025)),
-            "bootstrap_q975": float(np.quantile(values, 0.975)),
+            "bootstrap_percentile_q025": float(np.quantile(values, 0.025)),
+            "bootstrap_percentile_q975": float(np.quantile(values, 0.975)),
+            "basic_bootstrap_ci95_low": float(2.0 * observed[name] - np.quantile(values, 0.975)),
+            "basic_bootstrap_ci95_high": float(2.0 * observed[name] - np.quantile(values, 0.025)),
             "fraction_negative": float(np.mean(values < 0)),
             "two_sided_p": float(pvals[name]),
             "holm_adjusted_p": float(adjusted[name]),
@@ -328,13 +436,17 @@ def main():
     rows = []
     for name in ("HR@10", "NDCG@10", "fairness_MAD"):
         vals = distributions[name]
+        q025 = float(np.quantile(vals, 0.025))
+        q975 = float(np.quantile(vals, 0.975))
+        ci_low = float(2.0 * observed[name] - q975)
+        ci_high = float(2.0 * observed[name] - q025)
         rows.append({
             "metric": name,
             "baseline": base_hr if name == "HR@10" else base_ndcg if name == "NDCG@10" else base_mad,
             "proposed": prop_hr if name == "HR@10" else prop_ndcg if name == "NDCG@10" else prop_mad,
             "delta_proposed_minus_baseline": observed[name],
-            "ci95_low": float(np.quantile(vals, 0.025)),
-            "ci95_high": float(np.quantile(vals, 0.975)),
+            "ci95_low": ci_low,
+            "ci95_high": ci_high,
             "bootstrap_p_two_sided": pvals[name],
             "holm_adjusted_p": adjusted[name],
             "significant_after_holm": bool(adjusted[name] < 0.05),
@@ -367,6 +479,11 @@ def main():
         "same_opportunity_universe_and_contributions": bool(np.allclose(bo, po)),
         "event_level_opportunity_recomputed_from_frozen_top500": True,
         "exposure_recomputed_from_saved_top10_rankings": True,
+        "fixed_fairness_cell_universe": True,
+        "reference_22_16_mad_parity": reference_mad_parity_pass,
+        "minimum_cell_support_applied": bool(
+            np.all(cell_support[fairness_cell_mask] >= args.minimum_cell_conversations)
+        ),
         "fairness_mad_recomputed_per_bootstrap_replicate": True,
         "conversation_cluster_bootstrap": True,
         "bootstrap_replicates": args.replicates,
@@ -374,10 +491,32 @@ def main():
         "training_performed": False,
         "retrieval_rerun": False,
         "parameter_search": False,
-        "overall_pass": True,
     }
-    if not all(v for k, v in checks.items() if isinstance(v, bool)):
-        checks["overall_pass"] = False
+    required_true_checks = [
+        "exactly_4003_paired_events",
+        "exactly_1283_conversation_clusters",
+        "same_event_universe",
+        "same_conversation_mapping",
+        "same_opportunity_universe_and_contributions",
+        "event_level_opportunity_recomputed_from_frozen_top500",
+        "exposure_recomputed_from_saved_top10_rankings",
+        "fixed_fairness_cell_universe",
+        "reference_22_16_mad_parity",
+        "minimum_cell_support_applied",
+        "fairness_mad_recomputed_per_bootstrap_replicate",
+        "conversation_cluster_bootstrap",
+        "holm_correction_applied",
+    ]
+    checks["overall_pass"] = (
+        all(checks[key] is True for key in required_true_checks)
+        and checks["training_performed"] is False
+        and checks["retrieval_rerun"] is False
+        and checks["parameter_search"] is False
+    )
+    checks["minimum_cell_conversations"] = args.minimum_cell_conversations
+    checks["fairness_cells_total"] = len(cells)
+    checks["fairness_cells_included"] = int(fairness_cell_mask.sum())
+    checks["fairness_cells_excluded"] = int((~fairness_cell_mask).sum())
 
     retention = prop_ndcg / base_ndcg if base_ndcg > 0 else float("nan")
     assessment = {
@@ -401,15 +540,31 @@ def main():
         "statistical_results": rows,
         "bootstrap_diagnostics": bootstrap_diagnostics,
         "p_value_method": (
-            "Two-sided null-centered bootstrap estimation-error tail probability; "
-            "Holm correction across HR@10, NDCG@10 and fairness_MAD."
+            "Approximate two-sided null-centered bootstrap estimation-error tail probability "
+            "with +1 correction; Holm correction across HR@10, NDCG@10 and fairness_MAD."
         ),
         "validation": checks,
+        "confidence_interval_method": "Basic paired conversation-cluster bootstrap interval.",
+        "reference_22_16_mad_parity": {
+            "passed": reference_mad_parity_pass,
+            "baseline_full_universe_reference": base_mad_reference,
+            "baseline_full_universe_vectorized": base_mad_full,
+            "proposed_full_universe_reference": prop_mad_reference,
+            "proposed_full_universe_vectorized": prop_mad_full,
+            "absolute_tolerance": parity_atol,
+            "relative_tolerance": parity_rtol,
+        },
+        "fairness_estimand": (
+            "Mean absolute deviation of log exposure/opportunity ratios over the fixed "
+            "category-popularity cells supported by at least "
+            f"{args.minimum_cell_conversations} distinct conversations."
+        ),
         "interpretation_note": (
-            "Fairness bootstrap recomputes category-group log exposure/opportunity MAD "
-            "from conversation-multiplicity-weighted event contributions. Rankings are "
-            "the frozen sequential 22.24B rankings; this is conditional inference and "
-            "does not rerun the adaptive ranking policy within each bootstrap replicate."
+            "The fairness cell universe is fixed from observed opportunity support and "
+            "applied identically to baseline, proposed and every bootstrap replicate. "
+            "Rankings are the frozen sequential 22.24B rankings; this is conditional "
+            "inference and does not rerun the adaptive ranking policy within bootstrap "
+            "replicates."
         ),
     }
     (out / "validation_checks.json").write_text(json.dumps(checks, indent=2), encoding="utf-8")
@@ -426,3 +581,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

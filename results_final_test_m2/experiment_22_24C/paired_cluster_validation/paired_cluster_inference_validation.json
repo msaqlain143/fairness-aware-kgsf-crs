@@ -1,0 +1,217 @@
+{
+  "experiment": "22.24C_paired_cluster_inference_validation",
+  "diagnostic_only": true,
+  "events": 4003,
+  "conversations": 1283,
+  "fairness_cells_total": 112,
+  "fairness_cells_included": 106,
+  "minimum_cell_conversation_support": 20,
+  "cluster_size": {
+    "mean": 3.1200311769290723,
+    "median": 3.0,
+    "sd": 1.4729795116609568,
+    "min": 1,
+    "max": 12,
+    "single_event_conversations": 145,
+    "multi_event_conversations": 1138,
+    "frequency": {
+      "1": 145,
+      "2": 304,
+      "3": 409,
+      "4": 241,
+      "5": 105,
+      "6": 51,
+      "7": 12,
+      "8": 8,
+      "9": 4,
+      "10": 2,
+      "12": 2
+    }
+  },
+  "observed_deltas": {
+    "HR@10": -0.0004996252810392232,
+    "NDCG@10": -0.00037364422163724265,
+    "fairness_MAD": -5.182257040803613
+  },
+  "bootstrap_archive_reproduction": {
+    "HR@10": {
+      "archive_shape": [
+        10000
+      ],
+      "regenerated_shape": [
+        10000
+      ],
+      "same_shape": true,
+      "max_absolute_difference": 0.0,
+      "exact_match": true,
+      "allclose": true
+    },
+    "NDCG@10": {
+      "archive_shape": [
+        10000
+      ],
+      "regenerated_shape": [
+        10000
+      ],
+      "same_shape": true,
+      "max_absolute_difference": 0.0,
+      "exact_match": true,
+      "allclose": true
+    },
+    "fairness_MAD": {
+      "archive_shape": [
+        10000
+      ],
+      "regenerated_shape": [
+        10000
+      ],
+      "same_shape": true,
+      "max_absolute_difference": 0.0,
+      "exact_match": true,
+      "allclose": true
+    }
+  },
+  "bootstrap_distribution_summaries": [
+    {
+      "metric": "HR@10",
+      "n_bootstrap": 10000,
+      "observed_delta": -0.0004996252810392232,
+      "bootstrap_mean": -0.00048369033256865615,
+      "bootstrap_median": -0.0004986287708800798,
+      "bootstrap_bias_mean_minus_observed": 1.593494847056706e-05,
+      "bootstrap_sd": 0.0007047257268717004,
+      "bootstrap_skewness": -0.04462796447676626,
+      "fraction_below_zero": 0.6937,
+      "fraction_above_zero": 0.1906,
+      "percentile_ci95_low": -0.0019328924610940593,
+      "percentile_ci95_high": 0.0009823363772565675,
+      "basic_ci95_low": -0.001981586939335014,
+      "basic_ci95_high": 0.0009336418990156129,
+      "bca": {
+        "available": true,
+        "low": -0.001987083954297069,
+        "high": 0.0007601179961648045,
+        "z0": -0.025570394640762426,
+        "acceleration": -0.014322617378725977,
+        "adjusted_quantiles": [
+          0.01926261805891527,
+          0.9683212619256378
+        ]
+      },
+      "q001": -0.0027672962938344522,
+      "q01": -0.002203182374541004,
+      "q05": -0.00171612792997928,
+      "q50": -0.0004986287708800798,
+      "q95": 0.0007431352899456045,
+      "q99": 0.00123214013179703,
+      "q999": 0.0015296117536181943
+    },
+    {
+      "metric": "NDCG@10",
+      "n_bootstrap": 10000,
+      "observed_delta": -0.00037364422163724265,
+      "bootstrap_mean": -0.0003682496011449682,
+      "bootstrap_median": -0.0003888020682364969,
+      "bootstrap_bias_mean_minus_observed": 5.39462049227446e-06,
+      "bootstrap_sd": 0.0003472279183918049,
+      "bootstrap_skewness": 0.43357374962074496,
+      "fraction_below_zero": 0.8585,
+      "fraction_above_zero": 0.1415,
+      "percentile_ci95_low": -0.0009868166716160056,
+      "percentile_ci95_high": 0.00038458709198975103,
+      "basic_ci95_low": -0.0011318755352642362,
+      "basic_ci95_high": 0.0002395282283415203,
+      "bca": {
+        "available": true,
+        "low": -0.0008986476663621862,
+        "high": 0.0005553044123754705,
+        "z0": 0.05291453922441612,
+        "acceleration": 0.055467241686308094,
+        "adjusted_quantiles": [
+          0.04729109611889104,
+          0.9897963408617432
+        ]
+      },
+      "q001": -0.0012836103170963656,
+      "q01": -0.0010853892842154218,
+      "q05": -0.0008931991456077209,
+      "q50": -0.0003888020682364969,
+      "q95": 0.00023498241743826544,
+      "q99": 0.0005594859620673889,
+      "q999": 0.0009523500154036638
+    },
+    {
+      "metric": "fairness_MAD",
+      "n_bootstrap": 10000,
+      "observed_delta": -5.182257040803613,
+      "bootstrap_mean": -2.9882110098629022,
+      "bootstrap_median": -3.02010004384603,
+      "bootstrap_bias_mean_minus_observed": 2.1940460309407106,
+      "bootstrap_sd": 0.8309362191637912,
+      "bootstrap_skewness": 0.23648660832423293,
+      "fraction_below_zero": 0.999,
+      "fraction_above_zero": 0.001,
+      "percentile_ci95_low": -4.531367992026296,
+      "percentile_ci95_high": -1.3157301556693193,
+      "basic_ci95_low": -9.048783925937906,
+      "basic_ci95_high": -5.8331460895809295,
+      "bca": {
+        "available": true,
+        "low": -5.255436263609985,
+        "high": -5.2553190100419345,
+        "z0": -3.090232306167813,
+        "acceleration": -0.06183862786845044,
+        "adjusted_quantiles": [
+          0.0,
+          8.332843500713505e-06
+        ]
+      },
+      "q001": -5.160986393203024,
+      "q01": -4.736842315260176,
+      "q05": -4.297527682002628,
+      "q50": -3.02010004384603,
+      "q95": -1.5739473416614798,
+      "q99": -0.9709962895792291,
+      "q999": -0.003590742887262433
+    }
+  ],
+  "fairness_bootstrap_discrepancy": {
+    "observed_fairness_delta": -5.182257040803613,
+    "bootstrap_mean": -2.9882110098629022,
+    "bootstrap_mean_minus_observed": 2.1940460309407106,
+    "bootstrap_median": -3.02010004384603,
+    "bootstrap_skewness": 0.23648660832423293,
+    "explanation": "Fairness MAD is a nonlinear function of aggregate exposure divided by aggregate opportunity, followed by a mean absolute deviation across cells. The expectation of this nonlinear statistic under cluster resampling need not equal its value at the observed aggregate totals. The discrepancy is therefore a bootstrap bias/curvature diagnostic, not by itself evidence of a coding error. It must be interpreted alongside exact archive reproduction and the jackknife."
+  },
+  "paired_cluster_swap_sensitivity": {
+    "results_file": "paired_cluster_swap_sensitivity.csv",
+    "confirmatory": false,
+    "reason": "The 22.24B comparison is not a randomized treatment assignment. In addition, the proposed ranking policy uses a global sequential ledger, so independent cluster exchangeability is not established."
+  },
+  "sequential_policy_audit": {
+    "checks": {
+      "events_iterated_in_sorted_event_id_order": true,
+      "proposed_ledger_created_once_before_event_loop": true,
+      "contextual_reranker_receives_proposed_ledger": true,
+      "proposed_ledger_updated_inside_event_loop": true,
+      "gate_source_mentions_ledger_state": true,
+      "contextual_gate_rerank_has_ledger_parameter": true,
+      "contextual_gate_rerank_body_references_ledger": true
+    },
+    "sequential_global_ledger_detected": true,
+    "interpretation": "The proposed policy is stateful across the sorted event stream. A conversation's frozen proposed outcomes may depend on preceding events from other conversations. Ordinary independent-cluster bootstrap/permutation assumptions therefore do not automatically hold for policy-level inference."
+  },
+  "inference_conclusion": {
+    "conversation_bootstrap": "Conditional on frozen event rankings; its policy-level validity is not established because the sequential global ledger couples outcomes across conversations.",
+    "paired_cluster_permutation": "Not defensible as confirmatory policy-level inference from these frozen outputs alone. The computed cluster-swap result is a sensitivity diagnostic only.",
+    "holm_adjustment": "Not applied to exploratory permutation values. Multiplicity correction cannot repair invalid exchangeability assumptions.",
+    "policy_level_uncertainty": "Cannot be recovered from frozen rankings alone without modeling or rerunning the sequential policy under alternative sequences; that is outside this diagnostic and is not performed."
+  },
+  "prohibited_actions_performed": {
+    "training": false,
+    "retrieval_rerun": false,
+    "ranking_policy_rerun": false,
+    "independent_test_rerun": false,
+    "original_outputs_overwritten": false
+  }
+}

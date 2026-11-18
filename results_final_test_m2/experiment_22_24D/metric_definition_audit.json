@@ -1,0 +1,56 @@
+{
+  "experiment": "22.24D_fairness_estimand_alignment_audit",
+  "read_only": true,
+  "training_performed": false,
+  "retrieval_performed": false,
+  "ranking_changes": false,
+  "independent_test_rerun": false,
+  "sample": {
+    "events": 4003,
+    "conversations": 1283,
+    "category_group_cells": 112
+  },
+  "track_A_22_16_22_24C": {
+    "exposure": "Top-10 DCG position weight 1/log2(rank+2), split across verified genres (legacy 22.16 ledger)",
+    "opportunity": "normalized Top-500 DCG weights, split across verified genres",
+    "metric": "mean absolute deviation of log((exposure+eps)/(opportunity+eps))",
+    "22_24B_all_positive_opportunity": {
+      "cells": 112,
+      "baseline_log_rate_MAD": 13.246715275917113,
+      "proposed_log_rate_MAD": 9.376412845120692,
+      "reduction_percent": 29.21707268693799
+    },
+    "22_24C_fixed_support": {
+      "minimum_distinct_conversations": 20,
+      "cells": 106,
+      "baseline_log_rate_MAD": 13.543844543596029,
+      "proposed_log_rate_MAD": 8.361587502792416,
+      "reduction_percent": 38.262821343840315,
+      "matches_38_26_percent_within_0_05pp": true
+    }
+  },
+  "track_B_proposal_eq_21_to_25": {
+    "q_input": {
+      "status": "UNAVAILABLE",
+      "reason": "No event-item q[e,i] file supplied."
+    },
+    "category_weight_source": "equal-category sensitivity convention (not specified by proposal)",
+    "baseline": "UNAVAILABLE: event-item contextual relevance q[e,i] is missing.",
+    "proposed": "UNAVAILABLE: event-item contextual relevance q[e,i] is missing.",
+    "exact_proposal_estimand_identifiable": false,
+    "limitations": [
+      "Frozen 22.24B event outputs do not contain event-item contextual relevance q[e,i].",
+      "KG rank/confidence and candidate-pool category prevalence are not substitutes for semantic dialogue relevance.",
+      "Proposal Eq. (21)-(22) use binary multi-label membership without dividing contributions by the number of categories; this differs from the legacy 22.16 ledger.",
+      "The proposal does not numerically specify omega_c or the minimum relevance-support threshold; these must be reported as analysis choices."
+    ]
+  },
+  "interpretation": "Track A opportunity-normalized log-rate MAD and Track B relevance-normalized within-category weighted variance are different estimands.",
+  "outputs": [
+    "metric_definition_audit.json",
+    "event_opportunity_reconstruction.csv",
+    "conversation_exposure_reconstruction.csv",
+    "category_group_estimand_comparison.csv",
+    "estimand_alignment_report.txt"
+  ]
+}

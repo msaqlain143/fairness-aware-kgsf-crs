@@ -1,0 +1,58 @@
+{
+  "experiment": "22.24C_bootstrap_bias_decomposition",
+  "diagnostic_only": true,
+  "events": 4003,
+  "conversations": 1283,
+  "fairness_cells_total": 112,
+  "fairness_cells_included": 106,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20261115,
+  "bootstrap_exact_reproduction": true,
+  "bootstrap_max_absolute_difference": 0.0,
+  "observed": {
+    "baseline_MAD": 13.543844543596029,
+    "proposed_MAD": 8.361587502792416,
+    "delta_MAD": -5.182257040803613
+  },
+  "bootstrap": {
+    "baseline_mean": 13.225549307488068,
+    "proposed_mean": 10.237338297625165,
+    "delta_mean": -2.9882110098629022,
+    "baseline_shift": -0.31829523610796073,
+    "proposed_shift": 1.875750794832749,
+    "delta_shift": 2.1940460309407106,
+    "decomposition_identity_pass": true,
+    "delta_standard_deviation": 0.8309362191637912,
+    "delta_q025": -4.531367992026296,
+    "delta_median": -3.02010004384603,
+    "delta_q975": -1.3157301556693193
+  },
+  "conversation_influence": {
+    "maximum_absolute_influence": 0.6737633181652267,
+    "median_absolute_influence": 0.0001275078631515214,
+    "top_1_percent_share_of_absolute_influence": 0.8894025097245445,
+    "top_5_percent_share_of_absolute_influence": 0.9431656116843014,
+    "largest_influence_conversation": 21333
+  },
+  "alternative_weighting": {
+    "equal_conversation_weighted_sensitivity": true,
+    "is_primary_estimand": false,
+    "bootstrap_mean_delta": -2.8744897140330594,
+    "bootstrap_sd": 0.7926128999005946
+  },
+  "limitations": [
+    "This audit conditions on frozen sequential rankings.",
+    "Conversation deletion measures influence on the aggregate statistic, not causal effects.",
+    "Equal-conversation normalization defines a different sensitivity estimand.",
+    "This diagnostic does not establish policy-level statistical significance.",
+    "The global sequential exposure ledger remains a source of cross-conversation dependence."
+  ],
+  "preservation": {
+    "training_performed": false,
+    "retrieval_performed": false,
+    "ranking_policy_modified": false,
+    "independent_test_rerun": false,
+    "original_22_24B_outputs_modified": false,
+    "original_22_24C_outputs_modified": false
+  }
+}
