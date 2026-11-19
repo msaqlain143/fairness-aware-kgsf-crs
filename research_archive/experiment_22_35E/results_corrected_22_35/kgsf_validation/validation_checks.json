@@ -1,0 +1,27 @@
+{
+  "split": "validation",
+  "events": 3010,
+  "unique_event_ids": true,
+  "unique_conversations": 883,
+  "manifest_target_sequence_matches_native_validation_loader": true,
+  "manifest_source_record_indices_valid": true,
+  "all_source_records_are_recommender": true,
+  "raw_processed_validation_role_alignment": true,
+  "manifest_conversation_matches_source_record": true,
+  "all_manifest_targets_present_in_source_record_items": true,
+  "strict_checkpoint_load": true,
+  "official_catalog_order_matches": true,
+  "catalog_movies": 6924,
+  "full_score_matrix_shape": [
+    3010,
+    6924
+  ],
+  "all_scores_finite": true,
+  "top_k": 500,
+  "all_topk_rows_have_expected_length": true,
+  "targets_in_official_catalog": true,
+  "training_performed": false,
+  "parameter_search_performed": false,
+  "independent_test_evaluated": false,
+  "overall_pass": true
+}

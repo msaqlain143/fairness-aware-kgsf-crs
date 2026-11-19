@@ -1,0 +1,23 @@
+{
+  "experiment": "22.35A_kgsf_validation_export",
+  "split": "validation",
+  "events": 3010,
+  "unique_conversations": 883,
+  "catalog_movies": 6924,
+  "score_matrix_shape": [
+    3010,
+    6924
+  ],
+  "top_k": 500,
+  "target_rank_hit10_diagnostic": 0.2016611295681063,
+  "target_rank_hit50_diagnostic": 0.412624584717608,
+  "training_performed": false,
+  "parameter_search_performed": false,
+  "independent_test_evaluated": false,
+  "files": {
+    "full_scores": "results_corrected\\experiment_22_35\\kgsf_validation\\kgsf_validation_full_scores.npz",
+    "top_candidates": "results_corrected\\experiment_22_35\\kgsf_validation\\kgsf_validation_top500.csv",
+    "event_manifest": "results_corrected\\experiment_22_35\\kgsf_validation\\kgsf_validation_event_manifest.csv",
+    "validation_checks": "results_corrected\\experiment_22_35\\kgsf_validation\\validation_checks.json"
+  }
+}

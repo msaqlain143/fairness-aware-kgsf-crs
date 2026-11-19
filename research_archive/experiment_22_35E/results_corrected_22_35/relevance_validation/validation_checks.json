@@ -1,0 +1,15 @@
+{
+  "expected_events": true,
+  "expected_unique_conversations": true,
+  "expected_candidate_rows_per_variant": 1505000,
+  "both_graph_variants_exported": true,
+  "event_normalization_all_variants": true,
+  "unsupported_kg_confidence_zero_all_variants": true,
+  "candidate_alignment_all_variants": true,
+  "score_alignment_all_variants": true,
+  "training_performed": false,
+  "retrieval_performed": false,
+  "target_used_to_construct_q": false,
+  "independent_test_evaluated": false,
+  "overall_pass": true
+}
