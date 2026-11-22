@@ -1,8 +1,8 @@
 # KG-FairCRS — Milestone 22.35M
 ## Formal specification, proof obligations, verified properties, and controlled next experiments
 
-**Status:** Implementation-aligned mathematical audit complete for the inspected source snapshots; the theoretical guarantees below are conditional, not a proof that the full algorithm optimizes its fairness objective.  
-**Source basis:** archived `22_35F_validated_fairness_evaluation.py` and `22_35J_integrated_kg_faircrs_independent_test.py` plus ReDial results previously reported in the project.  
+**Status:** Implementation-aligned mathematical audit complete for the inspected source snapshots; the theoretical guarantees below are conditional, not a proof that the full algorithm optimizes its fairness objective.
+**Source basis:** archived `22_35F_validated_fairness_evaluation.py` and `22_35J_integrated_kg_faircrs_independent_test.py` plus ReDial results previously reported in the project.
 **Date:** 22 November 2026
 
 ### 1. Executive finding
