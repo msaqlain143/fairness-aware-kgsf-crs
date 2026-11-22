@@ -1,0 +1,12 @@
+{
+  "proposal_q": "UNAVAILABLE_AS_VALIDATED_CONTEXTUAL_RELEVANCE",
+  "R_cg": "NOT_IDENTIFIABLE",
+  "L_fair": "NOT_IDENTIFIABLE",
+  "leakage": "NOT_ASSESSED",
+  "read_only": true,
+  "training": false,
+  "retrieval": false,
+  "ranking_changes": false,
+  "target_assisted_relevance": false,
+  "decision": "IMPLEMENT_MINIMUM_MISSING_RELEVANCE_COMPONENT"
+}

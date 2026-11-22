@@ -1,0 +1,96 @@
+{
+  "experiment": "22.24C_event_level_reconstruction_audit",
+  "diagnostic_only": true,
+  "cluster_size_summary": {
+    "events": 4003,
+    "conversations": 1283,
+    "mean_events_per_conversation": 3.1200311769290723,
+    "median_events_per_conversation": 3.0,
+    "sd_events_per_conversation": 1.4729795116609568,
+    "min_events_per_conversation": 1,
+    "max_events_per_conversation": 12,
+    "single_event_conversations": 145,
+    "multi_event_conversations": 1138,
+    "event_count_frequency": {
+      "1": 145,
+      "2": 304,
+      "3": 409,
+      "4": 241,
+      "5": 105,
+      "6": 51,
+      "7": 12,
+      "8": 8,
+      "9": 4,
+      "10": 2,
+      "12": 2
+    }
+  },
+  "fairness_cells_total": 112,
+  "fairness_cells_included_at_support_20": 106,
+  "fairness_cells_excluded": 6,
+  "fairness_reconciliation": [
+    {
+      "estimand": "22.24B_all_positive_opportunity_cells",
+      "baseline_reconstructed_MAD": 13.246715275917113,
+      "proposed_reconstructed_MAD": 9.376412845120692,
+      "baseline_22_16_ledger_MAD": 13.246715275917111,
+      "proposed_22_16_ledger_MAD": 9.376412845120692,
+      "baseline_saved_22_24B_MAD": 13.246715275917111,
+      "proposed_saved_22_24B_MAD": 9.376412845120692,
+      "cells": 112,
+      "fairness_reduction_percent": 29.21707268693799,
+      "vectorized_matches_ledger": true,
+      "ledger_matches_saved_22_24B": true
+    },
+    {
+      "estimand": "22.24C_fixed_cells_support_ge_20_conversations",
+      "baseline_reconstructed_MAD": 13.543844543596029,
+      "proposed_reconstructed_MAD": 8.361587502792416,
+      "baseline_22_16_ledger_MAD": null,
+      "proposed_22_16_ledger_MAD": null,
+      "baseline_saved_22_24B_MAD": null,
+      "proposed_saved_22_24B_MAD": null,
+      "cells": 106,
+      "fairness_reduction_percent": 38.262821343840315,
+      "vectorized_matches_ledger": null,
+      "ledger_matches_saved_22_24B": null
+    }
+  ],
+  "utility_reconciliation": {
+    "baseline_HR10_reconstructed": 0.17037222083437423,
+    "baseline_HR10_saved": 0.1703722208343742,
+    "proposed_HR10_reconstructed": 0.169872595553335,
+    "proposed_HR10_saved": 0.169872595553335,
+    "baseline_NDCG10_reconstructed": 0.09204142202380365,
+    "baseline_NDCG10_saved": 0.0920414220238036,
+    "proposed_NDCG10_reconstructed": 0.09166777780216641,
+    "proposed_NDCG10_saved": 0.0916677778021664,
+    "all_utility_metrics_match": true
+  },
+  "validation": {
+    "events_4003": true,
+    "conversations_1283": true,
+    "event_ids_match": true,
+    "conversation_mapping_matches": true,
+    "target_mapping_matches": true,
+    "all_top10_and_top500_lengths_valid": true,
+    "all_group_labels_match_catalog": true,
+    "same_opportunity_contributions": true,
+    "112_cells_reconstructed": true,
+    "106_cells_meet_support_20": true,
+    "22_16_ledger_parity": true,
+    "22_24B_fairness_reconciliation": true,
+    "22_24B_utility_reconciliation": true,
+    "training_performed": false,
+    "retrieval_rerun": false,
+    "ranking_policy_modified": false,
+    "independent_test_rerun": false,
+    "overall_pass": true
+  },
+  "interpretation": {
+    "22_24B": "MAD across all category-group cells with positive Top-500 opportunity.",
+    "22_24C": "MAD across the fixed subset supported by at least 20 distinct conversations.",
+    "warning": "22.24B and 22.24C fairness MAD values are different estimands.",
+    "scope": "This reconstructs point estimates and cluster structure; it does not compute a new null-test p-value or rerun the bootstrap."
+  }
+}

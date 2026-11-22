@@ -1,0 +1,7 @@
+{
+  "candidate_instances": 2001500,
+  "category_supported_candidate_instances": 100909,
+  "candidate_category_coverage": 0.05041668748438671,
+  "unique_test_conversations": 1283,
+  "test_events": 4003
+}

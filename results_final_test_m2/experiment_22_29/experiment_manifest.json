@@ -1,0 +1,26 @@
+{
+  "experiment": "22.29_core_relevance_objective_validation",
+  "read_only": true,
+  "training": false,
+  "retrieval": false,
+  "ranking_changes": false,
+  "target_assisted_relevance": false,
+  "frozen_inputs": [
+    "results_final_test_m2\\experiment_22_27A\\kgsf_independent_test_top500.csv",
+    "results_final_test_m2\\experiment_22_27A2\\kgsf_independent_test_kg_ranks.csv",
+    "results_final_test_m2\\m2_test_event_conversation_mapping.csv",
+    "results_final_test_m2\\experiment_22_28"
+  ],
+  "integrity": {
+    "events": 4003,
+    "expected_events": 4003,
+    "unique_events": 4003,
+    "conversations": 1283,
+    "expected_conversations": 1283,
+    "event_count_pass": true,
+    "unique_event_pass": true,
+    "conversation_count_pass": true,
+    "candidate_pool_expected": 500
+  },
+  "decision": "IMPLEMENT_MINIMUM_MISSING_RELEVANCE_COMPONENT"
+}

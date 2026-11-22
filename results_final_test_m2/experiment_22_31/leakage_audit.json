@@ -1,0 +1,14 @@
+{
+  "target_movie_id_present_in_input": true,
+  "target_movie_id_used_to_construct_q": false,
+  "future_dialogue_used": false,
+  "training_performed": false,
+  "retrieval_performed": false,
+  "ranking_changed": false,
+  "parameter_optimization_on_independent_test": false,
+  "q_source": [
+    "frozen KGSF event-time scores",
+    "frozen KG evidence"
+  ],
+  "leakage_status": "NO_TARGET_OR_FUTURE_CONTEXT_USED"
+}

@@ -1,0 +1,37 @@
+EXPERIMENT 22.24D — FAIRNESS ESTIMAND ALIGNMENT REPORT
+================================================================
+
+Events: 4003
+Conversations: 1283
+Category-group cells: 112
+22.24B positive-opportunity cells: 112
+22.24C cells with >= 20 conversations: 106
+
+TRACK A — EXISTING IMPLEMENTATION
+22.24B all-positive-opportunity estimand:
+  Baseline MAD: 13.2467152759
+  Proposed MAD: 9.37641284512
+  Reduction: 29.217073%
+22.24C fixed-support estimand:
+  Baseline MAD: 13.5438445436
+  Proposed MAD: 8.36158750279
+  Reduction: 38.262821%
+  Matches 38.26% within 0.05 pp: True
+
+TRACK B — PROPOSAL EQUATIONS (21)-(25)
+q[e,i] status: UNAVAILABLE
+Baseline L_fair: UNAVAILABLE: event-item contextual relevance q[e,i] is missing.
+Proposed L_fair: UNAVAILABLE: event-item contextual relevance q[e,i] is missing.
+Category weights: equal-category sensitivity convention (not specified by proposal)
+
+SCIENTIFIC INTERPRETATION
+The existing metric is opportunity-normalized log-rate MAD.
+The proposal metric is relevance-normalized, within-category weighted variance.
+Track B follows the proposal's binary multi-label A_ic membership; unlike the legacy
+22.16 ledger, it does not divide an item's q or exposure contribution by its genre count.
+They are not interchangeable. Without q[e,i], the proposal objective cannot be
+identified from the frozen 22.24B outputs. Do not substitute KG rank/confidence
+or category prevalence for dialogue-semantic relevance.
+
+READ-ONLY GUARANTEES
+No training, retrieval, parameter search, ranking changes, or test rerun.

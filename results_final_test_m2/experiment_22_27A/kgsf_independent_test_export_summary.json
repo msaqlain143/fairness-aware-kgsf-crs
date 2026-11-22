@@ -1,0 +1,23 @@
+{
+  "experiment": "22_27A_kgsf_independent_test_export",
+  "split": "independent_test",
+  "events": 4003,
+  "unique_conversations": 1283,
+  "catalog_movies": 6924,
+  "score_matrix_shape": [
+    4003,
+    6924
+  ],
+  "top_k": 500,
+  "target_rank_hit10_diagnostic": 0.16962278291281538,
+  "target_rank_hit50_diagnostic": 0.35323507369472895,
+  "test_split_evaluated": true,
+  "training_performed": false,
+  "parameter_search_performed": false,
+  "files": {
+    "full_scores": "results_final_test_m2\\experiment_22_27A\\kgsf_independent_test_full_scores.npz",
+    "top_candidates": "results_final_test_m2\\experiment_22_27A\\kgsf_independent_test_top500.csv",
+    "event_manifest": "results_final_test_m2\\experiment_22_27A\\kgsf_independent_test_event_manifest.csv",
+    "validation": "results_final_test_m2\\experiment_22_27A\\validation_checks.json"
+  }
+}

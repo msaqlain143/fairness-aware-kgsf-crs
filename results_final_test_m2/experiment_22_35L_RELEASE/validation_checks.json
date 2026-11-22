@@ -1,0 +1,15 @@
+{
+  "experiment": "22.35L_final_evaluation_and_reproducibility_freeze",
+  "source_22_35F_G_H_J_validations_pass": true,
+  "independent_test_events_4003": true,
+  "independent_test_conversations_1283": true,
+  "five_expected_system_variants_present": true,
+  "category_objective_reconstruction_matches_22_35J": true,
+  "category_count_19_for_all_configurations": true,
+  "R0_primary_R1_sensitivity_only": true,
+  "no_training_retrieval_reranking_or_retuning_performed": true,
+  "independent_test_fairness_inference_claimed": false,
+  "historical_test_exposure_disclosed": true,
+  "category_regressions_reported": true,
+  "overall_pass": true
+}

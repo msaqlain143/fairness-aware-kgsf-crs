@@ -1,0 +1,89 @@
+{
+  "experiment": "22.25_independent_test_component_ablation",
+  "split": "independent_test",
+  "events": 4003,
+  "conversations": 1283,
+  "lambda": 0.4,
+  "tau": 250.0,
+  "kg_graph": "R1_raw",
+  "results": [
+    {
+      "method": "A0_KBRD_baseline",
+      "events": 4003,
+      "conversations": 1283,
+      "HR@10": 0.17037222083437423,
+      "NDCG@10": 0.09204142202380365,
+      "category_group_log_rate_MAD": 13.246715275917111,
+      "mean_eligible_candidates": 0.0,
+      "mean_top10_moved_positions": 0.0,
+      "catalog_coverage_top10": 967
+    },
+    {
+      "method": "A1_no_category_context",
+      "events": 4003,
+      "conversations": 1283,
+      "HR@10": 0.169872595553335,
+      "NDCG@10": 0.09171260513922501,
+      "category_group_log_rate_MAD": 9.643534644284264,
+      "mean_eligible_candidates": 4.357481888583562,
+      "mean_top10_moved_positions": 0.7469397951536347,
+      "catalog_coverage_top10": 1022
+    },
+    {
+      "method": "A2_no_KG_evidence",
+      "events": 4003,
+      "conversations": 1283,
+      "HR@10": 0.1701224081938546,
+      "NDCG@10": 0.09200224560719407,
+      "category_group_log_rate_MAD": 8.664587324763184,
+      "mean_eligible_candidates": 27.954034474144393,
+      "mean_top10_moved_positions": 0.8670996752435673,
+      "catalog_coverage_top10": 1050
+    },
+    {
+      "method": "A3_no_adaptive_exposure_deficit",
+      "events": 4003,
+      "conversations": 1283,
+      "HR@10": 0.16462653010242317,
+      "NDCG@10": 0.08747143629540784,
+      "category_group_log_rate_MAD": 11.62030106818539,
+      "mean_eligible_candidates": 4.357481888583562,
+      "mean_top10_moved_positions": 3.5668248813389956,
+      "catalog_coverage_top10": 999
+    },
+    {
+      "method": "A4_full_KG_FairCRS",
+      "events": 4003,
+      "conversations": 1283,
+      "HR@10": 0.169872595553335,
+      "NDCG@10": 0.09166777780216641,
+      "category_group_log_rate_MAD": 9.376412845120692,
+      "mean_eligible_candidates": 0.0,
+      "mean_top10_moved_positions": 0.0,
+      "catalog_coverage_top10": 1025
+    }
+  ],
+  "component_definitions": {
+    "A1": "removes candidate-pool category-context modulation",
+    "A2": "removes KG rank evidence gating",
+    "A3": "removes category-group exposure-deficit weighting",
+    "A4": "complete KG-FairCRS"
+  },
+  "interpretation_limit": "Category-conditioned deficit calculation and adaptive ledger updates are coupled in this implementation; A3 ablates their combined contribution, not each sub-operation separately. Diagnostic counters are normalized across ranker implementations; zero denotes unavailable native diagnostics, not zero mechanism activity.",
+  "training_performed": false,
+  "retrieval_rerun": false,
+  "parameter_search_performed": false,
+  "validation": {
+    "events_4003": true,
+    "conversations_1283": true,
+    "same_event_universe_all_methods": true,
+    "same_top500_candidate_pools": true,
+    "separate_sequential_ledger_per_method": true,
+    "R1_raw_kg_ranks": true,
+    "frozen_validation_parameters": true,
+    "no_training": true,
+    "no_retrieval_rerun": true,
+    "no_test_tuning": true,
+    "overall_pass": true
+  }
+}

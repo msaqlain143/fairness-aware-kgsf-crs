@@ -1,0 +1,39 @@
+{
+  "audit": "22.24C_final_inference_audit",
+  "inputs": {
+    "bootstrap_npz": "results_final_test_m2\\experiment_22_24C\\bootstrap_distributions.npz",
+    "assessment_json": "results_final_test_m2\\experiment_22_24C\\final_research_assessment.json",
+    "baseline_events_csv": null,
+    "proposed_events_csv": null,
+    "jackknife_csv": null
+  },
+  "frozen_experiment_preserved": true,
+  "training_performed": false,
+  "retrieval_rerun": false,
+  "ranking_policy_modified": false,
+  "bootstrap_replicates": 10000,
+  "fairness_observed_delta": -5.182257040803613,
+  "fairness_reduction_percent_from_original_assessment": 38.262821343840315,
+  "fairness_bootstrap_mean": -2.9882110098629022,
+  "fairness_bootstrap_bias": 2.1940460309407106,
+  "fairness_bootstrap_sd": 0.8309362191637912,
+  "fairness_percentile_ci95": [
+    -4.531367992026296,
+    -1.3157301556693193
+  ],
+  "fairness_basic_ci95": [
+    -9.048783925937906,
+    -5.8331460895809295
+  ],
+  "fairness_bca_ci95": null,
+  "cluster_size_diagnostics": "Not supplied: cluster sizes cannot be reconstructed.",
+  "null_tests": "Not computed: saved bootstrap distribution is not a null distribution.",
+  "holm": "Not computed: Holm requires valid raw p-values from defensible null tests.",
+  "interpretation": "The bootstrap mean's displacement from the observed fairness effect is a diagnostic warning about bias/nonlinearity or estimand mismatch. It does not by itself invalidate the observed point estimate, nor does a percentile/basic interval or bootstrap sign fraction establish a null-hypothesis significance result. BCa requires delete-one-cluster jackknife estimates of the same fairness estimator.",
+  "next_required_for_final_significance": [
+    "Reconstruct cluster-level sufficient contributions from the frozen event files.",
+    "Compute a delete-one-conversation jackknife of the exact fairness delta.",
+    "Specify a valid paired null procedure (e.g. conversation-level paired randomization/permutation, if exchangeability is justified).",
+    "Recompute raw p-values and apply Holm across the prespecified family."
+  ]
+}

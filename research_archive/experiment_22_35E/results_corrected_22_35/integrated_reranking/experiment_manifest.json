@@ -1,0 +1,196 @@
+{
+  "experiment": "22.35E_integrated_kg_faircrs_reranking",
+  "split": "validation_only",
+  "events": 3010,
+  "conversations": 883,
+  "warm_conversations": 530,
+  "tuning_conversations": 177,
+  "heldout_conversations": 176,
+  "primary_variant": "R0_filtered",
+  "sensitivity_variant": "R1_raw",
+  "systems": [
+    "A0_KGSF",
+    "A1_22_16",
+    "A2_22_18",
+    "A3_KG_FairCRS"
+  ],
+  "reused_implementations": {
+    "22_16": "22_16_category_context_utility_calibration.py",
+    "22_18": "22_18_contextual_relevance_gate_validation.py"
+  },
+  "proposal_objective": "L_fair = sum_c omega_c sum_g p_cg (rho_cg-rho_bar_c)^2; uniform omega over active categories",
+  "R_cg": "sum_e sum_i q_ei A_ic I(g(i)=g) I(i in I_e)",
+  "E_cg": "sum_e sum_r 1/log2(r+1) A_pi_e[r],c I(g(pi_e[r])=g)",
+  "score": "s_final = s_KGSF + lambda * category-averaged max(0,rho_bar_c-rho_cg), only for q_ei-eligible candidates",
+  "eligibility": "q_ei >= threshold selected on tuning conversations; KG support measured but not a hard gate",
+  "fallback": "if fewer than Top-10 eligible items, fill remaining slots in frozen KGSF order without fairness promotion",
+  "R_min_and_q_threshold_selected_on": "tuning conversations only",
+  "heldout_used_for_parameter_selection": false,
+  "independent_test_read": false,
+  "training_performed": false,
+  "retrieval_performed": false,
+  "checkpoint_modified": false,
+  "outputs": [
+    "event_level_system_comparisons.csv",
+    "tuning_grid_results.csv",
+    "system_comparison_summary.csv",
+    "parameter_decisions.json",
+    "proposal_fairness_cells_R0_filtered_heldout.csv",
+    "proposal_fairness_cells_R1_raw_heldout.csv",
+    "experiment_manifest.json"
+  ],
+  "decisions": {
+    "A3_KG_FairCRS": {
+      "parameters": {
+        "q_threshold": 0.005,
+        "R_min": 0.25,
+        "lam": 1.0
+      },
+      "selection_status": "UTILITY_CONSTRAINED_MINIMUM_L_FAIR",
+      "R0_filtered_tune_summary": {
+        "events": 569,
+        "conversations": 177,
+        "HR@10": 0.19859402460456943,
+        "NDCG@10": 0.10662076010390656,
+        "MRR@10": 0.07866069685050353,
+        "L_fair": 0.04597003317664249,
+        "active_categories": 1,
+        "mean_kg_supported_top10": 3.743409490333919,
+        "mean_eligible_candidates": 29.984182776801404,
+        "mean_fallback_positions": 0.30579964850615116,
+        "mean_top10_promoted_positions": 1.9472759226713532
+      },
+      "R0_filtered_heldout_summary": {
+        "events": 624,
+        "conversations": 176,
+        "HR@10": 0.20032051282051283,
+        "NDCG@10": 0.10805497939863433,
+        "MRR@10": 0.08029482091982092,
+        "L_fair": NaN,
+        "active_categories": 0,
+        "mean_kg_supported_top10": 4.157051282051282,
+        "mean_eligible_candidates": 28.21955128205128,
+        "mean_fallback_positions": 0.40064102564102566,
+        "mean_top10_promoted_positions": 1.0192307692307692
+      },
+      "R1_raw_tune_summary": {
+        "events": 569,
+        "conversations": 177,
+        "HR@10": 0.19859402460456943,
+        "NDCG@10": 0.10662076010390656,
+        "MRR@10": 0.07866069685050353,
+        "L_fair": 0.04315901611254038,
+        "active_categories": 1,
+        "mean_kg_supported_top10": 3.834797891036907,
+        "mean_eligible_candidates": 29.971880492091387,
+        "mean_fallback_positions": 0.30579964850615116,
+        "mean_top10_promoted_positions": 1.945518453427065
+      },
+      "R1_raw_heldout_summary": {
+        "events": 624,
+        "conversations": 176,
+        "HR@10": 0.20032051282051283,
+        "NDCG@10": 0.10805497939863433,
+        "MRR@10": 0.08029482091982092,
+        "L_fair": NaN,
+        "active_categories": 0,
+        "mean_kg_supported_top10": 4.259615384615385,
+        "mean_eligible_candidates": 28.189102564102566,
+        "mean_fallback_positions": 0.40064102564102566,
+        "mean_top10_promoted_positions": 1.0192307692307692
+      }
+    },
+    "A0_KGSF": {
+      "parameters": {},
+      "tune_summary": {
+        "events": 569,
+        "conversations": 177,
+        "HR@10": 0.2038664323374341,
+        "NDCG@10": 0.10818697786487316,
+        "MRR@10": 0.07927511367757413,
+        "L_fair": 1.3357532448476077,
+        "active_categories": 1,
+        "mean_kg_supported_top10": 3.734622144112478,
+        "mean_eligible_candidates": 0.0,
+        "mean_fallback_positions": 0.0,
+        "mean_top10_promoted_positions": 0.0
+      },
+      "heldout_summary": {
+        "events": 624,
+        "conversations": 176,
+        "HR@10": 0.20192307692307693,
+        "NDCG@10": 0.10739879282517034,
+        "MRR@10": 0.07901912901912903,
+        "L_fair": NaN,
+        "active_categories": 0,
+        "mean_kg_supported_top10": 4.134615384615385,
+        "mean_eligible_candidates": 0.0,
+        "mean_fallback_positions": 0.0,
+        "mean_top10_promoted_positions": 0.0
+      }
+    },
+    "A1_22_16": {
+      "parameters": {
+        "lam": 0.05
+      },
+      "tune_summary": {
+        "events": 569,
+        "conversations": 177,
+        "HR@10": 0.2038664323374341,
+        "NDCG@10": 0.10818697786487316,
+        "MRR@10": 0.07927511367757413,
+        "L_fair": 1.700160781048711,
+        "active_categories": 1,
+        "mean_kg_supported_top10": 3.734622144112478,
+        "mean_eligible_candidates": 0.0,
+        "mean_fallback_positions": 0.0,
+        "mean_top10_promoted_positions": 0.026362038664323375
+      },
+      "heldout_summary": {
+        "events": 624,
+        "conversations": 176,
+        "HR@10": 0.20192307692307693,
+        "NDCG@10": 0.10739879282517034,
+        "MRR@10": 0.07901912901912903,
+        "L_fair": NaN,
+        "active_categories": 0,
+        "mean_kg_supported_top10": 4.134615384615385,
+        "mean_eligible_candidates": 0.0,
+        "mean_fallback_positions": 0.0,
+        "mean_top10_promoted_positions": 0.016025641025641024
+      }
+    },
+    "A2_22_18": {
+      "parameters": {
+        "lam": 0.05,
+        "tau": 25.0
+      },
+      "tune_summary": {
+        "events": 569,
+        "conversations": 177,
+        "HR@10": 0.2038664323374341,
+        "NDCG@10": 0.10818697786487316,
+        "MRR@10": 0.07927511367757413,
+        "L_fair": 1.3357532448476077,
+        "active_categories": 1,
+        "mean_kg_supported_top10": 3.736379613356766,
+        "mean_eligible_candidates": 0.0,
+        "mean_fallback_positions": 0.0,
+        "mean_top10_promoted_positions": 0.008787346221441126
+      },
+      "heldout_summary": {
+        "events": 624,
+        "conversations": 176,
+        "HR@10": 0.20192307692307693,
+        "NDCG@10": 0.10739879282517034,
+        "MRR@10": 0.07901912901912903,
+        "L_fair": NaN,
+        "active_categories": 0,
+        "mean_kg_supported_top10": 4.134615384615385,
+        "mean_eligible_candidates": 0.0,
+        "mean_fallback_positions": 0.0,
+        "mean_top10_promoted_positions": 0.01282051282051282
+      }
+    }
+  }
+}

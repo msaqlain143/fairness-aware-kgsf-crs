@@ -1,0 +1,37 @@
+{
+  "experiment": "22.33_proposal_fairness_loss_completion",
+  "inputs": {
+    "q": "results_final_test_m2\\experiment_22_31\\event_candidate_q_ei.csv",
+    "R_event_contributions": "results_final_test_m2\\experiment_22_32\\R_cg_event_contributions.csv",
+    "R_rho": "results_final_test_m2\\experiment_22_32\\R_cg_rho_cg_reconstruction.csv",
+    "category_profiles": "results_category_audit\\experiment_21_22A\\catalog_item_category_profiles.csv"
+  },
+  "method": {
+    "R_cg": "sum of 22.32 R_cg_contribution within category/group",
+    "rho_cg": "reused from exact 22.32 reconstruction",
+    "omega_c": "not invented; explicitly unresolved"
+  },
+  "scientific_status": {
+    "experiment": "22.33",
+    "read_only": true,
+    "training": false,
+    "retrieval": false,
+    "ranking_changes": false,
+    "target_used": false,
+    "q_status": "OPERATIONAL_LEAKAGE_FREE_SIGNAL",
+    "R_cg_status": "RECONSTRUCTED",
+    "rho_cg_status": "RECONSTRUCTED",
+    "omega_c_status": "NOT_OPERATIONALLY_SPECIFIED",
+    "L_fair_status": "NOT_FINAL_IDENTIFIABLE",
+    "positive_R_cg_cells": 89,
+    "rho_cells": 96,
+    "omega_category_count": 27,
+    "decision": "ONLY_MISSING_PROPOSAL_INPUT_IS_OMEGA_C",
+    "diagnostic_equal_weight_variance": {
+      "category_count": 27,
+      "global_mean_rho": 130419434502.18187,
+      "equal_category_weight_variance": 8.61179467529776e+22,
+      "status": "DIAGNOSTIC_ONLY_NOT_FINAL_PROPOSAL_LOSS"
+    }
+  }
+}

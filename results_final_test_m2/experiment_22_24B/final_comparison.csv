@@ -1,0 +1,2 @@
+baseline_HR@10,proposed_HR@10,delta_HR@10,baseline_NDCG@10,proposed_NDCG@10,delta_NDCG@10,NDCG_retention,baseline_category_group_log_rate_MAD,proposed_category_group_log_rate_MAD,delta_category_group_log_rate_MAD,fairness_improved,utility_retained_95pct,independent_test_success
+0.17037222083437423,0.169872595553335,-0.0004996252810392232,0.09204142202380365,0.09166777780216641,-0.00037364422163724265,0.9959404775217335,13.246715275917111,9.376412845120692,-3.8703024307964196,True,True,True

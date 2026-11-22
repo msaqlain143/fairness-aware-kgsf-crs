@@ -1,0 +1,48 @@
+{
+  "experiment": "22.35D",
+  "split": "validation",
+  "events": 3010,
+  "unique_conversations": 883,
+  "candidate_instances_per_variant": 1505000,
+  "R0_R1_candidate_alignment": true,
+  "event_relevance_normalization": true,
+  "all_q_values_finite": true,
+  "conversation_disjoint_splits": true,
+  "category_metadata_reused_from_22_16": true,
+  "thresholds_selected": false,
+  "target_used_for_eligibility": false,
+  "training_performed": false,
+  "retrieval_performed": false,
+  "independent_test_evaluated": false,
+  "ranking_changed": false,
+  "outputs": [
+    "conversation_split_assignments.csv",
+    "event_relevance_distribution.csv",
+    "relevance_distribution_summary.csv",
+    "event_eligibility_diagnostics.csv",
+    "eligibility_threshold_summary.csv",
+    "eligibility_category_group_relevance.csv"
+  ],
+  "threshold_grid": [
+    0.0005,
+    0.001,
+    0.002,
+    0.005,
+    0.01,
+    0.02,
+    0.05
+  ],
+  "threshold_status": "DIAGNOSTIC_GRID_ONLY_NOT_SELECTED",
+  "split_seed": 2200,
+  "split_proportions": {
+    "warm": 0.6,
+    "tune": 0.2,
+    "heldout": 0.2
+  },
+  "eligibility_definitions": {
+    "q_threshold_only": "q_ei >= threshold",
+    "q_threshold_and_kg_support": "q_ei >= threshold AND kg_rank > 0"
+  },
+  "relevance_definition": "Frozen KGSF softmax probability multiplied by (1 + KG confidence), normalized per event.",
+  "category_group_relevance": "Sum of eligible q_ei divided equally across each item's accepted multi-label categories, stratified by frozen popularity group."
+}

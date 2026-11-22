@@ -1,0 +1,103 @@
+Experiment 22.28
+Fairness Objective Feasibility and Relevance-Mass Reconstruction Audit
+
+STATUS
+------
+Read-only: YES
+Training: NO
+Retrieval: NO
+Ranking changes: NO
+
+FROZEN DATA
+-----------
+Catalog items: 6924
+Events: 4003
+Conversations: 1283
+Candidate pool: 500
+
+CATEGORY FEASIBILITY
+--------------------
+Items with accepted category mapping:
+    568 / 6924
+
+Category coverage:
+    0.082034
+
+RELEVANCE SIGNAL AUDIT
+----------------------
+KG-supported candidate instances:
+    351468
+
+Positive legacy context x KG relevance-proxy instances:
+    18387
+
+Existing contextual signal:
+    Candidate-pool category prevalence.
+
+Existing KG signal:
+    exp(-KG_rank / tau).
+
+Important:
+    These signals are not equivalent to validated contextual dialogue
+    relevance q_(e,i) in the proposal.
+
+PROPOSAL q_(e,i)
+----------------
+Status:
+    UNAVAILABLE AS A VALIDATED CONTEXTUAL RELEVANCE QUANTITY.
+
+Reason:
+    Experiment 22.18 explicitly defines its context as category prevalence
+    in the frozen candidate pool rather than semantic dialogue relevance.
+    KG rank is used as retrieval-support confidence.
+
+R_(c,g)
+-------
+A proxy reconstruction was produced using:
+
+    context_relevance_proxy * KG_confidence_proxy
+
+and fractional multi-label category membership.
+
+This is reported as:
+    R_cg proxy
+
+It is NOT reported as:
+    validated proposal R_cg.
+
+R_MIN
+-----
+The proposal requires a support condition R_cg >= R_min,
+but does not specify a unique numerical R_min.
+
+Therefore this audit reports sensitivity across:
+    [0.0, 0.001, 0.005, 0.01, 0.025, 0.05]
+
+OMEGA_c
+--------
+The proposal contains omega_c in L_fair but does not provide
+a unique numerical construction rule for omega_c.
+
+Therefore no single value is silently imposed.
+
+L_FAIR
+------
+The full proposal objective cannot yet be claimed as empirically
+identified because both of the following remain unresolved:
+
+    1. validated contextual relevance q_(e,i)
+    2. numerical category weighting omega_c
+
+LEGACY METRIC
+-------------
+The existing category-group log-rate MAD remains a separate estimand.
+
+It must not be described as equivalent to L_fair.
+
+RECOMMENDATION
+--------------
+Do not modify the reranking algorithm yet.
+
+The next research task should establish and validate a leakage-safe
+contextual relevance estimator q_(e,i), followed by a principled
+definition of omega_c and a predeclared R_min support policy.

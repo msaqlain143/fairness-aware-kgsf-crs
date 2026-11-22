@@ -1,0 +1,35 @@
+{
+  "experiment": "22.24A_independent_test_kg_export",
+  "split": "independent_test",
+  "events": 4003,
+  "catalog_items": 6924,
+  "candidate_pool": 500,
+  "hub_cutoff": 500,
+  "graph_variants": [
+    "R0_filtered",
+    "R1_raw"
+  ],
+  "target_used_for_ranking": false,
+  "training_performed": false,
+  "parameter_search": false,
+  "validation": {
+    "events": 4003,
+    "unique_events": 4003,
+    "unique_conversations": 1283,
+    "all_candidate_counts_500": true,
+    "target_alignment": true,
+    "duplicate_event_ids": 0,
+    "target_used_for_retrieval": false,
+    "training_performed": false,
+    "parameter_search": false,
+    "graph_variants": [
+      "R0_filtered",
+      "R1_raw"
+    ],
+    "R0_filtered_rank_array_lengths_valid": true,
+    "R0_filtered_positive_rank_count": 346179,
+    "R1_raw_rank_array_lengths_valid": true,
+    "R1_raw_positive_rank_count": 351468,
+    "overall_pass": true
+  }
+}

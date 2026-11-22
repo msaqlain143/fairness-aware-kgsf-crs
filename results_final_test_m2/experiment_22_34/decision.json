@@ -1,0 +1,19 @@
+{
+  "objective_computation": "COMPUTABLE_FROM_FROZEN_22_32_AGGREGATES",
+  "primary_omega_operationalization": "UNIFORM_ACTIVE_CATEGORY",
+  "sensitivity_omega": "CATEGORY_RELEVANCE_MASS",
+  "R_min_finally_validated": false,
+  "held_out_test_used_to_select_threshold": false,
+  "next_step": "Freeze R_min and relevance/eligibility thresholds using validation data; then implement the exposure-ledger reranker and evaluate on locked test.",
+  "R_min": 0.0,
+  "epsilon_0": 1e-12,
+  "input_category_group_cells": 96,
+  "active_category_group_cells": 89,
+  "active_categories": 27,
+  "total_active_relevance_mass": 453.4096221434902,
+  "L_fair_uniform_category_weighting": 1817.7910927814978,
+  "L_fair_relevance_mass_category_weighting": 10981.488499691694,
+  "omega_uniform": "1 / number of active categories",
+  "omega_relevance_mass": "sum_g R_cg / sum_c sum_g R_cg",
+  "R_min_status": "POSITIVE_SUPPORT_BASELINE_ONLY_NOT_VALIDATED"
+}

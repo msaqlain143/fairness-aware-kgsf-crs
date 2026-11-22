@@ -1,0 +1,18 @@
+{
+  "exactly_4003_events": true,
+  "unique_event_ids": true,
+  "exactly_1283_conversations": true,
+  "frozen_event_mapping_exact_multiset_match": true,
+  "raw_to_processed_role_alignment": true,
+  "strict_checkpoint_load": true,
+  "official_catalog_order_matches": true,
+  "catalog_has_6924_unique_movies": true,
+  "full_score_matrix_shape_valid": true,
+  "all_scores_finite": true,
+  "all_topk_rows_have_expected_length": true,
+  "targets_in_official_catalog": true,
+  "training_performed": false,
+  "parameter_search_performed": false,
+  "test_labels_used_for_candidate_generation": false,
+  "overall_pass": true
+}

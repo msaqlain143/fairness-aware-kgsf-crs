@@ -1,0 +1,18 @@
+{
+  "exactly_4003_paired_events": true,
+  "exactly_1283_conversation_clusters": true,
+  "same_event_universe_all_methods": true,
+  "same_conversation_mapping": true,
+  "same_top500_candidate_pools": true,
+  "opportunity_reconstructed_from_full_top500": true,
+  "exposure_reconstructed_from_saved_top10": true,
+  "fairness_mad_recomputed_per_bootstrap_replicate": true,
+  "paired_conversation_cluster_bootstrap": true,
+  "bootstrap_replicates": 10000,
+  "holm_correction_across_12_tests": true,
+  "training_performed": false,
+  "retrieval_rerun": false,
+  "parameter_search": false,
+  "adaptive_policy_rerun_inside_bootstrap": false,
+  "overall_pass": true
+}

@@ -1,0 +1,34 @@
+{
+  "experiment": "22.23",
+  "name": "Independent Test Fairness and Utility Inference",
+  "inputs": [
+    "results_final_test_m2\\adaptive_m2_final_test_events_clustered.csv",
+    "catalog_audit_corrected.pkl",
+    "results_category_audit\\experiment_21_22A\\catalog_item_category_profiles.csv",
+    "22_16_category_context_utility_calibration.py"
+  ],
+  "outputs": [
+    "paired_cluster_inference.csv",
+    "final_research_assessment.json",
+    "validation_checks.json",
+    "experiment_manifest.json"
+  ],
+  "methodology": {
+    "comparison": [
+      "A0_fixed_025",
+      "A1_frequency_3"
+    ],
+    "opportunity_universe": "full_catalog_6924",
+    "fairness_metric": "category_group_log_exposure_opportunity_MAD",
+    "bootstrap_unit": "conversation",
+    "bootstrap_replicates": 10000,
+    "paired_inference": true,
+    "holm_correction": true
+  },
+  "limitations": [
+    "The fairness metric measures catalog-opportunity-adjusted exposure.",
+    "It does not establish semantic relevance of dialogue context.",
+    "The independent test is used once for final evaluation.",
+    "Bootstrap inference is conditional on the frozen event set."
+  ]
+}

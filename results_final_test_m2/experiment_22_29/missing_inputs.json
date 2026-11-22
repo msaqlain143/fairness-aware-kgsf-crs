@@ -1,0 +1,17 @@
+{
+  "q_status": "UNAVAILABLE_AS_VALIDATED_CONTEXTUAL_RELEVANCE",
+  "R_cg_status": "NOT_IDENTIFIABLE",
+  "L_fair_status": "NOT_IDENTIFIABLE",
+  "minimum_additional_inputs": [
+    "A validated contextual relevance q[e,i].",
+    "Its provenance must use only information available at recommendation event e.",
+    "A validated relevance eligibility rule for constructing I_e."
+  ],
+  "existing_proxy_signals_rejected_as_q": [
+    "candidate-pool category prevalence",
+    "KG rank",
+    "KG confidence",
+    "exp(-KG_rank/tau)",
+    "legacy context \u00d7 KG relevance proxy"
+  ]
+}
