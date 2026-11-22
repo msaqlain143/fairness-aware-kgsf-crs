@@ -449,7 +449,67 @@ def main():
         "utility_signflip_tests_present":len(perm)==9,
         "category_comparisons_present":len(category_decomp)>0,
     }
-    checks["overall_pass"] = all(v for k,v in checks.items() if isinstance(v,bool))
+    
+    # Validate positive requirements, prohibited actions, and typed metadata
+    # separately. "jackknife_unit" is a string-valued field, not a Boolean.
+    required_true = {
+        "uses_validated_22_35F_and_22_35G_outputs",
+        "R0_primary_R1_sensitivity_only",
+        "R0_R1_candidate_alignment_verified",
+        "warm_tune_histories_reconstructed_from_22_35F",
+        "bca_intervals_use_22_35G_paired_cluster_bootstrap",
+        "utility_signflip_is_conversation_clustered",
+        "fairness_not_subjected_to_naive_event_level_permutation",
+        "selected_parameters_found_in_feasible_tuning_grid",
+        "all_three_sensitivity_parameters_reported",
+        "R1_parameters_reused_without_retuning",
+        "category_decomposition_uses_proposal_category_contributions",
+        "bca_intervals_available",
+        "all_primary_comparisons_present",
+        "utility_signflip_tests_present",
+        "category_comparisons_present",
+    }
+
+    required_false = {
+        "independent_test_read",
+        "training_performed",
+        "retrieval_performed",
+        "reranking_performed",
+        "parameter_retuning_performed",
+        "22_35E_outputs_modified",
+        "22_35F_outputs_modified",
+        "22_35G_outputs_modified",
+    }
+
+    required_metadata = {"jackknife_unit"}
+    expected = required_true | required_false | required_metadata
+    missing = expected - set(checks)
+
+    failed_true = [
+        key for key in sorted(required_true)
+        if checks.get(key) is not True
+    ]
+
+    failed_false = [
+        key for key in sorted(required_false)
+        if checks.get(key) is not False
+    ]
+
+    # This metadata must be the literal string "conversation".
+    jackknife_unit_valid = checks.get("jackknife_unit") == "conversation"
+    checks["jackknife_unit_valid"] = jackknife_unit_valid
+
+    checks["missing_validation_conditions"] = sorted(missing)
+    checks["failed_required_true"] = failed_true
+    checks["failed_required_false"] = failed_false
+
+    checks["overall_pass"] = (
+        not missing
+        and not failed_true
+        and not failed_false
+        and jackknife_unit_valid
+    )
+
     write_json(a.out/"validation_checks.json",checks)
     input_hashes={str(p):sha256(p) for p in files}
     manifest={
