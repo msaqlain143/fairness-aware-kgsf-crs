@@ -1,0 +1,20 @@
+{
+  "R0_filtered": {
+    "events": 4003,
+    "candidate_instances": 2001500,
+    "q_sum_min": 0.9999999999999994,
+    "q_sum_max": 1.0000000000000004,
+    "q_sum_mean": 1.0,
+    "kg_coverage": 0.18287034723957032,
+    "kg_tau": 50.0
+  },
+  "R1_raw": {
+    "events": 4003,
+    "candidate_instances": 2001500,
+    "q_sum_min": 0.9999999999999994,
+    "q_sum_max": 1.0000000000000007,
+    "q_sum_mean": 1.0,
+    "kg_coverage": 0.1854279290532101,
+    "kg_tau": 50.0
+  }
+}
