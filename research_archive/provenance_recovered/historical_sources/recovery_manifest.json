@@ -1,0 +1,35 @@
+{
+  "purpose": "Historical KG-FairCRS source recovery",
+  "archive": "22_35J_source_bundle.zip",
+  "archive_sha256": "54b5fa45b85dfb4880cb9aab17653ed1e4e8e2aae61bf8a582eef3c205abd7c5",
+  "recovered_files": [
+    {
+      "filename": "22_16_category_context_utility_calibration.py",
+      "archive_member": "22_16_category_context_utility_calibration.py",
+      "historical_sha256": "6555144efe624658eb32e8de48ee9e95ef94baded9486a8f6280d848ecbef751",
+      "recovered_sha256": "6555144efe624658eb32e8de48ee9e95ef94baded9486a8f6280d848ecbef751",
+      "verified": true
+    },
+    {
+      "filename": "22_18_contextual_relevance_gate_validation.py",
+      "archive_member": "22_18_contextual_relevance_gate_validation.py",
+      "historical_sha256": "651050b50c34cc9ebbaa1cf63217f5c82a6b9276c915e4440435ed436f4a28e2",
+      "recovered_sha256": "651050b50c34cc9ebbaa1cf63217f5c82a6b9276c915e4440435ed436f4a28e2",
+      "verified": true
+    },
+    {
+      "filename": "22_35C_validation_relevance_construction.py",
+      "archive_member": "22_35C_validation_relevance_construction.py",
+      "historical_sha256": "cb0c3b8115b561a26d2e76775bf9904468cc477d89bc266b09d253c459eca69a",
+      "recovered_sha256": "cb0c3b8115b561a26d2e76775bf9904468cc477d89bc266b09d253c459eca69a",
+      "verified": true
+    },
+    {
+      "filename": "22_35F_validated_fairness_evaluation.py",
+      "archive_member": "22_35F_validated_fairness_evaluation.py",
+      "historical_sha256": "fc3658bc607d13ec6c3be631fb707dd34a449c4b5fbd280e03bfcb0fb015457f",
+      "recovered_sha256": "fc3658bc607d13ec6c3be631fb707dd34a449c4b5fbd280e03bfcb0fb015457f",
+      "verified": true
+    }
+  ]
+}
