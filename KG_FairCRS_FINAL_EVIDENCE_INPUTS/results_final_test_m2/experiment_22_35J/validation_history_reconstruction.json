@@ -1,0 +1,32 @@
+{
+  "A0_KGSF_R0_filtered": {
+    "reconstructed_L_fair": 1.786136931349809,
+    "reference_L_fair": 1.786136931349809,
+    "active_categories": 14,
+    "matches_frozen_22_35F": true
+  },
+  "A1_22_16_R0_filtered": {
+    "reconstructed_L_fair": 1.3652775784222955,
+    "reference_L_fair": 1.3652775784222955,
+    "active_categories": 14,
+    "matches_frozen_22_35F": true
+  },
+  "A2_22_18_R0_filtered": {
+    "reconstructed_L_fair": 1.810052129256437,
+    "reference_L_fair": 1.810052129256437,
+    "active_categories": 14,
+    "matches_frozen_22_35F": true
+  },
+  "A3_KG_FairCRS_R0_filtered": {
+    "reconstructed_L_fair": 0.9915966206404792,
+    "reference_L_fair": 0.9915966206404792,
+    "active_categories": 14,
+    "matches_frozen_22_35F": true
+  },
+  "A3_KG_FairCRS_R1_raw": {
+    "reconstructed_L_fair": 0.989307947314819,
+    "reference_L_fair": 0.989307947314819,
+    "active_categories": 14,
+    "matches_frozen_22_35F": true
+  }
+}

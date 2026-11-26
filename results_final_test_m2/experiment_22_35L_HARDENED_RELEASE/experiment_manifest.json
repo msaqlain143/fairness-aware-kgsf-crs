@@ -1,0 +1,765 @@
+{
+  "experiment": "22.35L_hardened_final_evidence_consolidation",
+  "created_utc": "2026-11-25T12:46:03.927669+00:00",
+  "scope": "frozen_evidence_consolidation_only",
+  "source_script": {
+    "path": "D:\\Implementation\\fairness-aware-kgsf-crs\\22_35L_final_evaluation_package_hardened.py",
+    "sha256": "d368bfdbca5f3f9d09900cf997b1d6fb0ee204f70c2d16ce1c757cb7e601ad13"
+  },
+  "git_provenance": {
+    "available": true,
+    "repository_root": "D:/Implementation/fairness-aware-kgsf-crs",
+    "commit": "9a1225d7c0c4084797eb46edb75a892aba375a08",
+    "branch": "dev/kg-rag-calibration",
+    "working_tree_clean": false,
+    "status_porcelain": "?? 22_35L_final_evaluation_package_hardened.py\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/22_16_category_context_utility_calibration.py\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/22_35F_validated_fairness_evaluation.py\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/22_35J_integrated_kg_faircrs_independent_test.py\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/22_35J_source_bundle/experiment_manifest.json\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/22_35J_source_bundle/parameter_decisions.json\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/22_35L_final_evaluation_package.py\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/22_35N_controlled_mechanism_ablation.py\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/docs/KG_FairCRS_22_35M_Theory_and_Verification_FINAL.md\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_25/experiment_manifest.json\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_25/final_research_assessment.json\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_25/validation_checks.json\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_26/experiment_manifest.json\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_26/validation_checks.json\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_35J/experiment_manifest.json\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_35J/independent_test_coverage_summary.json\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_35J/independent_test_relevance_statistics.json\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_35J/validation_checks.json\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_35J/validation_history_reconstruction.json\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_35L_RELEASE/experiment_manifest.json\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_35L_RELEASE/figure_category_contribution_changes.png\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_35L_RELEASE/figure_fairness_loss_systems.png\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_35L_RELEASE/final_results_and_discussion.md\n?? KG_FairCRS_FINAL_EVIDENCE_INPUTS/results_final_test_m2/experiment_22_35L_RELEASE/validation_checks.json\n?? KG_FairCRS_Final_Experimental_Evidence_2026.md",
+    "errors": []
+  },
+  "environment": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.9"
+  },
+  "primary_configuration": {
+    "system": "A3_KG_FairCRS",
+    "variant": "R0_filtered",
+    "q_threshold": 0.0005,
+    "R_min": 0.5,
+    "lambda": 1.0
+  },
+  "sensitivity": {
+    "variant": "R1_raw",
+    "parameters_reused_from_R0": true,
+    "retuned": false
+  },
+  "independent_test": {
+    "events": 4003,
+    "conversations": 1283,
+    "candidate_pool_per_event": 500,
+    "candidate_instances": 2001500,
+    "category_supported_candidate_instances": 100909,
+    "candidate_category_coverage": 0.05041668748438671,
+    "historically_examined_in_experiments": "22.22-22.34",
+    "replay_order": "Ascending event_id; deterministic replay order, not claimed to be timestamp chronology."
+  },
+  "source_manifests": {
+    "22.35F": {
+      "experiment": "22.35F_validated_fairness_evaluation",
+      "created_utc": "2026-11-21T04:40:29.059113+00:00",
+      "python": "3.10.11",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scope": "frozen_validation_exports_only",
+      "events": 3010,
+      "conversations": 883,
+      "warm_events": 1817,
+      "tuning_events": 569,
+      "heldout_events": 624,
+      "warm_conversations": 530,
+      "tuning_conversations": 177,
+      "heldout_conversations": 176,
+      "primary_variant": "R0_filtered",
+      "sensitivity_variant": "R1_raw_for_A3_only",
+      "systems": [
+        "A0_KGSF",
+        "A1_22_16",
+        "A2_22_18",
+        "A3_KG_FairCRS"
+      ],
+      "objective": "Uniform mean over active categories of opportunity-weighted within-category variance of rho_cg=E_cg/(R_cg+epsilon).",
+      "R_cg": "sum_e,i q_ei * category-membership * popularity-group-membership, only where q_ei >= selected threshold.",
+      "E_cg": "sum over delivered top-10 ranks of 1/log2(rank+1) times category and popularity-group membership.",
+      "active_cell_rule": "R_cg >= R_min; active category requires at least two supported popularity groups.",
+      "fairness_scope": "warm-up KGSF + system-specific tuning + system-specific held-out history.",
+      "parameter_selection": "Tuning conversations only; cumulative warm+tune fairness; NDCG retention constraint.",
+      "R1_policy": "A3 uses R0-selected q_threshold, R_min and lambda unchanged.",
+      "bootstrap": {
+        "method": "paired conversation-cluster percentile bootstrap",
+        "reps": 2000,
+        "seed": 22035,
+        "unit": "held-out conversation",
+        "fixed_slates": true,
+        "cumulative_initial_state": "system-specific warm+tune"
+      },
+      "no_training": true,
+      "no_retrieval": true,
+      "no_checkpoint_changes": true,
+      "independent_test_read": false,
+      "inputs": {
+        "kgsf": {
+          "path": "results_corrected\\experiment_22_35\\kgsf_validation\\kgsf_validation_top500.csv",
+          "sha256": "3f22eabac84911f4cf132cac7020d5be8596d9fa717ef377e6d0bbab1b282db1"
+        },
+        "q_r0": {
+          "path": "results_corrected\\experiment_22_35\\relevance_validation\\event_candidate_q_ei_R0_filtered.csv",
+          "sha256": "538a5bd4091ee0ba4ac32654c9ec8c30fb77cc3a58d581856015be8de1cbfbde"
+        },
+        "q_r1": {
+          "path": "results_corrected\\experiment_22_35\\relevance_validation\\event_candidate_q_ei_R1_raw.csv",
+          "sha256": "a1cb6a7c6eedd874a2ce80b70e3c1c36224c993076f9036b6ac252c5e61db83c"
+        },
+        "catalog": {
+          "path": "catalog_audit_corrected.pkl",
+          "sha256": "87473ddadeacbc6ae61cdde7c8232bbd5a50e815e6f77d3ce7b78ffd1eee3827"
+        },
+        "profiles": {
+          "path": "results_category_audit\\experiment_21_22A\\catalog_item_category_profiles.csv",
+          "sha256": "6703da1200b2addcd673806b909d78f37f1883bcb9ee0b00c020649aef7fa54b"
+        },
+        "reference_22_16": {
+          "path": "22_16_category_context_utility_calibration.py",
+          "sha256": "6555144efe624658eb32e8de48ee9e95ef94baded9486a8f6280d848ecbef751"
+        },
+        "reference_22_18": {
+          "path": "22_18_contextual_relevance_gate_validation.py",
+          "sha256": "651050b50c34cc9ebbaa1cf63217f5c82a6b9276c915e4440435ed436f4a28e2"
+        }
+      },
+      "outputs": [
+        "cumulative_fairness_cells.csv",
+        "parameter_decisions.json",
+        "system_comparison_summary.csv",
+        "paired_bootstrap_results.csv",
+        "utility_fairness_tradeoff.csv",
+        "validation_checks.json",
+        "event_level_system_comparisons.csv",
+        "tuning_grid_results.csv",
+        "split_and_cumulative_summaries.csv",
+        "experiment_manifest.json"
+      ],
+      "validation_checks": {
+        "experiment": "22.35F_validated_fairness_evaluation",
+        "validation_only": true,
+        "independent_test_loaded": false,
+        "training_performed": false,
+        "retrieval_rerun": false,
+        "checkpoint_modified": false,
+        "original_22_35E_output_directory_overwritten": false,
+        "frozen_top500_candidate_count_valid": true,
+        "R0_R1_event_mappings_identical": true,
+        "R0_R1_candidate_order_identical": true,
+        "conversation_splits_disjoint": true,
+        "all_events_assigned_once": true,
+        "four_systems_same_heldout_event_ids": true,
+        "parameter_selection_uses_tuning_only": true,
+        "fairness_selection_uses_cumulative_warm_plus_tune": true,
+        "heldout_fairness_uses_cumulative_warm_tune_heldout": true,
+        "R1_uses_R0_parameters_without_retuning": true,
+        "paired_conversation_cluster_bootstrap": true,
+        "bootstrap_reps": 2000,
+        "bootstrap_seed": 22035,
+        "primary_cumulative_active_categories": {
+          "A0_KGSF": 14,
+          "A1_22_16": 14,
+          "A2_22_18": 14,
+          "A3_KG_FairCRS": 14
+        },
+        "primary_cumulative_fairness_finite": {
+          "A0_KGSF": true,
+          "A1_22_16": true,
+          "A2_22_18": true,
+          "A3_KG_FairCRS": true
+        },
+        "all_primary_systems_have_supported_categories": true,
+        "all_primary_fairness_values_finite": true,
+        "safety_invariants_pass": true,
+        "required_checks_pass": true,
+        "overall_pass": true,
+        "failed_required_checks": [],
+        "failed_safety_invariants": []
+      },
+      "parameter_decisions": {
+        "A3_KG_FairCRS": {
+          "parameters": {
+            "q_threshold": 0.0005,
+            "R_min": 0.5,
+            "lam": 1.0
+          },
+          "selection_status": "CUMULATIVE_UTILITY_CONSTRAINED_MINIMUM_L_FAIR",
+          "cumulative_warm_tune": {
+            "L_fair": 0.5633812514390892,
+            "active_categories": 13
+          },
+          "cumulative_warm_tune_heldout": {
+            "L_fair": 0.9915966206404792,
+            "active_categories": 14
+          },
+          "tune_summary": {
+            "events": 569,
+            "conversations": 177,
+            "HR@10": 0.20210896309314588,
+            "NDCG@10": 0.1076579269058855,
+            "MRR@10": 0.07907983931709767,
+            "L_fair_cumulative": 0.5633812514390892,
+            "active_categories_cumulative": 13,
+            "mean_kg_supported_top10": 3.7293497363796133,
+            "mean_eligible_candidates": 325.39894551845344,
+            "mean_fallback_positions": 0.0017574692442882249,
+            "mean_top10_promoted_positions": 0.37609841827768015
+          },
+          "heldout_incremental_summary": {
+            "events": 624,
+            "conversations": 176,
+            "HR@10": 0.20032051282051283,
+            "NDCG@10": 0.10693554791119937,
+            "MRR@10": 0.07885887260887262,
+            "L_fair_cumulative": 0.9915966206404792,
+            "active_categories_cumulative": 14,
+            "mean_kg_supported_top10": 4.152243589743589,
+            "mean_eligible_candidates": 313.2564102564103,
+            "mean_fallback_positions": 0.003205128205128205,
+            "mean_top10_promoted_positions": 0.1778846153846154
+          },
+          "R1_raw_sensitivity": {
+            "parameters_reused_from_R0": {
+              "q_threshold": 0.0005,
+              "R_min": 0.5,
+              "lam": 1.0
+            },
+            "retuned_on_R1": false,
+            "cumulative_warm_tune": {
+              "L_fair": 0.562463494845704,
+              "active_categories": 13
+            },
+            "cumulative_warm_tune_heldout": {
+              "L_fair": 0.989307947314819,
+              "active_categories": 14
+            },
+            "tune_summary": {
+              "events": 569,
+              "conversations": 177,
+              "HR@10": 0.20210896309314588,
+              "NDCG@10": 0.1076579269058855,
+              "MRR@10": 0.07907983931709767,
+              "L_fair_cumulative": 0.562463494845704,
+              "active_categories_cumulative": 13,
+              "mean_kg_supported_top10": 3.8242530755711774,
+              "mean_eligible_candidates": 325.2917398945518,
+              "mean_fallback_positions": 0.0017574692442882249,
+              "mean_top10_promoted_positions": 0.37258347978910367
+            },
+            "heldout_incremental_summary": {
+              "events": 624,
+              "conversations": 176,
+              "HR@10": 0.20032051282051283,
+              "NDCG@10": 0.10693554791119937,
+              "MRR@10": 0.07885887260887262,
+              "L_fair_cumulative": 0.989307947314819,
+              "active_categories_cumulative": 14,
+              "mean_kg_supported_top10": 4.256410256410256,
+              "mean_eligible_candidates": 313.17628205128204,
+              "mean_fallback_positions": 0.003205128205128205,
+              "mean_top10_promoted_positions": 0.18108974358974358
+            }
+          }
+        },
+        "A0_KGSF": {
+          "parameters": {},
+          "selection_status": "FROZEN_BASELINE",
+          "cumulative_warm_tune": {
+            "L_fair": 1.138096253643853,
+            "active_categories": 13
+          },
+          "cumulative_warm_tune_heldout": {
+            "L_fair": 1.786136931349809,
+            "active_categories": 14
+          },
+          "tune_summary": {
+            "events": 569,
+            "conversations": 177,
+            "HR@10": 0.2038664323374341,
+            "NDCG@10": 0.10818697786487316,
+            "MRR@10": 0.07927511367757413,
+            "L_fair_cumulative": 1.138096253643853,
+            "active_categories_cumulative": 13,
+            "mean_kg_supported_top10": 3.734622144112478,
+            "mean_eligible_candidates": 0.0,
+            "mean_fallback_positions": 0.0,
+            "mean_top10_promoted_positions": 0.0
+          },
+          "heldout_incremental_summary": {
+            "events": 624,
+            "conversations": 176,
+            "HR@10": 0.20192307692307693,
+            "NDCG@10": 0.10739879282517034,
+            "MRR@10": 0.07901912901912903,
+            "L_fair_cumulative": 1.786136931349809,
+            "active_categories_cumulative": 14,
+            "mean_kg_supported_top10": 4.134615384615385,
+            "mean_eligible_candidates": 0.0,
+            "mean_fallback_positions": 0.0,
+            "mean_top10_promoted_positions": 0.0
+          }
+        },
+        "A1_22_16": {
+          "parameters": {
+            "lam": 0.4
+          },
+          "selection_status": "CUMULATIVE_UTILITY_CONSTRAINED_MINIMUM_L_FAIR",
+          "cumulative_warm_tune": {
+            "L_fair": 0.8972609908441467,
+            "active_categories": 13
+          },
+          "cumulative_warm_tune_heldout": {
+            "L_fair": 1.3652775784222955,
+            "active_categories": 14
+          },
+          "tune_summary": {
+            "events": 569,
+            "conversations": 177,
+            "HR@10": 0.2038664323374341,
+            "NDCG@10": 0.10807331767328358,
+            "MRR@10": 0.07916283092030017,
+            "L_fair_cumulative": 0.8972609908441467,
+            "active_categories_cumulative": 13,
+            "mean_kg_supported_top10": 3.70298769771529,
+            "mean_eligible_candidates": 0.0,
+            "mean_fallback_positions": 0.0,
+            "mean_top10_promoted_positions": 0.44815465729349735
+          },
+          "heldout_incremental_summary": {
+            "events": 624,
+            "conversations": 176,
+            "HR@10": 0.20032051282051283,
+            "NDCG@10": 0.10696418325823079,
+            "MRR@10": 0.07888748982498982,
+            "L_fair_cumulative": 1.3652775784222955,
+            "active_categories_cumulative": 14,
+            "mean_kg_supported_top10": 4.1618589743589745,
+            "mean_eligible_candidates": 0.0,
+            "mean_fallback_positions": 0.0,
+            "mean_top10_promoted_positions": 0.5288461538461539
+          }
+        },
+        "A2_22_18": {
+          "parameters": {
+            "lam": 0.4,
+            "tau": 50.0
+          },
+          "selection_status": "CUMULATIVE_UTILITY_CONSTRAINED_MINIMUM_L_FAIR",
+          "cumulative_warm_tune": {
+            "L_fair": 0.9268444586886914,
+            "active_categories": 13
+          },
+          "cumulative_warm_tune_heldout": {
+            "L_fair": 1.810052129256437,
+            "active_categories": 14
+          },
+          "tune_summary": {
+            "events": 569,
+            "conversations": 177,
+            "HR@10": 0.2038664323374341,
+            "NDCG@10": 0.1080881489081745,
+            "MRR@10": 0.079180266131057,
+            "L_fair_cumulative": 0.9268444586886914,
+            "active_categories_cumulative": 13,
+            "mean_kg_supported_top10": 3.750439367311072,
+            "mean_eligible_candidates": 0.0,
+            "mean_fallback_positions": 0.0,
+            "mean_top10_promoted_positions": 0.14762741652021089
+          },
+          "heldout_incremental_summary": {
+            "events": 624,
+            "conversations": 176,
+            "HR@10": 0.20192307692307693,
+            "NDCG@10": 0.10847281984978543,
+            "MRR@10": 0.0803946632071632,
+            "L_fair_cumulative": 1.810052129256437,
+            "active_categories_cumulative": 14,
+            "mean_kg_supported_top10": 4.211538461538462,
+            "mean_eligible_candidates": 0.0,
+            "mean_fallback_positions": 0.0,
+            "mean_top10_promoted_positions": 0.530448717948718
+          }
+        }
+      }
+    },
+    "22.35G": {
+      "experiment": "22.35G_direct_paired_statistical_comparison",
+      "created_utc": "2026-11-21T05:48:31.448658+00:00",
+      "python": "3.10.11",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scope": "frozen_22.35F_validation_slates_R0",
+      "parameters_reused": {
+        "q_threshold": 0.0005,
+        "R_min": 0.5
+      },
+      "bootstrap": {
+        "method": "paired conversation-cluster percentile bootstrap",
+        "reps": 10000,
+        "seed": 22357,
+        "unit": "held-out conversation",
+        "same_draws_across_systems": true,
+        "fixed_slates": true,
+        "multiplicity_preserved": true
+      },
+      "multiplicity": {
+        "fairness": "Holm across 3 prespecified contrasts",
+        "utility": "Holm across 9 contrasts (3 metrics x 3 comparators)"
+      },
+      "p_value_interpretation": "Bootstrap tail probabilities are descriptive, not exact randomization-test p-values; interpret with paired percentile CIs.",
+      "no_training": true,
+      "no_reranking": true,
+      "no_retrieval": true,
+      "no_checkpoint_changes": true,
+      "independent_test_read": false,
+      "inputs": {
+        "event_level": {
+          "path": "results_corrected\\experiment_22_35\\validated_fairness_evaluation_run_20261121\\event_level_system_comparisons.csv",
+          "sha256": "fade67487c76220dda2c8fd7fc6da9463dfa44c5fbb9712fced16a938174f08c"
+        },
+        "decisions": {
+          "path": "results_corrected\\experiment_22_35\\validated_fairness_evaluation_run_20261121\\parameter_decisions.json",
+          "sha256": "fb9248beacc75bc1d6ea3719f7646ea49fa1ec9910c693c0405553e130e0bf25"
+        },
+        "kgsf": {
+          "path": "results_corrected\\experiment_22_35\\kgsf_validation\\kgsf_validation_top500.csv",
+          "sha256": "3f22eabac84911f4cf132cac7020d5be8596d9fa717ef377e6d0bbab1b282db1"
+        },
+        "q_r0": {
+          "path": "results_corrected\\experiment_22_35\\relevance_validation\\event_candidate_q_ei_R0_filtered.csv",
+          "sha256": "538a5bd4091ee0ba4ac32654c9ec8c30fb77cc3a58d581856015be8de1cbfbde"
+        },
+        "catalog": {
+          "path": "catalog_audit_corrected.pkl",
+          "sha256": "87473ddadeacbc6ae61cdde7c8232bbd5a50e815e6f77d3ce7b78ffd1eee3827"
+        },
+        "profiles": {
+          "path": "results_category_audit\\experiment_21_22A\\catalog_item_category_profiles.csv",
+          "sha256": "6703da1200b2addcd673806b909d78f37f1883bcb9ee0b00c020649aef7fa54b"
+        },
+        "ref16": {
+          "path": "22_16_category_context_utility_calibration.py",
+          "sha256": "6555144efe624658eb32e8de48ee9e95ef94baded9486a8f6280d848ecbef751"
+        },
+        "f_script": {
+          "path": "22_35F_validated_fairness_evaluation.py",
+          "sha256": "fc3658bc607d13ec6c3be631fb707dd34a449c4b5fbd280e03bfcb0fb015457f"
+        }
+      },
+      "outputs": [
+        "paired_contrast_summary.csv",
+        "absolute_bootstrap_summary.csv",
+        "observed_heldout_system_summary.csv",
+        "paired_bootstrap_replicates.csv",
+        "validation_checks.json",
+        "experiment_manifest.json"
+      ],
+      "validation_checks": {
+        "experiment": "22.35G",
+        "validation_only": true,
+        "independent_test_read": false,
+        "training_performed": false,
+        "retrieval_or_reranking_performed": false,
+        "22_35F_outputs_modified": false,
+        "same_heldout_events_all_systems": true,
+        "same_cluster_draws_all_systems": true,
+        "cluster_multiplicity_preserved": true,
+        "fairness_recomputed_from_R_E_each_replicate": true,
+        "proposal_objective_reused": true,
+        "system_specific_warm_plus_tune_initial_state": true,
+        "primary_variant": "R0_filtered",
+        "bootstrap_reps": 10000,
+        "seed": 22357,
+        "all_contrasts_finite": true,
+        "all_fairness_intervals_finite": true,
+        "overall_pass": true
+      }
+    },
+    "22.35H": {
+      "experiment": "22.35H_inferential_robustness_sensitivity",
+      "created_utc": "2026-11-22T03:24:11.737340+00:00",
+      "python": "3.10.11",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scope": "frozen_validation_artifacts_only",
+      "primary_fairness_estimand": "22.35F proposal-defined cumulative L_fair; warm-up + system-specific tune + held-out",
+      "proposal_objective": "Uniform average across active categories of relevance-weighted within-category variance of rho_cg=E_cg/(R_cg+epsilon); active category requires at least two supported popularity groups and R_cg >= R_min.",
+      "inference": {
+        "fairness": "paired conversation-cluster bootstrap percentile/basic and BCa intervals; BCa acceleration from delete-one-heldout-conversation jackknife, preserving system-specific warm+tune initial histories",
+        "utility": "paired conversation-cluster sign-flip test on cluster sums, normalized by total held-out events; exchangeability/symmetry assumption stated",
+        "multiplicity": "Holm across 9 utility sign-flip tests; BCa intervals reported for 3 fairness and 9 utility contrasts",
+        "not_claimed": "No exact permutation p-value is reported for nonlinear cumulative fairness."
+      },
+      "sensitivity": {
+        "parameters": [
+          "q_threshold",
+          "R_min",
+          "lambda"
+        ],
+        "source": "22.35F tuning grid; tuning conversations only; no new selection",
+        "kg_variant": "R1_raw reported as sensitivity using R0-selected parameters without retuning",
+        "category": "per-category proposal variance contribution compared across systems"
+      },
+      "bootstrap_reps_from_22_35G": 10000,
+      "signflip_reps": 100000,
+      "seed": 22358,
+      "selected_A3_parameters": {
+        "q_threshold": 0.0005,
+        "R_min": 0.5,
+        "lam": 1.0
+      },
+      "input_sha256": {
+        "22_35F_validated_fairness_evaluation.py": "fc3658bc607d13ec6c3be631fb707dd34a449c4b5fbd280e03bfcb0fb015457f",
+        "22_16_category_context_utility_calibration.py": "6555144efe624658eb32e8de48ee9e95ef94baded9486a8f6280d848ecbef751",
+        "22_18_contextual_relevance_gate_validation.py": "651050b50c34cc9ebbaa1cf63217f5c82a6b9276c915e4440435ed436f4a28e2",
+        "results_corrected\\experiment_22_35\\kgsf_validation\\kgsf_validation_top500.csv": "3f22eabac84911f4cf132cac7020d5be8596d9fa717ef377e6d0bbab1b282db1",
+        "results_corrected\\experiment_22_35\\relevance_validation\\event_candidate_q_ei_R0_filtered.csv": "538a5bd4091ee0ba4ac32654c9ec8c30fb77cc3a58d581856015be8de1cbfbde",
+        "results_corrected\\experiment_22_35\\relevance_validation\\event_candidate_q_ei_R1_raw.csv": "a1cb6a7c6eedd874a2ce80b70e3c1c36224c993076f9036b6ac252c5e61db83c",
+        "catalog_audit_corrected.pkl": "87473ddadeacbc6ae61cdde7c8232bbd5a50e815e6f77d3ce7b78ffd1eee3827",
+        "results_category_audit\\experiment_21_22A\\catalog_item_category_profiles.csv": "6703da1200b2addcd673806b909d78f37f1883bcb9ee0b00c020649aef7fa54b",
+        "results_corrected\\experiment_22_35\\validated_fairness_evaluation_run_20261121\\event_level_system_comparisons.csv": "fade67487c76220dda2c8fd7fc6da9463dfa44c5fbb9712fced16a938174f08c",
+        "results_corrected\\experiment_22_35\\validated_fairness_evaluation_run_20261121\\parameter_decisions.json": "fb9248beacc75bc1d6ea3719f7646ea49fa1ec9910c693c0405553e130e0bf25",
+        "results_corrected\\experiment_22_35\\validated_fairness_evaluation_run_20261121\\tuning_grid_results.csv": "b03e2b674cc2bde8790b36da6904f702f38f1e272707e2164d717de7a0cacd36",
+        "results_corrected\\experiment_22_35\\validated_fairness_evaluation_run_20261121\\cumulative_fairness_cells.csv": "1b5cd3ca99c26105bbe6342e7dbb1ffe88149d7d273b732380a4e26134ba056a",
+        "results_corrected\\experiment_22_35\\validated_fairness_evaluation_run_20261121\\split_and_cumulative_summaries.csv": "29c450be71bef964583b7db604f706930d2aedf689fd48e567d4200ecb31ab11",
+        "results_corrected\\experiment_22_35\\direct_paired_statistical_comparison_run_20261121\\paired_bootstrap_replicates.csv": "3568d11e8e7a832ad37c167f80bc44cfd5f416bfb86593679024b2f8efbb1b03",
+        "results_corrected\\experiment_22_35\\direct_paired_statistical_comparison_run_20261121\\paired_contrast_summary.csv": "a020a1a1ec2fe49d83c31d16eba07b34830ffc8bedd4285c8b80723c6ec9470f",
+        "results_corrected\\experiment_22_35\\direct_paired_statistical_comparison_run_20261121\\validation_checks.json": "f1c1ee21a4d94359f27be8c7dd1adda30ba08a357ea21b8060cd486c85468dac"
+      },
+      "validation_checks": {
+        "experiment": "22.35H_inferential_robustness_sensitivity",
+        "uses_validated_22_35F_and_22_35G_outputs": true,
+        "independent_test_read": false,
+        "training_performed": false,
+        "retrieval_performed": false,
+        "reranking_performed": false,
+        "parameter_retuning_performed": false,
+        "22_35E_outputs_modified": false,
+        "22_35F_outputs_modified": false,
+        "22_35G_outputs_modified": false,
+        "R0_primary_R1_sensitivity_only": true,
+        "R0_R1_candidate_alignment_verified": true,
+        "warm_tune_histories_reconstructed_from_22_35F": true,
+        "jackknife_unit": "conversation",
+        "bca_intervals_use_22_35G_paired_cluster_bootstrap": true,
+        "utility_signflip_is_conversation_clustered": true,
+        "fairness_not_subjected_to_naive_event_level_permutation": true,
+        "selected_parameters_found_in_feasible_tuning_grid": true,
+        "all_three_sensitivity_parameters_reported": true,
+        "R1_parameters_reused_without_retuning": true,
+        "category_decomposition_uses_proposal_category_contributions": true,
+        "bca_intervals_available": true,
+        "all_primary_comparisons_present": true,
+        "utility_signflip_tests_present": true,
+        "category_comparisons_present": true,
+        "jackknife_unit_valid": true,
+        "missing_validation_conditions": [],
+        "failed_required_true": [],
+        "failed_required_false": [],
+        "overall_pass": true
+      },
+      "outputs": [
+        "paired_bca_inference.csv",
+        "bootstrap_distribution_diagnostics.csv",
+        "paired_cluster_signflip_utility.csv",
+        "tuning_parameter_sensitivity.csv",
+        "feasible_a3_tuning_grid_with_regret.csv",
+        "R0_R1_A3_sensitivity.csv",
+        "category_level_fairness_decomposition.csv",
+        "original_tuning_grid_preserved.csv",
+        "validation_checks.json",
+        "experiment_manifest.json"
+      ]
+    },
+    "22.35J": {
+      "experiment": "22.35J_integrated_kg_faircrs_independent_test",
+      "created_utc": "2026-11-22T04:34:43.729783+00:00",
+      "python": "3.10.11",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "split": "independent_test",
+      "events": 4003,
+      "conversations": 1283,
+      "candidate_pool": "Frozen KGSF Top-500; identical across systems",
+      "systems": [
+        "A0_KGSF",
+        "A1_22_16",
+        "A2_22_18",
+        "A3_KG_FairCRS"
+      ],
+      "A3_parameters": {
+        "q_threshold": 0.0005,
+        "R_min": 0.5,
+        "lambda": 1.0
+      },
+      "A1_parameters": {
+        "lam": 0.4
+      },
+      "A2_parameters": {
+        "lam": 0.4,
+        "tau": 50.0
+      },
+      "R0_primary_R1_sensitivity_only": true,
+      "q_definition": "p_KGSF=softmax(frozen KGSF Top-500 scores); KG_conf=exp(-rank/50) for rank>0 and 0 otherwise; q=normalize(p_KGSF*(1+KG_conf)) within event.",
+      "q_is_operational_relevance_not_semantic_relevance": true,
+      "category_evidence_policy": "Same accepted category-profile loader as 22.35F/22.16; this run does not introduce new category evidence scenarios.",
+      "validation_history": "Reconstructed from 22.35F warm baseline KGSF slates plus frozen 22.35F tuning/held-out slates; pre-test fairness values checked against the 22.35F parameter decision record.",
+      "test_order": "Ascending event_id; deterministic replay order, not claimed to be timestamp chronology.",
+      "fairness_estimand": "Cumulative proposal L_fair after validation history plus independent-test exposure.",
+      "utility_inference": "Paired conversation-cluster percentile bootstrap, 10000 replicates.",
+      "fairness_inference": "Cumulative nonlinear fairness is reported descriptively; no test-set fairness p-value or confidence interval is claimed.",
+      "prior_test_exposure_disclosure": "This ReDial independent-test split was examined in historical experiments 22.22-22.34. This 22.35J run is a frozen-configuration re-evaluation, not a never-before-seen test evaluation.",
+      "training_performed": false,
+      "retrieval_performed": false,
+      "parameter_retuning_performed": false,
+      "independent_test_used_for_parameter_selection": false,
+      "input_sha256": {
+        "results_final_test_m2\\experiment_22_27A\\kgsf_independent_test_top500.csv": "39f233d85d7387a11a60a0c66fc3f990e05f57d67ed8de7b9fc2768f8dc609d5",
+        "results_final_test_m2\\experiment_22_27A\\kgsf_independent_test_full_scores.npz": "1a5c4406ada14d3c28fc960e9ab8ea2112d637a5e769259b15664468e99b064a",
+        "results_final_test_m2\\experiment_22_27A2\\kgsf_independent_test_kg_ranks.csv": "d37e272cbcc8cc585414fd3c241e6aafd5880ebf2727a59c929b37f9653225c3",
+        "results_final_test_m2\\experiment_22_27A\\kgsf_independent_test_event_manifest.csv": "6aa17e77f1a9f6e48e763c657f45242075ce6236fcbde7d8a6cb989c4078e1ea",
+        "results_final_test_m2\\m2_test_event_conversation_mapping.csv": "a88e88217df36d01e787a12f16e0dd1d0f4c4e0206ea948a12c56242ad9cf4b7",
+        "results_corrected\\experiment_22_35\\kgsf_validation\\kgsf_validation_top500.csv": "3f22eabac84911f4cf132cac7020d5be8596d9fa717ef377e6d0bbab1b282db1",
+        "results_corrected\\experiment_22_35\\relevance_validation\\event_candidate_q_ei_R0_filtered.csv": "538a5bd4091ee0ba4ac32654c9ec8c30fb77cc3a58d581856015be8de1cbfbde",
+        "results_corrected\\experiment_22_35\\relevance_validation\\event_candidate_q_ei_R1_raw.csv": "a1cb6a7c6eedd874a2ce80b70e3c1c36224c993076f9036b6ac252c5e61db83c",
+        "results_corrected\\experiment_22_35\\validated_fairness_evaluation_run_20261121\\event_level_system_comparisons.csv": "fade67487c76220dda2c8fd7fc6da9463dfa44c5fbb9712fced16a938174f08c",
+        "results_corrected\\experiment_22_35\\validated_fairness_evaluation_run_20261121\\parameter_decisions.json": "fb9248beacc75bc1d6ea3719f7646ea49fa1ec9910c693c0405553e130e0bf25",
+        "results_corrected\\experiment_22_35\\inferential_robustness_sensitivity_FINAL2\\experiment_manifest.json": "0734aee2d0da052149f409c14eb2f4d8b509d284c7aabb199ae02ed6e4651573",
+        "catalog_audit_corrected.pkl": "87473ddadeacbc6ae61cdde7c8232bbd5a50e815e6f77d3ce7b78ffd1eee3827",
+        "results_category_audit\\experiment_21_22A\\catalog_item_category_profiles.csv": "6703da1200b2addcd673806b909d78f37f1883bcb9ee0b00c020649aef7fa54b",
+        "22_16_category_context_utility_calibration.py": "6555144efe624658eb32e8de48ee9e95ef94baded9486a8f6280d848ecbef751",
+        "22_18_contextual_relevance_gate_validation.py": "651050b50c34cc9ebbaa1cf63217f5c82a6b9276c915e4440435ed436f4a28e2",
+        "22_35F_validated_fairness_evaluation.py": "fc3658bc607d13ec6c3be631fb707dd34a449c4b5fbd280e03bfcb0fb015457f",
+        "22_35C_validation_relevance_construction.py": "cb0c3b8115b561a26d2e76775bf9904468cc477d89bc266b09d253c459eca69a",
+        "22_27A2_kgsf_kg_evidence_export.py": "639cff9a2e0cafbf676537eab42fb4a72ace52464ebb3b878d7e3b670177bba4",
+        "D:\\Implementation\\fairness-aware-kgsf-crs\\22_35J_integrated_kg_faircrs_independent_test.py": "42ba8ee6de15e100614d4d61b1635fee80701df59631fadae2efe3f9a48dcb3c"
+      },
+      "validation_checks": {
+        "experiment": "22.35J_integrated_kg_faircrs_independent_test",
+        "test_event_count_4003": true,
+        "test_conversation_count_1283": true,
+        "candidate_count_500_per_event": true,
+        "test_kgsf_kg_candidate_order_aligned": true,
+        "test_score_matrix_alignment_verified": true,
+        "R0_and_R1_q_event_normalization": true,
+        "validation_history_reconstructed_for_all_systems": true,
+        "validation_history_matches_22_35F_fairness": true,
+        "all_four_systems_evaluated": true,
+        "A3_R0_primary_and_R1_sensitivity": true,
+        "frozen_parameters_reused": true,
+        "parameter_retuning_performed": false,
+        "training_performed": false,
+        "retrieval_performed": false,
+        "checkpoint_modified": false,
+        "test_targets_used_to_construct_q": false,
+        "independent_test_used_for_parameter_selection": false,
+        "test_set_prior_historical_exposure_disclosed": true,
+        "validation_test_category_profile_policy_consistent": true,
+        "utility_bootstrap_cluster_unit_conversation": true,
+        "fairness_inference_claimed": false,
+        "failed_positive_checks": [],
+        "failed_negative_checks": [],
+        "overall_pass": true
+      },
+      "outputs": [
+        "independent_test_event_results.csv",
+        "independent_test_system_comparison.csv",
+        "independent_test_category_fairness.csv",
+        "independent_test_exposure_ledger.csv",
+        "independent_test_utility_cluster_bootstrap.csv",
+        "independent_test_relevance_statistics.json",
+        "independent_test_coverage_summary.json",
+        "validation_history_reconstruction.json",
+        "validation_checks.json",
+        "experiment_manifest.json"
+      ]
+    }
+  },
+  "input_sha256": {
+    "results_corrected/experiment_22_35/validated_fairness_evaluation_run_20261121/system_comparison_summary.csv": "b69470bbd2fdf37bdecabc49e633fb3217fba558251de7f02773a7c8d6ad4bd0",
+    "results_corrected/experiment_22_35/validated_fairness_evaluation_run_20261121/parameter_decisions.json": "fb9248beacc75bc1d6ea3719f7646ea49fa1ec9910c693c0405553e130e0bf25",
+    "results_corrected/experiment_22_35/validated_fairness_evaluation_run_20261121/experiment_manifest.json": "3ba61b784f8fb37e2864ad46c387f7e466c025cfd2cde01e1aeeee05f6afd320",
+    "results_corrected/experiment_22_35/validated_fairness_evaluation_run_20261121/validation_checks.json": "41ba00bb8fd0bdce2edb9bcfcc80c92c32245839ae8f5254778575c476023146",
+    "results_corrected/experiment_22_35/direct_paired_statistical_comparison_run_20261121/paired_contrast_summary.csv": "a020a1a1ec2fe49d83c31d16eba07b34830ffc8bedd4285c8b80723c6ec9470f",
+    "results_corrected/experiment_22_35/direct_paired_statistical_comparison_run_20261121/experiment_manifest.json": "eb17628501824ac04376d4462f8b087afbbb2e7469a41d95fb1a15f07df7a52e",
+    "results_corrected/experiment_22_35/direct_paired_statistical_comparison_run_20261121/validation_checks.json": "f1c1ee21a4d94359f27be8c7dd1adda30ba08a357ea21b8060cd486c85468dac",
+    "results_corrected/experiment_22_35/inferential_robustness_sensitivity_FINAL2/paired_bca_inference.csv": "9790a691e2add925a31ed7c69e522a78be20d1bd036c486d0880c28f3578512e",
+    "results_corrected/experiment_22_35/inferential_robustness_sensitivity_FINAL2/paired_cluster_signflip_utility.csv": "4dcae4ea20a478bedc5e60ee734ee60266a52b787256870d2437e82aaaa3d614",
+    "results_corrected/experiment_22_35/inferential_robustness_sensitivity_FINAL2/tuning_parameter_sensitivity.csv": "78f6fe2e3e27a894acc4c6b2d013ed2b036f57c4f8eabcc29a6a825a0aadfe20",
+    "results_corrected/experiment_22_35/inferential_robustness_sensitivity_FINAL2/R0_R1_A3_sensitivity.csv": "e80861ac9f4627a20a446c18b5489b2cf9ab6c3c340e85c722e90bb5f18e8503",
+    "results_corrected/experiment_22_35/inferential_robustness_sensitivity_FINAL2/category_level_fairness_decomposition.csv": "90c4bf9ac93621b4f830a045f81823e9aa7bf22093a68a7256d507acef90625e",
+    "results_corrected/experiment_22_35/inferential_robustness_sensitivity_FINAL2/experiment_manifest.json": "0734aee2d0da052149f409c14eb2f4d8b509d284c7aabb199ae02ed6e4651573",
+    "results_corrected/experiment_22_35/inferential_robustness_sensitivity_FINAL2/validation_checks.json": "867f550338b3e8cc702013cdc80d879151aa4338459c7654a2ae9fceb36acb7e",
+    "results_final_test_m2/experiment_22_35J/independent_test_system_comparison.csv": "50dbc41dc00e0ef77f030c2a4c45710a102ebbb3176497f8f5d559f0faec7725",
+    "results_final_test_m2/experiment_22_35J/independent_test_category_fairness.csv": "fdb7cf7c641ab5a2d9b072695daa6750cb940a7d4d08e5168ea7557fd9be3a49",
+    "results_final_test_m2/experiment_22_35J/independent_test_utility_cluster_bootstrap.csv": "6552fec1e550d9755ad4c0dc7719887801e428b30a1679df01adc92183cd4da2",
+    "results_final_test_m2/experiment_22_35J/independent_test_coverage_summary.json": "bb4c4ac5d83a69a31264f5db4c93d04bd09d762162741d497c30233f4e863110",
+    "results_final_test_m2/experiment_22_35J/validation_history_reconstruction.json": "723a576142611c55a2bbda312ff61e52d1f092e64665b0a78672c30eb0cacabc",
+    "results_final_test_m2/experiment_22_35J/experiment_manifest.json": "799ef1346aa1eacb319824d9f38c24b37f9d5ff96f6630f01229764094034681",
+    "results_final_test_m2/experiment_22_35J/validation_checks.json": "50cb02ca626a80bbf0f05d8a21931d957dfb6b92c00c5319b15cc9565599edb0",
+    "source_script:22_35L_final_evaluation_package_hardened.py": "d368bfdbca5f3f9d09900cf997b1d6fb0ee204f70c2d16ce1c757cb7e601ad13"
+  },
+  "generated_output_sha256_excluding_manifest": {
+    "figure_category_contribution_changes.png": "87d44c994ec5630a594985a47b38370683aadf5dee364937d1e8f8f1e28ef519",
+    "figure_fairness_loss_systems.png": "8c271084734d87348231ba7f747c2d011175b15e74dc3ef96ce27a21250f097e",
+    "final_results_and_discussion.md": "c657cb17ec0ab32a30605692716bc0d2c3b784142455b4062fd16ebdae0ea153",
+    "table_22_35G_paired_bootstrap_contrasts.csv": "a020a1a1ec2fe49d83c31d16eba07b34830ffc8bedd4285c8b80723c6ec9470f",
+    "table_22_35H_category_decomposition.csv": "90c4bf9ac93621b4f830a045f81823e9aa7bf22093a68a7256d507acef90625e",
+    "table_22_35H_cluster_signflip_utility.csv": "4dcae4ea20a478bedc5e60ee734ee60266a52b787256870d2437e82aaaa3d614",
+    "table_22_35H_paired_BCa_inference.csv": "9790a691e2add925a31ed7c69e522a78be20d1bd036c486d0880c28f3578512e",
+    "table_22_35H_R0_R1_sensitivity.csv": "e80861ac9f4627a20a446c18b5489b2cf9ab6c3c340e85c722e90bb5f18e8503",
+    "table_22_35H_tuning_sensitivity.csv": "78f6fe2e3e27a894acc4c6b2d013ed2b036f57c4f8eabcc29a6a825a0aadfe20",
+    "table_22_35J_test_utility_bootstrap_descriptive.csv": "6552fec1e550d9755ad4c0dc7719887801e428b30a1679df01adc92183cd4da2",
+    "table_category_objective_reconstruction.csv": "d66acd76493a3d02145be4bdd5816080abf1d5cbc2783d455fde5fda3563e758",
+    "table_category_regressions_R0.csv": "854ec4aa6b8a755020d94f9b9239f4ce0a502d6a32eee179354023c72f67ff82",
+    "table_independent_test_main_results.csv": "fda1f3dbb992d950f4ac533276ce4217ba9116c87389b37d41cc88685b686c97",
+    "validation_checks.json": "6af8c9b7323c33079780ea612a5287c6ead9118f8f2e555bc6eeffb8756688b1"
+  },
+  "outputs": [
+    "experiment_manifest.json",
+    "figure_category_contribution_changes.png",
+    "figure_fairness_loss_systems.png",
+    "final_results_and_discussion.md",
+    "table_22_35G_paired_bootstrap_contrasts.csv",
+    "table_22_35H_R0_R1_sensitivity.csv",
+    "table_22_35H_category_decomposition.csv",
+    "table_22_35H_cluster_signflip_utility.csv",
+    "table_22_35H_paired_BCa_inference.csv",
+    "table_22_35H_tuning_sensitivity.csv",
+    "table_22_35J_test_utility_bootstrap_descriptive.csv",
+    "table_category_objective_reconstruction.csv",
+    "table_category_regressions_R0.csv",
+    "table_independent_test_main_results.csv",
+    "validation_checks.json"
+  ],
+  "manifest_hash_note": "This manifest is intentionally excluded from its own output hash map.",
+  "validation_checks": {
+    "experiment": "22.35L_hardened_final_evidence_consolidation",
+    "22_35F_G_H_J_source_validations_pass": true,
+    "22_35F_G_H_validation_only": true,
+    "independent_test_events_4003": true,
+    "independent_test_conversations_1283": true,
+    "candidate_pool_500_per_event": true,
+    "five_expected_system_variants_present": true,
+    "no_duplicate_system_variant_rows": true,
+    "all_utility_and_fairness_values_finite": true,
+    "category_labels_identical_across_configurations": true,
+    "category_count_19_for_all_configurations": true,
+    "category_active_counts_match_reconstruction": true,
+    "category_objective_reconstruction_within_1e_9": true,
+    "coverage_denominator_matches_4003_times_500": true,
+    "coverage_ratio_arithmetically_verified": true,
+    "validation_history_matches_22_35F": true,
+    "R0_primary_R1_sensitivity_only": true,
+    "no_training_retrieval_or_retuning": true,
+    "independent_test_fairness_inference_not_claimed": true,
+    "historical_test_exposure_disclosed": true,
+    "category_regressions_reported": true,
+    "original_inferential_csvs_copied_byte_for_byte": true,
+    "22_35F_selected_parameters_match_22_35J_frozen_parameters": true,
+    "overall_pass": true
+  },
+  "operations": {
+    "training": false,
+    "retrieval": false,
+    "reranking": false,
+    "parameter_retuning": false,
+    "new_inferential_tests": false,
+    "recommendation_slate_regeneration": false,
+    "independent_test_fairness_p_value_claimed": false
+  }
+}
